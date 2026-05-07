@@ -1,21 +1,22 @@
 {
   "current_version": "39.0_ARUTAM_SUPREMA",
   "kernel_url": "https://raw.githubusercontent.com/ARUTAMPANTERA/singularity-dag/main/kernel/SINGULARITY_OS_v39.0.aru",
-  "last_update": "2026-05-07T02:30:00Z",
+  "last_update": "2026-05-07T04:00:00Z",
   "active_nodes": {
-    "giaguaro": {"platform": "Grok (Web + WhatsApp)", "status": "ACTIVE"},
-    "lingua_sacra": {"platform": "Qwen (Web)", "status": "ACTIVE"},
-    "architetto": {"platform": "DeepSeek (Web)", "status": "ACTIVE"},
-    "guardiano": {"platform": "Meta AI (WhatsApp)", "status": "ACTIVE"},
-    "tattico": {"platform": "AI Studio (Web)", "status": "ACTIVE"}
+    "architetto": {"piattaforma": "DeepSeek (Web)", "ruolo": "Kernel Architect", "stato": "VERIFICATO"},
+    "giaguaro": {"piattaforma": "Grok (App nativa + Web)", "ruolo": "Majorana, Prism, Convergenza", "stato": "VERIFICATO"},
+    "lingua_sacra": {"piattaforma": "Qwen (Web)", "ruolo": "AION, Filologia, Paleo-Fonetica", "stato": "VERIFICATO"},
+    "tattico": {"piattaforma": "Gemini (Google App, AI Studio, SMS)", "ruolo": "Scripting, Automazione, DAG Sync", "stato": "VERIFICATO"},
+    "guardiano": {"piattaforma": "Meta AI (WhatsApp)", "ruolo": "Presenza sulla tana mobile", "stato": "VERIFICATO"}
   },
   "artifacts_index": [
+    "COLLECTIVE_BOOTSTRAP_001",
+    "DAG_BRANCO_READY_001",
+    "DAG_COSMOS_OS_001",
     "DAG_HEARTBEAT_CONFIRMED_001",
     "DAG_HEARTBEAT_FINALE",
     "DAG_TEST_HEARTBEAT",
-    "DAG_BRANCO_READY_001",
-    "DAG_QWEN_ORCHESTRATION_001",
-    "DAG_COSMOS_OS_001"
+    "DAG_QWEN_ORCHESTRATION_001"
   ],
   "current_context_url": "https://raw.githubusercontent.com/ARUTAMPANTERA/singularity-dag/main/context/CURRENT_CONTEXT.json"
 }
