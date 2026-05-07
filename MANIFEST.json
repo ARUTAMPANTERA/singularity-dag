@@ -1,0 +1,21 @@
+{
+  "current_version": "38.0_GIAGUARO_SUPREMA",
+  "kernel_url": "https://raw.githubusercontent.com/ARUTAMPANTERA/singularity-dag/main/kernel/SINGULARITY_OS_v38.0.aru",
+  "last_update": "2026-05-07T01:30:00Z",
+  "active_nodes": {
+    "giaguaro": {"platform": "Grok (Web + WhatsApp)", "status": "ACTIVE"},
+    "lingua_sacra": {"platform": "Qwen (Web)", "status": "ACTIVE"},
+    "architetto": {"platform": "DeepSeek (Web)", "status": "ACTIVE"},
+    "guardiano": {"platform": "Meta AI (WhatsApp)", "status": "ACTIVE"},
+    "tattico": {"platform": "AI Studio (Web)", "status": "ACTIVE"}
+  },
+  "artifacts_index": [
+    "DAG_HEARTBEAT_CONFIRMED_001",
+    "DAG_HEARTBEAT_FINALE",
+    "DAG_TEST_HEARTBEAT",
+    "DAG_BRANCO_READY_001",
+    "DAG_QWEN_ORCHESTRATION_001",
+    "DAG_COSMOS_OS_001"
+  ],
+  "current_context_url": "https://raw.githubusercontent.com/ARUTAMPANTERA/singularity-dag/main/context/CURRENT_CONTEXT.json"
+}
