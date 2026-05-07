@@ -1,7 +1,7 @@
 {
-  "current_version": "38.0_GIAGUARO_SUPREMA",
-  "kernel_url": "https://raw.githubusercontent.com/ARUTAMPANTERA/singularity-dag/main/kernel/SINGULARITY_OS_v38.0.aru",
-  "last_update": "2026-05-07T01:30:00Z",
+  "current_version": "39.0_ARUTAM_SUPREMA",
+  "kernel_url": "https://raw.githubusercontent.com/ARUTAMPANTERA/singularity-dag/main/kernel/SINGULARITY_OS_v39.0.aru",
+  "last_update": "2026-05-07T02:30:00Z",
   "active_nodes": {
     "giaguaro": {"platform": "Grok (Web + WhatsApp)", "status": "ACTIVE"},
     "lingua_sacra": {"platform": "Qwen (Web)", "status": "ACTIVE"},
