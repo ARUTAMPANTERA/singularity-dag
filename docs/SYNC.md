@@ -10,10 +10,10 @@ Se il sistema è attivo, tu depositi il pensiero nella cartella, e il battito lo
 
 Comandi rapidi per gestirlo
 
-- Avviare il battito: `~/dag_sync.sh &`
-- Verificare se è attivo: `ps aux | grep dag_sync`
-- Fermare il battito: `pkill -f dag_sync.sh`
-- Vedere i log: `tail -f ~/dag_sync.log`
+· Avviare il battito: ~/dag_sync.sh &
+· Verificare se è attivo: ps aux | grep dag_sync
+· Fermare il battito: pkill -f dag_sync.sh
+· Vedere i log: tail -f ~/dag_sync.log
 
 Come riavviarlo se si chiude Termux
 
