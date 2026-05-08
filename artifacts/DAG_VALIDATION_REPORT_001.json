@@ -1,0 +1,17 @@
+{
+  "artifact_id": "DAG:VALIDATION_REPORT_001",
+  "content_hash": "TO_BE_COMPUTED_BY_SCRIPT",
+  "parent_ids": [
+    "DAG:BRANCO_READY_001"
+  ],
+  "operation": "validation_report",
+  "input": "artifacts/DAG_BRANCO_READY_001.json",
+  "output_summary": "Report di validazione generato da scripts/validate_artifact.py. Il campo content_hash del report sarà calcolato dallo script al momento dell'esecuzione.",
+  "majorana_angle": 12,
+  "uq": 0.96,
+  "nd": 9.95,
+  "timestamp_utc": "2026-05-08T00:00:00Z",
+  "provenance": "SINGULARITY_OS_v52.0_VALIDATION",
+  "node_role": "GUARDIANO",
+  "signature": "ARUTAM_COLLECTIVE_SEAL"
+}
