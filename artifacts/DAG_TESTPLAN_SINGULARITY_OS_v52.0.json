@@ -1,0 +1,12 @@
+{
+  "artifact_id": "DAG:TESTPLAN_SINGULARITYOS_v52_0",
+  "operation": "TESTPLAN_DEFINITION",
+  "input": "Definizione casi di test minimi per validare conformità v52.0",
+  "output_summary": "TESTPLAN v52.0 (T1–T10) per anti-invenzione, DAG, Majorana, QNC, AION, modes, forensics, budget.",
+  "uq": 0.95,
+  "nd": 8.4,
+  "timestamp_utc": "2026-05-08T21:40:00Z",
+  "provenance": "{NODE}SINGULARITYOS_v52.0",
+  "noderole": "ARCHITETTO",
+  "signature": "ARUTAMCOLLECTIVESEAL"
+}
