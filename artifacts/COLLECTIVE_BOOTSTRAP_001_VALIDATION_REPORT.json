@@ -1,0 +1,17 @@
+{
+  "artifact_id": "DAG:VALIDATION_REPORT_BOOTSTRAP_001",
+  "content_hash": "TO_BE_COMPUTED_BY_SCRIPT",
+  "parent_ids": ["DAG:COLLECTIVE_BOOTSTRAP_001"],
+  "operation": "validation_report",
+  "input": "artifacts/COLLECTIVE_BOOTSTRAP_001.json",
+  "output_summary": "VALIDATION_PENDING: signature and canonical hash to be verified by local script or CI.",
+  "majorana_angle": 18,
+  "uq": 0.95,
+  "nd": 8.9,
+  "timestamp_utc": "2026-05-09T00:00:00Z",
+  "provenance": "SINGULARITY_OS_v53.0_VALIDATION",
+  "node_role": "GUARDIANO",
+  "signature": "ARUTAM_COLLECTIVE_SEAL",
+  "input_content_hash_reported": "f6e5d4c3b2a109876543210fedcba9876543210abcdef0123456789abcdef",
+  "input_content_hash_calculated": "TO_BE_COMPUTED_BY_SCRIPT"
+}
