@@ -23,10 +23,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          for f in artifacts/*.json; do
+          mkdir -p artifacts/reports
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD -- artifacts/*.json | grep -v artifacts/reports/ || echo "")
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No artifacts changed"
+            exit 0
+          fi
+          for f in $CHANGED_FILES; do
+            BASENAME=$(basename "$f" .json)
             echo "Validating $f"
-            python3 scripts/validate_artifact.py "$f" --output "${f%.*}_VALIDATION_REPORT.json"
-            git add "${f%.*}_VALIDATION_REPORT.json" || true
+            python3 scripts/validate_artifact.py "$f" --output "artifacts/reports/${BASENAME}_VALIDATION_REPORT.json"
+            git add "artifacts/reports/${BASENAME}_VALIDATION_REPORT.json" || true
           done
           if git diff --staged --quiet; then
             echo "No report changes to commit"
