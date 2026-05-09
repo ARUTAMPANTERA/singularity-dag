@@ -1,0 +1,18 @@
+{
+  "artifact_id": "DAG:VALIDATION_REPORT_001",
+  "content_hash": "896543ffd7b41c8198d7d4b39900043409fc55c7fa24d346552c1dbd66518695",
+  "parent_ids": [
+    "DAG:VALIDATION_REPORT_001"
+  ],
+  "operation": "validation_report",
+  "input": "artifacts/DAG_VALIDATION_REPORT_001.json",
+  "output_summary": "VALIDATION_PASSED: artefatto conforme allo schema v2.0",
+  "majorana_angle": 0,
+  "uq": 0.99,
+  "nd": 8.4,
+  "timestamp_utc": "2026-05-09T11:43:06Z",
+  "provenance": "SINGULARITY_OS_v52.0_VALIDATION",
+  "node_role": "GUARDIANO",
+  "signature": "ARUTAM_COLLECTIVE_SEAL",
+  "input_content_hash_calculated": "230b8de561dd46180ca894b1d3182b2869b11cf172a1197e46f2237c01dd080b"
+}
