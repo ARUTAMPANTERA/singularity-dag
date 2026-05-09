@@ -1,17 +1,26 @@
 {
   "artifact_id": "DAG:VALIDATION_REPORT_001",
-  "content_hash": "TO_BE_COMPUTED_BY_SCRIPT",
+  "content_hash": "1fddb6cd4095cfe66dc7f5bc08ba09f5cb97497bc0ee3790ddd8ca42f6815238",
   "parent_ids": [
-    "DAG:BRANCO_READY_001"
+    "DAG:TESTPLAN_SINGULARITYOS_v52_0"
   ],
   "operation": "validation_report",
-  "input": "artifacts/DAG_BRANCO_READY_001.json",
-  "output_summary": "Report di validazione generato da scripts/validate_artifact.py. Il campo content_hash del report sarà calcolato dallo script al momento dell'esecuzione.",
-  "majorana_angle": 12,
-  "uq": 0.96,
-  "nd": 9.95,
-  "timestamp_utc": "2026-05-08T00:00:00Z",
+  "input": "artifacts/DAG_TESTPLAN_SINGULARITY_OS_v52.0.json",
+  "output_summary": "VALIDATION_FAILED: 4 error(s)",
+  "majorana_angle": 0,
+  "uq": 0.25,
+  "nd": 8.4,
+  "timestamp_utc": "2026-05-09T11:42:47Z",
   "provenance": "SINGULARITY_OS_v52.0_VALIDATION",
   "node_role": "GUARDIANO",
-  "signature": "ARUTAM_COLLECTIVE_SEAL"
+  "signature": "ARUTAM_COLLECTIVE_SEAL",
+  "details": {
+    "errors": [
+      "Campo mancante: content_hash",
+      "Campo mancante: parent_ids",
+      "Campo mancante: majorana_angle",
+      "Campo mancante: node_role"
+    ]
+  },
+  "input_content_hash_calculated": "f56d48aef51c8adc9fc13c3658b807eaa83685df8dc0e55748ea9be5c112edf9"
 }
