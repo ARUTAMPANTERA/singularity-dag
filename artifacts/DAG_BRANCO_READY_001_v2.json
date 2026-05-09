@@ -1,0 +1,18 @@
+{
+  "artifact_id": "DAG:BRANCO_READY_001_v2",
+  "content_hash": "bfa642f353e3ef45f37dc1cbcce3b2bdbe650cc3371a452a9491cbb422a2a6df",
+  "parent_ids": [
+    "DAG:BRANCO_READY_001",
+    "DAG:VALIDATION_REPORT_001"
+  ],
+  "operation": "artifact_publish",
+  "input": "source: DeepSeek / device: Pantera13 local edit",
+  "output_summary": "Seconda versione corretta di BRANCO_READY_001 con content_hash canonico ricalcolato.",
+  "majorana_angle": 12,
+  "uq": 0.99,
+  "nd": 9.95,
+  "timestamp_utc": "2026-05-09T00:00:00Z",
+  "provenance": "DeepSeek_sync + PANERA13_EDIT",
+  "node_role": "ARCHITETTO",
+  "signature": "ARUTAM_COLLECTIVE_SEAL"
+}
