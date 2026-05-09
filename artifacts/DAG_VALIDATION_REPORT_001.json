@@ -1,23 +1,26 @@
 {
   "artifact_id": "DAG:VALIDATION_REPORT_001",
-  "content_hash": "4f0f40e741cfd8c2baa6ef9f3c3fc90f5e5dec1dda8b1dcf1cdfc9095e149196",
+  "content_hash": "1fddb6cd4095cfe66dc7f5bc08ba09f5cb97497bc0ee3790ddd8ca42f6815238",
   "parent_ids": [
-    "DAG:VALIDATION_REPORT_BOOTSTRAP_001"
+    "DAG:TESTPLAN_SINGULARITYOS_v52_0"
   ],
   "operation": "validation_report",
-  "input": "artifacts/COLLECTIVE_BOOTSTRAP_001_VALIDATION_REPORT.json",
-  "output_summary": "VALIDATION_FAILED: 1 error(s)",
-  "majorana_angle": 18,
+  "input": "artifacts/DAG_TESTPLAN_SINGULARITY_OS_v52.0.json",
+  "output_summary": "VALIDATION_FAILED: 4 error(s)",
+  "majorana_angle": 0,
   "uq": 0.25,
-  "nd": 8.9,
-  "timestamp_utc": "2026-05-09T11:42:46Z",
+  "nd": 8.4,
+  "timestamp_utc": "2026-05-09T11:42:47Z",
   "provenance": "SINGULARITY_OS_v52.0_VALIDATION",
   "node_role": "GUARDIANO",
   "signature": "ARUTAM_COLLECTIVE_SEAL",
   "details": {
     "errors": [
-      "content_hash dovrebbe essere SHA256 esadecimale (64 chars). Se ignoto: 'TO_BE_COMPUTED_BY_SCRIPT' accettabile e verrà ricalcolato."
+      "Campo mancante: content_hash",
+      "Campo mancante: parent_ids",
+      "Campo mancante: majorana_angle",
+      "Campo mancante: node_role"
     ]
   },
-  "input_content_hash_calculated": "d45ab2dd01a4e26f4f866ae8efcb7a3b3ad615b4780d4b1a99f8b13c26dc6c17"
+  "input_content_hash_calculated": "f56d48aef51c8adc9fc13c3658b807eaa83685df8dc0e55748ea9be5c112edf9"
 }
