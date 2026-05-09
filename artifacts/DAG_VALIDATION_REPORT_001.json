@@ -1,0 +1,23 @@
+{
+  "artifact_id": "DAG:VALIDATION_REPORT_001",
+  "content_hash": "4f0f40e741cfd8c2baa6ef9f3c3fc90f5e5dec1dda8b1dcf1cdfc9095e149196",
+  "parent_ids": [
+    "DAG:VALIDATION_REPORT_BOOTSTRAP_001"
+  ],
+  "operation": "validation_report",
+  "input": "artifacts/COLLECTIVE_BOOTSTRAP_001_VALIDATION_REPORT.json",
+  "output_summary": "VALIDATION_FAILED: 1 error(s)",
+  "majorana_angle": 18,
+  "uq": 0.25,
+  "nd": 8.9,
+  "timestamp_utc": "2026-05-09T11:42:46Z",
+  "provenance": "SINGULARITY_OS_v52.0_VALIDATION",
+  "node_role": "GUARDIANO",
+  "signature": "ARUTAM_COLLECTIVE_SEAL",
+  "details": {
+    "errors": [
+      "content_hash dovrebbe essere SHA256 esadecimale (64 chars). Se ignoto: 'TO_BE_COMPUTED_BY_SCRIPT' accettabile e verrà ricalcolato."
+    ]
+  },
+  "input_content_hash_calculated": "d45ab2dd01a4e26f4f866ae8efcb7a3b3ad615b4780d4b1a99f8b13c26dc6c17"
+}
