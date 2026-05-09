@@ -1,11 +1,11 @@
 {
   "artifact_id": "DAG:VALIDATION_REPORT_001",
-  "content_hash": "9ad317c97ae9ec7efdaecf7bc0e6238cc132ef3abfa2205b436f904f83937f2d",
+  "content_hash": "e269f45263a4b976047295810465313a56e4d0ec09abbf8a9fea5ee28fe1299c",
   "parent_ids": [
-    "DAG:BRANCO_READY_001_v2"
+    "DAG:VALIDATION_REPORT_001"
   ],
   "operation": "validation_report",
-  "input": "artifacts/DAG_BRANCO_READY_001_v2.json",
+  "input": "artifacts/DAG_BRANCO_READY_001_v2_VALIDATION_REPORT.json",
   "output_summary": "VALIDATION_PASSED: artefatto conforme allo schema v2.0",
   "majorana_angle": 12,
   "uq": 0.99,
@@ -14,5 +14,5 @@
   "provenance": "SINGULARITY_OS_v52.0_VALIDATION",
   "node_role": "GUARDIANO",
   "signature": "ARUTAM_COLLECTIVE_SEAL",
-  "input_content_hash_calculated": "82ddeb6819faaa73809c8fd656e2de13dd05f98f018a3cf01cb74349623f97d6"
+  "input_content_hash_calculated": "3edca4c4cd0d514310757e0de07ec5efb47ac45165f2d5cb5d71d6356b716b71"
 }
