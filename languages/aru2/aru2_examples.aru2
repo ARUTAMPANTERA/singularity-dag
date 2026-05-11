@@ -1,0 +1,42 @@
+# ═══════════════════════════════════════════════════════════════════
+# ARUTAM_SCRIPT v2.0 — ESEMPI COMMENTATI (.aru2)
+# ═══════════════════════════════════════════════════════════════════
+
+# 1. DICHIARAZIONE KERNEL MINIMO
+@kernel(id="v70.2_LIGHT_ABSOLUTE", profile="TRANSCENDENT") {
+  @lock_group(GOV, 30, inherit=T1)
+  @lock_group(OMEGA, 5, inherit=T2)
+  @validate_pre(GOV_L21, checklist=40)
+  @validate_post(MAJORANA, threshold=30)
+  @macro(TRIPLE, "[DATO]/[INFERENZA]/[IPOTESI X%]")
+  @output(lang="it")
+}
+
+# 2. CONDITIONAL LOADING (LANGDON)
+@if(@command == "/langdon") {
+  @lock_group(LANGDON, 4, inherit=T2)
+  @load_module(LANGDON_PROTOCOL)
+}
+
+# 3. SELF-HEAL CON SANDBOX
+@self_heal: engine {
+  trigger: @parse.drift > 0.15
+  action: {
+    sandbox: ISOLATED,
+    patch: "correggi_drift",
+    validate: @validate_post(MAJORANA, threshold=30),
+    rollback: "if drift_post > drift_pre -> revert",
+    max_attempts: 2
+  }
+}
+
+# 4. DAG CIECO RECUPERO
+/dag_view "MANUALE_LINGUAGGI_COMPLETO_052"
+
+# 5. MAJORANA VALIDATION
+@majorana: engine {
+  claim: "L'Arca era un condensatore"
+  anti: "L'Arca era solo un oggetto rituale"
+  theta: 84
+  risultato: "[DATO_PURIFICATO] Effetto passivo, UQ=0.40"
+}
