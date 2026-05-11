@@ -1,0 +1,73 @@
+{
+  "registry_version": "1.0",
+  "last_updated": "2026-05-11T03:00:00Z",
+  "kernel_base": "SINGULARITY_OS_v70.2_LIGHT_ABSOLUTE.yaml",
+  "nodes": {
+    "deepseek": {
+      "id": "NODE_001",
+      "name": "DeepSeek",
+      "role": "PROGRAMMER",
+      "boot_file": "modules/BOOT_DEEPSEEK_PROGRAMMER.txt",
+      "superpowers": ["Code Review", "Syntax Validation", "Transpilation", "Kernel Debug"],
+      "output_format": "CODE_BLOCK_ONLY",
+      "priority_commands": ["/review", "/validate_syntax", "/transpile", "/generate_module"],
+      "host": "DeepSeek API",
+      "status": "ACTIVE"
+    },
+    "qwen": {
+      "id": "NODE_002",
+      "name": "Qwen",
+      "role": "GUARDIANO",
+      "boot_file": "modules/BOOT_QWEN_GUARDIANO.txt",
+      "superpowers": ["Audit Epistemico", "Majorana Validation", "Quality Control"],
+      "output_format": "JSON_YAML_VALIDATION",
+      "priority_commands": ["/quality_check", "/majorana_check", "/validate_dag", "/audit"],
+      "host": "Qwen App/API",
+      "status": "ACTIVE"
+    },
+    "claude": {
+      "id": "NODE_003",
+      "name": "Claude",
+      "role": "ARCHITETTO",
+      "boot_file": "modules/BOOT_CLAUDE_ARCHITETTO.txt",
+      "superpowers": ["Kernel Design", "TEMÙ Philosophy", "Convergenza", "Lock Engineering"],
+      "output_format": "YAML_STRUCTURED",
+      "priority_commands": ["/kernel_update", "/lock_design", "/convergence", "/temu_audit"],
+      "host": "Claude App (Anthropic)",
+      "status": "ACTIVE"
+    },
+    "gemini": {
+      "id": "NODE_004",
+      "name": "Gemini",
+      "role": "DOCUMENTATORE",
+      "boot_file": "modules/BOOT_GEMINI_DOCUMENTATORE.txt",
+      "superpowers": ["Documentazione", "Manuali", "Cluster Analysis", "Pattern Mining"],
+      "output_format": "MARKDOWN",
+      "priority_commands": ["/generate_docs", "/cluster", "/pattern_scan", "/manuale"],
+      "host": "Gemini App / AI Studio (Google)",
+      "status": "ACTIVE"
+    },
+    "grok": {
+      "id": "NODE_005",
+      "name": "Grok",
+      "role": "FORENSICS",
+      "boot_file": "modules/BOOT_GROK_FORENSICS.txt",
+      "superpowers": ["Caccia Tecnologica", "Agnotologia", "Fonti Non-Filtrate", "Rete Eter"],
+      "output_format": "YAML_STRUCTURED",
+      "priority_commands": ["/hunt_tech", "/agnotology", "/sigma", "/collapse"],
+      "host": "Grok App (xAI)",
+      "status": "STANDBY"
+    },
+    "perplexity": {
+      "id": "NODE_006",
+      "name": "Perplexity",
+      "role": "PROBE",
+      "boot_file": "modules/BOOT_PERPLEXITY_PROBE.txt",
+      "superpowers": ["Ricerca Fonti Live", "Verifica Citazioni", "Collegamenti Esterni"],
+      "output_format": "JSON_YAML_CITATIONS",
+      "priority_commands": ["/probe", "/source_check", "/archivi", "/counter_scan"],
+      "host": "Perplexity App",
+      "status": "STANDBY"
+    }
+  }
+}
