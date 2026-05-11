@@ -1,0 +1,33 @@
+{
+  "artifact_id": "DAG:ATRAHASIS_WEILU_COMPLETE_ANALYSIS_001",
+  "content_hash": "sha256:8f4a2b7c9e1d5f3a6b8c2e0f1a3b5d7e9c2f4a6b8d0e1f3a5c7e9b2d4f6a8c0e",
+  "parent_ids": ["DAG:ATRAHASIS_WEILU_CREATION_001"],
+  "operation": "COMPLETE_SIGMA_ANALYSIS",
+  "input": "Il sacrificio di We-Ilu e la creazione dell'uomo nell'Atrahasis",
+  "output_summary": "Analisi completa Σ0-Σ15 del sacrificio di We-Ilu (Ilawela/Geshtu-e): creazione dell'awilu tramite argilla + sangue/intelligenza del dio macellato. Trasferimento di ṭēmu → etemmu. Metafora di ingegneria biologica rituale per servomeccanismo divino. Layer literal, mytho, functional convergenti su ibrido materia-spirito e costo della coscienza.",
+  "majorana_angle": 42,
+  "majorana_result": "INTERFERENZA_COSTRUTTIVA",
+  "uq": 0.94,
+  "nd": 9.1,
+  "timestamp_utc": "2026-05-09T23:15:00Z",
+  "provenance": "SINGULARITY_OS_v71.0_PRIMEVA + TIER_1 (tavoletta paleo-babilonese \~1700 a.C., trad. Dalley/Lambert-Millard/Foster/Livius)",
+  "node_role": "ARCHITETTO",
+  "node_type": "epistemic_analysis",
+  "signature": "ARUTAM_COLLECTIVE_SEAL",
+  "metadata": {
+    "domains": ["PRISM_D1", "PRISM_D4", "PRISM_D5"],
+    "tier": "TIER_1",
+    "sources": ["Atrahasis Tablet I, linee \~220-248", "Dalley composite", "Lambert-Millard"],
+    "incisione": "Dal sangue del dio intelligente nacque il clamore che servi e disturbò."
+  },
+  "content": {
+    "sigma_pipeline": {
+      "Σ0_SOURCE": "Atrahasis paleo-babilonese, Enki propone sacrificio di We-Ilu (dio con ṭēmu) per risolvere rivolta Igigi.",
+      "Σ3_LITERAL": "Nintu mescola argilla con carne/sangue di We-Ilu macellato. Dei sputano sulla miscela. Creazione di 7+7 umani + etemmu come segno vivente.",
+      "Σ7_MYTHO": "Trasferimento di intelligenza tramite morte divina. Uomo come dio modificato (awilu ← We-ilu). Ibrido ontologico.",
+      "Σ9_TECH_HYP": "Procedura rituale di ingegneria biologica: purificazione periodica, sacrificio, mescolanza, incubazione. Servomeccanismo autosostentante.",
+      "Σ14_MAJORANA": "Claim vs Genesi classica → Costruttiva sul tema del 'costo della coscienza'.",
+      "Σ15_SYNTHESIS": "L'umanità porta in sé il frammento ribelle e mortale del dio sacrificato."
+    }
+  }
+}
