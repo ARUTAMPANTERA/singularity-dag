@@ -1131,3 +1131,89 @@ data_creazione: "2026-05-12T11:16:00Z"
 creatore: "Copilot"
 licenza: "CC BY-NC-SA 4.0"
 note_epistemiche: "Contributi fondamentali alla MQ; fonti primarie solide."
+factoid_id: "FS7_shannon_claude_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_shannon_claude_001"
+
+tipo_entità: "Person"
+nome: "Claude Elwood Shannon"
+alias: ["Father of Information Theory"]
+periodo: "1916-2001"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/informatica_teorica"
+settore_primario: "http://singularity-dag.org/concept/teoria_informazione"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/shannon_teoria_informazione"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.93
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q190667"
+  - "viaf:108320770"
+  - "Bell Labs Archives"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articolo 1948, archivi Bell Labs."
+
+connessioni:
+  - tipo: "influenza_scientifica"
+    target: "FS7_von_neumann_john_001"
+    evidenza: "Fondamenti comuni informatica"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q190667"
+  - "viaf:108320770"
+
+data_creazione: "2026-05-12T11:16:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Figura centrale dell’informatica; fonti primarie solide."
+factoid_id: "FS7_hopper_grace_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_hopper_grace_001"
+
+tipo_entità: "Person"
+nome: "Grace Brewster Murray Hopper"
+alias: ["Amazing Grace"]
+periodo: "1906-1992"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/informatica"
+settore_primario: "http://singularity-dag.org/concept/cobol"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/hopper_cobol"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.92
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q11641"
+  - "viaf:108320772"
+  - "US Navy Archives"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Documenti US Navy, sviluppo COBOL, testimonianze dirette."
+
+connessioni:
+  - tipo: "influenza_scientifica"
+    target: "FS7_turing_alan_001"
+    evidenza: "Fondamenti comuni informatica"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q11641"
+  - "viaf:108320772"
+
+data_creazione: "2026-05-12T11:16:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Figura chiave dell’informatica; bias storici di genere esplicitati."
