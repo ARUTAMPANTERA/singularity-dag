@@ -950,3 +950,184 @@ data_creazione: "2026-05-12T11:16:00Z"
 creatore: "Copilot"
 licenza: "CC BY-NC-SA 4.0"
 note_epistemiche: "Figura chiave della meccanica quantistica; dibattiti storici ben documentati."
+
+factoid_id: "FS7_crick_francis_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_crick_francis_001"
+
+tipo_entità: "Person"
+nome: "Francis Crick"
+alias: ["Francis Harry Compton Crick"]
+periodo: "1916-2004"
+nazione_area: "Regno Unito"
+
+categoria: "http://singularity-dag.org/concept/biologia_molecolare"
+settore_primario: "http://singularity-dag.org/concept/struttura_dna"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/dna_modello_doppia_elica"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.93
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q185906"
+  - "viaf:108180960"
+  - "Nobel Prize 1962"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articolo Nature 1953, archivi Nobel, corrispondenza con Watson."
+
+connessioni:
+  - tipo: "collaborazione"
+    target: "FS7_watson_james_001"
+    evidenza: "Co-autori del modello DNA"
+    stato: "verificato"
+  - tipo: "influenza_scientifica"
+    target: "FS7_franklin_rosalind_001"
+    evidenza: "Dati cristallografici Foto 51"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q185906"
+  - "viaf:108180960"
+
+data_creazione: "2026-05-12T11:16:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Bias storico: contributo di Franklin sottoriconosciuto."
+factoid_id: "FS7_watson_james_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_watson_james_001"
+
+tipo_entità: "Person"
+nome: "James Dewey Watson"
+alias: []
+periodo: "1928-"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/biologia_molecolare"
+settore_primario: "http://singularity-dag.org/concept/struttura_dna"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/dna_modello_doppia_elica"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.92
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q190667"
+  - "viaf:108320770"
+  - "Nobel Prize 1962"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articolo Nature 1953, archivi Nobel."
+
+connessioni:
+  - tipo: "collaborazione"
+    target: "FS7_crick_francis_001"
+    evidenza: "Co-autori del modello DNA"
+    stato: "verificato"
+  - tipo: "controversia"
+    target: "FS7_franklin_rosalind_001"
+    evidenza: "Uso non autorizzato di dati cristallografici"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q190667"
+  - "viaf:108320770"
+
+data_creazione: "2026-05-12T11:16:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Controversie etiche documentate; fonti primarie solide."
+factoid_id: "FS7_schrodinger_erwin_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_schrodinger_erwin_001"
+
+tipo_entità: "Person"
+nome: "Erwin Schrödinger"
+alias: []
+periodo: "1887-1961"
+nazione_area: "Austria"
+
+categoria: "http://singularity-dag.org/concept/meccanica_quantistica"
+settore_primario: "http://singularity-dag.org/concept/equazione_schrodinger"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/equazione_schrodinger"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.94
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q902"
+  - "viaf:108180960"
+  - "Nobel Prize 1933"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articoli 1926, archivi Nobel."
+
+connessioni:
+  - tipo: "controversia"
+    target: "FS7_bohr_niels_001"
+    evidenza: "Interpretazione della MQ"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q902"
+  - "viaf:108180960"
+
+data_creazione: "2026-05-12T11:16:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Contributi fondamentali alla MQ; dibattiti storici ben documentati."
+factoid_id: "FS7_dirac_paul_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_dirac_paul_001"
+
+tipo_entità: "Person"
+nome: "Paul Adrien Maurice Dirac"
+alias: ["P. A. M. Dirac"]
+periodo: "1902-1984"
+nazione_area: "Regno Unito"
+
+categoria: "http://singularity-dag.org/concept/meccanica_quantistica"
+settore_primario: "http://singularity-dag.org/concept/equazione_dirac"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/equazione_dirac"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.94
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q190667"
+  - "viaf:108320770"
+  - "Nobel Prize 1933"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articoli 1928, archivi Nobel."
+
+connessioni:
+  - tipo: "collaborazione"
+    target: "FS7_fermi_enrico_001"
+    evidenza: "Interazioni accademiche documentate"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q190667"
+  - "viaf:108320770"
+
+data_creazione: "2026-05-12T11:16:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Contributi fondamentali alla MQ; fonti primarie solide."
