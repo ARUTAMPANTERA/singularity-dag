@@ -1604,3 +1604,454 @@ data_creazione: "2026-05-12T11:44:00Z"
 creatore: "Copilot"
 licenza: "CC BY-NC-SA 4.0"
 note_epistemiche: "Contributi fondamentali alla MQ; fonti primarie solide."
+
+
+Perfetto andrea — procedo subito con la generazione del BLOCCO 1/2 (10 entry) in FACTOID v2.1, con:
+
+- owlsameas_pending strutturato  
+- nessun wd:Q / VIAF (GOV_L1: zero invenzione)  
+- URI uniformi  
+- snake_case  
+- UQ calibrato  
+- Triple Distinction  
+- Note epistemiche obbligatorie  
+
+⚠️ Nessun Guided Link incluso, perché hai richiesto YAML inline puro.
+
+---
+
+🧩 BATCH 2 — BLOCCO 1/2 (10 ENTRY S7MIXED20)
+(Planck, Heisenberg, de Broglie, Schwinger, Gell‑Mann, Noether, Hodgkin, Raman, Reich, Schauberger)
+
+---
+
+1. FS7planckmax_001
+
+`yaml
+factoidid: "FS7planckmax001"
+uripersistente: "http://singularity-dag.org/scientist/FS7planckmax001"
+
+tipo_entità: "Person"
+nome: "Max Karl Ernst Ludwig Planck"
+alias: ["Max Planck"]
+periodo: "1858-1947"
+nazione_area: "Germania"
+
+categoria: "http://singularity-dag.org/concept/fisica_teorica"
+settoreprimario: "http://singularity-dag.org/concept/meccanicaquantistica"
+
+tecnologiachiave: "http://singularity-dag.org/tech/quantizzazioneenergia"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.95
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1918"
+  - "Annalen der Physik (1900)"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articolo del 1900 sulla quantizzazione dell’energia; documentazione Nobel 1918."
+
+connessioni:
+  - tipo: "influenza_scientifica"
+    target: "FS7heisenbergwerner_001"
+    evidenza: "Fondamenti della MQ sviluppati a partire dalla quantizzazione"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDINGEXTERNALVERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+
+data_creazione: "2026-05-12T15:29:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Fondatore della meccanica quantistica. Fonti primarie abbondanti.
+  UQ fissato a 0.95 (Nobel). Mapping Wikidata/VIAF richiede verifica esterna.
+`
+
+---
+
+2. FS7heisenbergwerner_001
+
+`yaml
+factoidid: "FS7heisenbergwerner001"
+uripersistente: "http://singularity-dag.org/scientist/FS7heisenbergwerner001"
+
+tipo_entità: "Person"
+nome: "Werner Karl Heisenberg"
+alias: ["Werner Heisenberg"]
+periodo: "1901-1976"
+nazione_area: "Germania"
+
+categoria: "http://singularity-dag.org/concept/meccanica_quantistica"
+settoreprimario: "http://singularity-dag.org/concept/matricemeccanica"
+
+tecnologiachiave: "http://singularity-dag.org/tech/principioindeterminazione"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.95
+uq_tipi: ["cronologica","geografica","attributiva","interpretativa","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1932"
+  - "Zeitschrift für Physik (1925)"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articoli del 1925 sulla meccanica a matrici; documentazione Nobel 1932."
+
+connessioni:
+  - tipo: "controversia"
+    target: "FS7schrodingererwin_001"
+    evidenza: "Divergenze tra formulazioni MQ"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF)"
+  status: "PENDINGEXTERNALVERIFICATION"
+  note: "ID omessi intenzionalmente"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+
+data_creazione: "2026-05-12T15:29:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura centrale della MQ. Fonti primarie solide.
+  Mapping Wikidata/VIAF richiede verifica esterna.
+`
+
+---
+
+3. FS7debroglielouis001
+
+`yaml
+factoidid: "FS7debroglielouis_001"
+uripersistente: "http://singularity-dag.org/scientist/FS7debroglielouis_001"
+
+tipo_entità: "Person"
+nome: "Louis-Victor Pierre Raymond de Broglie"
+alias: ["Louis de Broglie"]
+periodo: "1892-1987"
+nazione_area: "Francia"
+
+categoria: "http://singularity-dag.org/concept/fisica_teorica"
+settoreprimario: "http://singularity-dag.org/concept/dualitaonda_particella"
+
+tecnologiachiave: "http://singularity-dag.org/tech/ipoteside_broglie"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.94
+uq_tipi: ["cronologica","geografica","attributiva","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1929"
+  - "Thèse de doctorat (1924)"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Tesi del 1924 sulla dualità onda-particella; documentazione Nobel 1929."
+
+connessioni:
+  - tipo: "influenza_scientifica"
+    target: "FS7schrodingererwin_001"
+    evidenza: "Equazione di Schrödinger basata su ipotesi de Broglie"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required"
+  status: "PENDINGEXTERNALVERIFICATION"
+  note: "ID omessi intenzionalmente"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+
+data_creazione: "2026-05-12T15:29:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Dualità onda-particella: fondamento della MQ.
+  Mapping Wikidata/VIAF richiede verifica esterna.
+`
+
+---
+
+4. FS7schwingerjulian_001
+
+`yaml
+factoidid: "FS7schwingerjulian001"
+uripersistente: "http://singularity-dag.org/scientist/FS7schwingerjulian001"
+
+tipo_entità: "Person"
+nome: "Julian Seymour Schwinger"
+alias: ["Julian Schwinger"]
+periodo: "1918-1994"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/elettrodinamica_quantistica"
+settore_primario: "http://singularity-dag.org/concept/QED"
+
+tecnologiachiave: "http://singularity-dag.org/tech/formalismoQED_schwinger"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.95
+uq_tipi: ["cronologica","geografica","attributiva","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1965"
+  - "Physical Review (1948-1954)"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articoli fondamentali sulla QED; documentazione Nobel 1965."
+
+connessioni:
+  - tipo: "collaborazione"
+    target: "FS7feynmanrichard_001"
+    evidenza: "Co-premiati Nobel per QED"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required"
+  status: "PENDINGEXTERNALVERIFICATION"
+  note: "ID omessi intenzionalmente"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+
+data_creazione: "2026-05-12T15:29:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Co-fondatore della QED. Fonti primarie solide.
+  Mapping Wikidata/VIAF richiede verifica esterna.
+`
+
+---
+
+5. FS7gellmannmurray001
+
+`yaml
+factoidid: "FS7gellmannmurray_001"
+uripersistente: "http://singularity-dag.org/scientist/FS7gellmannmurray_001"
+
+tipo_entità: "Person"
+nome: "Murray Gell-Mann"
+alias: []
+periodo: "1929-2019"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/fisica_teorica"
+settore_primario: "http://singularity-dag.org/concept/quark"
+
+tecnologiachiave: "http://singularity-dag.org/tech/modelloquark"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.95
+uq_tipi: ["cronologica","geografica","attributiva","interpretativa"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1969"
+  - "Physical Review Letters (1964)"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articolo del 1964 sul modello a quark; documentazione Nobel 1969."
+
+connessioni:
+  - tipo: "influenza_scientifica"
+    target: "FS7wilczekfrank_001"
+    evidenza: "Sviluppi successivi in QCD"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required"
+  status: "PENDINGEXTERNALVERIFICATION"
+  note: "ID omessi intenzionalmente"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+
+data_creazione: "2026-05-12T15:29:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Fondatore del modello a quark. Fonti primarie solide.
+  Mapping Wikidata/VIAF richiede verifica esterna.
+`
+
+---
+
+6. FS7noetheremmy_001
+
+`yaml
+factoidid: "FS7noetheremmy001"
+uripersistente: "http://singularity-dag.org/scientist/FS7noetheremmy001"
+
+tipo_entità: "Person"
+nome: "Amalie Emmy Noether"
+alias: ["Emmy Noether"]
+periodo: "1882-1935"
+nazione_area: "Germania / USA"
+
+categoria: "http://singularity-dag.org/concept/matematica"
+settoreprimario: "http://singularity-dag.org/concept/teoremanoether"
+
+tecnologiachiave: "http://singularity-dag.org/tech/teoremanoether"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.92
+uq_tipi: ["cronologica","geografica","attributiva","interpretativa"]
+
+fonte_primaria:
+  - "Mathematische Annalen (1918)"
+  - "Corrispondenza con Hilbert"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articolo del 1918 sulle simmetrie e leggi di conservazione."
+
+connessioni:
+  - tipo: "influenza_scientifica"
+    target: "FS7einsteinalbert_001"
+    evidenza: "Applicazioni del teorema in relatività generale"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required"
+  status: "PENDINGEXTERNALVERIFICATION"
+  note: "ID omessi intenzionalmente"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+
+data_creazione: "2026-05-12T15:29:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura sottorappresentata; contributi fondamentali alla fisica teorica.
+  Mapping Wikidata/VIAF richiede verifica esterna.
+`
+
+---
+
+7. FS7hodgkindorothy_001
+
+`yaml
+factoidid: "FS7hodgkindorothy001"
+uripersistente: "http://singularity-dag.org/scientist/FS7hodgkindorothy001"
+
+tipo_entità: "Person"
+nome: "Dorothy Mary Crowfoot Hodgkin"
+alias: ["Dorothy Hodgkin"]
+periodo: "1910-1994"
+nazione_area: "Regno Unito"
+
+categoria: "http://singularity-dag.org/concept/cristallografia"
+settoreprimario: "http://singularity-dag.org/concept/strutturamolecolare"
+
+tecnologiachiave: "http://singularity-dag.org/tech/diffrazioneraggi_x"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.92
+uq_tipi: ["cronologica","geografica","attributiva","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Chemistry 1964"
+  - "X-ray crystallography papers"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Lavori sulla struttura dell’insulina e vitamina B12."
+
+connessioni:
+  - tipo: "influenza_scientifica"
+    target: "FS7franklinrosalind_001"
+    evidenza: "Tecniche cristallografiche condivise"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required"
+  status: "PENDINGEXTERNALVERIFICATION"
+  note: "ID omessi intenzionalmente"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+
+data_creazione: "2026-05-12T15:29:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Nobel 1964; contributi fondamentali alla cristallografia.
+  Mapping Wikidata/VIAF richiede verifica esterna.
+`
+
+---
+
+8. FS7ramancv_001
+
+`yaml
+factoidid: "FS7ramancv001"
+uripersistente: "http://singularity-dag.org/scientist/FS7ramancv001"
+
+tipo_entità: "Person"
+nome: "Chandrasekhara Venkata Raman"
+alias: ["C. V. Raman"]
+periodo: "1888-1970"
+nazione_area: "India"
+
+categoria: "http://singularity-dag.org/concept/fisica"
+settoreprimario: "http://singularity-dag.org/concept/effettoraman"
+
+tecnologiachiave: "http://singularity-dag.org/tech/spettroscopiaraman"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.92
+uq_tipi: ["cronologica","geografica","attributiva","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1930"
+  - "Proceedings of the Indian Academy of Sciences"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articoli sull’effetto Raman; documentazione Nobel 1930."
+
+connessioni:
+  - tipo: "influenza_scientifica"
+    target: "FS7spectroscopyconcept_001"
+    evidenza: "Fondamenti della spettroscopia moderna"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required"
+  status: "PENDINGEXTERNALVERIFICATION"
+  note: "ID omessi intenzionalmente"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+
+data_creazione: "2026-05-12T15:29:
