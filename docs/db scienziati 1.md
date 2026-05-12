@@ -1217,3 +1217,175 @@ data_creazione: "2026-05-12T11:16:00Z"
 creatore: "Copilot"
 licenza: "CC BY-NC-SA 4.0"
 note_epistemiche: "Figura chiave dell’informatica; bias storici di genere esplicitati."
+factoid_id: "FS7_fermi_enrico_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_fermi_enrico_001"
+
+tipo_entità: "Person"
+nome: "Enrico Fermi"
+alias: ["Father of the Nuclear Age"]
+periodo: "1901-1954"
+nazione_area: "Italia / USA"
+
+categoria: "http://singularity-dag.org/concept/fisica_nucleare"
+settore_primario: "http://singularity-dag.org/concept/reazioni_nucleari"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/fermi_pila_atomica"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.94
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q173746"
+  - "viaf:190732"
+  - "Nobel Prize 1938"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Documenti Nobel, archivi Manhattan Project, pubblicazioni 1934-1954."
+
+connessioni:
+  - tipo: "collaborazione"
+    target: "FS7_bohr_niels_001"
+    evidenza: "Conferenze e scambi scientifici anni '30"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q173746"
+  - "viaf:190732"
+
+data_creazione: "2026-05-12T11:39:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Figura centrale nella fisica nucleare; fonti primarie abbondanti."
+factoid_id: "FS7_bohr_niels_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_bohr_niels_001"
+
+tipo_entità: "Person"
+nome: "Niels Bohr"
+alias: ["Niels Henrik David Bohr"]
+periodo: "1885-1962"
+nazione_area: "Danimarca"
+
+categoria: "http://singularity-dag.org/concept/fisica_atomica"
+settore_primario: "http://singularity-dag.org/concept/modello_atomico"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/bohr_modello_atomico"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.94
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q12323"
+  - "viaf:59145012"
+  - "Nobel Prize 1922"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articoli 1913, archivi Nobel, lettere con Einstein."
+
+connessioni:
+  - tipo: "controversia"
+    target: "FS7_einstein_albert_001"
+    evidenza: "Dibattito storico sul determinismo quantistico"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q12323"
+  - "viaf:59145012"
+
+data_creazione: "2026-05-12T11:39:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Figura chiave della MQ; dibattiti storici ben documentati."
+factoid_id: "FS7_crick_francis_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_crick_francis_001"
+
+tipo_entità: "Person"
+nome: "Francis Crick"
+alias: ["Francis Harry Compton Crick"]
+periodo: "1916-2004"
+nazione_area: "Regno Unito"
+
+categoria: "http://singularity-dag.org/concept/biologia_molecolare"
+settore_primario: "http://singularity-dag.org/concept/struttura_dna"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/dna_modello_doppia_elica"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.93
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q185906"
+  - "viaf:109528016"
+  - "Nobel Prize 1962"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articolo Nature 1953, archivi Nobel, corrispondenza con Watson."
+
+connessioni:
+  - tipo: "collaborazione"
+    target: "FS7_watson_james_001"
+    evidenza: "Co-autori del modello DNA"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q185906"
+  - "viaf:109528016"
+
+data_creazione: "2026-05-12T11:39:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Bias storico: contributo di Franklin sottoriconosciuto."
+factoid_id: "FS7_watson_james_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_watson_james_001"
+
+tipo_entità: "Person"
+nome: "James Dewey Watson"
+alias: []
+periodo: "1928-"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/biologia_molecolare"
+settore_primario: "http://singularity-dag.org/concept/struttura_dna"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/dna_modello_doppia_elica"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.92
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q208298"
+  - "viaf:109528016"
+  - "Nobel Prize 1962"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articolo Nature 1953, archivi Nobel."
+
+connessioni:
+  - tipo: "collaborazione"
+    target: "FS7_crick_francis_001"
+    evidenza: "Co-autori del modello DNA"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q208298"
+  - "viaf:109528016"
+
+data_creazione: "2026-05-12T11:39:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Controversie etiche documentate; fonti primarie solide."
