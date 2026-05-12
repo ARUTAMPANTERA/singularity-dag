@@ -1389,3 +1389,89 @@ data_creazione: "2026-05-12T11:39:00Z"
 creatore: "Copilot"
 licenza: "CC BY-NC-SA 4.0"
 note_epistemiche: "Controversie etiche documentate; fonti primarie solide."
+factoid_id: "FS7_schrodinger_erwin_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_schrodinger_erwin_001"
+
+tipo_entità: "Person"
+nome: "Erwin Schrödinger"
+alias: []
+periodo: "1887-1961"
+nazione_area: "Austria"
+
+categoria: "http://singularity-dag.org/concept/meccanica_quantistica"
+settore_primario: "http://singularity-dag.org/concept/equazione_schrodinger"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/equazione_schrodinger"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.94
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q902"
+  - "viaf:59084948"
+  - "Nobel Prize 1933"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articoli 1926, archivi Nobel."
+
+connessioni:
+  - tipo: "controversia"
+    target: "FS7_bohr_niels_001"
+    evidenza: "Interpretazione della MQ"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q902"
+  - "viaf:59084948"
+
+data_creazione: "2026-05-12T11:39:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Contributi fondamentali alla MQ; dibattiti storici ben documentati."
+factoid_id: "FS7_dirac_paul_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_dirac_paul_001"
+
+tipo_entità: "Person"
+nome: "Paul Adrien Maurice Dirac"
+alias: ["P. A. M. Dirac"]
+periodo: "1902-1984"
+nazione_area: "Regno Unito"
+
+categoria: "http://singularity-dag.org/concept/meccanica_quantistica"
+settore_primario: "http://singularity-dag.org/concept/equazione_dirac"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/equazione_dirac"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.94
+uq_tipi: ["cronologica","geografica","attributiva","testuale","interpretativa","prosopografica"]
+
+fonte_primaria:
+  - "wd:Q184312"
+  - "viaf:109528016"
+  - "Nobel Prize 1933"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: "Articoli 1928, archivi Nobel."
+
+connessioni:
+  - tipo: "collaborazione"
+    target: "FS7_fermi_enrico_001"
+    evidenza: "Interazioni accademiche documentate"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owl_same_as:
+  - "wd:Q184312"
+  - "viaf:109528016"
+
+data_creazione: "2026-05-12T11:39:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+note_epistemiche: "Contributi fondamentali alla MQ; fonti primarie solide."
