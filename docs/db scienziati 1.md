@@ -2056,3 +2056,123 @@ owlsameas_pending:
 
 data_creazione: "2026-05-12T15:29:
 
+factoid_id: "FS7_reich_wilhelm_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_reich_wilhelm_001"
+
+tipo_entità: "Person"
+nome: "Wilhelm Reich"
+alias: ["Dr. Wilhelm Reich"]
+periodo: "1897-1957"
+nazione_area: "Austria / USA"
+
+categoria: "http://singularity-dag.org/concept/psicologia_sperimentale"
+settore_primario: "http://singularity-dag.org/concept/bioenergia_orgonica"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/accumulatore_orgonico"
+
+status: "controverso"
+certezza: "media"
+uq_valore: 0.65
+uq_tipi: ["cronologica","geografica","interpretativa","testuale","prosopografica"]
+
+fonte_primaria:
+  - "Archivi FDA (1954-1957)"
+  - "Orgone Institute Publications"
+  - "Court Documents (USA, 1954)"
+
+attestazione_tipo: "[INFERENZA]"
+contesto_fonte: >
+  Documentazione FDA su sequestri e distruzione degli accumulatori orgonici;
+  pubblicazioni dell’Orgone Institute; atti giudiziari USA 1954-1957.
+
+connessioni:
+  - tipo: "controversia"
+    target: "FS7_psicoterapia_sperimentale_concept_001"
+    evidenza: "Critiche metodologiche e legali documentate"
+    stato: "verificato"
+  - tipo: "influenza_culturale"
+    target: "FS7_movimenti_alternativi_anni60_001"
+    evidenza: "Adozione concetti orgonici in movimenti controculturali"
+    stato: "non_verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T15:41:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura altamente controversa. Fonti primarie esistono (FDA, atti giudiziari),
+  ma interpretazioni scientifiche non verificate. UQ limitato a 0.65.
+  Mapping Wikidata/VIAF richiede verifica esterna (GOV_L1: Zero_Menzogna).
+  
+factoid_id: "FS7_schauberger_viktor_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_schauberger_viktor_001"
+
+tipo_entità: "Person"
+nome: "Viktor Schauberger"
+alias: ["Viktor Schauberger"]
+periodo: "1885-1958"
+nazione_area: "Austria"
+
+categoria: "http://singularity-dag.org/concept/idrodinamica_non_convenzionale"
+settore_primario: "http://singularity-dag.org/concept/implosione_fluodinamica"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/turbine_implosive_schauberger"
+
+status: "controverso"
+certezza: "media"
+uq_valore: 0.68
+uq_tipi: ["cronologica","geografica","interpretativa","testuale","prosopografica"]
+
+fonte_primaria:
+  - "Brevetti austriaci (AT, 1920-1950)"
+  - "Schauberger Family Archives"
+  - "Rapporti tecnici su dispositivi a implosione"
+
+attestazione_tipo: "[INFERENZA]"
+contesto_fonte: >
+  Brevetti depositati in Austria; documentazione privata della famiglia
+  Schauberger; rapporti tecnici su turbine a implosione e dispositivi
+  idrodinamici non convenzionali.
+
+connessioni:
+  - tipo: "influenza_culturale"
+    target: "FS7_ecotecnologie_alternative_001"
+    evidenza: "Adozione concetti di implosione in movimenti ecologisti"
+    stato: "non_verificato"
+  - tipo: "controversia"
+    target: "FS7_ingegneria_fluidodinamica_standard_001"
+    evidenza: "Assenza di verifiche sperimentali indipendenti"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T15:41:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura controversa nell’ambito delle tecnologie non convenzionali.
+  Fonti primarie esistono (brevetti, archivi familiari), ma verifiche
+  indipendenti limitate. UQ fissato a 0.68. Mapping Wikidata/VIAF
+  richiede verifica esterna (GOV_L1).
+  
+
+
