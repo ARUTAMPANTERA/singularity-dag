@@ -382,4 +382,15 @@ entries:
     connessioni:
       - tipo: "continuità_tecnologica"
         target: "F_S0_acheulean_001"
-        evidenza: "Evoluzione delle tecniche di s
+        evidenza: "Evoluzione delle tecniche di scheggiatura da bifacciali a metodi più raffinati."
+        stato: "inferenziale"
+      - tipo: "preludio_tecnologico"
+        target: "F_S3_plimpton322_001"
+        evidenza: "Lunga traiettoria di complessificazione cognitiva e tecnica prima della matematica scritta."
+        stato: "speculativo"
+    lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+    owl_same_as: ["[LACUNA_DATI]"]
+    data_creazione: "2026-05-12T07:49:00Z"
+    creatore: "ARUTAM_COLLECTIVE | Copilot"
+    licenza: "CC BY-NC-SA 4.0"
+    note_epistemiche: "Attribuzione a gruppi umani (Neanderthal/Homo sapiens arcaico) 
