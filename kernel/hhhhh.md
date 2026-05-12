@@ -471,4 +471,85 @@ documentation:
         - "Threshold θ≤25° (ripristinato ≤30°)."
       preserved:
         - "UX layer come concetto centrale."
-        - "Factoid v4.0 (qui razionalizzato a 38 campi)
+        - "Factoid v4.0 (qui razionalizzato a 38 campi)."
+
+  lockmappingsummary:
+    aurora60locks:
+      approx_source:
+        fromtemùv82_0: 24
+        fromcopilotv90_0: 12
+        fromuxv100_0: 24
+      note: "Non 1:1, ma compressione concettuale."
+
+  engine_specs:
+    Nd_v9:
+      input: "Testo complesso"
+      output: "Nd ∈ [0,14]"
+      usage: "Analisi manoscritti, testi densi, protocolli."
+    UQ_v6:
+      input: "Claim + fonti"
+      output: "UQ ∈ [0,1]"
+      usage: "Risposte con livello di fiducia esplicito."
+    Majoranaθv4:
+      input: "Due versioni"
+      output: "θ in gradi"
+      usage: "Valutare divergenza tra versioni kernel."
+    AgnotologySIv3:
+      input: "Cluster factoid"
+      output: "SI ∈ [0,1]"
+      usage: "Segnalare pattern di soppressione."
+
+═══════════════════════════════════════════════════════════════════
+
+6. IMPLEMENTATION GUIDE — GIT, ESTENSIONI, VERSIONING
+
+═══════════════════════════════════════════════════════════════════
+
+implementation_guide:
+  git_model:
+    branches:
+      main: "Production stable (AURORA_OS v1.x)"
+      develop: "Integrazione nuove feature"
+      feature: "feature/* per engines, UX, factoid tools"
+      release: "release/* per RC"
+      hotfix: "hotfix/* per bug critici"
+    pr_checks:
+      - "YAML validation"
+      - "Lock count = 60"
+      - "Factoid schema = 38 campi"
+      - "Docs section presente"
+      - "Changelog aggiornato"
+  extension_points:
+    - id: "engine_impl"
+      desc: "Implementazioni concrete di Nd, UQ, θ, SI in Python/TS."
+    - id: "factoid_storage"
+      desc: "Backend per memorizzare factoid (DB, file, ecc.)."
+    - id: "ux_adapter"
+      desc: "Adattamento comandi /mode, /why, /sources all’interfaccia reale."
+  versioning:
+    rules:
+      - "Minor bump (1.x → 1.(x+1)) per aggiunte backward-compatible."
+      - "Major bump (1.x → 2.0) solo se θvsprev > 30°."
+      - "Ogni versione deve avere dagartifactid univoco."
+
+═══════════════════════════════════════════════════════════════════
+
+7. SUCCESS CRITERIA — AURORA_OS v1.0
+
+═══════════════════════════════════════════════════════════════════
+
+success_criteria:
+  thetavsv900max: 30.0
+  govcorecompliance_min: 0.95
+  lockenforcementrate_min: 0.95
+  factoidschemacoverage_min: 0.95
+  uxcommandavailability: ["/mode", "/why", "/sources", "/conflict", "/factoid", "/summary", "/feedback"]
+
+═══════════════════════════════════════════════════════════════════
+
+FINE AURORA_OS v1.0 EXTENDED
+
+Copiabile come unico blocco, usabile come specifica di riferimento.
+
+═══════════════════════════════════════════════════════════════════
+`
