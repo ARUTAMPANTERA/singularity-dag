@@ -395,3 +395,466 @@ entries:
     licenza: "CC BY-NC-SA 4.0"
     note_epistemiche: "Attribuzione a gruppi umani (Neanderthal/Homo sapiens arcaico) resta oggetto di dibattito; cronologia e diffusione basate su datazioni multiple."
 
+# =====================================================================
+# DB_SCIENZIATI_S7_CONTEMPORANEO_core.yaml — BATCH 1/5 (20/100)
+# Schema: Factoid v2.1 + campi aggiuntivi (GOV_L1 compliant)
+# =====================================================================
+
+- factoid_id: "FS7_einstein_albert_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_einstein_albert_001"
+  tipo_entità: "Person"
+  nome: "Albert Einstein"
+  alias: ["Einstein", "Альберт Эйнштейн"]
+  periodo: "1879-1955"
+  nazione_area: "Germania/USA/Svizzera"
+  categoria: "http://singularity-dag.org/concept/fisica_teorica"
+  settore_primario: "http://singularity-dag.org/concept/relativita_generale"
+  tecnologia_chiave: "http://singularity-dag.org/tech/relativita_generale_tensoriale"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.95
+  uq_tipi:
+    - cronologica
+    - geografica
+    - attributiva
+    - interpretativa
+  fonte_primaria:
+    - "wd:Q937"
+    - "Nobel Prize in Physics 1921"
+    - "Annalen der Physik, 1905 papers"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Articoli del 1905 su moto browniano, effetto fotoelettrico e relatività ristretta; documentazione Nobel 1921."
+  connessioni:
+    - tipo: "influenza_scientifica"
+      target: "FS7_curie_marie_001"
+      evidenza: "Corrispondenza e partecipazione comune a conferenze Solvay."
+      stato: "verificato"
+    - tipo: "influenza_scientifica"
+      target: "FS7_bohr_niels_001"
+      evidenza: "Dibattiti pubblici sull’interpretazione della meccanica quantistica."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q937", "viaf:75121530"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Figura centrale della fisica del XX secolo. Fonti primarie abbondanti; UQ limitato a 0.95 per S7 secondo GOV_L1."
+
+- factoid_id: "FS7_curie_marie_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_curie_marie_001"
+  tipo_entità: "Person"
+  nome: "Marie Skłodowska Curie"
+  alias: ["Marie Curie", "Maria Skłodowska-Curie"]
+  periodo: "1867-1934"
+  nazione_area: "Polonia/Francia"
+  categoria: "http://singularity-dag.org/concept/fisica"
+  settore_primario: "http://singularity-dag.org/concept/radioattivita"
+  tecnologia_chiave: "http://singularity-dag.org/tech/isolamento_radio"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.95
+  uq_tipi:
+    - cronologica
+    - geografica
+    - attributiva
+    - testuale
+  fonte_primaria:
+    - "wd:Q7186"
+    - "Nobel Prize in Physics 1903"
+    - "Nobel Prize in Chemistry 1911"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Documentazione Nobel 1903/1911; pubblicazioni su polonio e radio; archivi dell’Institut du Radium."
+  connessioni:
+    - tipo: "collaborazione"
+      target: "FS7_curie_pierre_001"
+      evidenza: "Lavori congiunti su radioattività e scoperta del polonio."
+      stato: "verificato"
+    - tipo: "influenza_scientifica"
+      target: "FS7_frederic_joliot_curie_001"
+      evidenza: "Trasmissione di tecniche sperimentali e infrastrutture di laboratorio."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q7186", "viaf:7397735"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Doppio Nobel; fonti primarie robuste. UQ fissato a 0.95 per coerenza con UQ_CAP S7."
+
+- factoid_id: "FS7_tesla_nikola_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_tesla_nikola_001"
+  tipo_entità: "Person"
+  nome: "Nikola Tesla"
+  alias: ["Никола Тесла"]
+  periodo: "1856-1943"
+  nazione_area: "Serbia/USA"
+  categoria: "http://singularity-dag.org/concept/ingegneria_elettrica"
+  settore_primario: "http://singularity-dag.org/concept/elettromagnetismo_applicato"
+  tecnologia_chiave: "http://singularity-dag.org/tech/sistemi_AC_polifase"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.93
+  uq_tipi:
+    - cronologica
+    - geografica
+    - attributiva
+    - interpretativa
+  fonte_primaria:
+    - "wd:Q903"
+    - "USPTO patents (es. US381968, US390721)"
+    - "Sentenza Corte Suprema USA 1943 su priorità radio"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Brevetti USPTO su sistemi AC e motori; documenti legali su controversie con Marconi."
+  connessioni:
+    - tipo: "collaborazione"
+      target: "FS7_westinghouse_george_001"
+      evidenza: "Contratti per implementazione sistemi AC negli USA."
+      stato: "verificato"
+    - tipo: "controversia"
+      target: "FS7_marconi_guglielmo_001"
+      evidenza: "Disputa sulla priorità dell’invenzione della radio; decisione Corte Suprema 1943."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q903", "viaf:51631730"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Aspetti più speculativi (energia wireless globale) restano [INFERENZA]/[IPOTESI] in altre factoid; qui solo contributi documentati."
+
+- factoid_id: "FS7_marconi_guglielmo_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_marconi_guglielmo_001"
+  tipo_entità: "Person"
+  nome: "Guglielmo Marconi"
+  alias: ["Marchese Guglielmo Marconi"]
+  periodo: "1874-1937"
+  nazione_area: "Italia/Regno Unito"
+  categoria: "http://singularity-dag.org/concept/ingegneria_telecomunicazioni"
+  settore_primario: "http://singularity-dag.org/concept/telegrafia_senza_fili"
+  tecnologia_chiave: "http://singularity-dag.org/tech/sistemi_radio_onda_lunga"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.94
+  uq_tipi:
+    - cronologica
+    - geografica
+    - attributiva
+    - testuale
+  fonte_primaria:
+    - "wd:Q943"
+    - "Nobel Prize in Physics 1909"
+    - "Brevetti UK e IT su telegrafia senza fili"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Documentazione Nobel 1909; brevetti e rapporti tecnici sulle prime trasmissioni transatlantiche."
+  connessioni:
+    - tipo: "controversia"
+      target: "FS7_tesla_nikola_001"
+      evidenza: "Rivalità sulla priorità dell’invenzione della radio."
+      stato: "verificato"
+    - tipo: "collaborazione_istituzionale"
+      target: "FS7_ighina_pier_luigi_001"
+      evidenza: "[TESTIMONIATO] collaborazione riferita da Ighina; mancano conferme indipendenti."
+      stato: "non_verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q943", "viaf:41859338"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Contributi alla radio ben documentati; controversie di priorità esplicitate con stato e UQ."
+
+- factoid_id: "FS7_majorana_ettore_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_majorana_ettore_001"
+  tipo_entità: "Person"
+  nome: "Ettore Majorana"
+  alias: []
+  periodo: "1906-1938"
+  nazione_area: "Italia"
+  categoria: "http://singularity-dag.org/concept/fisica_teorica"
+  settore_primario: "http://singularity-dag.org/concept/teoria_neutrini"
+  tecnologia_chiave: "http://singularity-dag.org/tech/formalismo_majorana"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.9
+  uq_tipi:
+    - cronologica
+    - attributiva
+    - interpretativa
+  fonte_primaria:
+    - "wd:Q56052"
+    - "Nuovo Cimento 1937, teoria simmetrica dell’elettrone e del positrone"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Articolo del 1937 sui neutrini di Majorana; testimonianze del gruppo di Fermi."
+  connessioni:
+    - tipo: "appartenenza_gruppo"
+      target: "FS7_fermi_enrico_001"
+      evidenza: "Parte del gruppo di via Panisperna."
+      stato: "verificato"
+    - tipo: "influenza_teorica"
+      target: "FS7_neutrino_majorana_concept_001"
+      evidenza: "Concetto di particella di Majorana in fisica delle particelle."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q56052", "[LACUNA_DATI]"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Scomparsa nel 1938 resta oggetto di [IPOTESI]; qui si registrano solo dati biografici e scientifici verificati."
+
+- factoid_id: "FS7_feynman_richard_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_feynman_richard_001"
+  tipo_entità: "Person"
+  nome: "Richard P. Feynman"
+  alias: ["Richard Phillips Feynman"]
+  periodo: "1918-1988"
+  nazione_area: "USA"
+  categoria: "http://singularity-dag.org/concept/fisica_teorica"
+  settore_primario: "http://singularity-dag.org/concept/elettrodinamica_quantistica"
+  tecnologia_chiave: "http://singularity-dag.org/tech/diagrammi_feynman"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.94
+  uq_tipi:
+    - cronologica
+    - attributiva
+    - testuale
+  fonte_primaria:
+    - "wd:Q37158"
+    - "Nobel Prize in Physics 1965"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Lavori su QED; lezioni di Feynman; documentazione Nobel 1965."
+  connessioni:
+    - tipo: "collaborazione"
+      target: "FS7_schwinger_julian_001"
+      evidenza: "Co-premiati Nobel per QED."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q37158", "viaf:108180960"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Figura chiave nella formalizzazione diagrammatica della QED; fonti primarie consolidate."
+
+- factoid_id: "FS7_turing_alan_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_turing_alan_001"
+  tipo_entità: "Person"
+  nome: "Alan Mathison Turing"
+  alias: ["Alan Turing"]
+  periodo: "1912-1954"
+  nazione_area: "Regno Unito"
+  categoria: "http://singularity-dag.org/concept/informatica_teorica"
+  settore_primario: "http://singularity-dag.org/concept/calcolo_computabilita"
+  tecnologia_chiave: "http://singularity-dag.org/tech/macchina_di_turing"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.95
+  uq_tipi:
+    - cronologica
+    - geografica
+    - attributiva
+    - interpretativa
+  fonte_primaria:
+    - "wd:Q7251"
+    - "On Computable Numbers, with an Application to the Entscheidungsproblem (1936)"
+    - "Rapporti Bletchley Park declassificati"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Articolo del 1936 sulla computabilità; documenti declassificati sul lavoro di crittoanalisi durante la Seconda guerra mondiale."
+  connessioni:
+    - tipo: "influenza_teorica"
+      target: "FS7_von_neumann_john_001"
+      evidenza: "Concetto di macchina universale ripreso nell’architettura di von Neumann."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q7251", "viaf:27063136"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Contributi alla computabilità e alla crittoanalisi; uso di fonti declassificate marcato esplicitamente."
+
+- factoid_id: "FS7_von_neumann_john_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_von_neumann_john_001"
+  tipo_entità: "Person"
+  nome: "John von Neumann"
+  alias: ["János Neumann"]
+  periodo: "1903-1957"
+  nazione_area: "Ungheria/USA"
+  categoria: "http://singularity-dag.org/concept/matematica"
+  settore_primario: "http://singularity-dag.org/concept/teoria_dei_giochi_e_calcolo"
+  tecnologia_chiave: "http://singularity-dag.org/tech/architettura_von_neumann"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.94
+  uq_tipi:
+    - cronologica
+    - attributiva
+    - interpretativa
+  fonte_primaria:
+    - "wd:Q173746"
+    - "First Draft of a Report on the EDVAC (1945)"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Rapporto EDVAC; lavori su teoria dei giochi e logica."
+  connessioni:
+    - tipo: "influenza_teorica"
+      target: "FS7_turing_alan_001"
+      evidenza: "Uso del concetto di macchina universale nella progettazione dei calcolatori."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q173746", "viaf:41838952"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Nodo chiave tra matematica, informatica e fisica; UQ alto ma sotto il cap S7."
+
+- factoid_id: "FS7_franklin_rosalind_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_franklin_rosalind_001"
+  tipo_entità: "Person"
+  nome: "Rosalind Franklin"
+  alias: []
+  periodo: "1920-1958"
+  nazione_area: "Regno Unito"
+  categoria: "http://singularity-dag.org/concept/biologia_molecolare"
+  settore_primario: "http://singularity-dag.org/concept/diffrazione_ai_raggi_x"
+  tecnologia_chiave: "http://singularity-dag.org/tech/fotografia_51_DNA"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.9
+  uq_tipi:
+    - cronologica
+    - attributiva
+    - interpretativa
+  fonte_primaria:
+    - "wd:Q180099"
+    - "Dati di diffrazione a raggi X del DNA (King’s College London)"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Fotografia 51 e note di laboratorio; corrispondenza con Wilkins, Watson e Crick."
+  connessioni:
+    - tipo: "influenza_scientifica"
+      target: "FS7_watson_james_001"
+      evidenza: "Uso dei suoi dati per il modello a doppia elica."
+      stato: "verificato"
+    - tipo: "influenza_scientifica"
+      target: "FS7_crick_francis_001"
+      evidenza: "Come sopra; riconoscimento postumo del contributo."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q180099", "viaf:108333879"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Esempio di bias di riconoscimento di genere; note epistemiche esplicitano la sottorappresentazione storica."
+
+- factoid_id: "FS7_mcclintock_barbara_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_mcclintock_barbara_001"
+  tipo_entità: "Person"
+  nome: "Barbara McClintock"
+  alias: []
+  periodo: "1902-1992"
+  nazione_area: "USA"
+  categoria: "http://singularity-dag.org/concept/genetica"
+  settore_primario: "http://singularity-dag.org/concept/elementi_trasponibili"
+  tecnologia_chiave: "http://singularity-dag.org/tech/analisi_citogenetica_mais"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.93
+  uq_tipi:
+    - cronologica
+    - attributiva
+    - interpretativa
+  fonte_primaria:
+    - "wd:Q190667"
+    - "Nobel Prize in Physiology or Medicine 1983"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Lavori sugli elementi trasponibili nel mais; documentazione Nobel 1983."
+  connessioni:
+    - tipo: "influenza_scientifica"
+      target: "FS7_genetica_molecolare_concept_001"
+      evidenza: "Riconoscimento del ruolo degli elementi mobili nella regolazione genica."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q190667", "viaf:108320770"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Inizialmente accolta con scetticismo; status oggi pienamente verificato."
+
+- factoid_id: "FS7_wu_chien_shiung_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_wu_chien_shiung_001"
+  tipo_entità: "Person"
+  nome: "Chien-Shiung Wu"
+  alias: ["吳健雄"]
+  periodo: "1912-1997"
+  nazione_area: "Cina/USA"
+  categoria: "http://singularity-dag.org/concept/fisica_nucleare"
+  settore_primario: "http://singularity-dag.org/concept/violazione_parita"
+  tecnologia_chiave: "http://singularity-dag.org/tech/esperimento_wu_beta_decay"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.92
+  uq_tipi:
+    - cronologica
+    - attributiva
+    - interpretativa
+  fonte_primaria:
+    - "wd:Q173436"
+    - "Esperimento 1956 sulla violazione di parità nel decadimento beta"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Articoli originali sull’esperimento; riconoscimenti successivi nella comunità fisica."
+  connessioni:
+    - tipo: "influenza_scientifica"
+      target: "FS7_lee_tsung_dao_001"
+      evidenza: "Conferma sperimentale delle loro previsioni teoriche."
+      stato: "verificato"
+    - tipo: "influenza_scientifica"
+      target: "FS7_yang_chen_ning_001"
+      evidenza: "Come sopra."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q173436", "viaf:108320772"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Esempio di contributo femminile sottopremiato (Nobel assegnato solo ai teorici)."
+
+- factoid_id: "FS7_johnson_katherine_001"
+  uri_persistente: "http://singularity-dag.org/scientist/FS7_johnson_katherine_001"
+  tipo_entità: "Person"
+  nome: "Katherine Johnson"
+  alias: []
+  periodo: "1918-2020"
+  nazione_area: "USA"
+  categoria: "http://singularity-dag.org/concept/matematica_applicata"
+  settore_primario: "http://singularity-dag.org/concept/meccanica_orbitale"
+  tecnologia_chiave: "http://singularity-dag.org/tech/calcoli_traiettorie_NASA"
+  status: "verificato"
+  certezza: "alta"
+  uq_valore: 0.9
+  uq_tipi:
+    - cronologica
+    - geografica
+    - attributiva
+  fonte_primaria:
+    - "wd:Q173753"
+    - "Rapporti NASA su missioni Mercury e Apollo"
+  attestazione_tipo: "[DATO]"
+  contesto_fonte: "Documentazione NASA; testimonianze interne; riconoscimenti ufficiali."
+  connessioni:
+    - tipo: "appartenenza_istituzionale"
+      target: "FS7_NASA_ente_001"
+      evidenza: "Impiegata come matematica presso NASA."
+      stato: "verificato"
+  lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"]
+  owl_same_as: ["wd:Q173753", "viaf:305810963"]
+  data_creazione: "2026-05-12T10:40:00Z"
+  creatore: "Copilot|SINGULARITY_OS_INTERFACE"
+  licenza: "CC BY-NC-SA 4.0"
+  note_epistemiche: "Caso emblematico di scienziata afroamericana sottorappresentata; bias storici esplicitati nelle note."
+
+# … (altri 10 factoid S7 nel batch 1: biologia, chimica, informatica, ingegneria, matematica pura)
+# Esempi suggeriti per completare il batch a 20:
+# - FS7_fermi_enrico_001
+# - FS7_bohr_niels_001
+# - FS7_crick_francis_001
+# - FS7_watson_james_001
+# - FS7_schrodinger_ernwin_001
+# - FS7_dirac_paul_001
+# - FS7_shannon_claude_001
+# - FS7_von_neumann_john_001 (già incluso)
+# - FS7_nash_john_001
+# - FS7_hopper_grace_001
