@@ -2175,4 +2175,632 @@ note_epistemiche: |
   richiede verifica esterna (GOV_L1).
   
 
+# 1) FS7_tomonaga_shin_ichiro_001
+
+factoid_id: "FS7_tomonaga_shin_ichiro_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_tomonaga_shin_ichiro_001"
+
+tipo_entità: "Person"
+nome: "Shin’ichirō Tomonaga"
+alias: ["Shin-ichiro Tomonaga", "Tomonaga Shin’ichirō"]
+periodo: "1906-1979"
+nazione_area: "Giappone"
+
+categoria: "http://singularity-dag.org/concept/fisica_teorica"
+settore_primario: "http://singularity-dag.org/concept/elettrodinamica_quantistica"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/tomonaga_qed_renormalization"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.95
+uq_tipi: ["cronologica","geografica","attributiva","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1965 (QED)"
+  - "Articoli su renormalizzazione QED (anni 1940-1950)"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: >
+  Documentazione ufficiale del Nobel per la Fisica 1965 e articoli
+  scientifici sulla formulazione covariante della QED e la
+  rinormalizzazione.
+
+connessioni:
+  - tipo: "co_premio_nobel"
+    target: "FS7_schwinger_julian_001"
+    evidenza: "Nobel condiviso per QED 1965"
+    stato: "verificato"
+  - tipo: "co_premio_nobel"
+    target: "FS7_feynman_richard_001"
+    evidenza: "Nobel condiviso per QED 1965"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura pienamente mainstream nella storia della QED. Fonti primarie
+  abbondanti (Nobel, articoli peer-reviewed). UQ fissato a 0.95 (cap S7).
+  Mapping Wikidata/VIAF richiede verifica esterna (GOV_L1: Zero_Menzogna).
+
+---
+
+# 2) FS7_weinberg_steven_001
+
+factoid_id: "FS7_weinberg_steven_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_weinberg_steven_001"
+
+tipo_entità: "Person"
+nome: "Steven Weinberg"
+alias: ["S. Weinberg"]
+periodo: "1933-2021"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/fisica_teorica"
+settore_primario: "http://singularity-dag.org/concept/teoria_elettrodebole"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/weinberg_salam_electroweak_model"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.95
+uq_tipi: ["cronologica","geografica","attributiva","interpretativa","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1979 (teoria elettrodebole)"
+  - "Articolo 1967 su unificazione elettrodebole"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: >
+  Documentazione Nobel 1979 e articoli originali sulla teoria
+  elettrodebole che unifica interazioni deboli e elettromagnetiche.
+
+connessioni:
+  - tipo: "co_premio_nobel"
+    target: "FS7_salam_abdus_001"
+    evidenza: "Nobel condiviso 1979 per teoria elettrodebole"
+    stato: "verificato"
+  - tipo: "co_premio_nobel"
+    target: "FS7_glashow_sheldon_001"
+    evidenza: "Nobel condiviso 1979 per teoria elettrodebole"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura centrale nella fisica delle particelle del XX secolo.
+  Fonti primarie robuste (Nobel, articoli fondamentali). UQ al cap S7 (0.95).
+  Mapping LOD demand external authority check (GOV_L1).
+
+---
+
+# 3) FS7_salam_abdus_001
+
+factoid_id: "FS7_salam_abdus_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_salam_abdus_001"
+
+tipo_entità: "Person"
+nome: "Abdus Salam"
+alias: ["Abdus Salam"]
+periodo: "1926-1996"
+nazione_area: "Pakistan / UK"
+
+categoria: "http://singularity-dag.org/concept/fisica_teorica"
+settore_primario: "http://singularity-dag.org/concept/teoria_elettrodebole"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/salam_electroweak_unification"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.94
+uq_tipi: ["cronologica","geografica","attributiva","testuale","prosopografica"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1979"
+  - "ICTP Trieste archives"
+  - "Articoli su unificazione elettrodebole"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: >
+  Documentazione Nobel 1979, archivi ICTP e articoli scientifici
+  sulla formulazione della teoria elettrodebole.
+
+connessioni:
+  - tipo: "co_premio_nobel"
+    target: "FS7_weinberg_steven_001"
+    evidenza: "Nobel condiviso 1979"
+    stato: "verificato"
+  - tipo: "co_premio_nobel"
+    target: "FS7_glashow_sheldon_001"
+    evidenza: "Nobel condiviso 1979"
+    stato: "verificato"
+  - tipo: "promozione_scientifica_globale"
+    target: "FS7_ictp_trieste_001"
+    evidenza: "Fondazione e direzione ICTP"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura chiave nella fisica teorica e nella promozione della scienza
+  nei paesi in via di sviluppo. Fonti primarie solide. UQ 0.94.
+  Mapping LOD rinviato a verifica esterna (GOV_L1).
+
+---
+
+# 4) FS7_t_hooft_gerard_001
+
+factoid_id: "FS7_t_hooft_gerard_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_t_hooft_gerard_001"
+
+tipo_entità: "Person"
+nome: "Gerard ’t Hooft"
+alias: ["Gerard t Hooft", "Gerard 't Hooft"]
+periodo: "1946-"
+nazione_area: "Paesi Bassi"
+
+categoria: "http://singularity-dag.org/concept/fisica_teorica"
+settore_primario: "http://singularity-dag.org/concept/teoria_di_campo_di_gauge"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/t_hooft_renormalizable_gauge_theories"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.95
+uq_tipi: ["cronologica","geografica","attributiva","interpretativa","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 1999"
+  - "Articoli su teorie di gauge rinormalizzabili"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: >
+  Documentazione Nobel 1999 e articoli fondamentali sulla
+  rinormalizzabilità delle teorie di gauge e la struttura delle
+  interazioni elettrodeboli.
+
+connessioni:
+  - tipo: "co_premio_nobel"
+    target: "FS7_veltman_martinus_001"
+    evidenza: "Nobel condiviso 1999"
+    stato: "verificato"
+  - tipo: "influenza_scientifica"
+    target: "FS7_teoria_standard_modello_001"
+    evidenza: "Contributi chiave alla formulazione del Modello Standard"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura di riferimento nella teoria di campo di gauge. Fonti primarie
+  abbondanti e consolidate. UQ al cap S7 (0.95). Mapping LOD rinviato
+  a verifica esterna per evitare falsa precisione (GOV_L1).
+
+---
+
+# 5) FS7_wilczek_frank_001
+
+factoid_id: "FS7_wilczek_frank_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_wilczek_frank_001"
+
+tipo_entità: "Person"
+nome: "Frank Wilczek"
+alias: ["F. Wilczek"]
+periodo: "1951-"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/fisica_teorica"
+settore_primario: "http://singularity-dag.org/concept/cromodinamica_quantistica"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/wilczek_asymptotic_freedom_qcd"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.95
+uq_tipi: ["cronologica","geografica","attributiva","interpretativa","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physics 2004"
+  - "Articoli su libertà asintotica in QCD"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: >
+  Documentazione Nobel 2004 e articoli originali sulla libertà
+  asintotica nella cromodinamica quantistica.
+
+connessioni:
+  - tipo: "co_premio_nobel"
+    target: "FS7_gross_david_001"
+    evidenza: "Nobel condiviso 2004"
+    stato: "verificato"
+  - tipo: "co_premio_nobel"
+    target: "FS7_politzer_hugh_001"
+    evidenza: "Nobel condiviso 2004"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Contributore principale alla comprensione della QCD. Fonti primarie
+  solide (Nobel, articoli). UQ al cap S7 (0.95). Mapping LOD da
+  verificare esternamente (GOV_L1).
+
+---
+
+# 6) FS7_cormack_allan_mcleod_001
+
+factoid_id: "FS7_cormack_allan_mcleod_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_cormack_allan_mcleod_001"
+
+tipo_entità: "Person"
+nome: "Allan McLeod Cormack"
+alias: ["Allan M. Cormack"]
+periodo: "1924-1998"
+nazione_area: "Sudafrica / USA"
+
+categoria: "http://singularity-dag.org/concept/fisica_medica"
+settore_primario: "http://singularity-dag.org/concept/tomografia_computerizzata"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/cormack_ct_reconstruction"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.92
+uq_tipi: ["cronologica","geografica","attributiva","testuale"]
+
+fonte_primaria:
+  - "Nobel Prize in Physiology or Medicine 1979"
+  - "Articoli su ricostruzione tomografica"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: >
+  Documentazione Nobel 1979 per lo sviluppo della tomografia
+  assiale computerizzata e articoli scientifici sulla ricostruzione
+  matematica delle immagini.
+
+connessioni:
+  - tipo: "co_premio_nobel"
+    target: "FS7_hounsfield_godfrey_001"
+    evidenza: "Nobel condiviso 1979 per CT"
+    stato: "verificato"
+  - tipo: "impatto_tecnologico"
+    target: "FS7_tecnologia_ct_medicale_001"
+    evidenza: "Adozione globale della TAC in diagnostica"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura chiave nella fisica medica e nella nascita della TAC.
+  Fonti primarie solide (Nobel, articoli). UQ 0.92 (sottorappresentato
+  geograficamente rispetto al canone eurocentrico). Mapping LOD
+  rinviato a verifica esterna (GOV_L1).
+
+---
+
+# 7) FS7_milstein_cesar_001
+
+factoid_id: "FS7_milstein_cesar_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_milstein_cesar_001"
+
+tipo_entità: "Person"
+nome: "César Milstein"
+alias: ["Cesar Milstein"]
+periodo: "1927-2002"
+nazione_area: "Argentina / UK"
+
+categoria: "http://singularity-dag.org/concept/immunologia"
+settore_primario: "http://singularity-dag.org/concept/anticorpi_monoclonali"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/milstein_monoclonal_antibodies"
+
+status: "verificato"
+certezza: "alta"
+uq_valore: 0.92
+uq_tipi: ["cronologica","geografica","attributiva","testuale","prosopografica"]
+
+fonte_primaria:
+  - "Nobel Prize in Physiology or Medicine 1984"
+  - "Articoli su anticorpi monoclonali"
+
+attestazione_tipo: "[DATO]"
+contesto_fonte: >
+  Documentazione Nobel 1984 e articoli scientifici sulla
+  produzione di anticorpi monoclonali, con impatto enorme su
+  diagnostica e terapia.
+
+connessioni:
+  - tipo: "co_premio_nobel"
+    target: "FS7_kohler_georges_001"
+    evidenza: "Nobel condiviso 1984"
+    stato: "verificato"
+  - tipo: "co_premio_nobel"
+    target: "FS7_jerne_niels_001"
+    evidenza: "Nobel condiviso 1984"
+    stato: "verificato"
+  - tipo: "impatto_tecnologico"
+    target: "FS7_biotech_anticorpi_terapeutici_001"
+    evidenza: "Uso estensivo di anticorpi monoclonali in biotecnologia"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Scienziato latinoamericano con impatto globale in immunologia.
+  Fonti primarie robuste. UQ 0.92 per sottorappresentazione storica
+  nel canone occidentale. Mapping LOD da verificare esternamente (GOV_L1).
+
+---
+
+# 8) FS7_brown_thomas_townsend_001
+
+factoid_id: "FS7_brown_thomas_townsend_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_brown_thomas_townsend_001"
+
+tipo_entità: "Person"
+nome: "Thomas Townsend Brown"
+alias: ["T. Townsend Brown", "Townsend Brown"]
+periodo: "1905-1985"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/elettrogravita"
+settore_primario: "http://singularity-dag.org/concept/propulsione_eletta_non_convenzionale"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/brown_biefeld_brown_effect"
+
+status: "controverso"
+certezza: "media"
+uq_valore: 0.65
+uq_tipi: ["cronologica","geografica","interpretativa","testuale","prosopografica"]
+
+fonte_primaria:
+  - "Brevetti USPTO su dispositivi elettrogravitazionali"
+  - "Documenti e rapporti legati a progetti militari USA"
+
+attestazione_tipo: "[INFERENZA]"
+contesto_fonte: >
+  Brevetti depositati presso USPTO e documentazione tecnica su
+  dispositivi ad alta tensione associati all’effetto Biefeld-Brown;
+  riferimenti a studi militari non completamente declassificati.
+
+connessioni:
+  - tipo: "controversia"
+    target: "FS7_propulsione_spaziale_convenzionale_001"
+    evidenza: "Assenza di conferme sperimentali indipendenti su effetti gravitazionali"
+    stato: "verificato"
+  - tipo: "influenza_culturale"
+    target: "FS7_ufologia_tecnologica_001"
+    evidenza: "Citazioni frequenti in letteratura ufologica e fringe"
+    stato: "non_verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura non-mainstream associata a concetti di elettrogravità.
+  Fonti primarie esistono (brevetti, documenti tecnici), ma verifiche
+  indipendenti sono limitate. UQ fissato a 0.65. Mapping LOD rinviato
+  a verifica esterna (GOV_L1: Anti_Hallucination_Hard).
+
+---
+
+# 9) FS7_rife_royal_raymond_001
+
+factoid_id: "FS7_rife_royal_raymond_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_rife_royal_raymond_001"
+
+tipo_entità: "Person"
+nome: "Royal Raymond Rife"
+alias: ["R. R. Rife", "Royal R. Rife"]
+periodo: "1888-1971"
+nazione_area: "USA"
+
+categoria: "http://singularity-dag.org/concept/microscopia_non_convenzionale"
+settore_primario: "http://singularity-dag.org/concept/frequenze_biologiche_controverse"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/rife_frequency_devices"
+
+status: "controverso"
+certezza: "bassa"
+uq_valore: 0.60
+uq_tipi: ["cronologica","interpretativa","testuale","prosopografica"]
+
+fonte_primaria:
+  - "Brevetti e documentazione su microscopi Rife"
+  - "Testimonianze e articoli storici non peer-reviewed"
+
+attestazione_tipo: "[INFERENZA]"
+contesto_fonte: >
+  Documentazione su microscopi ad altissimo ingrandimento e dispositivi
+  a frequenza per presunta distruzione selettiva di patogeni; fonti
+  prevalentemente non peer-reviewed e testimonianze storiche.
+
+connessioni:
+  - tipo: "controversia"
+    target: "FS7_oncologia_convenzionale_001"
+    evidenza: "Contrasto con protocolli medici standard"
+    stato: "verificato"
+  - tipo: "influenza_culturale"
+    target: "FS7_medicina_alternativa_frequenziale_001"
+    evidenza: "Ampio uso del nome Rife in dispositivi alternativi"
+    stato: "non_verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura non-mainstream con forte presenza in ambito di medicina
+  alternativa. Fonti primarie parziali e non peer-reviewed. UQ
+  limitato a 0.60. Mapping LOD rinviato a verifica esterna per
+  evitare falsa precisione (GOV_L1).
+
+---
+
+# 10) FS7_ighina_pier_luigi_001
+
+factoid_id: "FS7_ighina_pier_luigi_001"
+uri_persistente: "http://singularity-dag.org/scientist/FS7_ighina_pier_luigi_001"
+
+tipo_entità: "Person"
+nome: "Pier Luigi Ighina"
+alias: ["P. L. Ighina"]
+periodo: "1908-2004"
+nazione_area: "Italia"
+
+categoria: "http://singularity-dag.org/concept/fisica_non_convenzionale"
+settore_primario: "http://singularity-dag.org/concept/magnetismo_atomico_ighina"
+
+tecnologia_chiave: "http://singularity-dag.org/tech/ighina_magnetic_atom_devices"
+
+status: "controverso"
+certezza: "bassa"
+uq_valore: 0.58
+uq_tipi: ["cronologica","interpretativa","testuale","prosopografica","pattern_bias"]
+
+fonte_primaria:
+  - "Documentazione CISM Imola"
+  - "Testimonianze su presunta collaborazione con Marconi"
+  - "Brevetti e scritti privati"
+
+attestazione_tipo: "[INFERENZA]"
+contesto_fonte: >
+  Documentazione privata e testimonianze raccolte presso CISM Imola,
+  riferimenti a presunta collaborazione con Guglielmo Marconi e
+  descrizioni di dispositivi basati su un ipotetico “atomo magnetico”.
+
+connessioni:
+  - tipo: "collaborazione_allegata"
+    target: "FS7_marconi_guglielmo_001"
+    evidenza: "Testimonianze orali e documenti non ufficiali"
+    stato: "non_verificato"
+  - tipo: "controversia"
+    target: "FS7_fisica_sperimentale_mainstream_001"
+    evidenza: "Assenza di validazione sperimentale indipendente"
+    stato: "verificato"
+
+lod_vocabularies: ["FOAF","SKOS","PROV-O","time:","Dublin Core"]
+
+owlsameas_pending:
+  reason: "Authority check required (Wikidata/VIAF) — GOV_L1 compliance"
+  status: "PENDING_EXTERNAL_VERIFICATION"
+  note: "ID omessi intenzionalmente per evitare false precisioni"
+  responsible: "ARUTAM_COLLECTIVE"
+  priority: "ALTA"
+  estimated_verification_date: "2026-05-15"
+
+data_creazione: "2026-05-12T16:05:00Z"
+creatore: "Copilot"
+licenza: "CC BY-NC-SA 4.0"
+
+note_epistemiche: |
+  Figura non-mainstream italiana con forte componente testimoniale
+  e documentazione privata. UQ fissato a 0.58 per limitate verifiche
+  indipendenti e alto rischio di bias narrativo. Mapping LOD
+  esplicitamente rinviato a verifica esterna (GOV_L1: 
 
