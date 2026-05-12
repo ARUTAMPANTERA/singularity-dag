@@ -394,3 +394,4 @@ entries:
     creatore: "ARUTAM_COLLECTIVE | Copilot"
     licenza: "CC BY-NC-SA 4.0"
     note_epistemiche: "Attribuzione a gruppi umani (Neanderthal/Homo sapiens arcaico) resta oggetto di dibattito; cronologia e diffusione basate su datazioni multiple."
+
