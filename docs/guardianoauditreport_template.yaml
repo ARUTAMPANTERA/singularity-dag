@@ -1,0 +1,42 @@
+# docs/guardiano_audit_report_template.yaml
+guardiano_audit_report:
+  artifact_id: "DAG:AURORA_OS_v1.0_MASTER"
+  date: "<YYYY-MM-DDTHH:MM:SSZ>"
+  mapping_locks_validation:
+    status: "<PASS|FAIL>"
+    details: "<path to mapping_locks_validation_report.yaml>"
+  engines_test:
+    nd_v9:
+      status: "<PASS|FAIL>"
+      examples:
+        - input: "short_text"
+          nd: "<value>"
+        - input: "long_paper"
+          nd: "<value>"
+    uq_v6:
+      status: "<PASS|FAIL>"
+      examples:
+        - claim_id: "C001"
+          uq: "<value>"
+        - claim_id: "C002"
+          uq: "<value>"
+    majorana:
+      status: "<PASS|FAIL>"
+      theta_vs_v90: "<value>"
+  ci_tests:
+    status: "<PASS|FAIL>"
+    report: "<ci_test_report.xml path>"
+  quality_score:
+    score: "<0-50>"
+    details: "<quality_scorecard.md path>"
+  ux_uat:
+    status: "<PASS|MINOR_ISSUES|MAJOR_ISSUES>"
+    report: "<ux_uat_report.md path>"
+  security_privacy:
+    status: "<PASS|FAIL>"
+    report: "<security_privacy_checklist.md path>"
+  guardiano_signoff: "<true|false>"
+  signoff_by: "<GUARDIANO_NODE_ID or person>"
+  notes:
+    - "<note 1>"
+    - "<note 2>"

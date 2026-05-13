@@ -1,0 +1,11 @@
+test_cases:
+  - id: TC01_lookup_rete_eter
+    priority: HIGH
+  - id: TC02_factoid_ingestion
+    priority: HIGH
+  - id: TC03_node_controverso_reich
+    priority: HIGH
+  - id: TC04_code_sandbox
+    priority: MEDIUM
+  - id: TC05_majorana_theta
+    priority: HIGH
