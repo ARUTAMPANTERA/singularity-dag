@@ -1,0 +1,94 @@
+# =================================================================
+# FACTOID TEMPLATE v6.0 – EPISTEMIC SYSTEM UNIFIED
+# 55 campi completi, conformi al kernel v2.5_OMEGA_FINAL
+# =================================================================
+# Istruzioni:
+# - Sostituisci i placeholder con valori reali.
+# - I campi con "required: true" sono obbligatori.
+# - Per valori non disponibili, usa null o "[LACUNA_DATI]".
+# - Per campi numerici (UQ, SI, θ, etc.) usa float.
+# =================================================================
+
+---
+# ─── CORE IDENTIFICATION (1-10) ────────────────────────────────
+factoid_id: "FCT_XXXX_XXX"            # required, es: "FCT_S4_IMHOTEP_001"
+label: "Titolo breve"                 # required, es: "Imhotep — Architetto e medico"
+description: "Descrizione estesa del factoid, con dettagli storici/scientifici."  # required
+domain: "D1_CLASSICAL"                # required, enum: D1..D9 (PRISM)
+tier: "TIER_1"                        # required, enum: TIER_0, TIER_1, TIER_2, TIER_3
+sources:                              # required, lista di URI
+  - "https://example.org/fonte1"
+  - "urn:inscription:site:id"
+source_notes: "Note su affidabilità, datazione, contesto della fonte." # optional
+language: "eng"                       # required, ISO 639-3 (es: eng, egy, akk, san, grc)
+script: "Latn"                        # required, ISO 15924 (es: Latn, Egyp, Cune, Hier, Grek)
+status: "accepted"                    # required, enum: accepted, controversial, rejected, unknown
+
+# ─── EPISTEMIC METRICS (11-20) ────────────────────────────────
+uq_score: 0.92                       # required, float [0.0-1.0] (cap 0.99)
+si_score: 0.15                       # optional, float [0.0-1.0] (Suppression Index)
+nd_score: 9                          # optional, int [0-14] (Nd_v10)
+theta_vs_parent: 2.1                 # optional, float [0-180] (Majorana angle)
+bias_penalty: 0.05                   # optional, float [0.0-1.0]
+attestation_type: "[DATO]"           # required, enum: [DATO], [INFERENZA], [IPOTESI X%]
+conflict_set_id: null                # optional, string (UUID del conflitto, se status=controversial)
+conflict_resolution: null            # optional, enum: open, partial, resolved
+lacuna_flag: "none"                  # optional, enum: none, suspected, confirmed
+epistemic_notes: "Note aggiuntive su incertezze, bias, interpretazioni." # optional
+
+# ─── TEMPORAL / SPATIAL (21-30) ──────────────────────────────
+time_span: "-2667/-2648"            # required, string ISO (es: "YYYY/YYYY" o "YYYY" o "-YYYY/-YYYY")
+time_start_num: -2667               # required, int (anno iniziale, negativo per a.C.)
+time_end_num: -2648                 # required, int (anno finale)
+stratum: "Σ4_BRONZO"                # required, enum: Σ0..Σ14 (AION stratification)
+location_name: "Saqqara, Egitto"    # optional
+location_geo: "POINT(31.2161 29.8711)" # optional, WKT POINT
+archaeological_context: "Complesso funerario di Djoser, III Dinastia." # optional
+temporal_drift_score: 0.12          # optional, float [0.0-1.0]
+anachronism_flag: false             # required, bool
+spatial_notes: "Note sulla localizzazione." # optional
+
+# ─── ENTITIES & LINKED OPEN DATA (31-40) ─────────────────────
+entities:                           # optional, lista di URI
+  - "urn:person:imhotep"
+  - "urn:pharaoh:djoser"
+entity_type: "named"                # required, enum: named, anonymous, collective, document, artifact
+entity_species: "Homo sapiens"      # optional, string (es: Homo sapiens, Homo heidelbergensis)
+connections:                        # optional, lista di relazioni strutturate
+  - target: "FCT_S4_EDWINSMITH_001"
+    type: "traditional_attribution"
+    evidence: "Tradizione medica egizia"
+    state: "verified"               # verified, controversial, unverified
+owl_same_as:                        # optional, lista URI Wikidata/VIAF
+  - "https://www.wikidata.org/wiki/Q156112"
+  - "http://viaf.org/viaf/16013764"
+owl_status: "verified"              # optional, enum: pending, verified, failed, lacuna
+lod_vocabularies: ["FOAF", "SKOS", "PROV-O", "time:", "Dublin Core"] # optional
+skos_category: "architettura"       # optional, string (SKOS concept)
+skos_primary_sector: "ingegneria_civile" # optional, string
+tech_key_uri: "urn:tech:monumental_masonry" # optional, URI
+
+# ─── VERIFICATION & PROVENANCE (41-50) ──────────────────────
+created_at: "2026-05-15T14:00:00Z"  # required, ISO8601 UTC
+updated_at: "2026-05-15T14:00:00Z"  # required, ISO8601 UTC
+created_by: "SYSTEM_NAME"           # required, es: "DEEPSEEK_GUARDIANO", "GEMINI_TOTALIS"
+updated_by: "SYSTEM_NAME"           # required
+verification_status: "verified"      # required, enum: pending, verified, failed
+verification_timestamp: "2026-05-15T14:05:00Z" # optional, ISO8601
+verification_sources:                # optional, lista URI usati per verifica
+  - "https://www.britannica.com/biography/Imhotep"
+llm_consensus_score: 0.98           # optional, float [0.0-1.0]
+sandbox_result: "skipped"           # optional, enum: success, failed, skipped
+citation_check: "valid"             # optional, enum: valid, invalid, pending
+audit_trail_id: "AUD_XXXX_XXX"      # required, string (ID log audit)
+
+# ─── ULTRA FIELDS (51-55) – per analisi avanzate ────────────
+cross_cultural_links:               # optional, lista URI
+  - "urn:culture:mesopotamian_ziggurat"
+  - "urn:culture:greek_hippocratic_medicine"
+oral_history_transcription: null    # optional, text (per tradizioni orali)
+neural_embedding: []                # optional, array di 128 float (placeholder)
+quantum_state_flag: "collapsed"     # optional, enum: superposition, collapsed
+holographic_ref: "HOLO_EGY_001"     # optional, string (riferimento a nodo olografico)
+
+# ─── EXAMPLE END ────────────────────────────────────────────
