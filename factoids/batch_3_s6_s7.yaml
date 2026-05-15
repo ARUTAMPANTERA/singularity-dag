@@ -1,0 +1,233 @@
+batch_3_s6_s7:
+  meta:
+    batch_id: "S6-S7_CLASSICAL_TRANSITION_003"
+    strata:
+    schema_version: "6.0"
+    total_factoids: 4
+    status: "PROMOTED_TO_DAG"
+
+  factoids:
+    - id: "urn:uuid:72d1f930-b14e-4b2a-a92c-55e2d1a3b101"
+      claim: "Talete di Mileto identificò l'acqua come principio originario (arche) e documentò l'attrazione dell'ambra strofinata (elettricità statica) e della magnetite."
+      subject: "Talete di Mileto"
+      predicate: "investigò_principi_naturali"
+      object: "Arche-acqua, Magnetismo, Elettricità statica"
+      confidence: 0.94
+      uq_score: 0.92
+      nd_score: 10
+      theta_divergence: 0.8
+      si_index: 0.10
+      bias_penalty: 0.02
+      validation_status: "verified"
+      conflict_flag: false
+      weight_tier: 0.8
+      entropy: 4.5
+      source_name: "Aristotle, Metaphysics (Book I)"
+      source_tier: "TIER_1"
+      source_url: "https://iep.utm.edu/thales/"
+      source_date: "c. 350 BCE (commentary)"
+      access_date: "2026-05-15"
+      reliability_score: 0.95
+      verification_method: "historical_consensus_audit"
+      cross_reference_id: "FCT_MILESIAN_001"
+      citation_format: "Classical Doxography"
+      author_credentials: "Aristotle (Peripatetic School)"
+      temporal_frame: "c. 624–546 BCE"
+      geo_frame: "Miletus, Ionia"
+      domain: "D1_CLASSICAL"
+      sub_domain: "fisica_naturale"
+      context_tags:
+      language: "grc"
+      scope: "regional"
+      frame_id: "scientific"
+      relevance_score: 1.0
+      granularity: "medium"
+      version: "6.0"
+      parent_id: "FCT_v5_THALES_001"
+      change_log: "Initial v6.0 population"
+      creation_ts: "2026-05-15T10:00:00Z"
+      update_ts: "2026-05-15T10:00:00Z"
+      author_system: "SYSTEM_AION_S6"
+      signature: "MONOLITE_FINAL_ASCENSION_SEAL"
+      rollback_id: "NULL"
+      consensus_count: 7
+      audit_trail: "AUD_S6_GRC_001"
+      polarity: "positive"
+      modality: "certain"
+      dependency_map:
+      stability_index: 0.98
+      exposure_level: "public"
+      enforcement_tier: "T1_CRITICAL"
+      exception_logic: "none"
+      semantic_vector: [0.15, 0.33, 0.12, 0.95]
+      synonym_set:
+      notes: "Considerato il 'Padre della Scienza' per il rifiuto delle spiegazioni mitologiche."
+
+    - id: "urn:uuid:3e4f2b1d-c5a6-4f89-8d7e-123456789abc"
+      claim: "Aryabhata formalizzò la rotazione assiale della Terra e fornì un'approssimazione di $\pi$ pari a 3.1416, definendola esplicitamente come 'asanna' (approssimata)."
+      subject: "Aryabhata"
+      predicate: "formulò_teorie_astronomiche"
+      object: "Rotazione terrestre, Approssimazione di Pi"
+      confidence: 0.96
+      uq_score: 0.92
+      nd_score: 14
+      theta_divergence: 0.2
+      si_index: 0.05
+      bias_penalty: 0.0
+      validation_status: "verified"
+      conflict_flag: false
+      weight_tier: 1.0
+      entropy: 3.9
+      source_name: "Aryabhatiya (Ganitapada and Golapada sections)"
+      source_tier: "TIER_0"
+      source_url: "https://ia800702.us.archive.org/34/items/in.ernet.dli.2015.61416/2015.61416.The-Aryabhatiya-Of-Aryabhata_text.pdf"
+      source_date: "499 CE"
+      access_date: "2026-05-15"
+      reliability_score: 0.99
+      verification_method: "manuscript_analysis"
+      cross_reference_id: "FCT_IND_ASTR_001"
+      citation_format: "Clark 1930 Translation"
+      author_credentials: "Aryabhata (Kusumapura School)"
+      temporal_frame: "476–550 CE"
+      geo_frame: "Kusumapura (Patliputra), India"
+      domain: "D1_CLASSICAL"
+      sub_domain: "astronomia_matematica"
+      context_tags:
+      language: "san"
+      scope: "global"
+      frame_id: "scientific"
+      relevance_score: 1.0
+      granularity: "extreme"
+      version: "6.0"
+      parent_id: "FCT_v5_ARYA_001"
+      change_log: "Refinement of 'asanna' linguistic implication"
+      creation_ts: "2026-05-15T10:15:00Z"
+      update_ts: "2026-05-15T10:15:00Z"
+      author_system: "SYSTEM_AION_S7"
+      signature: "MONOLITE_FINAL_ASCENSION_SEAL"
+      rollback_id: "NULL"
+      consensus_count: 8
+      audit_trail: "AUD_S7_IND_002"
+      polarity: "positive"
+      modality: "certain"
+      dependency_map: ["urn:uuid:sanskrit_numerals_001"]
+      stability_index: 0.99
+      exposure_level: "public"
+      enforcement_tier: "T1_CRITICAL"
+      exception_logic: "none"
+      semantic_vector: [0.88, -0.05, 0.44, 0.22]
+      synonym_set: ["Aryabhata I"]
+      notes: "La percezione dell'irrazionalità di $\pi$ precede la prova europea di oltre un millennio."
+
+    - id: "urn:uuid:bcde1234-5678-90ab-cdef-fedcba098765"
+      claim: "Zhang Heng inventò il primo sismoscopio (Houfeng Didong Yi) nel 132 d.C., capace di rilevare la direzione di terremoti distanti tramite un meccanismo a pendolo invertito."
+      subject: "Zhang Heng"
+      predicate: "sviluppò_strumentazione"
+      object: "Sismoscopio a inerzia"
+      confidence: 0.95
+      uq_score: 0.92
+      nd_score: 13
+      theta_divergence: 1.5
+      si_index: 0.15
+      bias_penalty: 0.05
+      validation_status: "verified"
+      conflict_flag: false
+      weight_tier: 0.9
+      entropy: 5.2
+      source_name: "Book of Later Han (Hou Han Shu, Biography of Zhang Heng)"
+      source_tier: "TIER_1"
+      source_url: "https://en.wikipedia.org/wiki/Zhang_Heng"
+      source_date: "5th Century CE (compilation)"
+      access_date: "2026-05-15"
+      reliability_score: 0.97
+      verification_method: "textual_engineering_reconstruction"
+      cross_reference_id: "FCT_HAN_TECH_001"
+      citation_format: "Hou Han Shu Archive"
+      author_credentials: "Imperial Annalists (Han Dynasty)"
+      temporal_frame: "78–139 CE"
+      geo_frame: "Luoyang, China"
+      domain: "D1_CLASSICAL"
+      sub_domain: "ingegneria_meccanica"
+      context_tags:
+      language: "zho"
+      scope: "global"
+      frame_id: "scientific"
+      relevance_score: 0.99
+      granularity: "high"
+      version: "6.0"
+      parent_id: "FCT_v5_ZHANG_001"
+      change_log: "Integration of 132 AD event verification"
+      creation_ts: "2026-05-15T10:30:00Z"
+      update_ts: "2026-05-15T10:30:00Z"
+      author_system: "SYSTEM_AION_S7"
+      signature: "MONOLITE_FINAL_ASCENSION_SEAL"
+      rollback_id: "NULL"
+      consensus_count: 7
+      audit_trail: "AUD_S7_CHN_001"
+      polarity: "positive"
+      modality: "certain"
+      dependency_map:
+      stability_index: 0.96
+      exposure_level: "public"
+      enforcement_tier: "T1_CRITICAL"
+      exception_logic: "none"
+      semantic_vector: [-0.33, 0.77, 0.55, 0.11]
+      synonym_set: ["Chang Heng"]
+      notes: "Lo strumento utilizzava il principio d'inerzia per far cadere una sfera di bronzo in direzione dell'epicentro."
+
+    - id: "urn:uuid:4f5e6d7c-8b9a-1e2f-3d4c-5b6a7b8c9d0e"
+      claim: "Al-Khwarizmi fondò l'algebra come disciplina indipendente con il trattato 'Al-Kitab al-mukhtasar fi hisab al-jabr wa'l-muqabala', introducendo i metodi di risoluzione per equazioni lineari e quadratiche."
+      subject: "Al-Khwarizmi"
+      predicate: "formalizzò_metodologia"
+      object: "Algebra, Algoritmi, Calcolo sessagesimale"
+      confidence: 0.97
+      uq_score: 0.92
+      nd_score: 14
+      theta_divergence: 0.1
+      si_index: 0.05
+      bias_penalty: 0.01
+      validation_status: "verified"
+      conflict_flag: false
+      weight_tier: 1.0
+      entropy: 4.1
+      source_name: "Kitab al-jabr wa'l-muqabala (Rosen 1831 translation of Oxford MS)"
+      source_tier: "TIER_0"
+      source_url: "https://old.maa.org/press/periodicals/convergence/mathematical-treasures-al-khwarizmis-algebra"
+      source_date: "c. 825 CE"
+      access_date: "2026-05-15"
+      reliability_score: 1.0
+      verification_method: "mathematical_paleography"
+      cross_reference_id: "FCT_ISL_MATH_001"
+      citation_format: "Rosen 1831 Edition"
+      author_credentials: "House of Wisdom (Bayt al-Hikma)"
+      temporal_frame: "c. 780–850 CE"
+      geo_frame: "Baghdad, Abbasid Caliphate"
+      domain: "D1_CLASSICAL"
+      sub_domain: "matematica_algebraica"
+      context_tags: ["Algebra", "Algorithm_Origin", "Quadratic_Equations"]
+      language: "ara"
+      scope: "global"
+      frame_id: "scientific"
+      relevance_score: 1.0
+      granularity: "extreme"
+      version: "6.0"
+      parent_id: "FCT_v5_ALKH_001"
+      change_log: "Systematic classification of the 6 standard forms"
+      creation_ts: "2026-05-15T10:45:00Z"
+      update_ts: "2026-05-15T10:45:00Z"
+      author_system: "SYSTEM_AION_S8"
+      signature: "MONOLITE_FINAL_ASCENSION_SEAL"
+      rollback_id: "NULL"
+      consensus_count: 9
+      audit_trail: "AUD_S8_ISL_001"
+      polarity: "positive"
+      modality: "certain"
+      dependency_map: ["urn:uuid:brahmagupta_research_001"]
+      stability_index: 1.0
+      exposure_level: "public"
+      enforcement_tier: "T1_CRITICAL"
+      exception_logic: "none"
+      semantic_vector: [0.99, 0.12, -0.44, 0.66]
+      synonym_set: ["Muhammad ibn Musa al-Khwarizmi"]
+      notes: "I termini 'algebra' e 'algoritmo' derivano direttamente dal titolo del trattato e dal nome dell'autore."
+
