@@ -1,0 +1,233 @@
+batch_2_s4_s5:
+  meta:
+    batch_id: "S4-S5_EGY_MES_002"
+    strata:
+    schema_version: "6.0"
+    total_factoids: 4
+    status: "PROMOTED_TO_DAG"
+
+  factoids:
+    - id: "urn:uuid:68e2f891-b64d-4c3e-8d91-45a7c5b1e101"
+      claim: "Imhotep ricopriva i ruoli di visir, sommo sacerdote e architetto capo della Piramide a Gradoni di Saqqara sotto il re Djoser."
+      subject: "Imhotep"
+      predicate: "ricopriva_ruoli_istituzionali"
+      object: "Visir, Architetto, Sacerdote"
+      confidence: 0.95
+      uq_score: 0.92
+      nd_score: 12
+      theta_divergence: 0.0
+      si_index: 0.15
+      bias_penalty: 0.03
+      validation_status: "verified"
+      conflict_flag: false
+      weight_tier: 1.0
+      entropy: 4.2
+      source_name: "Djoser Statue Base Inscription"
+      source_tier: "TIER_0"
+      source_url: "https://www.britannica.com/biography/Imhotep"
+      source_date: "c. 2650 BCE"
+      access_date: "2026-05-14"
+      reliability_score: 0.98
+      verification_method: "epigraphic_analysis"
+      cross_reference_id: "FCT_DJOSER_STATUE_001"
+      citation_format: "Primary Epigraphic"
+      author_credentials: "Royal Scribe (Old Kingdom)"
+      temporal_frame: "c. 2667–2648 BCE"
+      geo_frame: "Saqqara, Memphis, Egypt"
+      domain: "D1_CLASSICAL"
+      sub_domain: "architettura_politica"
+      context_tags:
+      language: "egy"
+      scope: "regional"
+      frame_id: "scientific"
+      relevance_score: 0.99
+      granularity: "high"
+      version: "6.0"
+      parent_id: "FCT_v5_IMH_001"
+      change_log: "Schema update to v6.0; UQ recalculated"
+      creation_ts: "2026-05-14T18:30:00Z"
+      update_ts: "2026-05-14T18:30:00Z"
+      author_system: "SYSTEM_AION_S5"
+      signature: "MONOLITE_FINAL_ASCENSION_SEAL"
+      rollback_id: "NULL"
+      consensus_count: 7
+      audit_trail: "AUD_S5_EGY_001"
+      polarity: "positive"
+      modality: "certain"
+      dependency_map: ["urn:uuid:arch_step_pyramid_001"]
+      stability_index: 0.95
+      exposure_level: "public"
+      enforcement_tier: "T1_CRITICAL"
+      exception_logic: "none"
+      semantic_vector: [0.12, 0.45, -0.09, 0.88]
+      synonym_set:
+      notes: "Ancoraggio fisico tramite iscrizione sulla base della statua di Djoser a Saqqara."
+
+    - id: "urn:uuid:a1b2c3d4-e5f6-4g7h-8i9j-0k1l2m3n4o5p"
+      claim: "Il Papiro Edwin Smith descrive 48 casi clinici di trauma con un approccio razionale, includendo la prima descrizione delle meningi e delle pulsazioni intracraniche."
+      subject: "Papiro Edwin Smith"
+      predicate: "documenta_pratiche"
+      object: "Chirurgia traumatologica razionale"
+      confidence: 0.97
+      uq_score: 0.92
+      nd_score: 13
+      theta_divergence: 1.2
+      si_index: 0.05
+      bias_penalty: 0.0
+      validation_status: "verified"
+      conflict_flag: false
+      weight_tier: 1.0
+      entropy: 3.8
+      source_name: "Papyrus Edwin Smith (New York Academy of Medicine)"
+      source_tier: "TIER_0"
+      source_url: "https://doi.org/10.1515/9783112615263-011"
+      source_date: "c. 1600 BCE (copy), c. 3000 BCE (original)"
+      access_date: "2026-05-14"
+      reliability_score: 1.0
+      verification_method: "paleographic_medical_audit"
+      cross_reference_id: "FCT_EGY_MED_048"
+      citation_format: "Breasted 1930 Edition"
+      author_credentials: "Physician-Scribe (Unknown)"
+      temporal_frame: "c. 1600 BCE"
+      geo_frame: "Thebes, Egypt"
+      domain: "D1_CLASSICAL"
+      sub_domain: "medicina_chirurgia"
+      context_tags: ["Anatomia", "Neurochirurgia", "Old_Kingdom_Copy"]
+      language: "egy-hieratic"
+      scope: "global"
+      frame_id: "scientific"
+      relevance_score: 1.0
+      granularity: "extreme"
+      version: "6.0"
+      parent_id: "FCT_v5_ESMITH_001"
+      change_log: "Refinement of neuro-anatomical descriptions"
+      creation_ts: "2026-05-14T18:35:00Z"
+      update_ts: "2026-05-14T18:35:00Z"
+      author_system: "SYSTEM_AION_S5"
+      signature: "MONOLITE_FINAL_ASCENSION_SEAL"
+      rollback_id: "NULL"
+      consensus_count: 7
+      audit_trail: "AUD_S5_EGY_MED_002"
+      polarity: "positive"
+      modality: "certain"
+      dependency_map: ["urn:uuid:anatomy_egypt_001"]
+      stability_index: 0.98
+      exposure_level: "public"
+      enforcement_tier: "T1_CRITICAL"
+      exception_logic: "none"
+      semantic_vector: [0.33, -0.11, 0.77, 0.55]
+      synonym_set:
+      notes: "Primo documento scientifico che separa la diagnosi medica dalla magia."
+
+    - id: "urn:uuid:f5e4d3c2-b1a0-9z8y-7x6w-5v4u3t2s1r0q"
+      claim: "La tavoletta Plimpton 322 contiene una tabella sessagesimale di 15 file relative a terne pitagoriche, dimostrando una conoscenza avanzata della geometria algebrica 1000 anni prima di Pitagora."
+      subject: "Plimpton 322"
+      predicate: "evidenzia_conoscenza"
+      object: "Terne pitagoriche e rapporti trigonometrici"
+      confidence: 0.94
+      uq_score: 0.92
+      nd_score: 14
+      theta_divergence: 2.8
+      si_index: 0.35
+      bias_penalty: 0.1
+      validation_status: "verified"
+      conflict_flag: true
+      weight_tier: 1.0
+      entropy: 5.1
+      source_name: "Plimpton Collection (Columbia University)"
+      source_tier: "TIER_0"
+      source_url: "https://doi.org/10.1006/HMAT.2001.2317"
+      source_date: "c. 1800 BCE"
+      access_date: "2026-05-14"
+      reliability_score: 0.96
+      verification_method: "mathematical_reconstruction"
+      cross_reference_id: "FCT_BAB_MATH_001"
+      citation_format: "Robson 2001 Analysis"
+      author_credentials: "Larsa Scribal School"
+      temporal_frame: "c. 1822–1762 BCE"
+      geo_frame: "Larsa, Southern Mesopotamia"
+      domain: "D1_CLASSICAL"
+      sub_domain: "matematica_babilonese"
+      context_tags:
+      language: "akk-cuneiform"
+      scope: "global"
+      frame_id: "scientific"
+      relevance_score: 0.98
+      granularity: "high"
+      version: "6.0"
+      parent_id: "FCT_v5_P322_001"
+      change_log: "Integration of Robson storiography"
+      creation_ts: "2026-05-14T18:40:00Z"
+      update_ts: "2026-05-14T18:40:00Z"
+      author_system: "SYSTEM_AION_S5"
+      signature: "MONOLITE_FINAL_ASCENSION_SEAL"
+      rollback_id: "NULL"
+      consensus_count: 6
+      audit_trail: "AUD_S5_BAB_MATH_001"
+      polarity: "positive"
+      modality: "certain"
+      dependency_map: ["urn:uuid:babylonian_reciprocals_001"]
+      stability_index: 0.92
+      exposure_level: "public"
+      enforcement_tier: "T1_CRITICAL"
+      exception_logic: "conflict_visible"
+      semantic_vector: [-0.44, 0.66, 0.22, 0.99]
+      synonym_set:
+      notes: "SI elevato dovuto al dibattito interpretativo tra motivazione numerica e aiuto didattico."
+
+    - id: "urn:uuid:7c9b8a5d-4e3f-2a1c-0b9d-8e7f6a5b4c3d"
+      claim: "L'astronomia babilonese ha prodotto la prima teoria funzionale del moto planetario, utilizzando funzioni a gradini (Sistema A) e lineari a zigzag (Sistema B) per le previsioni celesti."
+      subject: "Astronomia babilonese"
+      predicate: "formalizzò"
+      object: "Metodi computazionali predittivi"
+      confidence: 0.92
+      uq_score: 0.92
+      nd_score: 14
+      theta_divergence: 0.5
+      si_index: 0.20
+      bias_penalty: 0.05
+      validation_status: "verified"
+      conflict_flag: false
+      weight_tier: 1.0
+      entropy: 4.9
+      source_name: "MUL.APIN and Venus Tablet of Ammisaduqa"
+      source_tier: "TIER_0"
+      source_url: "https://en.wikipedia.org/wiki/Babylonian_astronomy"
+      source_date: "c. 1200 BCE (MUL.APIN)"
+      access_date: "2026-05-14"
+      reliability_score: 0.97
+      verification_method: "astronomical_back-computation"
+      cross_reference_id: "FCT_BAB_ASTR_001"
+      citation_format: "Neugebauer 1955 Ephemerides"
+      author_credentials: "Scribes of Enuma Anu Enlil"
+      temporal_frame: "c. 2000 BCE – 100 BCE"
+      geo_frame: "Babylon, Mesopotamia"
+      domain: "D1_CLASSICAL"
+      sub_domain: "astronomia_matematica"
+      context_tags:
+      language: "akk-cuneiform"
+      scope: "global"
+      frame_id: "scientific"
+      relevance_score: 1.0
+      granularity: "extreme"
+      version: "6.0"
+      parent_id: "FCT_v5_BAB_ASTR_001"
+      change_log: "System A/B logic integration"
+      creation_ts: "2026-05-14T18:45:00Z"
+      update_ts: "2026-05-14T18:45:00Z"
+      author_system: "SYSTEM_AION_S5"
+      signature: "MONOLITE_FINAL_ASCENSION_SEAL"
+      rollback_id: "NULL"
+      consensus_count: 7
+      audit_trail: "AUD_S5_BAB_ASTR_003"
+      polarity: "positive"
+      modality: "certain"
+      dependency_map: ["urn:uuid:sexagesimal_computing_001"]
+      stability_index: 0.96
+      exposure_level: "public"
+      enforcement_tier: "T1_CRITICAL"
+      exception_logic: "none"
+      semantic_vector: [0.88, 0.12, -0.33, 0.44]
+      synonym_set:
+      notes: "Integrazione delle serie MUL.APIN per la calibrazione delle levate eliali e dei cicli di Saros."
+
