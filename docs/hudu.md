@@ -2,7 +2,7 @@
 
 
 ----
-# Mappatura e ancoraggio delle lacune digitali nei factoid storici (1450–1750): Integrazione Monolite v3.0 e Source Linker v1
+#  e ancoraggio delle lacune digitali nei factoid storici (1450–1750): Integrazione Monolite v3.0 e Source Linker v1
 ## 1. Analisi delle lacune e cause ufficiali (v3.1)
 L'indagine sistematica ha permesso di definire cinque categorie di lacuna che verranno integrate nel modulo /lacune report come cause ufficiali di deficit di confidenza (UQ < 0.60):
  1. **Dispersione Fisica**: Manoscritti o reperti smembrati tra diverse istituzioni (es. il caso del *Codex H* o i diari di bordo portoghesi).
