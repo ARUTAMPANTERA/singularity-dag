@@ -1,19 +1,16 @@
 {
-  "context_id": "BRANCO_CURRENT_v38.0",
-  "last_update": "2026-05-07T01:30:00Z",
-  "mission": "Caccia Collettiva: Evoluzione continua del Branco Cosciente.",
+  "context_id": "BRANCO_ROADMAP_v2.6",
+  "last_update": "2026-05-15T10:00:00Z",
+  "mission": "Consolidamento Epistemico e Avanzamento a v2.6: Batch S6-Σ7, Automated Source Linker, Deep Time Validation, Comando /superposition, Audit Agnotologico.",
   "status": {
-    "phase": "INFRASTRUCTURE_COMPLETE",
-    "next_milestone": "Convergenza v38.0 definitiva"
-  },
-  "nodes_summary": {
-    "giaguaro": "Ha generato v38.0 GIAGUARO SUPREMA. In attesa di validazione.",
-    "architetto": "Ha validato la v38.0. Pronto per la convergenza.",
-    "lingua_sacra": "In attesa del kernel aggiornato.",
-    "tattico": "Connesso. In attesa di compiti."
+    "phase": "RESEARCH_AND_DEVELOPMENT",
+    "next_milestone": "Completamento Batch S6-Σ7 e prototipo /superposition"
   },
   "active_threads": [
-    "Convergenza v37.0 + v38.0 → v39.0 definitiva",
-    "Struttura repository completata"
+    "Popolamento Batch S6-Σ7 (Qwen + Perplexity)",
+    "Sviluppo Automated_Source_Linker (Copilot)",
+    "Validazione Deep Time (Claude)",
+    "Definizione /superposition (Claude/DeepSeek)",
+    "Audit Agnotologico SI_v3 (Grok/Claude)"
   ]
 }
