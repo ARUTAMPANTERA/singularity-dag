@@ -1,0 +1,161 @@
+
+# ═════════════════════════════════════════════════════════════════════════════
+# MODULE: Superposition_Module_v1.yaml
+# SISTEMA: EPISTEMIC_SYSTEM_UNIFIED v3.0_OMEGA_SUPERNOVA
+# SCOPO: Gestione sovrapposizione epistemica di claim conflittuali
+# ═════════════════════════════════════════════════════════════════════════════
+# GOVERNANCE LOCKS: GC_131-140
+# ENGINE: superposition_v1 (Engine #18)
+# ═════════════════════════════════════════════════════════════════════════════
+
+module:
+  name: "Superposition_Module_v1"
+  version: "1.0"
+  parent_system: "EPISTEMIC_SYSTEM_UNIFIED_v3.0_OMEGA_SUPERNOVA"
+  status: "ACTIVE"
+  dag_artifact: "DAG:SUPERPOSITION_v1_001"
+
+# ─── FILOSOFIA ────────────────────────────────────────────────────────────────
+philosophy: |
+  Il Monolite non forza risoluzione dove la realtà non la permette.
+  Quando due claim sono supportati da evidenze genuine ma incompatibili,
+  la scelta non è tra uno dei due — è tra la certezza falsa e l'onestà
+  dell'incertezza. La sovrapposizione epistemica non è relativismo.
+  È precisione: la precisione di ammettere che la verità non è ancora
+  collassata in un'unica forma osservabile.
+
+# ─── STATI POSSIBILI ─────────────────────────────────────────────────────────
+states:
+  SUPERPOSITION:
+    description: "Claim A e B coesistono — θ > 30° — evidenza non conclusiva"
+    display: "[⟨A|B⟩ SUPERPOSITION — θ={θ}° — UQ_A={uq_a} | UQ_B={uq_b}]"
+    color_code: "AMBER"
+    actions_allowed: ["add_evidence", "view_sources", "viz", "status"]
+
+  COLLAPSED:
+    description: "Un claim ha prevalso — θ ≤ 30° O evidenza TIER_0 determinante"
+    display: "[✓ COLLAPSED → {winner} — UQ={uq} — Motivo: {reason}]"
+    color_code: "GREEN"
+    actions_allowed: ["view_log", "appeal"]
+
+  RESOLVED_AMBIGUOUS:
+    description: "Claim coesistono definitivamente — frame diversi, nessun conflitto reale"
+    display: "[≈ RESOLVED_AMBIGUOUS — {claim_A} (frame:{frame_A}) | {claim_B} (frame:{frame_B})]"
+    color_code: "BLUE"
+    actions_allowed: ["view_frames", "view_log"]
+
+  STALE:
+    description: "Superposizione aperta > 180 giorni senza nuova evidenza"
+    display: "[⏳ STALE — θ={θ}° — Aperta da {days} giorni — Guardian review attesa]"
+    color_code: "GREY"
+    actions_allowed: ["guardian_review", "add_evidence", "archive"]
+
+# ─── THRESHOLD ENGINE ─────────────────────────────────────────────────────────
+threshold_logic:
+  superposition_opens_when: "θ > 30.0°"
+  collapse_triggers:
+    definitive:
+      - condition: "θ ≤ 30° AND |UQ_A - UQ_B| > 0.15"
+        winner: "claim con UQ maggiore"
+        log_reason: "convergenza_angolare_con_UQ_superiore"
+      - condition: "Nuovo reperto TIER_0 supporta solo A o solo B"
+        winner: "claim supportato da TIER_0"
+        log_reason: "evidenza_primaria_determinante"
+      - condition: "Sentenza legale TIER_0 definitiva su A o B"
+        winner: "claim confermato dalla sentenza"
+        log_reason: "decisione_legale_definitiva"
+    requires_guardian:
+      - condition: "θ ≤ 30° AND |UQ_A - UQ_B| ≤ 0.05"
+        action: "Guardian_review_mandatory"
+        log_reason: "UQ_troppo_simile_per_collasso_automatico"
+  permanent_ambiguity:
+    condition: "Claim validi in frame epistemici diversi (es. scientifico vs teologico)"
+    resolution: "RESOLVED_AMBIGUOUS — nessun conflitto reale, solo frame differente"
+
+# ─── COMANDI DETTAGLIATI ──────────────────────────────────────────────────────
+commands:
+  open:
+    syntax: "/superposition <claim_A> vs <claim_B>"
+    aliases: ["/sup open", "/sup new"]
+    description: "Apre nuovo stato di sovrapposizione epistemica"
+    process:
+      - "Calcola UQ_A e UQ_B con UQ_v6"
+      - "Calcola θ_AB con Majorana_theta_v4"
+      - "Se θ > 30°: apre SUPERPOSITION, assegna superposition_id"
+      - "Se θ ≤ 30°: suggerisce /conflict invece di /superposition"
+    output_example: |
+      ┌─ SUPERPOSITION #SUP-003 ─────────────────────────────────────┐
+      │ Claim A: "Invenzione radio → Marconi (1895)"                  │
+      │   UQ: 0.82 | Frame: Scientific | Fonti: 3 (TIER_1/2)         │
+      │                                                               │
+      │ Claim B: "Invenzione radio → Meucci/Tesla (pre-1895)"         │
+      │   UQ: 0.79 | Frame: Legal/Scientific | Fonti: 4 (TIER_0/1/2) │
+      │                                                               │
+      │ θ_AB: 41.7° → SUPERPOSITION ATTIVA                           │
+      │ Stato: ⟨A|B⟩ — apertura: 2026-05-15                          │
+      └──────────────────────────────────────────────────────────────┘
+
+  status:
+    syntax: "/superposition status <sup_id>"
+    aliases: ["/sup status"]
+    output_fields:
+      - "sup_id, claim_A, claim_B"
+      - "UQ_A_current, UQ_B_current"
+      - "θ_current_deg, θ_trend (crescente/stabile/decrescente)"
+      - "evidenze_aggiunte_dopo_apertura"
+      - "giorni_aperti"
+      - "prossimo_checkpoint_guardian (se STALE)"
+
+  collapse:
+    syntax: "/superposition collapse <sup_id> <evidenza>"
+    aliases: ["/sup collapse"]
+    description: "Collassa sovrapposizione con nuova evidenza TIER_0/1"
+    validation:
+      - "Evidenza deve essere TIER_0 o TIER_1 (GC_135)"
+      - "Ricalcola θ con nuova evidenza inclusa"
+      - "Se θ ≤ 30° e |ΔUQ| > 0.15: collasso automatico"
+      - "Altrimenti: richiede Guardian confirmation"
+
+  list:
+    syntax: "/superposition list"
+    aliases: ["/sup list"]
+    output: "Tabella: sup_id | claim_A | claim_B | θ° | stato | giorni"
+
+  viz:
+    syntax: "/viz <sup_id>"
+    description: "Genera visualizzazione interference diagram"
+    output_formats:
+      ascii_diagram: |
+        INTERFERENCE DIAGRAM — SUP-003 (θ=41.7°)
+        ────────────────────────────────────────
+        A: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        B: ~~~~╲╱~~~╲╱~~~╲╱~~~╲╱~~~╲╱~~~╲╱~~~~
+        Φ: ████░░░░░░██░░░░░░██░░░░░░██░░░░░░  θ=41.7°
+        ────────────────────────────────────────
+        [SUPERPOSITION] — Nessuna convergenza rilevata
+      theta_map: "Gauge circolare 0°-180° con marker a 41.7° e soglia a 30°"
+      convergence_heatmap: "Timeline θ nel tempo: se calante → collasso probabile"
+
+# ─── REGISTRO SUPERPOSIZIONI ATTIVE ──────────────────────────────────────────
+active_registry:
+  SUP-001:
+    claim_A: "Sepoltura intenzionale di Shanidar — pollen flowers (Solecki 1975)"
+    claim_B: "Pollen da contaminazione moderna — nessuna sepoltura rituale"
+    factoid_A: "F_S2_shanidar_burial_001"
+    factoid_B: "F_S2_shanidar_burial_natural_001"
+    frame: "scientific"
+    UQ_A: 0.65
+    UQ_B: 0.71
+    theta_current_deg: 47.3
+    opened_at: "2026-05-15T00:00:00Z"
+    stato: "SUPERPOSITION"
+    note: "Primo caso test del modulo. Risoluzione attesa con nuovi campioni aDNA Shanidar 2027."
+
+# ─── INTEGRAZIONE CON ALTRI MODULI ────────────────────────────────────────────
+integrations:
+  uq_v6: "Calcola UQ per ciascun claim all'apertura e ad ogni aggiornamento evidenza"
+  majorana_theta_v4: "Calcola θ tra vettori semantici dei claim"
+  si_calibration_v4: "Verifica che alto SI non stia artificialmente aumentando θ"
+  factoid_schema_v6: "Aggiorna campo 57 (superposition_state) in entrambi i factoid"
+  governance_council_v2: "Notifica Guardian per stati STALE o collasso ambiguo"
+  dag: "Logga ogni cambio di stato come artifact immutabile"
