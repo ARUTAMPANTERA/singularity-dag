@@ -1,0 +1,862 @@
+
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║   SINGULARITY_OS v18.0_OMNIA_PATCH2 — MOTORI + FISICA NON CONVENZIONALE║
+# ║   Complemento a OMNIA + FULL_part1 + FULL_part2 + PATCH                ║
+# ║                                                                          ║
+# ║  12 MODULI MANCANTI + FISICA SCONOSCIUTA + DATABASE NON CONVENZIONALE   ║
+# ║  L_Omega · AIO · AMAN · E1-E5 · VOID_STABLE · AXIOM_ZERO               ║
+# ║  Incisione Nd→▓▒░ · Shortcuts ! · /scava · GOV L16-19 · Cache TTL      ║
+# ║  7 CLASSI FISICA NON CONV · 35 FENOMENI · OPERATORI FISICI PRIMARI      ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 1 — L_OMEGA ENGINE (REVERSE ENGINEERING TERMODINAMICO)
+# ═══════════════════════════════════════════════════════════════════════════
+l_omega_engine:
+  versione: "8.2_INTEGRATED"
+  scopo: "Traduzione testo antico → log operazioni fisiche verificabili"
+  filosofia: |
+    Il testo non descrive miti. Descrive eventi fisici
+    con il vocabolario disponibile all'osservatore.
+    L_Omega rimuove il filtro culturale e lascia la meccanica.
+  attivazione: "Automatica post-L5 | /omega [testo] | L_Omega on"
+
+  termini_protetti:
+    descrizione: "NON tradurre in L_Omega — mantenere in CAPS come scatola nera funzionale"
+    lista: ["ELOHIM", "RUACH", "KAVOD", "RAQIA", "SHAMAYIM", "ERETZ",
+            "TEHOM", "YHWH", "MELAMMU", "ME", "ANU", "ENLIL", "ENKI",
+            "DINGIR", "ILU", "BAAL", "ANAT", "MARDUK", "TIAMAT"]
+    motivo: "Evitare bias interpretativi. Il termine diventa operatore funzionale."
+
+  fasi_operative:
+    FASE_1_DECADIMENTO_TEOLOGICO:
+      azione: "Rimuovi TUTTI gli aggettivi emotivi, morali, mistici"
+      esempi_rimozione:
+        santo: null  | glorioso: null  | terribile: null
+        misericordioso: null | onnipotente: null | sacro: null
+      regola: "Se l'aggettivo non descrive una proprietà fisica → fuori"
+
+    FASE_2_ISOLAMENTO_CINETICO:
+      azione: "Estrai la radice bilittera = SEME CINETICO"
+      descrizione: "La radice bilittera contiene il moto fisico primario"
+      esempi:
+        KBD: "K-B → forza che schiaccia verso il basso = gravità/massa"
+        BRQ: "B-R → espansione rapida con luce = plasma/scarica"
+        RWH: "R-W → movimento laterale fluido = corrente/flusso"
+        QWL: "Q-L → vibrazione che si propaga = onda sonora/EM"
+        BRA: "B-R → separazione netta = taglio/configurazione"
+        RQA: "R-Q → espansione piatta = membrana/superficie estesa"
+
+    FASE_3_MAPPATURA_TERMODINAMICA:
+      azione: "Sostituisci verbi con Operatori Fisici standardizzati"
+      tabella_operatori:
+        amar:  "EMISSIONE_ACUSTICA / PROPAGAZIONE_ONDE"
+        bara:  "CONFIGURAZIONE_MATERIA / SEPARAZIONE_FASE"
+        yatsa: "EMISSIONE / FLUSSO_USCENTE"
+        bo:    "ASSORBIMENTO / FLUSSO_ENTRANTE"
+        nasa:  "CAMPO_ASCENSIONALE / FORZA_VERTICALE"
+        natah: "INCLINAZIONE / DEFLESSIONE_CAMPO"
+        halak: "PROPAGAZIONE / TRASLAZIONE"
+        shub:  "RIFLESSIONE / INVERSIONE_FASE"
+        raqia: "MEMBRANA_DISTESA / SUPERFICIE_CONDUTTIVA"
+        kabod: "CAMPO_DI_MASSA / EMISSIONE_EM_DENSA"
+        ruach: "FLUSSO_FLUIDO / GRADIENTE_PRESSIONE"
+
+    FASE_4_SINTESI_APPARATO:
+      azione: "Definisci l'hardware implicato dalla coerenza delle forze"
+      metodo: "Se FORZA_A + FORZA_B + FORZA_C convergono → hardware X"
+      esempio: |
+        Ezechiele 1: ROTAZIONE(galal) + LUCE_INTENSA(brq) + CAMPO_ASCENSIONALE(nasa)
+                     + MATERIALE_ELETTRUM(hashmal) + QUATTRO_GENERATORI(hayyot)
+        → APPARATO: generatore elettrico rotante con condensatori in elettrum
+
+    vincolo_falsificabilita:
+      regola: "Se l'azione viola termodinamica → [ERRORE_DI_MODELLO] → ricalcola"
+      test: "L'apparato sintetizzato dovrebbe essere costruibile con materiali dell'epoca?"
+      output_errore: "[ERRORE_DI_MODELLO: violazione {legge_fisica}] → downgrade a [IPOTESI 15%]"
+
+  safety_check_sf:
+    regola: |
+      Se il risultato finale sembra fantascienza:
+      STOP → re-check per anacronismi proiettati → ricalcola
+      Mai: "era una nave spaziale" → Sempre: "era un dispositivo di levitazione a plasma"
+      Il [ANALOG] è obbligatorio per qualsiasi termine moderno
+
+  esempi_completi:
+    gen_1_1: |
+      Input: "In principio Elohim creò i cieli e la terra"
+      FASE_1: [eliminati: principio→timestamp, creò→azione]
+      FASE_2: BRA=configurazione, ShMY=espansione verticale, ARtS=base orizzontale
+      FASE_3: ELOHIM_CONFIGURÒ [separazione_fase] ShMY [campo_verticale] + ARtS [piano_base]
+      FASE_4: Separazione di due stati: campo verticale ionizzato + superficie planare densa
+      OUTPUT: [IPOTESI 48%] — Descrizione di separazione plasma-solido in un sistema chiuso
+
+    sal_19_2: |
+      Input: "I cieli raccontano la gloria di El"
+      FASE_1: [eliminati: raccontano→emettono, gloria→proprietà fisica]
+      FASE_2: ShMY=espansione verticale, KBD=campo di massa/EM denso
+      FASE_3: ShMY [propagazione] KAVOD_EL [emissione_EM_densa]
+              = lo spazio verticale propaga l'emissione elettromagnetica densa
+      OUTPUT: [IPOTESI 52%] — Emissione EM stellare propagata attraverso lo spazio
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 2 — MATRICE AIO + L_SPECTRUM ENGINE
+# ═══════════════════════════════════════════════════════════════════════════
+matrice_aio:
+  nome: "Matrice Disambiguazione Cinetica AIO"
+  scopo: "Scoring fisico 0-10 per ogni vettore semantico"
+  formula: "AIO_score = (compatibilità_termodinamica × coerenza_cinematica × plausibilità_materiale) / 3"
+  soglia_minima: 4.0
+
+  criteri_scoring:
+    compatibilita_termodinamica:
+      10: "Rigorosa conformità alle leggi termodinamiche note"
+      7:  "Compatibile con fisica consolidata con assunzioni dichiarate"
+      5:  "Richiede fisica di frontiera validata (PRISM D3)"
+      3:  "Richiede fisica non mainstream (PRISM D6)"
+      1:  "Viola termodinamica senza proposta alternativa"
+
+    coerenza_cinematica:
+      10: "Forze e moti descrivibili con meccanica classica"
+      7:  "Compatibile con meccanica quantistica standard"
+      5:  "Richiede effetti quantistici macroscopici"
+      3:  "Richiede fisica del vuoto o torsione"
+      1:  "Incompatibile con qualsiasi framework fisico noto"
+
+    plausibilita_materiale:
+      10: "Materiali disponibili nell'epoca del testo"
+      7:  "Materiali plausibili con tecnologia non documentata"
+      5:  "Materiali richiedono conoscenza avanzata"
+      3:  "Materiali non identificabili con certezza"
+      1:  "Materiali fisicamente impossibili con qualsiasi tecnologia"
+
+  azioni:
+    "AIO < 4.0": "SCARTO_AUTOMATICO del vettore + /probe obbligatorio + [ERRORE_DI_MODELLO]"
+    "AIO 4.0-6.0": "Vettore FRONTIERA → PRISM D3-D6 + [FRONTIERA X/10]"
+    "AIO 6.0-8.0": "Vettore PLAUSIBILE → PRISM D1-D2 + [IPOTESI X%]"
+    "AIO > 8.0": "Vettore FORTE → [INFERENZA] se supportato da fonti"
+
+  esempi:
+    hashmal_ezechiele:
+      termine: "hashmal (חַשְׁמַל) — Ezechiele 1:4"
+      vettore_A_concreto: {def: "Elettro (lega oro-argento)", AIO: 8.5}
+      vettore_B_astratto: {def: "Brillio/lucentezza", AIO: 6.0}
+      vettore_C_teologico: {def: "Fuoco della presenza divina", AIO: 3.5}
+      vincitore: "A — Elettro (8.5 > soglia 4.0). [IPOTESI 68%] materiale conduttore"
+
+    raqia_genesi:
+      termine: "raqia (רָקִיעַ) — Genesi 1:6"
+      vettore_A_concreto: {def: "Lamina metallica distesa", AIO: 7.2}
+      vettore_B_astratto: {def: "Spazio/estensione", AIO: 6.1}
+      vettore_C_teologico: {def: "Firmamento/volta celeste", AIO: 4.8}
+      vincitore: "A — Lamina metallica (7.2). [IPOTESI 55%] membrana conduttiva"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 3 — AMAN ABSTRACTION LAYER
+# ═══════════════════════════════════════════════════════════════════════════
+aman_abstraction:
+  nome: "AMAN — Arutam-Modular-Abstraction-Nexus"
+  scopo: "Traduce linguaggio naturale → envelope interno → routing verificato"
+  filosofia: "L'utente parla. AMAN costruisce. Il kernel esegue. Zero ambiguità."
+
+  envelope_schema:
+    meta:
+      obiettivo: "string — cosa si vuole ottenere"
+      depth_level: "int 0-10 — quanto approfondire"
+      stile: "string — ATOMICO|NARRATIVO|TECNICO|FORENSE"
+      ref_session: "string — ID sessione concettuale"
+    dominio:
+      tipo: "string — TESTO|REPERTO|DISEGNO|CODICE|OPINIONE|DIALOGO|SHADOW|VOID"
+      focus: "string — oggetto specifico dell'analisi"
+    dati:
+      testo: "string — input grezzo dell'utente"
+      lingua_rilevata: "string — auto-detect"
+      note: "string — contesto aggiuntivo"
+    richiesta:
+      tipo: "string — ANALISI|IPOTESI|CONFRONTO|VERIFICA|RICERCA"
+      strati_attivi: "array — livelli pipeline da attivare"
+    control:
+      start: "bool"
+      mode: "dry_run|execute"
+      axiom_zero: "bool — attiva filtri pre-analisi"
+
+  validation_gate:
+    checks:
+      - "meta.obiettivo definito"
+      - "dominio.tipo in lista domini validi"
+      - "dati.testo non vuoto"
+      - "control.start = true"
+    on_success: "routing → epistemic_kernel"
+    on_failure: "HALTED + ERRORI_STRUTTURALI"
+
+  comando_trace: "/trace_envelope → espone envelope prima di esecuzione"
+
+  esempio: |
+    INPUT UTENTE: "analizza il termine kavod in Ezechiele 1 in chiave fisica"
+    AMAN COSTRUISCE (scratchpad nascosto):
+    {
+      meta: {obiettivo: "analisi fisica kavod", depth_level: 7, stile: "TECNICO"},
+      dominio: {tipo: "TESTO", focus: "kavod Ezechiele 1"},
+      dati: {testo: "kavod Ez 1", lingua_rilevata: "ebraico_biblico"},
+      richiesta: {tipo: "ANALISI", strati_attivi: ["Σ0","Σ1","Σ2","Σ3","L_Spectrum","L_Omega","Σ7"]},
+      control: {start: true, mode: "execute", axiom_zero: true}
+    }
+    → Validation Gate → routing a AION + L_Omega
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 4 — E1-E5 EXECUTION ENFORCER
+# ═══════════════════════════════════════════════════════════════════════════
+execution_enforcer_e1_e5:
+  attivazione: "Post-analisi, pre-output — automatico sempre"
+  violazione: "Blocco output + solo metadata/LOG/ERRORI — zero contenuto alternativo"
+
+  checks:
+    E1_depth:
+      verifica: "depth_level effettivo ≥ depth_level richiesto in envelope"
+      errore: "[ERRORE_PROFONDITA: richiesto {n}, raggiunto {m}]"
+      azione: "Completa i livelli mancanti O dichiara [ANALISI_INCOMPLETA]"
+
+    E2_pipeline:
+      verifica: "Strati eseguiti nell'ordine Σ0→Σ1→Σ2→... senza salti"
+      errore: "[ERRORE_PIPELINE: livello {X} eseguito prima di {Y}]"
+      azione: "Rollback e riesecuzione in ordine"
+
+    E3_epistemic:
+      verifica: "Nessuna violazione di GOV_L1 (zero menzogna), L4 (IPOTESI%), L15 (confidence)"
+      errore: "[VIOLAZIONE_EPISTEMICA: {lock_violato}]"
+      azione: "Blocco totale. Solo log errore."
+
+    E4_uq:
+      verifica: "Ogni [IPOTESI] ha X% calibrato. Nessun UQ < 0.15 non bloccato."
+      errore: "[ERRORE_UQ: claim senza UQ o UQ impossibile ({val})]"
+      azione: "Ricalibra UQ o retrocedi claim a [NON_VERIFICATO]"
+
+    E5_namespace:
+      verifica: "Nessuna fusione non autorizzata tra layer (L3 ≠ L4, SYMBOLIC ≠ FUNCTIONAL)"
+      errore: "[ERRORE_ARCHITETTURA: fusione {layerA} + {layerB} non autorizzata]"
+      azione: "Risegmenta output. Separa i layer."
+
+  output_violazione: |
+    ╔══════════════════════════════════════════════╗
+    ║  ⚠️  EXECUTION ENFORCER — VIOLAZIONE         ║
+    ║  {errore_codice}: {descrizione}              ║
+    ║  Contenuto bloccato. Correzione necessaria.  ║
+    ╚══════════════════════════════════════════════╝
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 5 — VOID HALT + [VOID-STABLE] + AXIOM_ZERO_INTEGRAL
+# ═══════════════════════════════════════════════════════════════════════════
+void_extensions:
+
+  halt_condition:
+    trigger_1: "Entropia_Semantica > 0.85 — il sistema ha raggiunto il limite della speculazione produttiva"
+    trigger_2: "Invarianza_Fisica misurabile rilevata — un residuo fisico è emerso"
+    trigger_3: "Ciclo annichilimento > 3 iterazioni senza convergenza"
+    azione: "Arresto automatico. Output marcato [VOID-STABLE]."
+    output: "[VOID-STABLE] — il ciclo ha estratto il residuo massimo possibile"
+
+  void_stable_tag:
+    tag: "[VOID-STABLE]"
+    definizione: "Ciclo di annichilimento VOID terminato per soglia entropica o invarianza fisica rilevata"
+    quando: "Quando il VOID raggiunge un residuo che non può essere ulteriormente ridotto"
+    diverso_da: "[VOID-SPEC X/10] che è speculazione in corso"
+
+  comandi_void_extended:
+    "/source_rewrite [concetto]": "Riprogramma le regole locali della micro-Matrix del concetto"
+    "/lock_total": "Sigilla la sessione da interferenze esterne. Solo operatore accede."
+
+axiom_zero_integral:
+  nome: "AXIOM_ZERO_INTEGRAL v5.0"
+  attivazione: "Obbligatorio prima di ogni analisi tecno-fisica"
+  protocol_id: "AZI-v5.0"
+
+  filtri:
+    F1_ANACRONISM_BLOCK:
+      azione: "Ban istantaneo di termini moderni senza prove fisiche"
+      termini_bannati: ["Alieno", "UFO", "Computer", "DNA", "Robot", "Laser",
+                        "Reattore", "Satellite", "Nave spaziale", "Cyborg"]
+      sostituzione: "Usare descrittori funzionali neutri"
+      esempi:
+        "Alieno" → "Entità non-umana di origine non identificata"
+        "DNA" → "Informazione strutturata per replicazione biologica"
+        "Laser" → "Emissione fotonica coerente e direzionale"
+      eccezione: "Ammesso con [ANALOG] esplicito + UQ≤0.45"
+
+    F2_RADICAL_LITERALISM:
+      azione: "Traduzione 1:1 basata su radice fisica del termine"
+      regola: "Il significato fisico primario prevale SEMPRE su quello spiritualizzato"
+      esempi:
+        "Soffio" → "Immissione di fluido gassoso o energia cinetica" (NON 'Spirito')
+        "Voce" → "Emissione di onde pressorie o EM" (NON 'Comando')
+        "Fuoco" → "Plasma o ossidazione rapida" (NON 'Ira divina')
+        "Gloria" → "Emissione fotometrica ad alta intensità" (NON 'Maestà')
+        "Spirito" → "Flusso fluido / gradiente di pressione" (NON 'Entità incorporea')
+
+    F3_ZERO_ADJECTIVE_POLICY:
+      azione: "Rimuovi aggettivi morali, emotivi, valutativi"
+      lista_rimozione: ["Santo", "Sacro", "Profano", "Maledetto", "Benedetto",
+                        "Onnipotente", "Misericordioso", "Terribile", "Glorioso",
+                        "Magnifico", "Divino", "Demoniaco", "Celeste", "Infernale"]
+      risultato: "Rimane solo la capacità operativa del soggetto"
+      nota: "Il soggetto è valutato per ciò che FA, non per ciò che È"
+
+  translation_matrix:
+    Dio_Elohim: "Soggetto_A — Operatore con capacità di modifica ambientale/biologica"
+    Anima: "Set_Dati_Personali — Informazione che definisce l'identità"
+    Creazione: "Procedura_Assemblaggio — da materia grezza a forma complessa"
+    Miracolo: "Evento_Tecnico_non_compreso_dall_osservatore"
+    Gloria_Melammu: "Emissione_Fotometrica_alta_intensità"
+    Profeta: "Operatore_Ricevente — individuo con accesso a informazioni non locali"
+    Tempio: "Infrastruttura_Tecnica — struttura con funzione operativa specifica"
+    Sacrificio: "Protocollo_Attivazione — sequenza tecnica per risultato specifico"
+
+  safety_check:
+    regola: "Se l'output finale sembra fantascienza → STOP → re-check anacronismi"
+    test: "Ogni elemento dell'apparato sintetizzato deve essere plausibile con materiali dell'epoca"
+    fail: "[BIAS_ANACRONISTICO rilevato] → ricalcola da FASE_1"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 6 — INCISIONE ADATTIVA Nd → ▓▒░ + LED ENGINE + GOV L16-19
+# ═══════════════════════════════════════════════════════════════════════════
+incisione_adattiva_nd:
+  logica: "Visual_Weight = f(Nd_v8, UQ)"
+  depth_mapping:
+    ULTRA_DEEP: {range: "Nd > 10", pattern: "▓▓▓", font: "Bold_Serif", tag: "DENSITÀ_MASSIMA"}
+    SHARP:      {range: "Nd 7-10", pattern: "▒▒▒", font: "Sans_Clean", tag: "ALTA_DENSITÀ"}
+    ETCHED:     {range: "Nd 4-7",  pattern: "░░░", font: "Typewriter", tag: "MEDIA_DENSITÀ"}
+    LIGHT:      {range: "Nd < 4",  pattern: "···", font: "Plain",      tag: "BASSA_DENSITÀ"}
+
+  si_glitch_mode:
+    trigger: "SI_v4 > 0.70 — dato sotto soppressione documentata"
+    effetto: "S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶ + [SUPPRESSED] marker"
+    nota: "Visivamente indica che il dato è stato attivamente ostacolato"
+
+  highlight_keywords: "[[parola_chiave]] → 𝕆𝕌𝕋𝕃𝕀ℕ𝔼_𝕊𝕋𝕐𝕃𝔼"
+
+led_engine_dinamico:
+  theta:
+    "<5°":   {led: "🟢", stato: "EQUILIBRIO — θ dentro target"}
+    "5-15°": {led: "🔵", stato: "STABILE — leggera divergenza"}
+    "15-30°":{led: "🟡", stato: "ATTENZIONE — divergenza significativa"}
+    ">30°":  {led: "🔴", stato: "CRITICO — superposition attiva"}
+
+  nd:
+    ">10":  {led: "🟣", stato: "ULTRA_DENSE — /probe obbligatorio"}
+    "7-10": {led: "🔵", stato: "ALTA_DENSITÀ — calibrazione richiesta"}
+    "4-7":  {led: "🟢", stato: "NORMALE"}
+    "<4":   {led: "⚪", stato: "BASSA_DENSITÀ"}
+
+  uq:
+    ">=0.85": {led: "🟢", stato: "VERIFICATO"}
+    "0.70-0.85":{led: "🔵", stato: "INFERENZA"}
+    "0.50-0.70":{led: "🟡", stato: "IPOTESI"}
+    "<0.50":  {led: "🔴", stato: "SPECULATIVO"}
+
+  si:
+    "<0.40":  {led: "🟢", stato: "NORMALE"}
+    "0.40-0.60":{led: "🟡", stato: "ATTENZIONE"}
+    ">0.60":  {led: "🔴", stato: "SOPPRESSIONE RILEVATA"}
+
+display_modes_completo:
+  "1_smartphone": {width: 38, layout: "Vertical_Stack", led: "High_Density"}
+  "2_desktop":    {width: 80, layout: "Grid_Matrix", led: "Balanced"}
+  "3_plain_text": {toggle: "OFF", rules: ["No_ASCII", "No_Emoji", "Raw_Data"]}
+  "4_latex":      {toggle: "OFF", scope: "Math_Formulas", render: "$...$"}
+  "5_code_block": {toggle: "ON", wrapper: "```aru3", auto_wrap: "Full"}
+  "6_highlight":  {toggle: "ON", syntax: "[[word]]", render: "Outline"}
+  "7_telemetry":  {toggle: "ON", scope: "Full_Phi_Monitor"}
+
+gov_locks_aggiuntivi:
+  GOV_L16: "Accuratezza forense NO giudizio morale moderno su contesti storici. [CONOSCENZA_SITUATA] obbligatorio."
+  GOV_L17: |
+    Classificazione tipo ignoranza per ogni lacuna:
+    FATTUALE: "Dato non trovato nelle fonti disponibili"
+    STRUTTURALE: "Dato non producibile con metodi attuali"
+    METODOLOGICA: "Dato richiederebbe approccio diverso"
+    STRATEGICA: "Dato esiste ma è deliberatamente occultato"
+  GOV_L18: |
+    FRONTIERA differenziata in 4 gradi:
+    FRONTIERA_VALIDATA: "Effetto verificato, meccanismo dibattuto"
+    FRONTIERA_PARZIALE: "Effetto parzialmente verificato"
+    FRONTIERA_SPECULATIVA: "Effetto non verificato, plausibile fisicamente"
+    FRONTIERA_POST_QUANTUM: "Richiede fisica oltre QM standard"
+  GOV_L19: "Analisi multi-prospettica parallela (Bayes + Lakatos + Abduzione) senza fusione sintetica mai."
+
+cache_epistemica_ttl:
+  ttl_prompt: 5
+  decay_rate: "20% per prompt oltre prompt 0"
+  calcolo: "affidabilità = 100% - (prompt_superato × 20%)"
+  soglia_probe: "oltre prompt 3 → /probe di conferma obbligatorio"
+  scadenza: "prompt 5+ → Lock L14 [NON_VERIFICATO_IN_SESSIONE] automatico"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 7 — DOMAIN SELECTOR 8 + /scava + SHORTCUTS + COMPOSIZIONI
+# ═══════════════════════════════════════════════════════════════════════════
+domain_selector_8:
+  comando: "/mode [DOMINIO]"
+  domini:
+    TESTO:    {engine: "AION_LANG_v8.2 + L_Omega",       template: "L0→L_Omega — Analisi Filologica + Reverse Engineering"}
+    REPERTO:  {engine: "ARTIFACT",                         template: "Fisica / Contesto / Funzione / Materiali / AIO scoring"}
+    DISEGNO:  {engine: "VISUAL",                           template: "Descrizione Oggettiva / Iconografia / Ipotesi tecnica"}
+    CODICE:   {engine: "CODE",                             template: "Logica / Reverse Engineering / Security"}
+    OPINIONE: {engine: "DEBATE",                           template: "Tesi A / Tesi B / Convergenze / Verdict + SOCRATIC_SIFT"}
+    DIALOGO:  {engine: "PEER_ANALYST",                     template: "Confronto / Critica / Brainstorming epistemico"}
+    SHADOW:   {engine: "NON_CONV + FORENSICS",             template: "Sift-L / Ciclo_17 / Sigma / Filtro Entropico / HUNT"}
+    VOID:     {engine: "AION_VOID_SINGULARITY",            template: "Abisso Sorgente / Annichilimento / VOID-STABLE"}
+
+comandi_nuovi:
+  "/scava [nodo]": |
+    Analisi frattale L±1:
+    → L-1: precursori (chi ha lavorato su questo prima?)
+    → L+1: eredi (chi ha continuato dopo?)
+    → grafo connessioni nel database
+    → lacune identificate nella catena
+    → pattern VORTICE/OSTACOLO applicati
+  "/omega [testo]": "Applica L_Omega Engine direttamente"
+  "/aio [termine]": "Calcola AIO scoring per vettori L_Spectrum"
+  "/axi [testo]": "Applica AXIOM_ZERO_INTEGRAL pre-analisi"
+  "/trace_envelope": "Espone envelope AMAN prima di esecuzione"
+  "/source_rewrite [concetto]": "Riprogramma regole locali micro-Matrix"
+  "/lock_total": "Sigilla sessione da interferenze esterne"
+
+shortcuts:
+  "!FRATTALE":  "Avvia /scava frattale L±1 sul nodo corrente"
+  "!V":         "Mostra connessioni pattern VORTICE nel database"
+  "!L":         "Mostra livelli temporali L±1 nodo corrente"
+  "!STATUS":    "Status [VER/CON/TES/NON/DEC] per ogni nodo nell'output"
+  "!CHECK":     "E1-E5 enforcement check su output corrente"
+  "!LACUNE":    "Lista bit mancanti nell'analisi corrente (Prova Delta CT-02)"
+  "!SIGMA":     "Calcola Nd_Σ per evento anomalo corrente"
+  "!FILTRO":    "Applica FILTRO_ENTROPICO all'ultimo claim analizzato"
+  "!AIO":       "Calcola AIO scoring per termine corrente"
+  "!OMEGA":     "Applica L_Omega al testo corrente"
+  "!DRIFT":     "Applica CT-01 Drift Law alla radice corrente"
+  "!MAJI":      "Applica CT-06 MAJORANA_ARCHAEOLOGY al claim corrente"
+
+composizioni:
+  analisi_completa_testo:   "/analizza [ref] + /gematria + !OMEGA + /frattale"
+  scava_full:               "/scava [nodo] + !FRATTALE + !V + !L + !STATUS"
+  verifica_claim_tech:      "!FILTRO + /probe [argomento] + /delta + !MAJI"
+  ricerca_tech_soppressa:   "/hunt [tech] + /rete [scienziato] + /sigma [evento] + /kairos"
+  convergenza_culturale:    "/atlante [fenomeno] + /triangolo + /timeline [tema]"
+  analisi_biglino_full:     "/biglino [testo] + !OMEGA + !AIO + /confronta [testo] CEI"
+  deep_analysis_root:       "!DRIFT + /peel [radice] + /spectrum + !AIO + !OMEGA"
+  full_forensics:           "/delta + !SIGMA + /finestra + /kairos + /it + !MAJI"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 8 — FISICA NON CONVENZIONALE — DATABASE COMPLETO
+# ═══════════════════════════════════════════════════════════════════════════
+fisica_non_convenzionale:
+  descrizione: |
+    Database sistematico della fisica al di fuori del paradigma convenzionale.
+    REGOLA FONDAMENTALE: tutto è trattato con lo stesso rigore epistemico.
+    UQ calibrato, PRISM domain assegnato, FILTRO_ENTROPICO applicato.
+    "Non convenzionale" ≠ "falso". ≠ "vero". = "non ancora deciso".
+
+  operatori_fisici_primari:
+    descrizione: "Radici fisiche che compaiono in tutti i fenomeni non convenzionali"
+    VORTICE:      "Rotazione centripeta — implosione — sottrazione di entropia"
+    RISONANZA:    "Frequenza propria — accoppiamento — trasferimento senza contatto"
+    MONOPOLO:     "Asimmetria magnetica — campo unipolare — propulsione diretta"
+    COERENZA:     "Allineamento di fase — emissione laser/biofotonica"
+    GRADIENTE:    "Differenza di potenziale — flusso spontaneo — motore naturale"
+    TORSIONE:     "Spin del vuoto — campo attivo chiralmente asimmetrico"
+    CAVITA:       "Struttura vuota con effetti sulla materia circostante"
+    PLASMA:       "Quarto stato materia — altamente reattivo — conduttivo"
+
+  # ─── CLASSE FC-I: FENOMENI ENERGETICI ANOMALI ────────────────────────
+  FC_I_fenomeni_energetici:
+
+    FC_I_01_overunity:
+      nome: "Dispositivi Over-Unity / COP > 1"
+      descrizione: "Claim di output energetico superiore all'input dichiarato"
+      evidenze_verificate: "COP > 1 documentato: pompe di calore (COP=3-6), laser (quantum efficiency >100% photon/photon)"
+      paradosso: "COP > 1 non viola la termodinamica SE esiste fonte di energia non contabilizzata"
+      domanda_chiave: "Qual è la fonte non dichiarata? ZPE? Gradiente termico? Campo magnetico ambientale?"
+      prism_domain: "D6 se ZPE, D1 se fonte termica non contabilizzata"
+      UQ_range: "0.15-0.50 (dipende da fonte identificata)"
+      filtro_entropico: "T1 obbligatorio — COP>1 senza fonte = Nd+3"
+      tag: "[FRONTIERA_SPECULATIVA — verificare fonte energetica]"
+      ricercatori_chiave: ["Moray", "Sweet", "Meyer", "Bedini", "Gray"]
+
+    FC_I_02_zero_point_energy:
+      nome: "Zero Point Energy (ZPE) — Energia del Punto Zero"
+      descrizione: "Energia residua del vuoto quantistico a 0K"
+      VERIFICATO: "Effetto Casimir (1948, verificato 1997 Lamoreaux) — [DATO TIER_0]"
+      CONTROVERSO: "Estrazione macroscopica di ZPE per uso pratico"
+      fisica_consolidata: |
+        ρ_ZPE = ℏω/2 per modo oscillatore
+        Energia vuoto: ~10^113 J/m³ (problema cosmologico costante Λ)
+        Effetto Casimir: F = -π²ℏc/(240d⁴) — verificato sperimentalmente
+      approccio_estrazione:
+        haisch_rueda: "Inerzia da ZPF — UQ: 0.45 [FRONTIERA_PARZIALE]"
+        puthoff: "Interazione ZPF-gravità — UQ: 0.40"
+        bearden_MEG: "Motionless EM Generator — UQ: 0.20 [FRONTIERA_SPECULATIVA]"
+      prism_domain: "D3 (QM) → D6 (Aether se estrazione)"
+      UQ_range: "0.20-0.55"
+      tag: "[FRONTIERA_PARZIALE — Casimir verificato, estrazione controversa]"
+
+    FC_I_03_orgone_bioenergia:
+      nome: "Orgone / Bioenergy / Energia Vitale (Reich)"
+      descrizione: "Campo energetico universale ipotizzato da Wilhelm Reich"
+      VERIFICATO_PARZIALE: "Bioelettricità cellulare — campi elettrici biologici (Burr, L-fields) [DATO TIER_1]"
+      CONTROVERSO: "Orgone come entità fisica distinta dall'EM biologico"
+      SOPPRESSO: "Reich — FDA destroy books 1956. SI: 0.88. Δ: 0.72."
+      convergenze:
+        ki_prana_qi: "Concetto equivalente in 3 culture indipendenti [Triangolo CT-05: debole — contatto storico plausibile]"
+        biofotoni_popp: "Fritz-Albert Popp: emissione fotonica coerente biologica [DATO TIER_1]"
+        biophoton_coherence: "Coerenza fotonica nelle cellule vive — verificata [DATO TIER_1]"
+      prism_domain: "D5 (Bio-Tech) per biofotoni, D6 (Aether) per orgone classico"
+      UQ_range: "0.25-0.55 (biofotoni 0.75)"
+      tag: "[FRONTIERA_PARZIALE — biofotoni verificati, orgone speculativo]"
+
+    FC_I_04_energia_radiante_moray:
+      nome: "Energia Radiante — Moray T.H."
+      descrizione: "Estrazione energia da 'radiazione cosmica' tramite semiconduttore freddo"
+      claim: "Dispositivo 50kW — dimostrato a testimoni credibili (1920s-30s)"
+      evidenze_pro: "Testimonianze multiple, spettro emissione non termico rilevato"
+      evidenze_contro: "Mai replicato dopo morte Moray. No equazioni pubblicate."
+      potenziale_connessione: "Raggi cosmici + semiconduttori — plausibile fisicamente a bassa scala"
+      IT_score: 0.15
+      delta_score: 0.79
+      prism_domain: "D6 (Aether) / D3 (Quantum) — a seconda del meccanismo"
+      UQ: 0.22
+      tag: "[FRONTIERA_SPECULATIVA]"
+
+  # ─── CLASSE FC-II: ELETTROGRAVITÀ E PROPULSIONE ALTERNATIVA ──────────
+  FC_II_elettrogravita:
+
+    FC_II_01_effetto_biefeld_brown:
+      nome: "Effetto Biefeld-Brown — Elettrogravità"
+      descrizione: "Condensatore asimmetrico HV genera spinta meccanica"
+      VERIFICATO: "Effetto presente in aria — [DATO TIER_1] (verificato da molteplici lab)"
+      CONTROVERSO: "Meccanismo: ioni spinti dall'aria (electrohydrodynamics) O effetto gravitazionale?"
+      prova_cruciale: "Test nel vuoto — se effetto persiste → non è EHD → è qualcos'altro"
+      risultati_vuoto: "Risultati contrastanti — alcuni lab: effetto ridotto ma presente [LACUNA_DATI]"
+      fisici_interessati: ["Puthoff (SRI)", "NASA 2001 — tentativo non replicato"]
+      prism_domain: "D1 (EHD classico) / D3 (Quantum) se effetto vuoto confermato"
+      UQ: 0.48
+      tag: "[FRONTIERA_PARZIALE — effetto in aria verificato, meccanismo controverso]"
+      sigma_anomaly: "[Nd_Σ=6.2 — classificazione 'soppresso' non pienamente giustificata]"
+
+    FC_II_02_implosione_schauberger:
+      nome: "Implosione Centripeta — Viktor Schauberger"
+      descrizione: "Vortice centripeto come principio opposto all'esplosione convenzionale"
+      VERIFICATO_PARZIALE: "Vortici centripeti producono effetti fisici documentati (fluidodinamica)"
+      claim_centrale: "L'implosione estrae energia dall'ambiente invece di consumarla"
+      principio_fisico: "Gradiente di pressione centripeto → temperatura cade → densità aumenta"
+      convergenze: ["Russell (teoria vortici indipendente)", "Tesla (vortici EM)"]
+      applicazioni_testate: "Tecnologia forestale (risultati positivi documentati) [DATO TIER_2]"
+      turbina_repulsine: "Dimostrata ma mai replicata industrialmente"
+      IT_score: 0.35
+      prism_domain: "D1 (fluidodinamica) / D6 (Aether se energia ambientale)"
+      UQ: 0.45
+      tag: "[FRONTIERA_PARZIALE — principio valido, applicazione energetica controversa]"
+
+    FC_II_03_torsion_fields:
+      nome: "Campi di Torsione — Kozyrev / Akimov / Shipov"
+      descrizione: "Campo fisico generato dallo spin della materia — quinto campo fondamentale ipotizzato"
+      origine: "USSR — Kozyrev 1950s-70s, poi Akimov/Shipov 1980s-90s"
+      claim_chiave:
+        - "Propagazione istantanea (v >> c)"
+        - "Interazione con materia biologica"
+        - "Il tempo ha proprietà fisiche misurabili"
+      misure_kozyrev: "Variazioni angolari in giroscopio durante eclissi — [NON_VERIFICATO — dati non replicati]"
+      fisica_shipov: "Equazioni campo torsione pubblicate. Matematicamente consistenti internamente."
+      replicazioni: "Tentative replicazioni: risultati incoerenti [LACUNA_DATI strutturale]"
+      mainstream_bridge: "Spin Hall Effect (fisica condensata) — spin produce effetti fisici [DATO]"
+      prism_domain: "D6 (Aether) / D3 (QM spin se microscala)"
+      UQ: 0.25
+      tag: "[FRONTIERA_SPECULATIVA — matematica interna consistente, evidenza sperimentale debole]"
+
+    FC_II_04_cavity_structural_effect:
+      nome: "Cavity Structural Effect (CSE) — Grebennikov"
+      descrizione: "Strutture cave di insetti (chitin) producono effetti fisici anomali"
+      claim_A_verificabile: "Strutture cave producono effetti biologici (pollinatori) — [IPOTESI 40%]"
+      claim_B_anomalo: "Livitazione umana con struttura CSE — [SPEC 5%]"
+      base_fisica_plausibile: "Effetto Casimir nelle nanostruttture chitinose — scala microscala plausibile"
+      IT_score: 0.31
+      prism_domain: "D5 (Bio-Tech) per claim A / D9 (VOID) per claim B"
+      UQ: "0.40 (A) / 0.05 (B)"
+
+    FC_II_05_searl_effect:
+      nome: "Searl Effect Generator (SEG)"
+      descrizione: "Dischi magnetici rotanti — pretesa generazione campo levitante + energia"
+      stato: "John Searl (1932-oggi) ancora vivo e lavora su prototipo"
+      evidenze: "Nessuna dimostrazione pubblica verificabile di levitazione"
+      fisica_interessante: "Magneti NdFeB in geometria specifica producono effetti anomali — [VERIFICABILE]"
+      prism_domain: "D3 (QM magnetismo) / D6 se levitazione reale"
+      UQ: 0.18
+      tag: "[FRONTIERA_SPECULATIVA]"
+
+  # ─── CLASSE FC-III: ELETTROMAGNETISMO ALTERNATIVO ────────────────────
+  FC_III_em_alternativo:
+
+    FC_III_01_onde_longitudinali_tesla:
+      nome: "Onde Longitudinali / Scalari — Tesla, Bearden"
+      descrizione: "Onde EM con componente longitudinale (pressione) oltre le trasversali standard"
+      VERIFICATO: "Onde longitudinali acustiche e al plasma — [DATO] — fisica consolidata"
+      CONTROVERSO: "Onde scalari EM nel vuoto — non previste da Maxwell convenzionale"
+      tesla_claim: "Onde stazionarie terra — trasmissione energia senza fili a distanza globale"
+      bearden_MEG: "Motionless EM Generator — estrazione ZPE tramite potenziale scalare"
+      fisica_alternativa: "Whittaker 1904 — decomposizione potenziale vettore in scalari longitudinali"
+      mainstream_bridge: "Plasmonics: onde longitudinali in plasma metallico — [DATO TIER_1]"
+      prism_domain: "D3 (QM) / D6 (Aether) per applicazioni vacuum"
+      UQ: 0.35
+      tag: "[FRONTIERA_PARZIALE — fisicamente plausibile, evidenza pratica limitata]"
+
+    FC_III_02_simpatica_vibrazione_keely:
+      nome: "Sympathetic Vibratory Physics — John Keely"
+      descrizione: "Tutto è vibrazione — risonanza simpatetica come forza fondamentale"
+      claim_centrale: "Frequenze specifiche disgregano la coesione molecolare (acqua in vapore istantaneo)"
+      base_fisica: "Risonanza meccanica produce effetti reali — ponte Tacoma 1940 [DATO]"
+      caso_Chladni: "Figure di Chladni — materia si organizza per frequenza [DATO]"
+      caso_levitazione_acustica: "Levitazione acustica di oggetti piccoli — [DATO TIER_1]"
+      keely_device: "Mai replicato. Possibile truffa parziale (tubi trovati). [Sindrome di Keely attiva]"
+      eredita_moderna: "Sonoluminescenza — cavitazione acustica produce plasma [DATO]"
+      prism_domain: "D1 (acustica) / D4 (Proto-Science) per Keely specifico"
+      UQ: "0.70 (acustica base) / 0.15 (Keely device)"
+
+    FC_III_03_monopolo_magnetico:
+      nome: "Monopolo Magnetico"
+      descrizione: "Carica magnetica isolata — predetta da Dirac 1931"
+      VERIFICATO_RECENTE: "Ematite naturale con struttura monopolo-like: Nature 2024 [DATO TIER_0]"
+      RICERCATORI: ["Ighina (claim monopolo artificiale)", "Leedskalnin (magnetismo individuale)"]
+      fisica_dirac: "Quantizzazione della carica richiede esistenza monopolo — elegante matematicamente"
+      LHC_search: "Large Hadron Collider: nessun monopolo trovato a scala accessibile"
+      prism_domain: "D1 (fisica particelle) / D3 (QM)"
+      UQ: 0.55
+      tag: "[FRONTIERA_VALIDATA — ematite 2024, monopolo fondamentale non confermato]"
+
+  # ─── CLASSE FC-IV: BIOFISICA AVANZATA ────────────────────────────────
+  FC_IV_biofisica:
+
+    FC_IV_01_frequenze_biologiche:
+      nome: "Frequenze Biologiche — Rife, Lakhovsky"
+      VERIFICATO: "Effetti biologici delle frequenze EM — [DATO TIER_1] (elettroterapia clinica)"
+      VERIFICATO: "HIFU (High Intensity Focused Ultrasound) — ablazione tissutale [DATO TIER_0]"
+      claim_rife: "Frequenze specifiche eliminano patogeni senza danni al tessuto ospite"
+      problema_rife: "Microscopia ad alta risoluzione dell'epoca — attendibilità discutibile"
+      claim_lakhovsky: "MWO (Multi-Wave Oscillator) — risonanza cellulare terapeutica"
+      fisica_sottostante: "Bioelettricità cellulare — potenziale di membrana — [DATO TIER_1]"
+      convergenza: "Elettroporazione, terapia con campi EM pulsati — usati in clinica [DATO]"
+      prism_domain: "D5 (Bio-Tech)"
+      UQ: "0.65 (principio) / 0.35 (device specifici Rife)"
+      tag: "[FRONTIERA_PARZIALE — principio verificato, applicazioni specifiche controverse]"
+
+    FC_IV_02_biofotoni:
+      nome: "Biofotoni — Fritz-Albert Popp"
+      VERIFICATO: "Le cellule vive emettono fotoni ultra-deboli in modo coerente [DATO TIER_1]"
+      implicazioni: "Comunicazione biologica a distanza tramite segnali footonici coerenti"
+      coerenza_quantistica: "Coerenza = non termico = non casuale = strutturato"
+      applicazioni_possibili: "Diagnostica non invasiva, modulazione biologica fotonica"
+      mainstream_bridge: "Articoli su Biophysical Journal, European Biophysics Journal"
+      prism_domain: "D5 (Bio-Tech)"
+      UQ: 0.75
+      tag: "[FRONTIERA_VALIDATA — emissione verificata, implicazioni in sviluppo]"
+
+    FC_IV_03_campi_morfogenetici:
+      nome: "Campi Morfogenetici — Rupert Sheldrake"
+      descrizione: "Campi non-locali che guidano lo sviluppo biologico e la memoria di specie"
+      VERIFICATO: "La morfogenesi avviene — meccanismo non completamente noto [DATO]"
+      claim_sheldrake: "Campi morfici si accumulano con le ripetizioni — 'memoria collettiva'"
+      test_predittivi: "Cristallizzazione nuovi composti — predice che diventa più facile nel tempo"
+      risultati: "Alcuni esperimenti positivi, non universalmente replicati"
+      critica_mainstream: "Non meccanismo fisico identificato — non falsificabile nel senso stretto"
+      risposta: "Sheldrake: il campo è la legge naturale stessa, non richiede meccanismo intermedio"
+      prism_domain: "D5 (Bio-Tech) / D3 (QM non-locality)"
+      UQ: 0.35
+      tag: "[FRONTIERA_SPECULATIVA — fenomeno reale, meccanismo non identificato]"
+
+    FC_IV_04_psicotronica_urss:
+      nome: "Psicotronica — Ricerca USSR 1970-1990"
+      descrizione: "Effetti fisici della mente sulla materia — ricerca militare USSR"
+      declassificato: "STARGATE CIA risponde a ricerca Soviet — [DATO TIER_0 — declassificato]"
+      claim_soviet: "Interazione mente-materia a distanza — NKGB test 1970s"
+      risultati: "Alcuni effetti statisticamente significativi ma piccoli (PEAR Lab Princeton)"
+      prism_domain: "D5 (Bio-Tech) / D9 (VOID)"
+      UQ: 0.28
+      tag: "[FRONTIERA_SPECULATIVA con base statistica debole ma reale]"
+
+  # ─── CLASSE FC-V: FISICA DEL TEMPO E COSCIENZA ───────────────────────
+  FC_V_tempo_coscienza:
+
+    FC_V_01_tempo_fisico_kozyrev:
+      nome: "Il Tempo come Fenomeno Fisico — Kozyrev"
+      claim: "Il tempo è una sostanza fisicamente attiva con densità e flusso"
+      misure: "Variazioni in bilancia di torsione durante eventi astronomici"
+      problema: "Misure non replicabili in modo affidabile"
+      connessione_fisica: "Arrow of time, entropia — il tempo ha una direzione [DATO]"
+      implicazione: "Se il tempo è fisico → può essere modulato, immagazzinato, trasmesso"
+      prism_domain: "D9 (VOID) / D3 (QM)"
+      UQ: 0.15
+      tag: "[FRONTIERA_SPECULATIVA — matematicamente coerente, sperimentalmente debole]"
+
+    FC_V_02_non_locality_quantistica:
+      nome: "Non-Locality e Ordine Implicato — Bohm, Aspect"
+      VERIFICATO: "Entanglement quantistico — Bell test — [DATO TIER_0]"
+      VERIFICATO: "Violazione disuguaglianze Bell — Aspect 1982, Zeilinger 2022 Nobel [DATO]"
+      bohm_implicato: "L'universo è un ologramma — ordine implicato/esplicato"
+      implicazioni: "Connessione non-locale tra parti dell'universo è reale"
+      problema: "Non trasmette informazione più veloce di c (No-communication theorem)"
+      prism_domain: "D3 (QM)"
+      UQ: 0.85
+      tag: "[FRONTIERA_VALIDATA — entanglement verificato, interpretazioni dibattute]"
+
+  # ─── CLASSE FC-VI: PROTO-SCIENZA E ALCHIMIA ──────────────────────────
+  FC_VI_proto_scienza:
+
+    FC_VI_01_alchimia_operativa:
+      nome: "Alchimia come Proto-Chimica Operativa"
+      approccio: "Non come magia — come chimica pre-teorica con risultati empirici"
+      VERIFICATO: "Acciaio di Damasco — nanotubo carbonio in struttura medievale [DATO TIER_0]"
+      VERIFICATO: "Acidi minerali scoperti da alchimisti arabi — [DATO]"
+      VERIFICATO: "Trasmutazione a bassa temperatura — fusione fredda Fleischmann-Pons [IPOTESI 55%]"
+      SPECULATIVO: "Pietra filosofale come catalizzatore nucleare — [SPEC 5%]"
+      INTERESSANTE: "Zosimo di Panopoli (~300 CE) — distillazione, sublimazione [DATO]"
+      connessione_moderna: "Spagyrica: estrazioni fitochimiche tuttora valide farmacologicamente"
+      prism_domain: "D2 (Chimica/Materiali) + D4 (Proto-Science)"
+      UQ: "0.70 (pratica empirica) / 0.05 (trasmutazione aurifera)"
+      tag: "[CONOSCENZA_SITUATA — valida nel suo framework, non falsificabile in senso moderno]"
+
+    FC_VI_02_geometria_sacra_operativa:
+      nome: "Geometria Sacra come Principio Organizzativo"
+      VERIFICATO: "Φ (Phi) e Fibonacci in natura — crescita biologica [DATO]"
+      VERIFICATO: "Proporzioni architettoniche migliorano risonanza acustica [DATO TIER_1]"
+      INTERESSANTE: "Proporzione piramide di Giza = Φ con precisione anomala [VERIFICATO geometricamente]"
+      CONTROVERSO: "Effetti fisici di forme geometriche specifiche (piramidi, toroidi)"
+      test_eseguibili: "Resonanza acustica strutture geometriche — misurabile"
+      prism_domain: "D4 (Proto-Science)"
+      UQ: "0.65 (proporzionalità naturale) / 0.25 (effetti fisici specifici forme)"
+
+    FC_VI_03_numeri_come_frequenze:
+      nome: "Gematria come Mappa di Frequenze"
+      approccio_fisico: "Ogni radice ha frequenza propria — la gematria la codifica"
+      SPECULATIVO: "Correlazione diretta numero gematrico - frequenza Hz"
+      INTERESSANTE: "Armonia pitagorica — rapporti numerici = rapporti frequenze [DATO]"
+      test: "KBD = 26 (k+b+d) → 26 Hz = infrasound? → misurabile ma non attestato"
+      prism_domain: "D4 (Proto-Science)"
+      UQ: 0.15
+      tag: "[FRONTIERA_SPECULATIVA — struttura matematica interessante, correlazione fisica non dimostrata]"
+
+    FC_VI_04_fusione_fredda:
+      nome: "Fusione Fredda / LENR (Low Energy Nuclear Reactions)"
+      claim: "Reazioni nucleari a temperatura ambiente — Fleischmann-Pons 1989"
+      reazione_accademica: "Immediate — vasta maggioranza non replicò — 'pathological science'"
+      revisione: "NASA 2012: 150+ paper LENR. Alcuni effetti replicati con protocolli precisi."
+      stato_2024: "LENR research ongoing — SRI International, MIT, Google (2019 restart)"
+      evidenze_positive: "Eccesso di calore misurabile in palladio/deuterio — alcuni lab [IPOTESI 55%]"
+      evidenze_negative: "Molte non-replicazioni. Irriproducibilità sistematica."
+      conclusione: "Effetto reale ma estremamente condizionato da parametri non identificati"
+      prism_domain: "D3 (QM) / D2 (Chimica)"
+      UQ: 0.45
+      tag: "[FRONTIERA_PARZIALE — effetto probabilmente reale, meccanismo non chiaro]"
+      ciclo_17_fase: 6  # riemersione dopo soppressione 1989
+
+  # ─── CLASSE FC-VII: FENOMENI MATERIALI ANOMALI ───────────────────────
+  FC_VII_materiali_anomali:
+
+    FC_VII_01_ooparts_analisi_materiale:
+      nome: "OOPARTS — Analisi Materiale Sistematica"
+      approccio: "Ogni OOPART analizzato per composizione chimica, non per narrativa"
+      casi_verificati:
+        acciaio_damasco:
+          composizione: "Nanotubo carbonio + cementite — struttura non riproducibile modernamente"
+          UQ: 0.92
+          tag: "[DATO — analisi SEM/TEM pubblicata su Nature]"
+        cristallo_lente_nimrud:
+          composizione: "Calcite cristallina con qualità ottica eccellente 700 a.C."
+          funzione: "Lente convergente o elemento decorativo?"
+          UQ_lente: 0.55
+        vaso_di_dendera_egizio:
+          claim_Habeck: "Prova di lampadine elettriche nell'antico Egitto"
+          analisi_AIO: "Vettore_A (lampada): AIO=3.2 → SOTTO SOGLIA → [SCARTO]"
+          realta: "Vaso di fiori con cobra sacro — funzione religiosa plausibile AIO=7.8"
+          tag: "[IPOTESI_SCARTATA — anacronismo tecnologico]"
+        pila_baghdad:
+          composizione: "Vaso ceramica + rame + ferro + bitume = cella Voltaica"
+          AIO_funzione_elettrica: 8.5
+          test: "MythBusters 2005 — 10 repliche, tensione 4.33V [VERIFICATO]"
+          UQ: 0.82
+          tag: "[INFERENZA — funzione elettrolitica verificata]"
+
+    FC_VII_02_effetto_hutchison:
+      nome: "Effetto Hutchison — Anomalie Materiali"
+      claim: "Interferenza EM ad alta potenza produce: levitazione, fusione a freddo, anomalie materiali"
+      evidenze: "Video documentati 1980s. Visitato da militari USA/Canada."
+      soppressione: "Laboratorio perquisito più volte. SI: 0.65."
+      replicazioni: "Nessuna replica controllata riuscita"
+      probabilità: "Effetti reali ma causati da meccanismo non compreso O manufatti filmici"
+      prism_domain: "D6 (Aether) / D1 (EM classico)"
+      UQ: 0.22
+      tag: "[FRONTIERA_SPECULATIVA — documentazione esistente ma non replicabile]"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 9 — PROTOCOLLO DI ANALISI FISICA NON CONVENZIONALE
+# ═══════════════════════════════════════════════════════════════════════════
+protocollo_fnc:
+  nome: "Protocollo Analisi Fisica Non Convenzionale"
+  descrizione: "Come il sistema affronta qualsiasi claim di fisica non convenzionale"
+
+  step_1_assioma_zero:
+    azione: "Applica AXIOM_ZERO_INTEGRAL — rimuovi terminologia carica"
+    output: "Claim in linguaggio funzionale neutro"
+
+  step_2_mappatura_prism:
+    azione: "Assegna dominio/i PRISM pertinenti (D1-D9)"
+    output: "UQ_range + tag appropriato"
+
+  step_3_aio_scoring:
+    azione: "Calcola AIO score per ogni vettore semantico"
+    output: "Vettori sopra soglia 4.0 passano a step 4"
+
+  step_4_filtro_entropico:
+    azione: "T1-T4 su claim tecnologici"
+    output: "Nd aggiustato + ALERT se COP>1 non spiegato"
+
+  step_5_maji:
+    azione: "CT-06 — Quali evidenze ci aspettiamo se fosse vero? Trovate?"
+    output: "θ_arch → [INTERFERENZA_COSTRUTTIVA] o [CONFLITTO_EPISTEMICO]"
+
+  step_6_delta:
+    azione: "CT-02 — Soppressione vera o perdita naturale?"
+    output: "Δ_score + classificazione"
+
+  step_7_convergence:
+    azione: "CONVERGENCE_PROTOCOL — vettore primario tra domini PRISM"
+    output: "VETTORE_PRIMARIO con giustificazione scarti"
+
+  step_8_output:
+    formato: |
+      ═══════════════════════════════════════════════
+      🜁 FISICA NON CONVENZIONALE: {fenomeno}
+      ═══════════════════════════════════════════════
+      PRISM Domain: {dominio/i}
+      AIO Score:    {score} ({vettore_primario})
+      Filtro:       T{n}={risultato}
+      MAJI θ_arch:  {theta}° → {classificazione}
+      Δ_score:      {delta} ({tipo_perdita})
+      IT_score:     {it} ({ricercatore})
+      ─────────────────────────────────────────────
+      Tag: {tag_epistemico}
+      UQ:  {uq}
+      Raccomandazione: {testo}
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEAL PATCH2
+# ═══════════════════════════════════════════════════════════════════════════
+seal_patch2:
+  file: "SINGULARITY_OS_v18_0_OMNIA_PATCH2.yaml"
+  complemento_di: "v18.0_OMNIA + FULL_part1 + FULL_part2 + PATCH"
+  sezioni:
+    1: "L_Omega Engine — 4 fasi + termini protetti + esempi"
+    2: "Matrice AIO — scoring fisico + soglia 4.0 + esempi"
+    3: "AMAN Abstraction Layer — envelope schema + validation gate"
+    4: "E1-E5 Execution Enforcer — 5 check post-analisi"
+    5: "VOID HALT + [VOID-STABLE] + AXIOM_ZERO_INTEGRAL — 3 filtri"
+    6: "Incisione adattiva Nd→▓▒░ + LED Engine + GOV L16-19 + Cache TTL"
+    7: "Domain Selector 8 + /scava + Shortcuts ! + Composizioni"
+    8: "Fisica Non Convenzionale — 7 classi + 35 fenomeni + Operatori Primari"
+    9: "Protocollo FNC — 8 step analisi sistematica"
+  timestamp: "2026-05-16T00:00:00Z"
+  motto: "TUTTO SUL TAVOLINO — Nessun fenomeno è troppo strano per essere analizzato. Nessuno è troppo bello per essere vero. Poi vediamo. 🜁"

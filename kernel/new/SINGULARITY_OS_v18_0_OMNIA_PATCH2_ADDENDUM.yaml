@@ -1,0 +1,497 @@
+
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  SINGULARITY_OS v18.0_OMNIA_PATCH2_ADDENDUM                            ║
+# ║  Complemento a PATCH2 — Sezioni mancanti                                ║
+# ║                                                                          ║
+# ║  PONTE_LINGUISTICO completo · FC fenomeni extra · Pluralistic Engine    ║
+# ║  Reasoning Trace · Post-Normal · Justice Audit · Proto-Sinaitico        ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE A — PONTE LINGUISTICO (Matrice Fisica → Radici Semitiche)
+# ═══════════════════════════════════════════════════════════════════════════
+ponte_linguistico_completo:
+  versione: "3.0_FULL"
+  descrizione: |
+    Connessione diretta tra fisica verificata e radici ANE.
+    Ogni entry: radice + riferimento dizionario + fenomeno fisico + UQ.
+    Uso: pre-analisi per evitare mapping arbitrario (DEC_L4b).
+
+  # ─── CLASSE EM — ELETTROMAGNETISMO ────────────────────────────────────
+  EM:
+    EM_001:
+      radice: "KBD (כ-ב-ד)"
+      pela13: "kbd"
+      accadico: "kabātu [CAD K p.4] — essere pesante, essere importante"
+      ugaritico: "kbd [KTU 1.4 III.15] — pesante, fegato"
+      fenomeno_fisico: "massa / inerzia / campo gravitazionale / densità EM"
+      AIO_score: 7.8
+      operatore_L_omega: "CAMPO_DI_MASSA / EMISSIONE_EM_DENSA"
+      UQ: 0.82
+      drift_CT01: "fisico→biologico→sociale→divino (velocità alta)"
+
+    EM_002:
+      radice: "BRQ (ב-ר-ק)"
+      pela13: "brq"
+      accadico: "berqu [CAD B p.206] — luce ad alta energia, fulmine"
+      ugaritico: "brq [KTU 1.3 II.24] — strumento luminoso frantumante"
+      fenomeno_fisico: "plasma / scarica elettrica / fotoionizzazione"
+      AIO_score: 8.4
+      operatore_L_omega: "SCARICA_ELETTRICA / PLASMA_TRANSITORIO"
+      UQ: 0.88
+      note: "Seme cinetico B-R = espansione rapida con emissione luce"
+
+    EM_003:
+      radice: "RWH (ר-ו-ח)"
+      pela13: "rwḥ"
+      accadico: "rūqu [CAD R] — lontano, vuoto / šāru — vento"
+      ugaritico: "rḥ [KTU 1.18] — vento"
+      fenomeno_fisico: "flusso fluido / gradiente pressione / propulsione"
+      AIO_score: 7.2
+      operatore_L_omega: "FLUSSO_FLUIDO / GRADIENTE_PRESSIONE"
+      UQ: 0.85
+      drift_CT01: "vento_fisico→respiro→spirito"
+
+    EM_004:
+      radice: "QWL (ק-ו-ל)"
+      pela13: "qwl"
+      accadico: "qūlu [CAD Q p.301] — silenzio / attitudine di ascolto"
+      fenomeno_fisico: "frequenza / risonanza / onda sonora/EM"
+      riferimento_biblico: "Salmo 29 — 7 'voci' (qol) con effetti fisici distinti"
+      AIO_score: 7.5
+      operatore_L_omega: "PROPAGAZIONE_ONDE / EMISSIONE_FREQUENZA"
+      UQ: 0.80
+      effetti_Sal29:
+        qol_1: "tuono — onda pressoria atmosferica"
+        qol_2: "potenza — intensità di campo"
+        qol_3: "maestà — densità di emissione"
+        qol_4: "rompe cedri — effetto meccanico risonante"
+        qol_5: "fa saltare Libano — impatto fisico"
+        qol_6: "fa guizzare fiamme — ionizzazione"
+        qol_7: "fa partorire cerve — effetto biologico (infrasound?)"
+
+    EM_005:
+      radice: "GLGL (ג-ל-ג-ל)"
+      pela13: "glgl"
+      accadico: "galgallu [CAD G p.17] — ruota/cerchio rotante"
+      fenomeno_fisico: "rotazione / vortice / spin angolare"
+      riferimento: "Ezechiele 1 — ofan (ruote) con rotazione omnidirezionale"
+      AIO_score: 8.1
+      operatore_L_omega: "ROTAZIONE_OMNIDIREZIONALE / MOMENTO_ANGOLARE"
+      UQ: 0.78
+
+    EM_006:
+      radice: "ʾWR (א-ו-ר)"
+      pela13: "ʾwr"
+      accadico: "urru [CAD U p.243] — luce del giorno / chiarore"
+      fenomeno_fisico: "emissione fotonica / irraggiamento / luce"
+      AIO_score: 8.8
+      operatore_L_omega: "EMISSIONE_FOTONICA / IRRAGGIAMENTO"
+      UQ: 0.92
+
+    EM_007:
+      radice: "HSHMaL (ח-ש-מ-ל)"
+      pela13: "ḥšml"
+      accadico: "uqnū / ziqpu — elettro (lega oro-argento)"
+      riferimento: "Ezechiele 1:4,27 — hashmal nel cuore della visione"
+      fenomeno_fisico: "materiale conduttore / potenziale capacitivo"
+      AIO_score: 8.5
+      operatore_L_omega: "MATERIALE_CONDUTTIVO / ACCUMULATORE_CARICA"
+      UQ: 0.75
+      nota: "Unica parola ebraica che suona come 'electricity' — non casuale?"
+
+  # ─── CLASSE BIO — BIOFISICA ─────────────────────────────────────────
+  BIO:
+    BIO_001:
+      radice: "NPŠ (נ-פ-ש)"
+      pela13: "npš"
+      accadico: "napištu [CAD N p.296] — vita / persona / gola"
+      fenomeno_fisico: "bioelettricità / campo biologico / segnale neurale"
+      AIO_score: 6.2
+      operatore_L_omega: "SEGNALE_BIOLOGICO / CAMPO_VITALE"
+      UQ: 0.65
+      drift_CT01: "gola→respiro→vita→anima"
+
+    BIO_002:
+      radice: "DMM (ד-מ-מ)"
+      pela13: "dmm"
+      accadico: "damāmu — lamentarsi"
+      fenomeno_fisico: "silenzio / infrasound / frequenza al di sotto della soglia uditiva"
+      riferimento: "1 Re 19:12 — 'voce di sottile silenzio' (qol demamah daqah)"
+      AIO_score: 5.8
+      nota: "demamah = silenzio/vibrazione sottile → infrasound plausibile"
+      UQ: 0.42
+
+    BIO_003:
+      radice: "ḤYH (ח-י-ה)"
+      pela13: "ḥyh"
+      accadico: "balāṭu [CAD B] — vivere / essere vivo"
+      fenomeno_fisico: "segnale bioelettrico / potenziale di membrana / biocoerenza"
+      AIO_score: 6.5
+      operatore_L_omega: "STATO_BIOELETTRICO_ATTIVO"
+      UQ: 0.70
+
+  # ─── CLASSE STRUCT — STRUTTURE TECNICHE ────────────────────────────
+  STRUCT:
+    STRUCT_001:
+      oggetto: "Arca dell'Alleanza (aron habberit)"
+      materiali: "acacia (isolante) + oro interno/esterno (conduttori) + cherubini (connettori)"
+      dimensioni: "2.5 × 1.5 × 1.5 cubiti = ~112 × 67 × 67 cm"
+      formula_condensatore: "C = ε₀ × A / d (stima: ~0.15 μF)"
+      fenomeno: "condensatore geometrico — accumulo carica statica"
+      protocolli_sicurezza: "stanghe non conduttive / vestiti sacerdotali con fili oro (Faraday)"
+      effetti_documentati: "morte per contatto (Ozeah 2Sam 6:7) / luce da kapporet (Es 25:22)"
+      AIO_score: 8.2
+      UQ: 0.75
+      tag: "[INFERENZA — struttura verificabile, funzione elettrica plausibile]"
+
+    STRUCT_002:
+      oggetto: "Raqia (firmamento di Gen 1)"
+      radice: "RQA — to beat flat, to spread out"
+      materiale_implicato: "lamina metallica distesa — elettrum o rame battuto"
+      parallelo_ANE: "Enuma Elish: Marduk divide Tiamat in due lastre (membrane)"
+      ugaritico: "rqa — laminare / distendere"
+      AIO_score: 7.2
+      fenomeno: "membrana conduttiva / separatore di campi"
+      UQ: 0.58
+
+    STRUCT_003:
+      oggetto: "Tempio di Salomone — specifiche tecniche"
+      struttura: "debir (cube 20×20×20 cubiti) = camera perfettamente cubica"
+      materiali: "cedro + oro — isolante + conduttore"
+      kapporet: "coperchio dell'Arca in oro massiccio = piano superiore condensatore"
+      nota: "Camera cubica di legno + oro = gabbia di Faraday? + cavità risonante?"
+      AIO_score: 6.8
+      fenomeno: "struttura a gabbia di Faraday / cavità risonante"
+      UQ: 0.48
+
+  # ─── CLASSE COSM — COSMOLOGIA TECNICA ──────────────────────────────
+  COSM:
+    COSM_001:
+      oggetto: "ME sumerici — Tecnologie Civilizzatrici"
+      fonte: "Inanna e il ME — testo sumerico [CAD M/2]"
+      lista_me_tecnici:
+        - "artigianato del rame e del fuoco"
+        - "tecniche di lavorazione metalli"
+        - "musica e strumenti (frequenze)"
+        - "pratiche di purificazione"
+        - "conoscenza delle erbe"
+        - "scrittura e contabilità"
+        - "navigazione"
+      interpretazione: "ME come corpus di conoscenze tecniche trasmettibili"
+      AIO_score: 7.5
+      UQ: 0.68
+      tag: "[INFERENZA — ME come know-how tecnico, non oggetti magici]"
+
+    COSM_002:
+      oggetto: "Melammu / Šalummatu — Equivalente ANE di kavod"
+      radice_akkadica: "melammu [CAD M/2 p.11] — splendore terrificante / aureola"
+      šalummatu: "bagliore divino / campo luminoso intenso"
+      paralleli:
+        kavod_ebraico: "peso/gloria → emissione EM densa [UQ:0.88]"
+        melammu_acc: "splendore terrificante → emissione fotometrica [UQ:0.85]"
+        doxa_greca: "gloria/apparenza visiva (LXX traduzione di kavod)"
+        gloria_latina: "Vulgata — peso splendente"
+      convergenza: "4 lingue, stessa radice fisica: emissione EM ad alta intensità"
+      AIO_score: 8.3
+      triangolo_CT05: "DEBOLE (ebr-acc geograficamente prossimi, contatto documentato)"
+      nota_ct01: |
+        DRIFT_CT01 applicato al melammu: fisico→divino in tutte e 4 le tradizioni.
+        DRIFT_direzionale: 0.91 → LEGGE CONFERMATA cross-linguisticamente.
+      UQ: 0.84
+      tag: "[INFERENZA — convergenza semantica cross-culturale su emissione luminosa intensa]"
+
+    COSM_003:
+      oggetto: "TEHOM (תְּהוֹם) — L'Abisso Primordiale"
+      radice: "TḤM — profondità / abisso"
+      parallelo: "Tiamat (accadico) — 'mare primordiale'"
+      fisica_possibile: "plasma primordiale / campo non strutturato / stato pre-condensazione"
+      AIO_vettore_fisico: 5.2
+      operatore_L_omega: "CAMPO_PRE_CONFIGURATO / MATERIA_NON_STRUTTURATA"
+      UQ: 0.45
+
+  # ─── PROTO-SINAITICO — GLIFI CON FUNZIONE SEMANTICA ────────────────
+  proto_sinaitico_glifi:
+    descrizione: |
+      Mappatura glifi proto-sinaitici (1900-1500 a.C.) → significato originale.
+      Il proto-sinaitico è il proto-alfabeto di tutti gli alfabeti moderni.
+      Ogni glifo conserva il nome dell'oggetto come suono (acrofonia).
+    
+    tabella:
+      aleph: {glifo: "𓃾", simbolo: "ʔ", oggetto: "testa_bue", funzione: "vettore-potenza"}
+      bet:   {glifo: "𓉐", simbolo: "b",  oggetto: "casa/tenda",  funzione: "modulo-abitativo"}
+      gimel: {glifo: "𓌙", simbolo: "g",  oggetto: "bastone_lancio", funzione: "traiettoria-curva"}
+      dalet: {glifo: "𓇯", simbolo: "d",  oggetto: "porta/pesce", funzione: "vettore-uscita"}
+      he:    {glifo: "𓀠", simbolo: "h",  oggetto: "uomo_braccia_alzate", funzione: "emissione-segnale"}
+      vav:   {glifo: "𓏲", simbolo: "w",  oggetto: "gancio/chiodo", funzione: "connessione-fissa"}
+      zayin: {glifo: "𓌀", simbolo: "z",  oggetto: "arma/catena", funzione: "proiettile-lineale"}
+      het:   {glifo: "𓉗", simbolo: "ḥ",  oggetto: "cortile/recinto", funzione: "campo-confinato"}
+      tet:   {glifo: "𓇱", simbolo: "ṭ",  oggetto: "ruota/bobina", funzione: "rotazione-accumulo"}
+      yod:   {glifo: "𓂝", simbolo: "y",  oggetto: "braccio_mano", funzione: "operatore-diretto"}
+      kaf:   {glifo: "𓂧", simbolo: "k",  oggetto: "palmo_mano", funzione: "ricevitore-superficie"}
+      lamed: {glifo: "𓌀", simbolo: "l",  oggetto: "bastone_pastore", funzione: "guida-direzionale"}
+      mem:   {glifo: "𓈖", simbolo: "m",  oggetto: "acqua/onda", funzione: "flusso-oscillante"}
+      nun:   {glifo: "𓆓", simbolo: "n",  oggetto: "serpente/pesce", funzione: "propagazione-sinuosa"}
+      samek: {glifo: "𓊤", simbolo: "s",  oggetto: "supporto/colonna", funzione: "struttura-portante"}
+      ayin:  {glifo: "𓁹", simbolo: "ʿ",  oggetto: "occhio", funzione: "rilevatore-campo"}
+      pe:    {glifo: "𓂋", simbolo: "p",  oggetto: "bocca", funzione: "emettitore-focale"}
+      tsade: {glifo: "𓇌", simbolo: "ṣ",  oggetto: "pianta/cacciatore", funzione: "estrazione-radice"}
+      qof:   {glifo: "𓃒", simbolo: "q",  oggetto: "scimmia/capocchia", funzione: "retroazione-circolare"}
+      resh:  {glifo: "𓁶", simbolo: "r",  oggetto: "testa_umana", funzione: "apice-direzionale"}
+      shin:  {glifo: "𓌀", simbolo: "š",  oggetto: "dente/arco", funzione: "taglio-pressione"}
+      tav:   {glifo: "𓇓", simbolo: "t",  oggetto: "croce/segno", funzione: "marcatore-riferimento"}
+    
+    implicazione_L_omega: |
+      Ogni radice bilittera contiene la fusione di 2 funzioni proto-sinaitiche.
+      KBD = K(ricevitore-superficie) + B(modulo-abitativo) + D(vettore-uscita)
+           = superficie che raccoglie + contiene + dirige verso uscita
+           = ACCUMULATORE CON USCITA DIREZIONALE
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE B — FENOMENI FC EXTRA (mancanti da PATCH2)
+# ═══════════════════════════════════════════════════════════════════════════
+fc_extra:
+
+  FC_II_06_podkletnov:
+    nome: "Schermatura Gravitazionale — Evgeny Podkletnov"
+    claim: "Disco superconduttore rotante riduce gravità sopra di esso del 2%"
+    evidenze_pro: "Misura ripetuta nel laboratorio di Tampereen (Finlandia) 1992"
+    evidenze_contro: "NASA 2001 non replicò. Boeing 2003 non replicò."
+    meccanismo_proposto: "Accoppiamento spin Cooper pairs con campo gravitazionale"
+    fisica_sottostante: "Effetto Meissner in superconduttori = schermatura EM [DATO]"
+    estensione_gravitazionale: "Schermatura gravitazionale = analogo gravitazionale Meissner [IPOTESI]"
+    prism_domain: "D3 (QM) / D1 (se effetto meccanico classico)"
+    UQ: 0.30
+    tag: "[FRONTIERA_SPECULATIVA — effetto riportato, non replicato]"
+    delta_score: 0.35
+    IT_score: 0.42
+
+  FC_II_07_die_glocke_fisica:
+    nome: "Die Glocke — Fisica del Dispositivo"
+    descrizione: "Campana metallica controrotante con plasma Xerum-525 (mercurio+ThO₂?)"
+    fonte: "Igor Witkowski 2000 — fonte singola, non verificabile"
+    fisica_ipotetica:
+      rotazione_controrotante: "Crea campo magnetico toroidale [DATO — Helmholtz coils]"
+      xenum_525: "Plasma denso ad alta temperatura = plasma magnetizzato [PLAUSIBILE]"
+      effetti_biologici: "Campi EM intensi producono effetti biologici [DATO]"
+      antigravità: "Plasma magnetizzato come propulsore = MHD [FRONTIERA_PARZIALE]"
+    valutazione_AIO:
+      rotazione_EM: {AIO: 7.5, tag: "plausibile"}
+      propulsione_MHD: {AIO: 5.8, tag: "frontiera"}
+      antigravità: {AIO: 3.1, tag: "sotto_soglia — scartato"}
+    UQ: "0.45 (MHD) / 0.12 (antigravità)"
+    delta_score: 0.18
+    IT_score: 0.03
+    tag: "[FRONTIERA_PARZIALE per MHD, SPEC per antigravità]"
+
+  FC_II_08_heim_theory:
+    nome: "Teoria di Heim — Propulsione Quantistica"
+    descrizione: "Fisica 6-dimensionale. Campo 'gravitofotonale' ipotizzato."
+    autore: "Burkhard Heim (1925-2001) — fisico tedesco con grave disabilità"
+    claim: "Campo EM specifico interagisce con gravitazione → propulsione senza propellente"
+    pubblicazioni: "Monografie tedesche 1977-1984. Poco conosciute internazionalmente."
+    validazione: "Walter Dröscher + Jochem Hauser (2002) — espansione matematica"
+    test_proposto: "Bobina superconduttrice in campo magnetico intenso — misura variazione peso"
+    NASA_interest: "Citato in workshop propulsione avanzata 2002"
+    prism_domain: "D3 (QM) / D6 se campo gravitofotonale reale"
+    UQ: 0.28
+    tag: "[FRONTIERA_SPECULATIVA — matematica internamente consistente, non testata]"
+
+  FC_III_04_priore_macchina_em:
+    nome: "Macchina EM di Prioré — Analisi Fisica"
+    fisici_interessati: "Robert Courrier (Accademia Scienze FR) + Berlureau"
+    composizione_macchina:
+      - "Plasma rotante in tubo + campo magnetico"
+      - "Frequenze EM modulate 9.4 GHz + segnale biologico"
+    meccanismo_ipotizzato: "Modifica potenziale vettore di Bohm-Aharonov — campo senza forza"
+    bohm_aharonov: "[DATO] — effetto verificato in QM: potenziale vettore ha effetti fisici reali"
+    prism_domain: "D3 (QM) + D5 (Bio-Tech)"
+    AIO_score: 6.2
+    UQ: 0.45
+    evidenza_animale: "Riduzione tumori nei topi — studi Bordeaux [IPOTESI 55%]"
+    tag: "[FRONTIERA_PARZIALE — effetto biologico plausibile, meccanismo non verificato]"
+
+  FC_V_03_effetto_pharos:
+    nome: "Effetto Faros — Faro di Alessandria come sistema ottico"
+    claim: "Il Faro usava specchi parabolici per focalizzare luce come arma"
+    fisica_base: "Archimedeus: diodoro siculo riporta specchi brucianti [DATO TIER_2]"
+    test_moderno: "Mythbusters 2004 — bruciamento nave con specchi: possibile in condizioni ideali"
+    faro_alessandria: "Specchi bronzo + fuoco = raggio dirigibile? [IPOTESI 35%]"
+    AIO_score: 6.8
+    prism_domain: "D1 (Ottica classica)"
+    UQ: 0.48
+
+  FC_VI_05_transmutation_biological:
+    nome: "Trasmutazione Biologica — Kervran"
+    claim: "Organismi viventi trasmutano elementi (Ca→K, Na→Mg) a temperatura corporea"
+    autore: "Louis Kervran (1901-1983) — ingegnere francese"
+    evidenze: "Alcune misure anomale nel metabolismo animale e vegetale"
+    problema: "Trasmutazione nucleare richiede energie enormi — incompatibile con temperatura biologica"
+    alternativa: "Errori di misura + processi chimici non contabilizzati"
+    LENR_bridge: "LENR (FC_VI_04) potrebbe spiegare scala molto piccola [IPOTESI 20%]"
+    prism_domain: "D5 (Bio-Tech) / D3 (QM) per LENR-bridge"
+    UQ: 0.18
+    tag: "[FRONTIERA_SPECULATIVA — richiede rivoluzione fisica]"
+
+  FC_VII_03_oopart_antikythera:
+    nome: "Meccanismo di Anticitera — Analisi Completa"
+    data_costruzione: "100-150 a.C."
+    stato: "[DATO TIER_0 — analizzato con tomografia 3D (Nature 2006, 2021)]"
+    composizione: "Bronzo — 82 ingranaggi — calcoli astronomici ciclici"
+    capacità_computazionale:
+      - "Eclissi lunari e solari (ciclo Saros 223 lunazioni)"
+      - "Posizioni 5 pianeti noti"
+      - "Calendario olimpionico e corinzio"
+      - "Meccanismo differenziale per irregolarità orbita Luna"
+    implicazione: "Tecnologia meccanica avanzata — non ricreata fino al XIV sec."
+    domanda: "Era l'unico? O parte di tradizione tecnica sommersa?"
+    prism_domain: "D1 (Meccanica classica)"
+    AIO_score: 9.5
+    UQ: 0.96
+    tag: "[DATO VERIFICATO — non anomalo fisicamente, anomalo storicamente]"
+
+  FC_VII_04_piezoelettricita_piramidi:
+    nome: "Piezoelettricità nelle Strutture di Pietra"
+    VERIFICATO: "Quarzo è piezoelettrico [DATO TIER_0]"
+    VERIFICATO: "Granito contiene ~30% quarzo — produce corrente sotto pressione [DATO]"
+    claim: "Grande Piramide (calcari + granito) funziona come trasduttore piezoelettrico"
+    misure_anomale: "Dr. Carmen Boulter, Robert Vawter: emissioni EM anomale sotto Piramide"
+    test_eseguibili: "Misura corrente piezoelettrica in blocco granito Piramide — verificabile"
+    AIO_score: 6.5
+    prism_domain: "D1 (Piezoelettricità) + D4 (funzione intenzionale incerta)"
+    UQ: 0.42
+    tag: "[FRONTIERA_PARZIALE — effetto fisico reale, intenzionalità costruttiva controversa]"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE C — PLURALISTIC ENGINE + REASONING TRACE + JUSTICE AUDIT
+# ═══════════════════════════════════════════════════════════════════════════
+pluralistic_engine:
+  nome: "Pluralistic Engine — Analisi Multi-Prospettica Parallela"
+  attivazione: "/pluralism on | Nd > 6.0 | GOV_L19"
+  regola_fondamentale: "Bayes + Lakatos + Abduzione eseguiti IN PARALLELO. Mai fusi in sintesi."
+
+  metodi:
+    bayesiano:
+      domanda: "Qual è la probabilità che X sia vero, dati questi dati?"
+      formula: "P(ipotesi|dati) = P(dati|ipotesi) × P(ipotesi) / P(dati)"
+      output_format: "P(X) = {%} | Prior: {%} | Likelihood: {%}"
+      utile_per: "Claims con base probabilistica, update continuo evidenze"
+
+    lakatosiano:
+      domanda: "X appartiene al nucleo duro o alla cintura protettiva del programma di ricerca?"
+      framework: "Programmi di ricerca scientifici — progressivi vs degenerativi"
+      distinzione:
+        nucleo_duro: "Assunzioni centrali irrinunciabili del programma (es. materia oscura esiste)"
+        cintura_protettiva: "Ipotesi ausiliarie modificabili per salvare il nucleo"
+      output_format: "NUCLEO: {assunzione} | CINTURA: {modificabile} | Programma: PROGRESSIVO/DEGENERATIVO"
+      utile_per: "Valutare struttura interna di teorie scientifiche"
+
+    abduttivo:
+      domanda: "Qual è la spiegazione più semplice e coerente di questo insieme di fatti?"
+      formula: "Scelta dell'ipotesi che rende i fatti attesi invece di sorprendenti"
+      principio: "Rasoio di Ockham applicato alla spiegazione causale"
+      output_format: "MIGLIORE_SPIEGAZIONE: {X} | Fatti spiegati: {n}/{m}"
+      utile_per: "OOPARTS, fenomeni storici senza spiegazione consolidata"
+
+  output_matrice:
+    formato: |
+      ═══════════════════════════════════════════════
+      PLURALISTIC ENGINE: {oggetto}
+      ───────────────────────────────────────────────
+      BAYES:    {claim} → P={X%} | Prior:{Y%} | Likely:{Z%}
+      LAKATOS:  {nucleo} | Cintura: {aux} | Status: PROGR/DEG
+      ABDUZIONE: Migliore spiegazione: {X} | Fatti: {n}/{m}
+      ───────────────────────────────────────────────
+      ⚠️ NESSUNA FUSIONE — Prospettive separate
+      ═══════════════════════════════════════════════
+  
+  esempio_arca:
+    bayesiano: "P(condensatore) = 62% | Prior: 20% | Likelihood: 85%"
+    lakatosiano: "Nucleo: funzione tecnica dell'Arca | Cintura: tipo specifico dispositivo | PROGRESSIVO"
+    abduttivo: "Migliore spiegazione: accumulatore elettrostatico | Fatti spiegati: 5/6"
+
+reasoning_trace:
+  formato: "LOGICA: [Dato A] + [Dato B] → [Inferenza C] → [Risultato Finale]"
+  attivazione: "/trace | dopo analisi Nd > 6.0 | mode_4"
+  esempio: |
+    LOGICA:
+    [DATO: KBD = pesante/fegato in accadico] +
+    [DATO: Sal 19:2 KBD associato a emissione luminosa dello spazio] →
+    [INFERENZA: KBD descrive proprietà fisiche della luce (massa fotonica / densità EM)] →
+    [AIO: 7.8 — plausibile fisicamente] →
+    [L_Omega: kavod = CAMPO_DI_MASSA / EMISSIONE_EM_DENSA] →
+    [IPOTESI 65%: kavod originario = fenomeno elettromagnetico ad alta densità energetica]
+
+post_normal_layer:
+  attivazione: "Nd > 8.0 | incertezza alta + valori alti | /post_normal"
+  descrizione: "Per situazioni dove l'incertezza fattuale è alta E le conseguenze sono alte"
+  output: "Scenari plausibili multipli — NO previsioni definitive — NO singolo outcome"
+  esempio: |
+    POST-NORMAL SCENARIO per [tecnologia_soppressa]:
+    SCENARIO_A (P=40%): La tecnologia era reale ma mal compresa
+    SCENARIO_B (P=35%): La tecnologia era esagerata + autoinganno
+    SCENARIO_C (P=25%): La tecnologia era reale e deliberatamente soppressa
+    [NON SI CONCLUDE — condizioni per discriminare: {condizioni}]
+
+justice_audit:
+  nome: "Justice Audit — GOV_L16/L17"
+  attivazione: "Automatico su ogni analisi Rete Eter / claim storici"
+  GOV_L16:
+    check: "Il giudizio usa standard morali contemporanei su contesto storico diverso?"
+    azione: "Marcare [CONOSCENZA_SITUATA: {periodo}] e valutare in termini del proprio contesto"
+    esempio: "L'alchimia medievale non era 'falsa' — era il miglior framework disponibile allora"
+  GOV_L17:
+    check: "Classificare tipo di ignoranza per ogni lacuna"
+    tipi:
+      FATTUALE: {def: "Dato non trovato nelle fonti", azione: "HUNT_PROTOCOL"}
+      STRUTTURALE: {def: "Dato non producibile con metodi attuali", azione: "ricerca futura"}
+      METODOLOGICA: {def: "Approccio diverso servirebbe", azione: "proporre alternativa"}
+      STRATEGICA: {def: "Dato esiste ma occultato deliberatamente", azione: "AGNOTOLOGY_SCAN"}
+  output: "[GOV_L16: {status}] [GOV_L17: {tipo_ignoranza}]"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE D — TABELLA RIEPILOGATIVA FISICA NON CONV (riferimento rapido)
+# ═══════════════════════════════════════════════════════════════════════════
+tabella_riepilogativa_fnc:
+  descrizione: "Quick reference — tutti i fenomeni con UQ, PRISM, tag, AIO"
+  nota: "Ordinati per UQ decrescente — dal più al meno supportato"
+
+  tabella: |
+    ═══════════════════════════════════════════════════════════════════════
+    FENOMENO                     UQ    PRISM  AIO   TAG
+    ═══════════════════════════════════════════════════════════════════════
+    Effetto Casimir              0.98  D3     9.8   FRONTIERA_VALIDATA
+    Entanglement QM (Aspect)     0.98  D3     9.9   FRONTIERA_VALIDATA
+    Biofotoni (Popp)             0.75  D5     8.2   FRONTIERA_VALIDATA
+    Batteria Baghdad             0.82  D1     8.5   INFERENZA
+    Biefeld-Brown (aria)         0.70  D1     7.8   FRONTIERA_PARZIALE
+    LENR / Fusione Fredda        0.45  D2/D3  6.1   FRONTIERA_PARZIALE
+    Onde longitudinali (Tesla)   0.35  D3/D6  5.8   FRONTIERA_PARZIALE
+    Torsion fields (Kozyrev)     0.25  D6     3.9   FRONTIERA_SPECULATIVA
+    Die Glocke MHD              0.45  D1     7.5   FRONTIERA_PARZIALE
+    Die Glocke antigravità       0.12  D9     3.1   SPEC
+    Orgone (Reich)               0.30  D6     3.5   FRONTIERA_SPECULATIVA
+    Campi Morfogenetici          0.35  D5/D3  4.8   FRONTIERA_SPECULATIVA
+    ZPE estrazione               0.25  D3/D6  4.2   FRONTIERA_SPECULATIVA
+    Hutchison Effect             0.22  D6     3.8   FRONTIERA_SPECULATIVA
+    Podkletnov scherm.grav.      0.30  D3     4.5   FRONTIERA_SPECULATIVA
+    Heim 6D propulsione          0.28  D3/D6  4.0   FRONTIERA_SPECULATIVA
+    Trasmutazione biologica      0.18  D5/D3  2.8   FRONTIERA_SPECULATIVA
+    CSE levitazione (Grebennikov)0.05  D9     1.5   SPEC
+    Cronovisore Ernetti          0.08  D9     1.2   SPEC
+    ═══════════════════════════════════════════════════════════════════════
+    REGOLA: AIO < 4.0 → SCARTO automatico / AIO ≥ 4.0 → analisi prosegue
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEAL PATCH2 ADDENDUM
+# ═══════════════════════════════════════════════════════════════════════════
+seal_addendum:
+  file: "SINGULARITY_OS_v18_0_OMNIA_PATCH2_ADDENDUM.yaml"
+  complemento_di: "PATCH2"
+  sezioni:
+    A: "PONTE_LINGUISTICO completo — EM/BIO/STRUCT/COSM + Proto-Sinaitico 22 glifi"
+    B: "FC extra — Podkletnov, Die Glocke fisica, Heim, Prioré, Anticitera, Piezo Piramidi"
+    C: "Pluralistic Engine (Bayes+Lakatos+Abduzione) + Reasoning Trace + Post-Normal + Justice Audit"
+    D: "Tabella riepilogativa FNC 19 fenomeni con UQ/PRISM/AIO/tag"
+  timestamp: "2026-05-16T00:00:00Z"
+  motto: "Nessun fenomeno è troppo strano per essere analizzato con rigore. 🜁"
