@@ -1,0 +1,763 @@
+nodi_canonici:
+  meta:
+    versione: "1.0"
+    descrizione: "185 nodi verificati con schema arricchito — L±1, aion_strati, fonti, impatto"
+    generato: "2026-05-25"
+    sistema: "SINGULARITY_OS v19.0_OMNIA"
+
+  nodi:
+
+  - id: 1
+    nome: "Leonardo da Vinci"
+    nazione: "IT"
+    periodo: "1452-1519"
+    categoria: "inventore"
+    settore_primario: "ingegneria meccanica e anatomia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [2, 17]
+    l_minus_1_precursors: ["Leon Battista Alberti", "Mariano di Jacopo detto il Taccola"]
+    l_plus_1_heirs: ["Galileo Galilei", "Francesco di Giorgio Martini"]
+    tecnologia_chiave: "Macchina volante, vite aerea, macchine idrauliche"
+    fonti_primarie: ["Codice Atlantico (Biblioteca Ambrosiana)", "Codici di Madrid I-II (BNE)", "Codice Leicester (Bill Gates Collection)", "Manoscritti A-M (Institut de France)"]
+    aion_strati:
+      sigma0: "13.000+ fogli superstiti su ~35.000 originali; IT=0.37"
+      sigma3: "Macchina volante a elica (1489); vite aerea (1493); carro armato; catapulte; pompe idrauliche; cannoni a vapore"
+      sigma7: "I disegni anatomici suggeriscono conoscenza della circolazione sanguigna prima di Harvey; la vite aerea non era costruibile con materiali dell'epoca"
+      sigma11: "Genio reale e documentato; la dispersione delle opere è parzialmente volontaria (scrittura speculare) e parzialmente per eredità contesa"
+      sigma13: "1490-1519: periodo più produttivo; 1519: Melzi eredita; 1570: Pompeo Leoni smembra i codici; 1636-1796: dispersione progressiva"
+    impatto_storico: "Fondò il metodo osservativo in ingegneria; la sua anatomia è di livello moderno"
+    impatto_potenziale: "Se i codici fossero stati pubblicati nel 1520, la rivoluzione industriale sarebbe anticipata di 150 anni"
+    compatibilita_sintropica: 8.5
+
+  - id: 2
+    nome: "Tommaso Masini Zoroastro"
+    nazione: "IT"
+    periodo: "1460-1510"
+    categoria: "inventore"
+    settore_primario: "meccanica applicata"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [1]
+    l_minus_1_precursors: ["Leonardo da Vinci (maestro)"]
+    l_plus_1_heirs: []
+    tecnologia_chiave: "Meccanica pratica applicata ai disegni vinciani"
+    fonti_primarie: ["Corrispondenza nei Codici di Leonardo", "Menzione nei diari di Sandro Botticelli"]
+    aion_strati:
+      sigma0: "Figura storica confermata; scarse fonti autonome"
+      sigma3: "Esecutore materiale di prototipi vinciani; abilità in bronzo e legno"
+      sigma11: "Il suo ruolo è sottostimato dalla storiografia; era il 'braccio operativo' di Leonardo"
+      sigma13: "Attivo 1480-1510 a Firenze e Milano"
+    impatto_storico: "Traduzione pratica dei progetti vinciani in prototipi"
+    impatto_potenziale: "Senza di lui molti disegni di Leonardo sarebbero rimasti solo teorici"
+    compatibilita_sintropica: 5.0
+
+  - id: 3
+    nome: "Galileo Galilei"
+    nazione: "IT"
+    periodo: "1564-1642"
+    categoria: "fisico"
+    settore_primario: "meccanica e astronomia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [4, 5, 26, 66, 68]
+    l_minus_1_precursors: ["Nicola Cusano", "Niccolò Copernico", "Giordano Bruno"]
+    l_plus_1_heirs: ["Isaac Newton", "Evangelista Torricelli", "Giovanni Alfonso Borelli"]
+    tecnologia_chiave: "Metodo sperimentale, cannocchiale astronomico, leggi del moto"
+    fonti_primarie: ["Biblioteca Nazionale di Firenze (Manoscritti Galileiani)", "Dialogo sopra i due massimi sistemi (1632)", "Discorsi e dimostrazioni matematiche (1638)"]
+    aion_strati:
+      sigma0: "Fonti primarie eccellenti; ~150 volumi di manoscritti all'BNCF"
+      sigma3: "Legge di caduta libera; principio di inerzia; osservazioni lunari e di Giove (4 satelliti); fasi di Venere"
+      sigma7: "La condanna del 1633 ritardò la fisica europea di circa 30 anni"
+      sigma11: "Padre del metodo sperimentale; la sua cosmologia era corretta nei fondamentali"
+      sigma13: "1609: cannocchiale; 1610: Sidereus Nuncius; 1633: abiura; 1638: Discorsi; 1642: morte in arresti domiciliari"
+    impatto_storico: "Fondò la fisica sperimentale moderna; aprì la strada a Newton"
+    impatto_potenziale: "Senza la condanna ecclesiastica, la meccanica newtoniana sarebbe arrivata ~1650"
+    compatibilita_sintropica: 9.0
+
+  - id: 4
+    nome: "Evangelista Torricelli"
+    nazione: "IT"
+    periodo: "1608-1647"
+    categoria: "fisico"
+    settore_primario: "barometria e meccanica dei fluidi"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [3]
+    l_minus_1_precursors: ["Galileo Galilei (maestro diretto, ultimo anno di vita)"]
+    l_plus_1_heirs: ["Blaise Pascal", "Robert Boyle"]
+    tecnologia_chiave: "Barometro a mercurio, vuoto barometrico, equazione di Torricelli"
+    fonti_primarie: ["De sphaera et solidis spheralibus (1644)", "Lettere a Michelangelo Ricci", "Archivio di Stato di Firenze"]
+    aion_strati:
+      sigma0: "Fonti buone; morto a 39 anni, corpus limitato ma denso"
+      sigma3: "1643: primo barometro; dimostrazione del vuoto; formula velocità efflusso (v=√2gh)"
+      sigma11: "Ha aperto il campo della pneumatica; il vuoto era negato dalla fisica aristotelica"
+      sigma13: "1641: incontra Galileo moribondo; 1644: esperimento; 1647: morte prematura per tifo"
+    impatto_storico: "Fondò la barometria e dimostrò l'esistenza del vuoto"
+    impatto_potenziale: "Con più anni di vita avrebbe probabilmente anticipato Pascal e Boyle"
+    compatibilita_sintropica: 7.0
+
+  - id: 5
+    nome: "Giovanni Alfonso Borelli"
+    nazione: "IT"
+    periodo: "1608-1679"
+    categoria: "medico/fisico"
+    settore_primario: "biomeccanica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [3]
+    l_minus_1_precursors: ["Galileo Galilei", "William Harvey"]
+    l_plus_1_heirs: ["Medicina moderna del movimento"]
+    tecnologia_chiave: "Biomeccanica animale, iatromeccanica"
+    fonti_primarie: ["De Motu Animalium vol.I-II (1680-81, postumo)", "Archivio Università di Messina"]
+    aion_strati:
+      sigma0: "Opera postuma curata da Caterina Sforza; fonti buone"
+      sigma3: "Muscoli come leve; calcolo forze articolari; analisi del volo degli uccelli; respirazione come meccanismo"
+      sigma11: "Fondatore della biomeccanica; il suo approccio fisico-matematico alla medicina era rivoluzionario"
+      sigma13: "1667: lascia Messina per Roma; 1679: muore in povertà; 1680: opera pubblicata postuma"
+    impatto_storico: "Fondò la biomeccanica moderna; influenzò la fisiologia per secoli"
+    impatto_potenziale: "Diretto antenato della robotica bio-ispirata moderna"
+    compatibilita_sintropica: 7.5
+
+  - id: 13
+    nome: "Luigi Galvani"
+    nazione: "IT"
+    periodo: "1737-1798"
+    categoria: "biologo/fisico"
+    settore_primario: "bioelettricità"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [14, 15]
+    l_minus_1_precursors: ["Marcello Malpighi", "Giovanni Alfonso Borelli"]
+    l_plus_1_heirs: ["Alessandro Volta", "Giovanni Aldini", "Emil du Bois-Reymond"]
+    tecnologia_chiave: "Galvanismo, corrente elettrica animale"
+    fonti_primarie: ["De viribus electricitatis in motu musculari (1791)", "Archivio Università di Bologna"]
+    aion_strati:
+      sigma0: "Fonti primarie ottime; testo del 1791 intatto"
+      sigma3: "1780: contrazioni muscolari rana con elettricità esogena; 1794: arco metallico bimetallico; scoperta involontaria della corrente galvanica"
+      sigma7: "La sua interpretazione era parzialmente errata (fluido animale) ma l'osservazione era rivoluzionaria"
+      sigma11: "Il confronto con Volta fu fruttuoso per entrambi; la verità era a metà strada"
+      sigma13: "1780: esperimento della rana; 1791: pubblicazione; 1797: perde cattedra per rifiuto di giurare fedeltà a Napoleone; 1798: morte"
+    impatto_storico: "Scoprì la bioelettricità; aprì la strada alla neurologia e all'elettrochimica"
+    impatto_potenziale: "Senza Galvani, niente Volta, niente pila, niente elettricità industriale per decenni"
+    compatibilita_sintropica: 8.0
+
+  - id: 14
+    nome: "Alessandro Volta"
+    nazione: "IT"
+    periodo: "1745-1827"
+    categoria: "fisico"
+    settore_primario: "elettrochimica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [13, 15]
+    l_minus_1_precursors: ["Luigi Galvani", "Benjamin Franklin"]
+    l_plus_1_heirs: ["Humphry Davy", "Michael Faraday", "Georg Ohm"]
+    tecnologia_chiave: "Pila voltaica, condensatore, elettroforo"
+    fonti_primarie: ["Lettera a Sir Joseph Banks (Royal Society, 1800)", "Brevetti e corrispondenza scientifica", "Museo Volta di Como"]
+    aion_strati:
+      sigma0: "Eccellente documentazione; lettere all'RS conservate"
+      sigma3: "1799-1800: pila voltaica (prima batteria chimica); 1775: elettroforo; 1782: condensatore"
+      sigma7: "La pila di Volta rese possibile tutta la chimica elettrolitica di Davy e Faraday"
+      sigma11: "La sua intuizione sulla natura chimica (non animale) della corrente era corretta"
+      sigma13: "1775: elettroforo; 1800: pila; 1801: dimostrazione a Napoleone; 1819: ritiro"
+    impatto_storico: "Inventò la prima sorgente di corrente elettrica continua; rese possibile l'era elettrica"
+    impatto_potenziale: "Senza la pila, la rivoluzione industriale elettrica slitterebbe di 50 anni"
+    compatibilita_sintropica: 9.5
+
+  - id: 18
+    nome: "Guglielmo Marconi"
+    nazione: "IT"
+    periodo: "1874-1937"
+    categoria: "ingegnere"
+    settore_primario: "telegrafia senza fili"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [78, 141, 54]
+    l_minus_1_precursors: ["Heinrich Hertz", "Oliver Lodge", "Nikola Tesla"]
+    l_plus_1_heirs: ["Pier Luigi Ighina (collaboratore)", "Armstrong Edwin (FM)"]
+    tecnologia_chiave: "Radio transatlantica, antenna Marconi, sistema RDF"
+    fonti_primarie: ["Nobel Prize (1909)", "Patent GB 12039 (1896)", "Archivio Fondazione Marconi", "Diari esperimento Ostia 1935"]
+    aion_strati:
+      sigma0: "Fonti eccellenti; archivio fondazione aperto parzialmente"
+      sigma3: "1895: primo collegamento radio; 1901: trasatlantico S.Glace Bay-Poldhu; 1909: Nobel; 1935: esperimento motori spenti a Ostia (controverso)"
+      sigma7: "L'esperimento Ostia 1935 (arresto di motori a distanza tramite EM) non è replicato; se autentico implicherebbe accoppiamento EM-meccanico ignoto"
+      sigma11: "Indiscutibile padre della radio; le ricerche tarde con Ighina restano opache"
+      sigma13: "1895-1909: era d'oro; 1919: presidente armistizio radio; 1935: esperimento Ostia (Ighina presente); 1937: morte per infarto"
+    impatto_storico: "Rivoluzionò le comunicazioni globali; salvò migliaia di vite in mare"
+    impatto_potenziale: "Le ricerche di Ostia, se documentate, avrebbero cambiato la propulsione del 900"
+    compatibilita_sintropica: 8.0
+
+  - id: 37
+    nome: "Enrico Fermi"
+    nazione: "IT"
+    periodo: "1901-1954"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [38, 39, 41, 42, 145, 178]
+    l_minus_1_precursors: ["Ernest Rutherford", "Niels Bohr", "Max Planck"]
+    l_plus_1_heirs: ["Edoardo Amaldi", "Bruno Pontecorvo", "Emilio Segrè", "Hans Bethe"]
+    tecnologia_chiave: "Primo reattore nucleare Chicago Pile-1, statistiche di Fermi-Dirac, neutroni lenti"
+    fonti_primarie: ["Nobel Prize (1938)", "Chicago Pile-1 Log Book (Argonne)", "Fermi Papers (University of Chicago)"]
+    aion_strati:
+      sigma0: "Documentazione eccellente; archivi Argonne National Laboratory"
+      sigma3: "1934: neutroni lenti; 1938: Nobel; 1942: Chicago Pile-1 (2 dic); reattore nucleare funzionante"
+      sigma7: "Il ritardo nella costruzione della bomba tedesca è attribuibile in parte alla fuga dei fisici ebrei verso USA"
+      sigma11: "Fermi è l'architetto dell'era nucleare; la sua versatilità (teoria+esperimento) era unica"
+      sigma13: "1901: nato Roma; 1938: Nobel e emigrazione USA; 1942: primo reattore; 1954: morte da tumore (esposizione radioattiva)"
+    impatto_storico: "Aprì l'era nucleare; la sua fisica è alla base di ogni reattore moderno"
+    impatto_potenziale: "Senza Fermi, Manhattan Project avrebbe richiesto altri 3-5 anni"
+    compatibilita_sintropica: 4.0
+
+  - id: 40
+    nome: "Ettore Majorana"
+    nazione: "IT"
+    periodo: "1906-1938"
+    categoria: "fisico teorico"
+    settore_primario: "fisica teorica delle particelle"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: [38, 53, 37]
+    l_minus_1_precursors: ["Werner Heisenberg", "Enrico Fermi (mentore)"]
+    l_plus_1_heirs: ["Fermioni di Majorana (scoperta sperimentale 2012+)"]
+    tecnologia_chiave: "Equazione di Majorana, fermioni di Majorana, teoria dei neutrini"
+    fonti_primarie: ["Quaderni di fisica teorica (Domus Galilaeana, Pisa)", "Corrispondenza con Heisenberg (1933)", "Relazione sparizione (Carabinieri, 1938)"]
+    aion_strati:
+      sigma0: "Articoli scientifici intatti; quaderni parziali; IT=0.42"
+      sigma3: "1932: predice il neutrone indipendentemente; 1937: equazione Majorana per neutrini; fermioni di Majorana come particelle coincidenti con propria antiparticella"
+      sigma7: "La scomparsa del 25 marzo 1938 (Napoli-Palermo) rimane irrisolta; ipotesi: suicidio, fuga volontaria, eliminazione"
+      sigma11: "La sua equazione del 1937 è attuale per la fisica delle particelle; i fermioni di Majorana sono cercati nei laboratori quantistici moderni"
+      sigma13: "1906: nascita; 1932: articolo neutrone; 1937: equazione Majorana; 25 mar 1938: sparizione; 2012: primo candidato fermione Majorana rilevato"
+    impatto_storico: "La sua equazione è fondamentale per la comprensione dei neutrini e del quantum computing"
+    impatto_potenziale: "Se avesse continuato a lavorare, la fisica delle particelle sarebbe avanzata di 20 anni"
+    compatibilita_sintropica: 7.0
+
+  - id: 66
+    nome: "Nicolaus Copernicus"
+    nazione: "PL"
+    periodo: "1473-1543"
+    categoria: "fisico/astronomo"
+    settore_primario: "astronomia e cosmologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [3, 68]
+    l_minus_1_precursors: ["Aristarco di Samo", "Nicola Cusano", "Georg von Peuerbach"]
+    l_plus_1_heirs: ["Galileo Galilei", "Johannes Kepler", "Giordano Bruno"]
+    tecnologia_chiave: "Modello eliocentrico, De Revolutionibus"
+    fonti_primarie: ["De revolutionibus orbium coelestium (1543)", "Commentariolus (ms. 1514)", "Uppsala University Library"]
+    aion_strati:
+      sigma0: "Manoscritto originale conservato; IT=0.92"
+      sigma3: "Sole al centro; Terra e pianeti in orbita circolare; retrogradazione spiegata senza epicicli primari; distanze relative misurabili"
+      sigma7: "Tenne il risultato per 30 anni per paura della reazione ecclesiastica; lo pubblicò in punto di morte"
+      sigma11: "La rivoluzione copernicana è il primo esempio di paradigm-shift scientifico moderno"
+      sigma13: "1514: Commentariolus; 1543: De Revolutionibus (ricevette copia in punto di morte); 1616: libro messo all'Indice"
+    impatto_storico: "Cambiò per sempre il modello del cosmo; aprì la strada alla meccanica celeste"
+    impatto_potenziale: "Senza Copernico, Keplero e Newton sarebbero stati ritardati di generazioni"
+    compatibilita_sintropica: 8.5
+
+  - id: 69
+    nome: "Isaac Newton"
+    nazione: "GB"
+    periodo: "1643-1727"
+    categoria: "fisico/matematico"
+    settore_primario: "meccanica classica e ottica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [76, 68]
+    l_minus_1_precursors: ["Galileo Galilei", "Johannes Kepler", "René Descartes", "Robert Hooke"]
+    l_plus_1_heirs: ["Michael Faraday", "Joseph-Louis Lagrange", "Pierre-Simon Laplace"]
+    tecnologia_chiave: "Gravitazione universale, calcolo infinitesimale, ottica newtoniana"
+    fonti_primarie: ["Principia Mathematica (Royal Society, 1687)", "Opticks (1704)", "Manoscritti alchemici (Cambridge)"]
+    aion_strati:
+      sigma0: "Fonti primarie eccellenti; anche i manoscritti alchemici conservati a Cambridge"
+      sigma3: "F=ma; F=Gm1m2/r²; tre leggi del moto; calcolo differenziale e integrale; decomposizione luce in spettro"
+      sigma7: "Un milione di parole di manoscritti alchemici non pubblicati suggeriscono un Newton diverso da quello canonico"
+      sigma11: "La meccanica newtoniana domina la fisica fino al 1905; i suoi interessi alchemici e teologici sono sistematicamente ignorati"
+      sigma13: "1666: anno mirabile (gravità, calcolo, ottica); 1687: Principia; 1703: presidente RS; 1727: morte"
+    impatto_storico: "Fondò la fisica classica; la sua meccanica è ancora usata in ingegneria aerospaziale"
+    impatto_potenziale: "Senza Newton, la meccanica celeste e la rivoluzione industriale slittano di un secolo"
+    compatibilita_sintropica: 8.0
+
+  - id: 76
+    nome: "Michael Faraday"
+    nazione: "GB"
+    periodo: "1791-1867"
+    categoria: "fisico/chimico"
+    settore_primario: "elettromagnetismo"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [69, 77]
+    l_minus_1_precursors: ["Humphry Davy", "Hans Christian Ørsted", "André-Marie Ampère"]
+    l_plus_1_heirs: ["James Clerk Maxwell", "Nikola Tesla", "Heinrich Hertz"]
+    tecnologia_chiave: "Induzione elettromagnetica, gabbia di Faraday, leggi di Faraday"
+    fonti_primarie: ["Experimental Researches in Electricity (3 voll., RS 1839-1855)", "Royal Institution Archives"]
+    aion_strati:
+      sigma0: "3400 pagine di note sperimentali conservate; fonti eccellenti"
+      sigma3: "1831: legge di induzione EM; 1833: leggi elettrolisi; 1845: effetto Faraday (magneto-ottica); 1848: linee di forza"
+      sigma7: "Senza formazione matematica, Faraday usava visualizzazioni fisiche delle linee di campo che Maxwell poi matematizzò"
+      sigma11: "Il suo concetto di campo è la pietra angolare dell'elettromagnetismo moderno"
+      sigma13: "1831: induzione; 1845: effetto diamagnetico; 1862: conferenze ai giovani; 1867: morte in povertà intellettuale"
+    impatto_storico: "Ha reso possibile tutti i generatori e motori elettrici; fondò l'elettrochimica moderna"
+    impatto_potenziale: "Senza Faraday non esisterebbero trasformatori, generatori né radio"
+    compatibilita_sintropica: 9.5
+
+  - id: 77
+    nome: "James Clerk Maxwell"
+    nazione: "GB"
+    periodo: "1831-1879"
+    categoria: "fisico"
+    settore_primario: "elettromagnetismo teorico"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [76, 78]
+    l_minus_1_precursors: ["Michael Faraday", "William Thomson (Lord Kelvin)", "George Green"]
+    l_plus_1_heirs: ["Heinrich Hertz", "Oliver Heaviside", "Hendrik Lorentz"]
+    tecnologia_chiave: "Equazioni di Maxwell, previsione onde EM, teoria cinetica dei gas"
+    fonti_primarie: ["A Treatise on Electricity and Magnetism (1873)", "On Physical Lines of Force (1861)", "Cambridge University Library"]
+    aion_strati:
+      sigma0: "Corpus completo conservato; IT=0.95"
+      sigma3: "4 equazioni unificano elettricità, magnetismo, luce; c=velocità luce; previsione onde radio 20 anni prima di Hertz; distribuzione Maxwell-Boltzmann"
+      sigma7: "Einstein disse che le equazioni di Maxwell erano più importanti della sua relatività"
+      sigma11: "Le sue equazioni sono ancora esatte a livello classico; la relatività speciale le preserva"
+      sigma13: "1856: primo paper EM; 1865: teoria EM completa; 1873: Treatise; 1879: morte a 48 anni da cancro"
+    impatto_storico: "Secondo Einstein, la più grande rivoluzione fisica dopo Newton"
+    impatto_potenziale: "Le sue equazioni sono la base della comunicazione moderna, del laser, dell'ottica"
+    compatibilita_sintropica: 9.0
+
+  - id: 85
+    nome: "Marie Curie"
+    nazione: "PL/FR"
+    periodo: "1867-1934"
+    categoria: "fisico/chimico"
+    settore_primario: "radioattività"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [86]
+    l_minus_1_precursors: ["Henri Becquerel", "Lord Kelvin"]
+    l_plus_1_heirs: ["Irène Joliot-Curie (figlia)", "Frédéric Joliot-Curie"]
+    tecnologia_chiave: "Scoperta radio e polonio, coniò radioattività, primo Nobel doppio"
+    fonti_primarie: ["Nobel Prize 1903 e 1911", "Quaderni di laboratorio (BNF Parigi, radioattivi)", "Recherches sur les substances radioactives (1904)"]
+    aion_strati:
+      sigma0: "Quaderni ancora radioattivi (1200 anni di decadimento); accesso con tuta protettiva"
+      sigma3: "1898: scoperta polonio e radio; 1903: Nobel Fisica (con Pierre e Becquerel); 1911: Nobel Chimica; isolò radio puro nel 1910"
+      sigma7: "I suoi quaderni sono inaccessibili senza protezione; questo è un caso unico di documento primario fisicamente pericoloso"
+      sigma11: "Prima donna Nobel; prima persona con Nobel in due scienze diverse; morta di anemia aplastica da radiazioni"
+      sigma13: "1891: Parigi; 1898: Radio e Polonio; 1906: morte di Pierre; 1911: secondo Nobel; 1934: morte"
+    impatto_storico: "Fondò la scienza della radioattività; la sua radioterapia salva milioni di vite oggi"
+    impatto_potenziale: "Senza Curie, la fisica nucleare sarebbe ritardata di 20-30 anni"
+    compatibilita_sintropica: 6.5
+
+  - id: 90
+    nome: "Albert Einstein"
+    nazione: "DE/CH/US"
+    periodo: "1879-1955"
+    categoria: "fisico"
+    settore_primario: "relatività e fisica teorica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [32, 89, 131, 145]
+    l_minus_1_precursors: ["James Clerk Maxwell", "Hendrik Lorentz", "Henri Poincaré"]
+    l_plus_1_heirs: ["Robert Oppenheimer", "John Wheeler", "David Bohm"]
+    tecnologia_chiave: "Relatività ristretta/generale, E=mc², effetto fotoelettrico"
+    fonti_primarie: ["Nobel Prize 1921", "Annalen der Physik 1905 (4 articoli)", "Hebrew University Jerusalem (archivio)"]
+    aion_strati:
+      sigma0: "Archivio completo all'Hebrew University; 80.000 documenti"
+      sigma3: "1905 (annus mirabilis): relatività ristretta, E=mc², effetto fotoelettrico, moto browniano; 1915: relatività generale; 1917: cosmologia relativistica"
+      sigma7: "Le lettere ad Oppenheimer e la lettera a Roosevelt su bomba atomica rivelano un Einstein che si pentì della sua influenza militare"
+      sigma11: "Il più grande fisico teorico dopo Newton; la sua meccanica quantistica 'incompleta' era in realtà corretta (Bell dimostrò che aveva ragione)"
+      sigma13: "1905: annus mirabilis; 1915: GR; 1921: Nobel; 1933: fuga da Berlino; 1939: lettera Roosevelt; 1955: morte a Princeton"
+    impatto_storico: "Rivoluzionò la fisica; la sua E=mc² è alla base del nucleare e del GPS"
+    impatto_potenziale: "Il suo unfinished unified field theory potrebbe essere la chiave della fisica del XXI sec."
+    compatibilita_sintropica: 7.5
+
+  - id: 141
+    nome: "Nikola Tesla"
+    nazione: "RS/US"
+    periodo: "1856-1943"
+    categoria: "inventore/fisico"
+    settore_primario: "elettromagnetismo e trasmissione energia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [17, 18, 103, 155, 156, 142]
+    l_minus_1_precursors: ["Galileo Ferraris (AC indipendente)", "James Clerk Maxwell"]
+    l_plus_1_heirs: ["Pier Luigi Ighina", "Viktor Schauberger (parallelo)"]
+    tecnologia_chiave: "Motore AC, campo magnetico rotante, torre Wardenclyffe, corrente ad alta frequenza"
+    fonti_primarie: ["Brevetti USPTO (oltre 300)", "Colorado Springs Notes (1899-1900)", "Lectures and Patents (AIEE)", "Archivio FBI (6 scatole sequestrate 1943)"]
+    aion_strati:
+      sigma0: "IT=0.61; archivio FBI parzialmente desecretato; Colorado Springs Notes pubblicati"
+      sigma3: "1888: motore AC; 1891: Tesla coil; 1899: Colorado Springs (1 milione di volt, 30m fulmini); 1901: Wardenclyffe; trasmissione wireless energia e dati"
+      sigma7: "Il sequestro dei suoi documenti nel 1943 da parte dell'OSRD solleva domande; le sue note su 'ray death' e trasmissione di energia senza fili sono ancora classificate in parte"
+      sigma11: "Tesla aveva ragione sull'AC; la sua visione di internet wireless era 100 anni in anticipo; Wardenclyffe era fattibile tecnicamente"
+      sigma13: "1888: brevetti AC (venduti a Westinghouse); 1901: Wardenclyffe inizia; 1905: fondi ritirati da Morgan; 1943: morte in povertà; stesso giorno: FBI sequestra documenti"
+    impatto_storico: "Il sistema elettrico mondiale è basato sui suoi brevetti AC"
+    impatto_potenziale: "Wardenclyffe completata = energia wireless gratuita globale; il suo blocco ha definito il modello energetico attuale"
+    compatibilita_sintropica: 10.0
+
+  - id: 148
+    nome: "John von Neumann"
+    nazione: "HU/US"
+    periodo: "1903-1957"
+    categoria: "matematico"
+    settore_primario: "informatica teorica e matematica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [149, 90, 145]
+    l_minus_1_precursors: ["David Hilbert", "Bertrand Russell", "Alan Turing"]
+    l_plus_1_heirs: ["John McCarthy", "Claude Shannon", "Marvin Minsky"]
+    tecnologia_chiave: "Architettura von Neumann, EDVAC, teoria dei giochi, automi cellulari"
+    fonti_primarie: ["First Draft EDVAC (1945)", "Theory of Games and Economic Behavior (1944)", "IAS Archive Princeton"]
+    aion_strati:
+      sigma0: "Corpus enorme; archivi IAS e Library of Congress"
+      sigma3: "Architettura CPU-RAM-I/O (1945); EDVAC; teoria dei giochi (con Morgenstern); automi cellulari; contributi al Manhattan Project (detonazione implosione)"
+      sigma7: "Tutti i computer del mondo usano ancora l'architettura von Neumann; 80 anni dopo è ancora lo standard"
+      sigma11: "Il più versatile matematico del XX sec.; la sua morte precoce da cancro (attribuita a radiazioni) privò il mondo di decenni di contributi"
+      sigma13: "1903: Budapest; 1933: IAS Princeton; 1944: EDVAC; 1945: bomba atomica implosione; 1957: cancro alle ossa"
+    impatto_storico: "Ha definito l'architettura di tutti i computer moderni"
+    impatto_potenziale: "I suoi automi cellulari contenevano già il seme dell'intelligenza artificiale"
+    compatibilita_sintropica: 7.0
+
+  - id: 149
+    nome: "Alan Turing"
+    nazione: "GB"
+    periodo: "1912-1954"
+    categoria: "matematico/informatico"
+    settore_primario: "informatica teorica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [148]
+    l_minus_1_precursors: ["David Hilbert (problema decidibilità)", "Alonzo Church"]
+    l_plus_1_heirs: ["John McCarthy", "Marvin Minsky", "Claude Shannon"]
+    tecnologia_chiave: "Macchina di Turing, test di Turing, decrittazione Enigma (Bombe)"
+    fonti_primarie: ["On Computable Numbers (Proc. London Math. Soc., 1936)", "Computing Machinery and Intelligence (Mind, 1950)", "Bletchley Park Archives"]
+    aion_strati:
+      sigma0: "Fonti ottime; grazia reale postuma 2013; archivi Bletchley desecretati"
+      sigma3: "1936: macchina di Turing (fondamento teorico del calcolo); 1943: Colossus (con Flowers) per Lorenz; 1950: test di Turing"
+      sigma7: "La condanna per 'indecenza grave' nel 1952 e la castrazione chimica costituiscono una soppressione di un genio da parte dello Stato"
+      sigma11: "Il suo lavoro ha salvato milioni di vite (WWII) ed è il fondamento teorico dell'informatica moderna"
+      sigma13: "1936: paper fondamentale; 1939-1945: Bletchley Park; 1952: condanna; 1954: morte (avvelenamento da cianuro, probabilmente suicidio)"
+    impatto_storico: "Padre dell'informatica teorica; accorciò la WWII di 2 anni"
+    impatto_potenziale: "Senza la persecuzione, avrebbe probabilmente creato l'AI 30 anni prima"
+    compatibilita_sintropica: 9.0
+
+  - id: 150
+    nome: "Claude Shannon"
+    nazione: "US"
+    periodo: "1916-2001"
+    categoria: "ingegnere/matematico"
+    settore_primario: "teoria dell'informazione"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [151, 149]
+    l_minus_1_precursors: ["Norbert Wiener", "Harry Nyquist", "Ralph Hartley"]
+    l_plus_1_heirs: ["Robert Gallager", "Peter Shor (crittografia quantistica)"]
+    tecnologia_chiave: "Bit, entropia dell'informazione, teorema di Shannon, codifica"
+    fonti_primarie: ["A Mathematical Theory of Communication (Bell System Technical Journal, 1948)", "Bell Labs Archives Murray Hill"]
+    aion_strati:
+      sigma0: "Fonti eccellenti; Bell Labs conserva tutto"
+      sigma3: "1948: definizione bit; entropia H=-Σp·logp; teorema capacità canale (C=B·log2(1+SNR)); comunicazione senza errori a capacità di canale"
+      sigma7: "Il suo lavoro del 1948 è citato da ogni paper di AI, comunicazione, crittografia scritto negli ultimi 70 anni"
+      sigma11: "Ha creato la scienza dell'informazione; ogni byte trasmesso oggi obbedisce alle sue leggi"
+      sigma13: "1948: paper fondamentale; 1956: Bandwagon (autocritica); 1985: Alzheimer; 2001: morte"
+    impatto_storico: "Fondò la teoria dell'informazione; rese possibile internet, la crittografia, l'AI"
+    impatto_potenziale: "Ogni sistema di comunicazione digitale è costruito sulla sua matematica"
+    compatibilita_sintropica: 9.0
+
+  - id: 92
+    nome: "Niels Bohr"
+    nazione: "DK"
+    periodo: "1885-1962"
+    categoria: "fisico"
+    settore_primario: "fisica atomica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [93, 89, 91]
+    l_minus_1_precursors: ["Ernest Rutherford", "Max Planck"]
+    l_plus_1_heirs: ["Werner Heisenberg", "Erwin Schrödinger", "Wolfgang Pauli"]
+    tecnologia_chiave: "Modello atomico di Bohr, principio di complementarità, Copenhagen interpretation"
+    fonti_primarie: ["Nobel Prize 1922", "Niels Bohr Archive Copenhagen", "Atomic Theory and the Description of Nature (1934)"]
+    aion_strati:
+      sigma0: "Archivio Bohr completo; corrispondenza con Einstein documentata"
+      sigma3: "1913: modello atomico quantizzato; orbite stazionarie; principio di complementarità; interpretazione di Copenhagen della QM"
+      sigma7: "Il dibattito Bohr-Einstein (EPR 1935) non fu risolto fino a Bell (1964) e Aspect (1982)"
+      sigma11: "La sua interpretazione di Copenhagen è ancora dominante; le sue intuizioni sulla dualità erano più corrette di quanto Einstein ammettesse"
+      sigma13: "1913: modello; 1922: Nobel; 1927: dibattito Solvay con Einstein; 1943: fuga dalla Danimarca; 1952: Atoms for Peace"
+    impatto_storico: "Fondò la fisica atomica moderna; guidò la comprensione della struttura della materia"
+    impatto_potenziale: "La sua interpretazione QM guida ancora l'ingegneria quantistica"
+    compatibilita_sintropica: 8.0
+
+  - id: 98
+    nome: "Paul Dirac"
+    nazione: "GB"
+    periodo: "1902-1984"
+    categoria: "fisico"
+    settore_primario: "meccanica quantistica relativistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    l_minus_1_precursors: ["Werner Heisenberg", "Erwin Schrödinger", "Albert Einstein"]
+    l_plus_1_heirs: ["Richard Feynman", "Freeman Dyson", "Julian Schwinger"]
+    tecnologia_chiave: "Equazione di Dirac, previsione antimateria, notazione bra-ket"
+    fonti_primarie: ["Nobel Prize 1933", "The Principles of Quantum Mechanics (1930)", "Cambridge University Archives"]
+    aion_strati:
+      sigma0: "Corpus completo; Cambridge conserva i manoscritti"
+      sigma3: "1928: equazione di Dirac (unifica QM e relatività); predizione positrone (antimateria) verificata 1932 (Anderson); notazione bra-ket universale"
+      sigma7: "La sua equazione predisse l'antimateria 4 anni prima della sua scoperta sperimentale; caso raro di predizione teorica assoluta"
+      sigma11: "Tra i più eleganti fisici teorici della storia; le sue equazioni sono usate nel quantum computing"
+      sigma13: "1928: equazione; 1932: scoperta positrone (Anderson confirma); 1933: Nobel; 1969: Florida State; 1984: morte"
+    impatto_storico: "Ha unificato meccanica quantistica e relatività speciale; predisse l'antimateria"
+    impatto_potenziale: "I suoi metodi matematici sono alla base dei computer quantistici"
+    compatibilita_sintropica: 8.5
+
+  - id: 146
+    nome: "Richard Feynman"
+    nazione: "US"
+    periodo: "1918-1988"
+    categoria: "fisico"
+    settore_primario: "elettrodinamica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [145, 98]
+    l_minus_1_precursors: ["Paul Dirac", "John Wheeler (mentore)", "Hans Bethe"]
+    l_plus_1_heirs: ["David Deutsch (quantum computing)", "Peter Shor"]
+    tecnologia_chiave: "Diagrammi di Feynman, QED, nanotecnologie (visione fondatrice)"
+    fonti_primarie: ["Nobel Prize 1965", "Feynman Lectures on Physics (Caltech, 1964)", "The Character of Physical Law (1967)"]
+    aion_strati:
+      sigma0: "Fonti eccellenti; lezioni Caltech online gratuite"
+      sigma3: "Diagrammi di Feynman (1948); rinormalizzazione QED; integrale sui cammini; 1959: 'There's Plenty of Room at the Bottom' (nanotecnologie); Challenger investigation"
+      sigma7: "Il suo 1959 discorso ha fondato la nanotecnologia 30 anni prima che il campo esistesse"
+      sigma11: "Forse il fisico più creativo del XX sec.; la sua didattica rivoluzionaria è ancora insuperata"
+      sigma13: "1943: Los Alamos; 1948: diagrammi; 1965: Nobel; 1986: Challenger (O-ring nel bicchiere d'acqua ghiacciata); 1988: cancro"
+    impatto_storico: "Ha reso la QED calcolabile; il suo approccio visuale ha rivoluzionato la fisica"
+    impatto_potenziale: "Il suo paper del 1959 sulle nanotecnologie è ancora la roadmap del campo"
+    compatibilita_sintropica: 8.0
+
+  - id: 199
+    nome: "Jennifer Doudna"
+    nazione: "US"
+    periodo: "1964-oggi"
+    categoria: "biologo/biochimico"
+    settore_primario: "biologia molecolare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    l_minus_1_precursors: ["Francisco Mojica (scoperta CRISPR in batteri)", "Yoshizumi Ishino"]
+    l_plus_1_heirs: ["David Liu (prime editing)", "Emmanuelle Charpentier (Nobel coautore)"]
+    tecnologia_chiave: "CRISPR-Cas9, editing genetico di precisione"
+    fonti_primarie: ["Nobel Prize 2020", "Science vol.337 (2012) - paper fondamentale CRISPR-Cas9", "Innovative Genomics Institute Berkeley"]
+    aion_strati:
+      sigma0: "Fonti ottime; il paper del 2012 è uno dei più citati della biologia"
+      sigma3: "2012: dimostrò che CRISPR-Cas9 può tagliare DNA in vitro con precisione; 2013: applicazione alle cellule umane"
+      sigma7: "La guerra dei brevetti tra Broad Institute (Zhang) e UC Berkeley (Doudna) ha rallentato le applicazioni terapeutiche di 3 anni"
+      sigma11: "CRISPR è la più importante tecnologia biologica del XXI sec.; il suo potenziale per curare malattie genetiche è illimitato"
+      sigma13: "2012: paper; 2013: cellule umane; 2020: Nobel; 2023: prima terapia CRISPR approvata FDA"
+    impatto_storico: "Ha creato il coltellino svizzero del DNA; rivoluzione in medicina, agricoltura, biologia"
+    impatto_potenziale: "CRISPR potrebbe eliminare malattie genetiche ereditarie nell'arco di una generazione"
+    compatibilita_sintropica: 9.5
+
+  - id: 107
+    nome: "Ilya Prigogine"
+    nazione: "BE"
+    periodo: "1917-2003"
+    categoria: "chimico/fisico"
+    settore_primario: "termodinamica del non-equilibrio"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    l_minus_1_precursors: ["Ludwig Boltzmann", "Lars Onsager"]
+    l_plus_1_heirs: ["Stuart Kauffman (autoorganizzazione)", "Per Bak (criticalità)"]
+    tecnologia_chiave: "Strutture dissipative, termodinamica irreversibile, ordine dal caos"
+    fonti_primarie: ["Nobel Prize 1977", "Order Out of Chaos (con Stengers, 1984)", "Free University Brussels"]
+    aion_strati:
+      sigma0: "Corpus completo; Nobel 1977"
+      sigma3: "Strutture dissipative: sistemi lontano dall'equilibrio che si auto-organizzano; freccia del tempo termodinamica; non-linearità e biforcazioni"
+      sigma7: "Le sue strutture dissipative spiegano la vita stessa come fenomeno fisico; la biologia è termodinamica del non-equilibrio"
+      sigma11: "Ha unificato fisica, chimica e biologia sotto un framework matematico; la complessità è il suo lascito"
+      sigma13: "1947: prime strutture dissipative; 1977: Nobel; 1984: Chaos book; 2003: morte a Bruxelles"
+    impatto_storico: "Fondò la scienza della complessità e dell'auto-organizzazione"
+    impatto_potenziale: "Il suo framework spiega economia, ecologia, biologia e neuroscienze con una matematica unificata"
+    compatibilita_sintropica: 9.0
+
+  - id: 195
+    nome: "Kip Thorne"
+    nazione: "US"
+    periodo: "1940-oggi"
+    categoria: "fisico"
+    settore_primario: "onde gravitazionali e relatività"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [196, 197]
+    l_minus_1_precursors: ["John Wheeler (mentore)", "Albert Einstein", "Yakov Zel'dovich"]
+    l_plus_1_heirs: ["LIGO Scientific Collaboration (1000+ ricercatori)"]
+    tecnologia_chiave: "LIGO, onde gravitazionali, wormhole transitabili"
+    fonti_primarie: ["Nobel Prize 2017", "Gravitational Waves: Sources, Theory and Detectors", "LIGO Scientific Paper PRL 116 (2016)"]
+    aion_strati:
+      sigma0: "Fonti ottime; paper LIGO 2016 uno dei più controllati della storia scientifica"
+      sigma3: "1967: co-fondatore LIGO concept; 2015 (14 set): prima rilevazione GW da fusione buchi neri; 2017: Nobel"
+      sigma7: "40 anni tra concezione LIGO e prima rilevazione; il segnale durò 0.2 sec e richiedeva sensibilità di 1/1000 del diametro protone"
+      sigma11: "LIGO ha aperto la finestra gravitazionale sull'universo; ogni futura osservazione GW è costruita sul suo lavoro"
+      sigma13: "1967: paper LIGO; 1990: costruzione inizia; 2002: prima run; 2015: prima rilevazione; 2017: Nobel"
+    impatto_storico: "Ha aperto l'astronomia gravitazionale; osserviamo l'universo con un senso nuovo"
+    impatto_potenziale: "Future rilevazioni GW potrebbero rivelare la fisica del Big Bang"
+    compatibilita_sintropica: 8.5
+
+  - id: 201
+    nome: "Katalin Karikó"
+    nazione: "HU/US"
+    periodo: "1955-oggi"
+    categoria: "biologo/biochimico"
+    settore_primario: "biochimica mRNA"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [202]
+    l_minus_1_precursors: ["Robert Malone (prima LNP mRNA)", "Pieter Cullis (liposomi)"]
+    l_plus_1_heirs: ["BioNTech (Pfizer-BioNTech vaccine)", "Moderna"]
+    tecnologia_chiave: "Modificazioni nucleosidiche mRNA, vaccini mRNA COVID-19"
+    fonti_primarie: ["Nobel Prize 2023", "Immunity vol.23 (2005) - paper nucleosidico", "University of Pennsylvania"]
+    aion_strati:
+      sigma0: "Il paper del 2005 fu rifiutato da Nature e Science prima di essere accettato; documentazione completa"
+      sigma3: "2005: sostituzione uridina con pseudouridina riduce risposta immunitaria; 2010: LNP delivery con Weissman; 2020: base dei vaccini BNT162b2 e mRNA-1273"
+      sigma7: "È stata degradata di grado accademico all'UPenn nel 1995 per mancanza di fondi; il suo lavoro era considerato marginale per 15 anni"
+      sigma11: "Il rifiuto istituzionale della sua ricerca è un caso emblematico di soppressione non intenzionale da parte del sistema di finanziamento scientifico"
+      sigma13: "1995: downgrade UPenn; 2005: paper; 2013: passa a BioNTech; 2020: vaccino; 2023: Nobel"
+    impatto_storico: "I suoi vaccini mRNA hanno salvato milioni di vite durante COVID-19"
+    impatto_potenziale: "La piattaforma mRNA potrebbe curare cancro, HIV, malattie genetiche"
+    compatibilita_sintropica: 9.5
+
+  - id: 91
+    nome: "Ernest Rutherford"
+    nazione: "NZ/GB"
+    periodo: "1871-1937"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [92, 89]
+    l_minus_1_precursors: ["J.J. Thomson (scoperta elettrone)", "Marie Curie"]
+    l_plus_1_heirs: ["Niels Bohr", "James Chadwick (neutrone)", "Otto Hahn"]
+    tecnologia_chiave: "Nucleo atomico, prima trasmutazione artificiale, alfa/beta/gamma"
+    fonti_primarie: ["Nobel Prize 1908", "Philosophical Magazine 1911 (nucleo atomico)", "Cambridge Cavendish Laboratory Archives"]
+    aion_strati:
+      sigma0: "Corpus completo; Cavendish archives eccellenti"
+      sigma3: "1911: esperimento Geiger-Marsden -> nucleo atomico; 1919: prima trasmutazione (N->O con alfa); 1920: predice il neutrone"
+      sigma7: "Ha dimostrato che la materia è quasi completamente vuoto; rivoluzione della visione della materia"
+      sigma11: "Padre della fisica nucleare; ogni reattore e ogni acceleratore si fonda sul suo lavoro"
+      sigma13: "1898: alfa e beta rays; 1908: Nobel; 1911: nucleo; 1919: trasmutazione; 1937: morte per ernia strangolata"
+    impatto_storico: "Ha svelato la struttura dell'atomo; fondò la fisica nucleare"
+    impatto_potenziale: "Senza Rutherford, Bohr, Chadwick e Fermi sarebbero stati ritardati di decenni"
+    compatibilita_sintropica: 7.5
+
+  - id: 108
+    nome: "David Bohm"
+    nazione: "US/GB"
+    periodo: "1917-1992"
+    categoria: "fisico"
+    settore_primario: "meccanica quantistica (interpretazione)"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [90]
+    l_minus_1_precursors: ["Albert Einstein (sostenitore)", "Louis de Broglie"]
+    l_plus_1_heirs: ["Basil Hiley (co-autore)", "Roger Penrose"]
+    tecnologia_chiave: "Variabili nascoste, ordine implicito, onde pilota"
+    fonti_primarie: ["Physical Review 85 (1952) - variabili nascoste", "Wholeness and the Implicate Order (1980)", "Birkbeck College London"]
+    aion_strati:
+      sigma0: "Paper 1952 rigettato dalla mainstream ma conservato; fonti complete"
+      sigma3: "1952: variabili nascoste non-locali (contrariamente al teorema di von Neumann); ordine implicito/esplicito; holomovement"
+      sigma7: "Fu inserito nella lista nera del Comitato McCarthy; perse il posto a Princeton ed emigrò in Brasile, poi UK"
+      sigma11: "Il teorema di Bell (1964) e Aspect (1982) hanno dimostrato che aveva ragione sulla non-località; la sua interpretazione è matematicamente equivalente alla QM ortodossa"
+      sigma13: "1950: lista nera McCarthy; 1952: variabili nascoste (rifiutato); 1961: Londra; 1980: Wholeness; 1992: morte"
+    impatto_storico: "Ha aperto l'interpretazione olistica della QM; influenzò Penrose, Zeilinger e il quantum computing"
+    impatto_potenziale: "L'ordine implicito potrebbe essere il framework per una teoria unificata"
+    compatibilita_sintropica: 8.5
+
+  - id: 109
+    nome: "Roger Penrose"
+    nazione: "GB"
+    periodo: "1931-oggi"
+    categoria: "fisico/matematico"
+    settore_primario: "relatività generale e coscienza"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [110]
+    l_minus_1_precursors: ["Stephen Hawking (collaboratore)", "David Bohm"]
+    l_plus_1_heirs: ["Stuart Hameroff (Orch-OR)"]
+    tecnologia_chiave: "Teoremi singolarità, twistor theory, Orch-OR (coscienza quantistica)"
+    fonti_primarie: ["Nobel Prize 2020", "The Emperor's New Mind (1989)", "Shadows of the Mind (1994)"]
+    aion_strati:
+      sigma0: "Corpus ricco; Nobel 2020 per singolarità"
+      sigma3: "1965: teorema singolarità (con Hawking); 1974: Penrose tiles; 1989: coscienza non computazionale; 1994: Orch-OR con Hameroff (microtubuli)"
+      sigma7: "La teoria Orch-OR è contestata ma ha stimolato la neuroscienza quantistica come campo"
+      sigma11: "È il più versatile degli scienziati viventi; la sua matematica copre 6 decenni"
+      sigma13: "1965: singolarità; 1974: tiles; 1989: Emperor's Mind; 2020: Nobel; 2024: ancora attivo"
+    impatto_storico: "Ha dimostrato l'inevitabilità delle singolarità in GR; fondato la neurofisica quantistica"
+    impatto_potenziale: "Orch-OR potrebbe essere la prima teoria scientifica della coscienza verificabile"
+    compatibilita_sintropica: 8.0
+
+  - id: 247
+    nome: "Euclide di Alessandria"
+    nazione: "GR"
+    periodo: "300 a.C. (ca.)"
+    categoria: "matematico"
+    settore_primario: "geometria"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [248, 243]
+    l_minus_1_precursors: ["Pitagora", "Eudosso di Cnido", "Teodoro di Cirene"]
+    l_plus_1_heirs: ["Archimede", "Apollonio di Perga", "René Descartes (geometria analitica)"]
+    tecnologia_chiave: "Elementi di Euclide, metodo assiomatico"
+    fonti_primarie: ["Elementi (13 libri, ~300 a.C.)", "Vatican Library ms. Vat.gr.190", "Oxford Bodleian Library"]
+    aion_strati:
+      sigma0: "Nessun manoscritto originale; le copie più antiche sono bizantine (X sec.)"
+      sigma3: "5 assiomi; 465 proposizioni; teoria dei numeri primi; geometria euclidea; metodo della riduzione all'assurdo"
+      sigma7: "Il fatto che la geometria euclidea sia stata il fondamento di tutta la matematica per 2000 anni è senza precedenti"
+      sigma11: "Gli Elementi sono il testo più stampato della storia dopo la Bibbia; la dimostrazione dell'infinità dei primi è ancora insuperata per eleganza"
+      sigma13: "300 a.C.: Alessandria; perdita originali; Theone di Alessandria (IV sec.): redazione standard"
+    impatto_storico: "Ha definito la matematica come sistema assiomatico per 2000 anni"
+    impatto_potenziale: "Il metodo assiomatico euclidei è la base dell'informatica, della logica e del diritto moderno"
+    compatibilita_sintropica: 9.0
+
+  - id: 248
+    nome: "Archimede di Siracusa"
+    nazione: "GR"
+    periodo: "287-212 a.C."
+    categoria: "matematico/ingegnere"
+    settore_primario: "matematica, meccanica e idrostatica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [247]
+    l_minus_1_precursors: ["Euclide", "Eudosso di Cnido"]
+    l_plus_1_heirs: ["Erone di Alessandria", "Leonardo da Vinci", "Galileo Galilei"]
+    tecnologia_chiave: "Principio di Archimede, leva, vite di Archimede, specchi ustori, calcolo di π"
+    fonti_primarie: ["On the Equilibrium of Planes", "On Floating Bodies", "The Method (Palimpsest, riscopt. 1906)"]
+    aion_strati:
+      sigma0: "Il Palimpsesto di Archimede (riscoperto 1906) contiene The Method; IT=0.35 (molte opere perdute)"
+      sigma3: "Principio idrostatico (galleggiamento); leva; vite elicoidale; calcolo di π (3.1408-3.1429); area del cerchio; volume sfera; metodo esaustione (precalcolo)"
+      sigma11: "Il suo 'metodo' era proto-calcolo integrale; 1800 anni prima di Newton e Leibniz"
+      sigma13: "287 a.C.: nascita; guerra punica; macchine da guerra per Siracusa; 212 a.C.: ucciso da soldato romano durante resa"
+    impatto_storico: "Il più grande matematico dell'antichità; le sue idee erano 2000 anni in anticipo"
+    impatto_potenziale: "Se la sua matematica fosse stata tramandata intatta, il calcolo infinitesimale sarebbe arrivato nel Medioevo"
+    compatibilita_sintropica: 9.5
+
+  - id: 253
+    nome: "Ibn al-Haytham (Alhazen)"
+    nazione: "IQ"
+    periodo: "965-1040"
+    categoria: "fisico/matematico"
+    settore_primario: "ottica sperimentale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [252]
+    l_minus_1_precursors: ["Euclide", "Tolomeo", "Al-Kindi"]
+    l_plus_1_heirs: ["Roger Bacon", "Johannes Kepler (ottica)", "René Descartes"]
+    tecnologia_chiave: "Kitab al-Manazir, camera oscura, rifrazione, metodo scientifico"
+    fonti_primarie: ["Kitab al-Manazir (7 voll., ~1027)", "Bayerische Staatsbibliothek (ms. arabo)", "Süleymaniye Library Istanbul"]
+    aion_strati:
+      sigma0: "Testo originale conservato; IT=0.72"
+      sigma3: "Camera oscura; rifrazione atmosferica; visione come ricezione (non emissione) di luce; psicologia della percezione; metodo sperimentale sistematico"
+      sigma7: "Fu tenuto in prigione per aver mentito a Al-Hakim di Fatima su regolazione del Nilo; lì scrisse il Kitab al-Manazir"
+      sigma11: "Anticipa il metodo scientifico di Bacone di 200 anni; la sua ottica non fu superata fino a Newton"
+      sigma13: "995: Cairo; 1010: prigione; 1021: rilasciato; 1027: opera completa; 1040: morte"
+    impatto_storico: "Fondò l'ottica sperimentale; il metodo scientifico ante-litteram"
+    impatto_potenziale: "Se il suo approccio fosse stato adottato nell'Occidente medievale subito, la rivoluzione scientifica sarebbe anticipata di 300 anni"
+    compatibilita_sintropica: 9.0

@@ -1,0 +1,642 @@
+# ============================================================
+# DB_MASTER_v1.0.yaml — SINGULARITY_OS v4.0
+# Data: 2026-04-14
+# Contiene: Scienziati (281), Laboratori (28), Connessioni (28)
+# ============================================================
+
+scienziati:
+  # 274 nodi dal database di Claude (ID 1-274)
+  # + 7 nuovi nodi da Gemini (ID 275-281)
+  - id: 275
+    nome: "Geoffrey Hinton"
+    alias: ["Padre del Deep Learning"]
+    ancore_linguistiche: []
+    nazione: "UK/CA"
+    periodo: "1947-oggi"
+    categoria: "informatico"
+    settore_primario: "reti neurali"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [167, 276]
+    tecnologia_chiave: "Reti Neurali Profonde / Backpropagation"
+    note: "Nobel per la Fisica 2024 per scoperte fondamentali per l'apprendimento automatico con reti neurali artificiali."
+    fonte_primaria: "Nobel Prize 2024"
+  - id: 276
+    nome: "Demis Hassabis"
+    alias: ["Fondatore DeepMind"]
+    ancore_linguistiche: []
+    nazione: "UK"
+    periodo: "1976-oggi"
+    categoria: "informatico"
+    settore_primario: "intelligenza artificiale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [275, 277]
+    tecnologia_chiave: "AlphaFold / DeepMind"
+    note: "Nobel per la Chimica 2024 per la previsione della struttura delle proteine tramite AI."
+    fonte_primaria: "Nobel Prize 2024"
+  - id: 277
+    nome: "John Jumper"
+    alias: []
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1985-oggi"
+    categoria: "informatico"
+    settore_primario: "bioinformatica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [276]
+    tecnologia_chiave: "AlphaFold2"
+    note: "Nobel per la Chimica 2024. Guidò lo sviluppo di AlphaFold2."
+    fonte_primaria: "Nobel Prize 2024"
+  - id: 278
+    nome: "Satoshi Nakamoto"
+    alias: ["Creatore di Bitcoin"]
+    ancore_linguistiche: []
+    nazione: "Sconosciuta"
+    periodo: "2008-2010"
+    categoria: "crittografo"
+    settore_primario: "blockchain"
+    status: "testimoniato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Bitcoin / Blockchain"
+    note: "Pseudonimo dell'inventore del Bitcoin e della prima blockchain pubblica."
+    fonte_primaria: "Bitcoin Whitepaper (2008)"
+  - id: 279
+    nome: "Tim Berners-Lee"
+    alias: ["Inventore del Web"]
+    ancore_linguistiche: []
+    nazione: "UK"
+    periodo: "1955-oggi"
+    categoria: "informatico"
+    settore_primario: "internet"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [7]
+    tecnologia_chiave: "HTTP / HTML / World Wide Web"
+    note: "Inventò il World Wide Web al CERN nel 1989."
+    fonte_primaria: "CERN Archives"
+  - id: 280
+    nome: "Al-Kindi"
+    alias: ["Alkindus"]
+    ancore_linguistiche: []
+    nazione: "IQ"
+    periodo: "801-873"
+    categoria: "filosofo"
+    settore_primario: "crittografia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Analisi delle frequenze"
+    note: "Pioniere della crittanalisi e della filosofia islamica."
+    fonte_primaria: "Trattato sulla decifrazione dei messaggi crittografici"
+  - id: 281
+    nome: "Ibn al-Haytham"
+    alias: ["Alhazen"]
+    ancore_linguistiche: []
+    nazione: "IQ"
+    periodo: "965-1040"
+    categoria: "fisico"
+    settore_primario: "ottica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Libro dell'Ottica / Camera oscura"
+    note: "Padre del metodo scientifico sperimentale e dell'ottica moderna."
+    fonte_primaria: "Kitāb al-Manāẓir"
+
+laboratori:
+  # 24 nodi originali + 4 nuovi
+  - id: 1
+    nome: "RS/33 Magenta"
+    alias: ["Gabinetto RS/33", "Operazione Vergiate"]
+    tipo: "militare"
+    nazione: "IT"
+    coordinate: "45.72, 8.69"
+    periodo: "1933-1938"
+    funzione: "Recupero e analisi velivolo non convenzionale"
+    status: "non_verificato"
+    certezza: "media"
+    scienziati_associati: [18, 54, 61]
+    materiali_status: "dispersi"
+    note: "Gabinetto segreto creato da Mussolini dopo presunto crash UFO a Vergiate (VA) il 13 giugno 1933. Reperti analizzati da Marconi e Ighina. Nel 1938-39 resti trasferiti all'Ahnenerbe in Germania."
+    fonte_primaria: "Telegrammi 1933, Lettere Senato"
+  - id: 2
+    nome: "Bunker Brescia Pelizza"
+    alias: ["Officine Chiari", "Laboratorio Pelizza"]
+    tipo: "privato"
+    nazione: "IT"
+    coordinate: "45.53, 9.92"
+    periodo: "1958-2000"
+    funzione: "Costruzione e test Macchina Majorana a 4 fasi"
+    status: "disperso"
+    certezza: "media"
+    scienziati_associati: [53, 40]
+    materiali_status: "sconosciuto"
+    note: "Situato nel calzaturificio di famiglia a Chiari (BS). Macchina di Majorana: cubo metallico 0.5m, alberi in plexiglass con dischi di Pt, Au, Hg. Fasi α, β, Δ, φ."
+    fonte_primaria: "Video 1992, Perizie"
+  - id: 3
+    nome: "Laboratorio Majorana (Gruppo Via Panisperna)"
+    alias: ["Istituto Fisico Via Panisperna"]
+    tipo: "pubblico"
+    nazione: "IT"
+    coordinate: "41.898, 12.489"
+    periodo: "1928-1938"
+    funzione: "Fisica nucleare e teoria dei neutrini"
+    status: "conservato"
+    certezza: "alta"
+    scienziati_associati: [40, 37, 38]
+    materiali_status: "integri"
+    note: "Istituto di Fisica di Via Panisperna, Roma. Oggi museo."
+    fonte_primaria: "Archivio Università La Sapienza"
+  - id: 4
+    nome: "Laboratorio Padre Ernetti (Cronovisore)"
+    alias: ["Studio Ernetti"]
+    tipo: "privato"
+    nazione: "IT"
+    coordinate: null
+    periodo: "1950-1970"
+    funzione: "Costruzione Cronovisore"
+    status: "non_verificato"
+    certezza: "bassa"
+    scienziati_associati: []
+    materiali_status: "distrutti"
+    note: "Presunto dispositivo per visione eventi passati. Mai mostrato pubblicamente."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 5
+    nome: "Los Alamos National Laboratory"
+    alias: ["LANL", "Project Y"]
+    tipo: "militare"
+    nazione: "US"
+    coordinate: "35.875, -106.324"
+    periodo: "1943-oggi"
+    funzione: "Sviluppo armi nucleari (Manhattan Project)"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [37, 145]
+    materiali_status: "integri"
+    note: "Sito principale del Progetto Manhattan."
+    fonte_primaria: "Archivi NARA, DOE"
+  - id: 6
+    nome: "Peenemünde Army Research Center"
+    alias: ["Heeresversuchsanstalt Peenemünde"]
+    tipo: "militare"
+    nazione: "DE"
+    coordinate: "54.136, 13.768"
+    periodo: "1937-1945"
+    funzione: "Sviluppo razzi V2"
+    status: "distrutto"
+    certezza: "alta"
+    scienziati_associati: [144]
+    materiali_status: "confiscati"
+    note: "Centro di ricerca missilistica nazista. Confiscato da USA e URSS."
+    fonte_primaria: "Archivi Bundesarchiv, NARA"
+  - id: 7
+    nome: "CERN"
+    alias: ["Organisation Européenne pour la Recherche Nucléaire"]
+    tipo: "pubblico"
+    nazione: "CH"
+    coordinate: "46.233, 6.055"
+    periodo: "1954-oggi"
+    funzione: "Ricerca fisica delle particelle"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [43, 112, 113]
+    materiali_status: "integri"
+    note: "Large Hadron Collider (LHC). Scoperta bosone Higgs 2012."
+    fonte_primaria: "CERN Open Data Portal"
+  - id: 8
+    nome: "Fermilab"
+    alias: ["Fermi National Accelerator Laboratory"]
+    tipo: "pubblico"
+    nazione: "US"
+    coordinate: "41.838, -88.258"
+    periodo: "1967-oggi"
+    funzione: "Fisica delle alte energie"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [37, 174]
+    materiali_status: "integri"
+    note: "Tevatron. Scoperta quark top 1995."
+    fonte_primaria: "Fermilab Archives"
+  - id: 9
+    nome: "Brookhaven National Laboratory"
+    alias: ["BNL"]
+    tipo: "pubblico"
+    nazione: "US"
+    coordinate: "40.875, -72.877"
+    periodo: "1947-oggi"
+    funzione: "Ricerca energia, fisica, biologia"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: []
+    materiali_status: "integri"
+    note: "Scoperta quark charm, ricerca fusione."
+    fonte_primaria: "BNL Archives"
+  - id: 10
+    nome: "Stanford Research Institute (SRI)"
+    alias: ["SRI International"]
+    tipo: "privato"
+    nazione: "US"
+    coordinate: "37.424, -122.165"
+    periodo: "1946-oggi"
+    funzione: "Ricerca avanzata, Stargate, Zero Point Energy"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [218, 219]
+    materiali_status: "parziali"
+    note: "Ospitò il Programma Stargate e ricerche su ZPE di Puthoff."
+    fonte_primaria: "FOIA CIA CREST"
+  - id: 11
+    nome: "CIA Stargate Program"
+    alias: ["Stargate Project", "Grill Flame"]
+    tipo: "militare"
+    nazione: "US"
+    coordinate: "38.897, -77.036"
+    periodo: "1972-1995"
+    funzione: "Remote Viewing e fenomeni psi"
+    status: "declassificato"
+    certezza: "alta"
+    scienziati_associati: [218, 219, 220]
+    materiali_status: "archiviati"
+    note: "Oltre 89.000 documenti declassificati."
+    fonte_primaria: "FOIA CIA CREST"
+  - id: 12
+    nome: "Bell Labs"
+    alias: ["Bell Telephone Laboratories"]
+    tipo: "privato"
+    nazione: "US"
+    coordinate: "40.683, -74.401"
+    periodo: "1925-oggi"
+    funzione: "Ricerca telecomunicazioni, transistor"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [152, 153, 154, 150]
+    materiali_status: "integri"
+    note: "Invenzione transistor 1947. 9 Premi Nobel."
+    fonte_primaria: "Nokia Bell Labs Archives"
+  - id: 13
+    nome: "MIT Radiation Laboratory"
+    alias: ["Rad Lab"]
+    tipo: "militare"
+    nazione: "US"
+    coordinate: "42.360, -71.094"
+    periodo: "1940-1945"
+    funzione: "Sviluppo radar"
+    status: "chiuso"
+    certezza: "alta"
+    scienziati_associati: [18]
+    materiali_status: "archiviati"
+    note: "Rad Lab. Cruciale per vittoria Alleati WWII."
+    fonte_primaria: "MIT Archives"
+  - id: 14
+    nome: "Princeton Plasma Physics Laboratory"
+    alias: ["PPPL"]
+    tipo: "pubblico"
+    nazione: "US"
+    coordinate: "40.346, -74.602"
+    periodo: "1951-oggi"
+    funzione: "Ricerca fusione nucleare"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: []
+    materiali_status: "integri"
+    note: "Tokamak. Stellarator."
+    fonte_primaria: "PPPL Archives"
+  - id: 15
+    nome: "Wright-Patterson Air Force Base"
+    alias: ["WPAFB"]
+    tipo: "militare"
+    nazione: "US"
+    coordinate: "39.823, -84.049"
+    periodo: "1917-oggi"
+    funzione: "Ricerca aerospaziale, intelligence UAP"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: []
+    materiali_status: "classificati"
+    note: "Sede Foreign Technology Division. Presunti resti Roswell."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 16
+    nome: "Area 51 (Groom Lake)"
+    alias: ["Dreamland", "Paradise Ranch"]
+    tipo: "militare"
+    nazione: "US"
+    coordinate: "37.243, -115.813"
+    periodo: "1955-oggi"
+    funzione: "Test velivoli sperimentali (U-2, SR-71, F-117)"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: []
+    materiali_status: "classificati"
+    note: "Riconosciuta ufficialmente CIA 2013."
+    fonte_primaria: "FOIA CIA"
+  - id: 17
+    nome: "Montauk Air Force Station (Camp Hero)"
+    alias: ["Montauk Project"]
+    tipo: "militare"
+    nazione: "US"
+    coordinate: "41.062, -71.874"
+    periodo: "1942-1981"
+    funzione: "Radar difesa costiera. Presunti esperimenti psichici"
+    status: "dismesso"
+    certezza: "bassa"
+    scienziati_associati: []
+    materiali_status: "demoliti"
+    note: "Teorie cospirative su time travel e mind control. Nessuna prova."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 18
+    nome: "INFN Laboratori Nazionali del Gran Sasso"
+    alias: ["LNGS"]
+    tipo: "pubblico"
+    nazione: "IT"
+    coordinate: "42.421, 13.514"
+    periodo: "1985-oggi"
+    funzione: "Fisica astroparticellare, neutrini"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [38, 43]
+    materiali_status: "integri"
+    note: "Esperimenti CUORE, OPERA, XENON."
+    fonte_primaria: "INFN Archives"
+  - id: 19
+    nome: "Istituto Nazionale di Fisica Nucleare (INFN)"
+    alias: ["INFN"]
+    tipo: "pubblico"
+    nazione: "IT"
+    coordinate: "41.902, 12.511"
+    periodo: "1951-oggi"
+    funzione: "Coordinamento ricerca fisica nucleare italiana"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [38, 43]
+    materiali_status: "integri"
+    note: "Ente pubblico di ricerca."
+    fonte_primaria: "INFN Archives"
+  - id: 20
+    nome: "Archivio Tecnico Privato Brevetti e Prototipi"
+    alias: ["Archivio Mastini", "Archivio Ighina"]
+    tipo: "privato"
+    nazione: "IT"
+    coordinate: null
+    periodo: "1900-oggi"
+    funzione: "Conservazione brevetti e prototipi di inventori indipendenti"
+    status: "disperso"
+    certezza: "bassa"
+    scienziati_associati: [54, 55]
+    materiali_status: "sconosciuto"
+    note: "Archivio ipotetico. Riferimento a materiali Mastini, Ighina, ecc."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 21
+    nome: "Bahnson Laboratory"
+    alias: ["Bahnson Lab"]
+    tipo: "privato"
+    nazione: "US"
+    coordinate: "36.101, -80.243"
+    periodo: "1958-1960"
+    funzione: "Esperimenti elettrogravità (T.T. Brown)"
+    status: "disperso"
+    certezza: "media"
+    scienziati_associati: [211]
+    materiali_status: "archiviati"
+    note: "Filmati Navy declassificati. Progetto Winterhaven."
+    fonte_primaria: "FOIA US Navy"
+  - id: 22
+    nome: "CISM Imola"
+    alias: ["Centro Internazionale Studi Magnetici"]
+    tipo: "privato"
+    nazione: "IT"
+    coordinate: "44.35, 11.71"
+    periodo: "1937-2004"
+    funzione: "Ricerca atomo magnetico e monopoli (Ighina)"
+    status: "disperso"
+    certezza: "media"
+    scienziati_associati: [54]
+    materiali_status: "parzialmente conservati"
+    note: "Specchio Magnetico Σ-CISM. Dispositivi basati sul Ritmo Solare-Terrestre."
+    fonte_primaria: "Report RAI 1998"
+  - id: 23
+    nome: "Stabilimento SIAI-Marchetti"
+    alias: ["SIAI-Marchetti Vergiate"]
+    tipo: "industriale"
+    nazione: "IT"
+    coordinate: "45.72, 8.69"
+    periodo: "1915-oggi"
+    funzione: "Produzione aeronautica; custodia reperti RS/33"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [18]
+    materiali_status: "nessuno"
+    note: "Sito di custodia dei presunti resti del velivolo di Magenta prima del trasferimento in Germania."
+    fonte_primaria: "Video YouTube (M2wA4m34N3I)"
+  - id: 24
+    nome: "Laboratori Ahnenerbe"
+    alias: ["Ahnenerbe Forschungsstätten"]
+    tipo: "militare"
+    nazione: "DE"
+    coordinate: null
+    periodo: "1935-1945"
+    funzione: "Ricerca scientifica avanzata per le SS"
+    status: "distrutto"
+    certezza: "media"
+    scienziati_associati: [61, 144]
+    materiali_status: "dispersi"
+    note: "Destinazione finale dei reperti RS/33. Sviluppo velivoli a decollo verticale."
+    fonte_primaria: "Video YouTube (M2wA4m34N3I)"
+  - id: 25
+    nome: "Tesla Colorado Springs Laboratory"
+    alias: ["Experimental Station"]
+    tipo: "privato"
+    nazione: "US"
+    coordinate: "38.841, -104.805"
+    periodo: "1899-1900"
+    funzione: "Trasmissione energia wireless / Onde stazionarie terrestri"
+    status: "distrutto"
+    certezza: "alta"
+    scienziati_associati: [141]
+    materiali_status: "nessuno"
+    note: "Sito dei celebri esperimenti sui fulmini artificiali e sulla risonanza terrestre."
+    fonte_primaria: "Tesla, N. (1900) - Colorado Springs Notes"
+  - id: 26
+    nome: "Fort Meade - Stargate Unit"
+    alias: ["GRILL FLAME", "CENTER LANE"]
+    tipo: "militare"
+    nazione: "US"
+    coordinate: "39.108, -76.734"
+    periodo: "1978-1995"
+    funzione: "Remote Viewing / Intelligence psichica"
+    status: "declassificato"
+    certezza: "alta"
+    scienziati_associati: [218, 219, 220]
+    materiali_status: "archiviati"
+    note: "Sede operativa del Programma Stargate monitorata dalla DIA."
+    fonte_primaria: "CIA-RDP96-00788R001700210016-5 (FOIA)"
+  - id: 27
+    nome: "Bunker Soratte"
+    alias: ["Officine Protette del Duce"]
+    tipo: "militare"
+    nazione: "IT"
+    coordinate: "42.239, 12.502"
+    periodo: "1937-1944"
+    funzione: "Rifugio antiaereo / Ricerca bellica segreta"
+    status: "musealizzato"
+    certezza: "alta"
+    scienziati_associati: [18, 61]
+    materiali_status: "conservati"
+    note: "Complesso ipogeo di 4 km. Collegato a Marconi per lo studio di armi a microonde (Raggio della Morte)."
+    fonte_primaria: "Archivio Storico Comune di Sant'Oreste"
+  - id: 28
+    nome: "Wardenclyffe Tower"
+    alias: ["Torre di Tesla"]
+    tipo: "privato"
+    nazione: "US"
+    coordinate: "40.947, -72.898"
+    periodo: "1901-1917"
+    funzione: "Trasmissione globale di energia wireless"
+    status: "distrutto"
+    certezza: "alta"
+    scienziati_associati: [141]
+    materiali_status: "nessuno"
+    note: "Torre progettata per la trasmissione di energia senza fili. Demolita nel 1917."
+    fonte_primaria: "Brevetti Tesla, Wardenclyffe Archives"
+
+connessioni:
+  - id: 1
+    nodo_a: 1
+    relazione: "collaborazione"
+    nodo_b: 2
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Codici Leonardo"
+    note: "Leonardo e il suo allievo Zoroastro"
+  - id: 2
+    nodo_a: 3
+    relazione: "influenza"
+    nodo_b: 4
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Carteggi"
+    note: "Galileo e Torricelli"
+  - id: 3
+    nodo_a: 13
+    relazione: "influenza"
+    nodo_b: 14
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Carteggi"
+    note: "Galvani e Volta"
+  - id: 4
+    nodo_a: 76
+    relazione: "influenza"
+    nodo_b: 77
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Storia della fisica"
+    note: "Faraday e Maxwell"
+  - id: 5
+    nodo_a: 77
+    relazione: "influenza"
+    nodo_b: 78
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Storia della fisica"
+    note: "Maxwell e Hertz"
+  - id: 6
+    nodo_a: 141
+    relazione: "brevetto_usato"
+    nodo_b: 18
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Corte Suprema USA 1943"
+    note: "Marconi usò brevetti Tesla"
+  - id: 7
+    nodo_a: 141
+    relazione: "influenza"
+    nodo_b: 103
+    forza: "media"
+    evidenza: "testimoniata"
+    fonte: "Corrispondenza"
+    note: "Tesla e Schauberger"
+  - id: 8
+    nodo_a: 141
+    relazione: "influenza"
+    nodo_b: 211
+    forza: "media"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Tesla e T.T. Brown (elettrogravità)"
+  - id: 9
+    nodo_a: 141
+    relazione: "parallelo"
+    nodo_b: 106
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Tesla e Leedskalnin (risonanza magnetica)"
+  - id: 10
+    nodo_a: 40
+    relazione: "collaborazione"
+    nodo_b: 53
+    forza: "debole"
+    evidenza: "testimoniata"
+    fonte: "Pelizza"
+    note: "Majorana e Pelizza (non verificato)"
+  - id: 11
+    nodo_a: 40
+    relazione: "contemporaneo"
+    nodo_b: 37
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Archivi Università"
+    note: "Majorana e Fermi (Via Panisperna)"
+  - id: 12
+    nodo_a: 53
+    relazione: "collaborazione"
+    nodo_b: 54
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Pelizza e Ighina (entrambi legati a Majorana/Marconi)"
+  - id: 13
+    nodo_a: 208
+    relazione: "parallelo"
+    nodo_b: 104
+    forza: "media"
+    evidenza: "testimoniata"
+    fonte: "Biografie"
+    note: "Rife e Reich (frequenze/orgone)"
+  - id: 14
+    nodo_a: 208
+    relazione: "parallelo"
+    nodo_b: 105
+    forza: "media"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Rife e Lakhovsky (risonanza cellulare)"
+  - id: 15
+    nodo_a: 37
+    relazione: "collaborazione"
+    nodo_b: 38
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Archivi INFN"
+    note: "Fermi e Amaldi"
+  - id: 16
+    nodo_a: 37
+    relazione: "contemporaneo"
+    nodo_b: 144
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "Storia"
+    note: "Fermi e von Braun (Manhattan/Paperclip)"
+  - id: 17
+    nodo_a: 144
+    relazione: "collaborazione"
+    nodo_b: 128
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "Storia"
+    note: "von Braun e Korolev (corsa allo spazio)"
+  - id: 18
+    

@@ -1,0 +1,290 @@
+# ============================================================
+# DATABASE_LAB_v4.0.yaml — LABORATORI E STRUTTURE
+# Schema allineato a NUCLEO_v4.0
+# ============================================================
+laboratori:
+  - id: 1
+    nome: "RS/33 Magenta"
+    tipo: "militare"
+    nazione: "IT"
+    periodo: "1933-1938"
+    funzione: "Recupero e analisi velivolo non convenzionale"
+    status: "non_verificato"
+    certezza: "bassa"
+    scienziati_associati: [14, 20, 18]
+    materiali_status: "dispersi"
+    note: "Gabinetto RS/33. Nessun documento primario contemporaneo. Fonti solo post-1996."
+    fonte_primaria: "[LACUNA_DATI]"
+
+  - id: 2
+    nome: "Bunker Brescia Pelizza"
+    tipo: "privato"
+    nazione: "IT"
+    periodo: "1960-1978"
+    funzione: "Costruzione e test Macchina 4 fasi"
+    status: "disperso"
+    certezza: "bassa"
+    scienziati_associati: [31]
+    materiali_status: "sconosciuto"
+    note: "Laboratorio di Rolando Pelizza. Video 1992 girato in Spagna."
+    fonte_primaria: "[LACUNA_DATI]"
+
+  - id: 3
+    nome: "Laboratorio Majorana (Gruppo Via Panisperna)"
+    tipo: "pubblico"
+    nazione: "IT"
+    periodo: "1928-1938"
+    funzione: "Fisica nucleare e teoria dei neutrini"
+    status: "conservato"
+    certezza: "alta"
+    scienziati_associati: [20, 18, 19]
+    materiali_status: "integri"
+    note: "Istituto di Fisica di Via Panisperna, Roma. Oggi museo."
+    fonte_primaria: "Archivio Storico Università La Sapienza"
+
+  - id: 4
+    nome: "Laboratorio Padre Ernetti (Cronovisore)"
+    tipo: "privato"
+    nazione: "IT"
+    periodo: "1950-1970"
+    funzione: "Costruzione Cronovisore"
+    status: "non_verificato"
+    certezza: "bassa"
+    scienziati_associati: []
+    materiali_status: "distrutti"
+    note: "Presunto dispositivo per visione eventi passati. Mai mostrato pubblicamente."
+    fonte_primaria: "[LACUNA_DATI]"
+
+  - id: 5
+    nome: "Los Alamos National Laboratory"
+    tipo: "militare"
+    nazione: "US"
+    periodo: "1943-oggi"
+    funzione: "Sviluppo armi nucleari (Manhattan Project)"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [18, 217, 52]
+    materiali_status: "integri"
+    note: "Sito principale del Progetto Manhattan."
+    fonte_primaria: "Archivi NARA, DOE"
+
+  - id: 6
+    nome: "Peenemünde Army Research Center"
+    tipo: "militare"
+    nazione: "DE"
+    periodo: "1937-1945"
+    funzione: "Sviluppo razzi V2"
+    status: "distrutto"
+    certezza: "alta"
+    scienziati_associati: [217]
+    materiali_status: "confiscati"
+    note: "Centro di ricerca missilistica nazista. Confiscato da USA e URSS."
+    fonte_primaria: "Archivi Bundesarchiv, NARA"
+
+  - id: 7
+    nome: "CERN"
+    tipo: "pubblico"
+    nazione: "CH"
+    periodo: "1954-oggi"
+    funzione: "Ricerca fisica delle particelle"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [22, 141, 142]
+    materiali_status: "integri"
+    note: "Large Hadron Collider (LHC). Scoperta bosone Higgs 2012."
+    fonte_primaria: "CERN Open Data Portal"
+
+  - id: 8
+    nome: "Fermilab"
+    tipo: "pubblico"
+    nazione: "US"
+    periodo: "1967-oggi"
+    funzione: "Fisica delle alte energie"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [18, 212]
+    materiali_status: "integri"
+    note: "Tevatron. Scoperta quark top 1995."
+    fonte_primaria: "Fermilab Archives"
+
+  - id: 9
+    nome: "Brookhaven National Laboratory"
+    tipo: "pubblico"
+    nazione: "US"
+    periodo: "1947-oggi"
+    funzione: "Ricerca energia, fisica, biologia"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: []
+    materiali_status: "integri"
+    note: "Scoperta quark charm, ricerca fusione."
+    fonte_primaria: "BNL Archives"
+
+  - id: 10
+    nome: "Stanford Research Institute (SRI)"
+    tipo: "privato/militare"
+    nazione: "US"
+    periodo: "1946-oggi"
+    funzione: "Remote Viewing (Stargate), Zero Point Energy"
+    status: "declassificato"
+    certezza: "alta"
+    scienziati_associati: [209, 210, 211]
+    materiali_status: "parziali"
+    note: "Programma Stargate CIA (1972-1995)."
+    fonte_primaria: "FOIA CIA CREST"
+
+  - id: 11
+    nome: "CIA Stargate Program"
+    tipo: "militare"
+    nazione: "US"
+    periodo: "1972-1995"
+    funzione: "Remote Viewing e fenomeni psi"
+    status: "declassificato"
+    certezza: "alta"
+    scienziati_associati: [209, 210, 211]
+    materiali_status: "archiviati"
+    note: "Oltre 89.000 documenti declassificati."
+    fonte_primaria: "FOIA CIA CREST"
+
+  - id: 12
+    nome: "Bell Labs"
+    tipo: "privato"
+    nazione: "US"
+    periodo: "1925-oggi"
+    funzione: "Ricerca telecomunicazioni, transistor"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [54, 55, 56, 101]
+    materiali_status: "integri"
+    note: "Invenzione transistor 1947. 9 Premi Nobel."
+    fonte_primaria: "Nokia Bell Labs Archives"
+
+  - id: 13
+    nome: "MIT Radiation Laboratory"
+    tipo: "militare"
+    nazione: "US"
+    periodo: "1940-1945"
+    funzione: "Sviluppo radar"
+    status: "chiuso"
+    certezza: "alta"
+    scienziati_associati: [14]
+    materiali_status: "archiviati"
+    note: "Rad Lab. Cruciale per vittoria Alleati WWII."
+    fonte_primaria: "MIT Archives"
+
+  - id: 14
+    nome: "Princeton Plasma Physics Laboratory"
+    tipo: "pubblico"
+    nazione: "US"
+    periodo: "1951-oggi"
+    funzione: "Ricerca fusione nucleare"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: []
+    materiali_status: "integri"
+    note: "Tokamak. Stellarator."
+    fonte_primaria: "PPPL Archives"
+
+  - id: 15
+    nome: "Wright-Patterson Air Force Base"
+    tipo: "militare"
+    nazione: "US"
+    periodo: "1917-oggi"
+    funzione: "Ricerca aerospaziale, intelligence UAP"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: []
+    materiali_status: "classificati"
+    note: "Sede Foreign Technology Division. Presunti resti Roswell."
+    fonte_primaria: "[LACUNA_DATI]"
+
+  - id: 16
+    nome: "Area 51 (Groom Lake)"
+    tipo: "militare"
+    nazione: "US"
+    periodo: "1955-oggi"
+    funzione: "Test velivoli sperimentali (U-2, SR-71, F-117)"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: []
+    materiali_status: "classificati"
+    note: "Riconosciuta ufficialmente CIA 2013."
+    fonte_primaria: "FOIA CIA"
+
+  - id: 17
+    nome: "Montauk Air Force Station (Camp Hero)"
+    tipo: "militare"
+    nazione: "US"
+    periodo: "1942-1981"
+    funzione: "Radar difesa costiera. Presunti esperimenti psichici (Montauk Project)"
+    status: "dismesso"
+    certezza: "bassa"
+    scienziati_associati: []
+    materiali_status: "demoliti"
+    note: "Teorie cospirative su time travel e mind control. Nessuna prova."
+    fonte_primaria: "[LACUNA_DATI]"
+
+  - id: 18
+    nome: "INFN Laboratori Nazionali del Gran Sasso"
+    tipo: "pubblico"
+    nazione: "IT"
+    periodo: "1985-oggi"
+    funzione: "Fisica astroparticellare, neutrini"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [19, 22]
+    materiali_status: "integri"
+    note: "Esperimenti CUORE, OPERA, XENON."
+    fonte_primaria: "INFN Archives"
+
+  - id: 19
+    nome: "Istituto Nazionale di Fisica Nucleare (INFN)"
+    tipo: "pubblico"
+    nazione: "IT"
+    periodo: "1951-oggi"
+    funzione: "Coordinamento ricerca fisica nucleare italiana"
+    status: "attivo"
+    certezza: "alta"
+    scienziati_associati: [19, 22]
+    materiali_status: "integri"
+    note: "Ente pubblico di ricerca."
+    fonte_primaria: "INFN Archives"
+
+  - id: 20
+    nome: "Archivio Tecnico Privato Brevetti e Prototipi"
+    tipo: "privato"
+    nazione: "IT"
+    periodo: "1900-oggi"
+    funzione: "Conservazione brevetti e prototipi di inventori indipendenti"
+    status: "disperso"
+    certezza: "bassa"
+    scienziati_associati: [15, 16, 28, 32]
+    materiali_status: "sconosciuto"
+    note: "Archivio ipotetico. Riferimento a materiali Mastini, Ighina, ecc."
+    fonte_primaria: "[LACUNA_DATI]"
+
+  - id: 21
+    nome: "Bahnson Laboratory"
+    tipo: "privato"
+    nazione: "US"
+    periodo: "1958-1960"
+    funzione: "Esperimenti elettrogravità (T.T. Brown)"
+    status: "disperso"
+    certezza: "media"
+    scienziati_associati: [204]
+    materiali_status: "archiviati"
+    note: "Filmati Navy declassificati. Progetto Winterhaven."
+    fonte_primaria: "FOIA US Navy"
+
+  - id: 22
+    nome: "CISM Imola"
+    tipo: "privato"
+    nazione: "IT"
+    periodo: "1937-2004"
+    funzione: "Ricerca atomo magnetico e monopoli (Ighina)"
+    status: "disperso"
+    certezza: "media"
+    scienziati_associati: [32]
+    materiali_status: "sconosciuto"
+    note: "Centro Internazionale Studi Magnetici. Macchine documentate RAI 1998."
+    fonte_primaria: "Report RAI 1998"

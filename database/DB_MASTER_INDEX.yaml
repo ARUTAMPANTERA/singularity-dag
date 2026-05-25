@@ -1,0 +1,2600 @@
+metadata:
+  versione: '7.0'
+  generato: '2026-05-25T12:33:42.756829'
+  totale_nodi: 379
+  tier1: 379
+  tier2: 0
+  tier3: 0
+  tier4: 0
+nodi:
+- id: 1
+  nome: Leonardo da Vinci
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 2
+  - 17
+- id: 2
+  nome: Tommaso Masini Zoroastro
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 1
+- id: 3
+  nome: Galileo Galilei
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 4
+  - 5
+  - 26
+  - 66
+  - 68
+- id: 4
+  nome: Evangelista Torricelli
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 3
+- id: 5
+  nome: Giovanni Alfonso Borelli
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 3
+- id: 13
+  nome: Luigi Galvani
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 14
+  - 15
+- id: 14
+  nome: Alessandro Volta
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 13
+  - 15
+- id: 18
+  nome: Guglielmo Marconi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 78
+  - 141
+  - 54
+- id: 37
+  nome: Enrico Fermi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 38
+  - 39
+  - 41
+  - 42
+  - 145
+  - 178
+- id: 40
+  nome: Ettore Majorana
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 38
+  - 53
+  - 37
+  - Enrico Fermi
+  - Edoardo Amaldi
+  - Rolando Pelizza
+- id: 66
+  nome: Nicolaus Copernicus
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 3
+  - 68
+- id: 69
+  nome: Isaac Newton
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 76
+  - 68
+- id: 76
+  nome: Michael Faraday
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 69
+  - 77
+- id: 77
+  nome: James Clerk Maxwell
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 76
+  - 78
+- id: 85
+  nome: Marie Curie
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 86
+- id: 90
+  nome: Albert Einstein
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 32
+  - 89
+  - 131
+  - 145
+- id: 141
+  nome: Nikola Tesla
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 17
+  - 18
+  - 103
+  - 155
+  - 156
+  - 142
+  - George Westinghouse
+  - Galileo Ferraris
+  - Pier Luigi Ighina
+  - Guglielmo Marconi
+- id: 148
+  nome: John von Neumann
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 149
+  - 90
+  - 145
+- id: 149
+  nome: Alan Turing
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 148
+- id: 150
+  nome: Claude Shannon
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 151
+  - 149
+- id: 92
+  nome: Niels Bohr
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 93
+  - 89
+  - 91
+- id: 98
+  nome: Paul Dirac
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 146
+  nome: Richard Feynman
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 145
+  - 98
+- id: 199
+  nome: Jennifer Doudna
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 107
+  nome: Ilya Prigogine
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 195
+  nome: Kip Thorne
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 196
+  - 197
+- id: 201
+  nome: Katalin Karikó
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 202
+- id: 91
+  nome: Ernest Rutherford
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 92
+  - 89
+- id: 108
+  nome: David Bohm
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 90
+- id: 109
+  nome: Roger Penrose
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 110
+- id: 247
+  nome: Euclide di Alessandria
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 248
+  - 243
+- id: 248
+  nome: Archimede di Siracusa
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 247
+- id: 253
+  nome: Ibn al-Haytham (Alhazen)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 252
+- id: T2-003
+  nome: Rolando Pelizza
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Ettore Majorana (presunto)
+  - Giuseppe Belluzzo
+- id: T2-004
+  nome: Pier Luigi Ighina
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Guglielmo Marconi
+  - Mario Mastini
+- id: T2-005
+  nome: Viktor Schauberger
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Nikola Tesla (parallelo)
+  - Wilhelm Reich (parallelo bio-energia)
+- id: T2-006
+  nome: Wilhelm Reich
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Sigmund Freud (maestro)
+  - Royal Rife (parallelo soppressione)
+- id: T2-007
+  nome: Edward Leedskalnin
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T2-008
+  nome: Royal Raymond Rife
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Wilhelm Reich (parallelo soppressione)
+- id: T2-009
+  nome: Thomas Townsend Brown
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Nikola Tesla (precursore)
+  - Paul Alfred Biefeld (collaboratore)
+- id: T2-010
+  nome: Harold Puthoff
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Russell Targ
+  - Ingo Swann
+  - Pat Price
+- id: T2-011
+  nome: Stanley Pons
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Martin Fleischmann
+- id: T2-012
+  nome: Giuseppe Belluzzo
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Guglielmo Reiss Romoli
+  - Guglielmo Marconi
+- id: T2-013
+  nome: Russell Targ
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Harold Puthoff
+  - Ingo Swann
+  - Pat Price
+- id: T2-014
+  nome: Ingo Swann
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Russell Targ
+  - Harold Puthoff
+- id: T2-015
+  nome: Jacques Benveniste
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Luc Montagnier (parallelo)
+- id: T2-016
+  nome: Luc Montagnier
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Jacques Benveniste (parallelo)
+  - Françoise Barré-Sinoussi (co-Nobel HIV)
+- id: T2-017
+  nome: Andrea Rossi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Stanley Pons (predecessore LENR)
+  - Sergio Focardi (collaboratore)
+- id: T2-018
+  nome: James Lovelock
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Lynn Margulis (co-sviluppo Gaia)
+  - Carl Sagan (critico)
+- id: T2-019
+  nome: Rupert Sheldrake
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - David Bohm (ordine implicito — parallelo)
+  - Carl Jung (inconscio collettivo — analogia)
+- id: T2-020
+  nome: Nassim Haramein
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-R-001
+  nome: Giambattista della Porta
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Galileo Galilei (corrispondenza)
+  - Francis Bacon (parallelo)
+- id: T3-R-002
+  nome: Giovanni Schiaparelli
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Giovanni Battista Riccioli (predecessore nomenclatura)
+  - Percival Lowell (seguace)
+- id: T3-R-003
+  nome: Giorgio de Santillana
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Hertha von Dechend (co-autore)
+- id: T3-R-004
+  nome: Ruggero Giuseppe Boscovich
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Isaac Newton (influenzato da)
+  - Michael Faraday (influenzato Boscovich)
+- id: T3-R-005
+  nome: Ada Lovelace
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Charles Babbage (collaboratore)
+- id: T3-R-006
+  nome: Hedy Lamarr
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - George Antheil (co-inventore)
+- id: T3-R-007
+  nome: Konstantin Tsiolkovsky
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Sergej Korolev (erede diretto)
+  - Robert Goddard (parallelo)
+- id: T3-R-008
+  nome: Richard Buckminster Fuller
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Linus Pauling (strutture molecolari — parallelo fullereni)
+- id: T3-R-009
+  nome: Oliver Heaviside
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - James Clerk Maxwell (riformulatore)
+  - Heinrich Hertz
+  - Nikola Tesla
+- id: T3-R-010
+  nome: Lord Kelvin (William Thomson)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - James Clerk Maxwell (collaboratore)
+  - Michael Faraday
+  - Hermann von Helmholtz
+- id: T3-R-011
+  nome: Tycho Brahe
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Johannes Kepler (successore con i dati)
+  - Galileo Galilei (parallelo)
+- id: T3-R-012
+  nome: Robert Hooke
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Isaac Newton (antagonista)
+  - Christopher Wren (collaboratore)
+- id: T3-R-013
+  nome: Jabir ibn Hayyan
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Al-Kindi (successore)
+  - Al-Razi (successore)
+- id: T3-R-014
+  nome: Al-Biruni
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Avicenna (corrispondenza)
+  - Al-Khwarizmi (predecessore)
+- id: T3-R-015
+  nome: Al-Jazari
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-R-016
+  nome: James Watt
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Matthew Boulton (partner commerciale)
+  - Joseph Black (mentore)
+- id: T3-R-017
+  nome: Hermann von Helmholtz
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Lord Kelvin (corrispondenza)
+  - James Clerk Maxwell
+  - Heinrich Hertz (allievo)
+- id: T3-R-018
+  nome: Philo di Bisanzio
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Archimede (contemporaneo)
+  - Erone di Alessandria (successore)
+- id: T3-R-019
+  nome: Lise Meitner
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Otto Hahn (co-ricercatore)
+  - Enrico Fermi
+  - Niels Bohr
+- id: T3-R-020
+  nome: Jocelyn Bell Burnell
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Antony Hewish (supervisore, Nobel)
+- id: T3-LAB-001
+  nome: Laboratorio Colorado Springs
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - T2-002 (Tesla)
+  - T3-LAB-002 (Wardenclyffe)
+- id: T3-LAB-002
+  nome: Torre Wardenclyffe
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - T2-002 (Tesla)
+  - T3-LAB-001 (Colorado Springs)
+- id: T3-LAB-003
+  nome: Bell Laboratories
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Claude Shannon
+  - John Bardeen
+  - Walter Brattain
+  - William Shockley
+- id: T3-LAB-004
+  nome: Gabinetto RS/33 Magenta
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - T2-012 (Belluzzo)
+  - T2-004 (Ighina)
+  - T2-001 (Majorana, possibile)
+- id: T3-LAB-005
+  nome: CISM — Centro Italiano Studio Magnetismo (Imola)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - T2-004 (Ighina)
+- id: T3-LAB-006
+  nome: Laboratorio Leonstein — Schauberger
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - T2-005 (Schauberger)
+- id: T3-LAB-007
+  nome: SRI International — Programma Stargate
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - T2-010 (Puthoff)
+  - Ingo Swann
+  - Russell Targ
+- id: T3-LAB-008
+  nome: CERN — Conseil Européen pour la Recherche Nucléaire
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Carlo Rubbia
+  - Peter Higgs
+  - Georges Charpak
+  - Edoardo Amaldi (co-fondatore)
+- id: T3-LAB-009
+  nome: Laboratorio Rife — San Diego
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - T2-008 (Rife)
+- id: T3-LAB-010
+  nome: Cavendish Laboratory — Cambridge
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - Ernest Rutherford
+  - J.J. Thomson
+  - James Watson
+  - Francis Crick
+- id: T3-EXP-001
+  nome: Esperimento della doppia fenditura (Young)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-EXP-002
+  nome: Esperimento Michelson-Morley
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-EXP-003
+  nome: Esperimento Wardenclyffe (non completato)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-EXP-004
+  nome: Chicago Pile-1 (CP-1)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-EXP-005
+  nome: Esperimento Aspect — Disuguaglianze di Bell
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-EXP-006
+  nome: Prima rilevazione onde gravitazionali — GW150914
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-EXP-007
+  nome: Clinica San Diego 1934 — Rife
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-EXP-008
+  nome: Esperimento di Fusione Fredda Pons-Fleischmann (1989)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-001
+  nome: Corrente Alternata (AC) — Sistema Tesla-Westinghouse
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-002
+  nome: Frequency Hopping Spread Spectrum (FHSS)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-003
+  nome: CRISPR-Cas9
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-004
+  nome: Laser
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-005
+  nome: Turbina a Vortice (Schauberger)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-006
+  nome: Transistore
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-007
+  nome: Effetto Biefeld-Brown / Lifter
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-008
+  nome: mRNA Vaccine Platform
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-009
+  nome: World Wide Web
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: T3-TECH-010
+  nome: LENR (Low Energy Nuclear Reactions)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 6
+  nome: Francesco Redi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 7
+  nome: Marcello Malpighi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 8
+  nome: Giovanni Battista Morgagni
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 9
+  nome: Jacopo Riccati
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 10
+  nome: Laura Bassi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 11
+  nome: Maria Gaetana Agnesi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 12
+  nome: Lazzaro Spallanzani
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 15
+  nome: Giovanni Aldini
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 13
+  - 14
+- id: 16
+  nome: Antonio Pacinotti
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 17
+- id: 17
+  nome: Galileo Ferraris
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 16
+  - 141
+- id: 19
+  nome: Innocenzo Manzetti
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 20
+- id: 20
+  nome: Antonio Meucci
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 19
+- id: 21
+  nome: Vincenzo Tiberio
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 22
+  nome: Camillo Golgi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 23
+  nome: Giuseppe Levi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 24
+- id: 24
+  nome: Rita Levi-Montalcini
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 23
+- id: 25
+  nome: Giulio Natta
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 26
+  nome: Giovanni Battista Riccioli
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 3
+- id: 27
+  nome: Corrado Segre
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 28
+  nome: Federigo Enriques
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 29
+  nome: Gino Fano
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 30
+  nome: Giuseppe Peano
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 31
+  nome: Vito Volterra
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 32
+  nome: Tullio Levi-Civita
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 90
+- id: 33
+  nome: Giovanni Giorgi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 34
+  nome: Giordano Bruno
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 35
+  nome: Leonardo Pisano
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 36
+  nome: Umberto Nobile
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 38
+  nome: Edoardo Amaldi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 37
+- id: 39
+  nome: Bruno Rossi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 37
+- id: 41
+  nome: Bruno Pontecorvo
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 37
+- id: 42
+  nome: Emilio Segrè
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 37
+- id: 43
+  nome: Carlo Rubbia
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 44
+  nome: Margherita Hack
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 45
+  nome: Federico Faggin
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 46
+  nome: Riccardo Giacconi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 47
+  nome: Giorgio Parisi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 48
+  nome: Giulio Tononi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 49
+  nome: Michele Parrinello
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 50
+  nome: Paolo Di Vecchia
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 51
+  nome: Riccardo Zecchina
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 52
+  nome: Fabio Benatti
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 55
+  nome: Mario Mastini
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 54
+- id: 56
+  nome: Giuseppe Calligaris
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 57
+  nome: Giacomo Quareschi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 58
+  nome: Giuseppe Moscati
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 59
+  nome: Raffaele Bendandi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 60
+  nome: Agostino Gemelli
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 62
+  nome: Guglielmo Reiss Romoli
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 18
+  - 61
+- id: 63
+  nome: Edoardo Agnelli
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 18
+- id: 64
+  nome: Giuseppe Tartini
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 65
+  nome: Nicola Cusano
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 67
+  nome: Roger Bacon
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 68
+  nome: Johannes Kepler
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 3
+- id: 70
+  nome: William Harvey
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 71
+  nome: Antonie van Leeuwenhoek
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 72
+  nome: Robert Boyle
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 73
+  nome: Carl Linneo
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 74
+  nome: Joseph Priestley
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 75
+- id: 75
+  nome: Antoine Lavoisier
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 74
+- id: 78
+  nome: Heinrich Hertz
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 18
+  - 77
+- id: 79
+  nome: John Dalton
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 80
+  nome: Gregor Mendel
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 81
+  nome: Louis Pasteur
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 83
+- id: 82
+  nome: Charles Darwin
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 83
+  nome: Robert Koch
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 81
+- id: 84
+  nome: Alexander Fleming
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 21
+- id: 86
+  nome: Pierre Curie
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 85
+- id: 87
+  nome: Sophie Germain
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 88
+  nome: Hertha Ayrton
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 89
+  nome: Max Planck
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 90
+- id: 93
+  nome: Werner Heisenberg
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 92
+  - 94
+- id: 94
+  nome: Erwin Schrödinger
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 93
+- id: 95
+  nome: Louis de Broglie
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 96
+  nome: Max von Laue
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 99
+  nome: Rosalind Franklin
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 100
+  - 101
+- id: 100
+  nome: Francis Crick
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 99
+  - 101
+- id: 101
+  nome: James Watson
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 99
+  - 100
+- id: 102
+  nome: Barbara McClintock
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 105
+  nome: Georges Lakhovsky
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 110
+  nome: Stephen Hawking
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 109
+- id: 111
+  nome: Freeman Dyson
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 112
+  nome: Peter Higgs
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 113
+- id: 113
+  nome: François Englert
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 112
+- id: 114
+  nome: Anton Zeilinger
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 115
+  - 198
+- id: 115
+  nome: Alain Aspect
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 114
+  - 198
+- id: 116
+  nome: Friedrich Kekulé
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 117
+  nome: Otto Hahn
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 97
+- id: 118
+  nome: Dmitrij Mendeleev
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 119
+  nome: Ivan Pavlov
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 120
+  nome: Ilja Mečnikov
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 121
+  nome: Lev Landau
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 122
+  nome: Pëtr Kapica
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 121
+- id: 123
+  nome: Vitalij Ginzburg
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 124
+  nome: Aleksandr Prochorov
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 125
+- id: 125
+  nome: Nikolaj Basov
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 124
+- id: 126
+  nome: Zhores Alferov
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 127
+  nome: Juri Oganessian
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 128
+  nome: Sergej Korolev
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 129
+  nome: Igor Kurchatov
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 130
+- id: 130
+  nome: Andrej Sacharov
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 129
+- id: 131
+  nome: Satyendra Bose
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 90
+- id: 132
+  nome: Subrahmanyan Chandrasekhar
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 133
+  nome: Abdus Salam
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 184
+  - 185
+- id: 134
+  nome: Hideki Yukawa
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 135
+  nome: Sin-Itiro Tomonaga
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 136
+  nome: Syukuro Manabe
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 137
+  nome: Yoshinori Ohsumi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 138
+  nome: Tu Youyou
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 139
+  nome: Chen Ning Yang
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 140
+- id: 140
+  nome: Tsung-Dao Lee
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 139
+- id: 142
+  nome: Thomas Edison
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 141
+- id: 143
+  nome: Alexander Graham Bell
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 19
+  - 20
+- id: 144
+  nome: Wernher von Braun
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 128
+- id: 145
+  nome: Robert Oppenheimer
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 37
+  - 90
+- id: 147
+  nome: John Wheeler
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 146
+- id: 151
+  nome: Norbert Wiener
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 150
+- id: 152
+  nome: John Bardeen
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 153
+  - 154
+- id: 153
+  nome: Walter Brattain
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 152
+- id: 154
+  nome: William Shockley
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 152
+  - 153
+- id: 155
+  nome: George Westinghouse
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 141
+- id: 156
+  nome: Charles Steinmetz
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 141
+  - 155
+- id: 157
+  nome: Elihu Thomson
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 141
+- id: 158
+  nome: Michael Pupin
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 159
+  nome: Reginald Fessenden
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 160
+  nome: Lee De Forest
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 159
+- id: 161
+  nome: Edwin Armstrong
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 160
+- id: 162
+  nome: Vladimir Zworykin
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 163
+  nome: Philo Farnsworth
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 162
+- id: 164
+  nome: Robert Goddard
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 144
+- id: 165
+  nome: Howard Aiken
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 148
+- id: 166
+  nome: John Atanasoff
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 165
+- id: 167
+  nome: Presper Eckert
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 166
+- id: 168
+  nome: Grace Hopper
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 167
+- id: 169
+  nome: Theodore Maiman
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 170
+- id: 170
+  nome: Charles Townes
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 169
+- id: 171
+  nome: Gordon Gould
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 169
+  - 170
+- id: 172
+  nome: Dennis Gabor
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 173
+  nome: Jack Kilby
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 174
+  nome: Murray Gell-Mann
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 175
+  nome: Richard Smalley
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 176
+  - 177
+- id: 176
+  nome: Robert Curl
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 175
+  - 177
+- id: 177
+  nome: Harold Kroto
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 175
+  - 176
+- id: 178
+  nome: Leo Szilard
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 37
+  - 145
+- id: 179
+  nome: Hans Bethe
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 145
+- id: 180
+  nome: Edward Teller
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 145
+- id: 181
+  nome: Edward Witten
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 182
+  nome: Leonard Susskind
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 181
+- id: 183
+  nome: Michio Kaku
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 184
+  nome: Steven Weinberg
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 133
+  - 185
+- id: 185
+  nome: Sheldon Glashow
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 133
+  - 184
+- id: 186
+  nome: David Gross
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 187
+  nome: David Politzer
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 186
+- id: 188
+  nome: Frank Wilczek
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 186
+- id: 189
+  nome: Gerard 't Hooft
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 190
+- id: 190
+  nome: Martinus Veltman
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 189
+- id: 191
+  nome: Georges Charpak
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 192
+  nome: Claude Cohen-Tannoudji
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 193
+  - 194
+- id: 193
+  nome: Steven Chu
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 192
+- id: 194
+  nome: William Phillips
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 192
+- id: 196
+  nome: Rainer Weiss
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 195
+  - 197
+- id: 197
+  nome: Barry Barish
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 195
+  - 196
+- id: 198
+  nome: John Clauser
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 114
+  - 115
+- id: 200
+  nome: Frances Arnold
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 202
+  nome: Drew Weissman
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 201
+- id: 203
+  nome: Ardem Patapoutian
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 204
+- id: 204
+  nome: David Julius
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 203
+- id: 205
+  nome: David Baker
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 206
+- id: 206
+  nome: Demis Hassabis
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 205
+  - 207
+- id: 207
+  nome: John Jumper
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 206
+- id: 208
+  nome: Royal Rife
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 104
+- id: 209
+  nome: John Keely
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 210
+  nome: Thomas Moray
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 212
+  nome: Edwin Gray
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 213
+  nome: Stanley Meyer
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 214
+  nome: Bruce DePalma
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 215
+  nome: John Bedini
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 212
+- id: 216
+  nome: Harold Aspden
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 217
+  nome: Oleg Jefimenko
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 218
+  nome: Hal Puthoff
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 219
+  - 220
+- id: 221
+  nome: Pat Price
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 219
+- id: 222
+  nome: Joseph McMoneagle
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 219
+- id: 223
+  nome: K. Eric Drexler
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 224
+  nome: Brian Greene
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 181
+- id: 225
+  nome: Kary Mullis
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 226
+  nome: Linus Pauling
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 227
+  nome: Edward Jenner
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 228
+  nome: Jonas Salk
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 229
+  nome: Lynn Margulis
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 230
+  nome: Craig Venter
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 231
+  nome: Barry Marshall
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 232
+- id: 232
+  nome: Robin Warren
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 231
+- id: 233
+  nome: Michael Houghton
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 234
+  nome: Pierre Agostini
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 235
+  - 236
+- id: 235
+  nome: Anne L'Huillier
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 234
+  - 236
+- id: 236
+  nome: Frode Sætre
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 234
+  - 235
+- id: 237
+  nome: Michael Rosbash
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 238
+  - 239
+- id: 238
+  nome: Jeffrey Hall
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 237
+  - 239
+- id: 239
+  nome: Michael Young
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 237
+  - 238
+- id: 240
+  nome: Rahul Sarpeshkar
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 241
+  nome: Talete di Mileto
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 242
+- id: 242
+  nome: Anassimandro di Mileto
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 241
+- id: 243
+  nome: Pitagora di Samo
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 244
+  nome: Democrito di Abdera
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 245
+  nome: Ippocrate di Cos
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 246
+  nome: Aristotele di Stagira
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 249
+  nome: Ipparco di Nicea
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 250
+  nome: Aristarco di Samo
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 251
+  nome: Erone di Alessandria
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 252
+  nome: Al-Kindi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 253
+  nome: Ibn al-Haytham
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 254
+  nome: Avicenna
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 255
+  nome: Al-Khwarizmi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 256
+  nome: Ibn Khaldun
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 257
+  nome: Paracelso
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 258
+  nome: Kurt Gödel
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 259
+  nome: Carl Jung
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 260
+  nome: Rudolf Steiner
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 264
+  nome: Martin Fleischmann
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 263
+- id: 269
+  nome: John Dee
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 270
+  nome: Athanasius Kircher
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 271
+  nome: Cornelis Drebbel
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 272
+  nome: Frank Drake
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 273
+  nome: Enki
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 274
+- id: 274
+  nome: Atrahasis
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 273
+- id: 275
+  nome: Geoffrey Hinton
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 167
+  - 276
+- id: 278
+  nome: Satoshi Nakamoto
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 279
+  nome: Tim Berners-Lee
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni:
+  - 7
+- id: 1
+  nome: RS/33 Magenta
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 2
+  nome: Bunker Brescia Pelizza
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 3
+  nome: Laboratorio Majorana (Gruppo Via Panisperna)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 4
+  nome: Laboratorio Padre Ernetti (Cronovisore)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 5
+  nome: Los Alamos National Laboratory
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 6
+  nome: Peenemünde Army Research Center
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 7
+  nome: CERN
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 8
+  nome: Fermilab
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 9
+  nome: Brookhaven National Laboratory
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 10
+  nome: Stanford Research Institute (SRI)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 11
+  nome: CIA Stargate Program
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 12
+  nome: Bell Labs
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 13
+  nome: MIT Radiation Laboratory
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 14
+  nome: Princeton Plasma Physics Laboratory
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 15
+  nome: Wright-Patterson Air Force Base
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 16
+  nome: Area 51 (Groom Lake)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 17
+  nome: Montauk Air Force Station (Camp Hero)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 18
+  nome: INFN Laboratori Nazionali del Gran Sasso
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 19
+  nome: Istituto Nazionale di Fisica Nucleare (INFN)
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 20
+  nome: Archivio Tecnico Privato Brevetti e Prototipi
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 21
+  nome: Bahnson Laboratory
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 22
+  nome: CISM Imola
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 23
+  nome: Stabilimento SIAI-Marchetti
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 24
+  nome: Laboratori Ahnenerbe
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 25
+  nome: Tesla Colorado Springs Laboratory
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 26
+  nome: Fort Meade - Stargate Unit
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 27
+  nome: Bunker Soratte
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 28
+  nome: Wardenclyffe Tower
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 1
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 2
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 3
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 4
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 5
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 6
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 7
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 8
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 9
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 10
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 11
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 12
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 13
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 14
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 15
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 16
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 17
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 18
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 19
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 20
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 21
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 22
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 23
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []
+- id: 24
+  nome: ''
+  tier: 1
+  tipo_nodo: RICERCATORE
+  status: VERIFICATO
+  connessioni: []

@@ -1,0 +1,220 @@
+# ============================================================
+# DATABASE_CONNESSIONI_v4.0.yaml — CONNESSIONI FRATTALI
+# Schema allineato a NUCLEO_v4.0
+# ============================================================
+connessioni:
+  - id: 1
+    nodo_a: 1
+    relazione: "collaborazione"
+    nodo_b: 2
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Codici Leonardo"
+    note: "Leonardo e il suo allievo Zoroastro"
+
+  - id: 2
+    nodo_a: 3
+    relazione: "influenza"
+    nodo_b: 4
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Carteggi"
+    note: "Galileo e Torricelli"
+
+  - id: 3
+    nodo_a: 9
+    relazione: "influenza"
+    nodo_b: 10
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Carteggi"
+    note: "Galvani e Volta"
+
+  - id: 4
+    nodo_a: 111
+    relazione: "influenza"
+    nodo_b: 112
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Storia della fisica"
+    note: "Faraday e Maxwell"
+
+  - id: 5
+    nodo_a: 112
+    relazione: "influenza"
+    nodo_b: 113
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Storia della fisica"
+    note: "Maxwell e Hertz"
+
+  - id: 6
+    nodo_a: 201
+    relazione: "brevetto_usato"
+    nodo_b: 14
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Corte Suprema USA 1943"
+    note: "Marconi usò brevetti Tesla"
+
+  - id: 7
+    nodo_a: 201
+    relazione: "influenza"
+    nodo_b: 101
+    forza: "media"
+    evidenza: "testimoniata"
+    fonte: "Corrispondenza"
+    note: "Tesla e Schauberger"
+
+  - id: 8
+    nodo_a: 201
+    relazione: "influenza"
+    nodo_b: 204
+    forza: "media"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Tesla e T.T. Brown (elettrogravità)"
+
+  - id: 9
+    nodo_a: 201
+    relazione: "parallelo"
+    nodo_b: 104
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Tesla e Leedskalnin (risonanza magnetica)"
+
+  - id: 10
+    nodo_a: 20
+    relazione: "collaborazione"
+    nodo_b: 31
+    forza: "debole"
+    evidenza: "testimoniata"
+    fonte: "Pelizza"
+    note: "Majorana e Pelizza (non verificato)"
+
+  - id: 11
+    nodo_a: 20
+    relazione: "contemporaneo"
+    nodo_b: 18
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Archivi Università"
+    note: "Majorana e Fermi (Via Panisperna)"
+
+  - id: 12
+    nodo_a: 31
+    relazione: "collaborazione"
+    nodo_b: 32
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Pelizza e Ighina (entrambi legati a Majorana/Marconi)"
+
+  - id: 13
+    nodo_a: 202
+    relazione: "parallelo"
+    nodo_b: 102
+    forza: "media"
+    evidenza: "testimoniata"
+    fonte: "Biografie"
+    note: "Rife e Reich (frequenze/orgone)"
+
+  - id: 14
+    nodo_a: 202
+    relazione: "parallelo"
+    nodo_b: 103
+    forza: "media"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Rife e Lakhovsky (risonanza cellulare)"
+
+  - id: 15
+    nodo_a: 18
+    relazione: "collaborazione"
+    nodo_b: 19
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Archivi INFN"
+    note: "Fermi e Amaldi"
+
+  - id: 16
+    nodo_a: 18
+    relazione: "contemporaneo"
+    nodo_b: 217
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "Storia"
+    note: "Fermi e von Braun (Manhattan/Paperclip)"
+
+  - id: 17
+    nodo_a: 217
+    relazione: "collaborazione"
+    nodo_b: 301
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "Storia"
+    note: "von Braun e Korolev (corsa allo spazio)"
+
+  - id: 18
+    nodo_a: 108
+    relazione: "collaborazione"
+    nodo_b: 109
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "Biografie"
+    note: "Marie e Pierre Curie"
+
+  - id: 19
+    nodo_a: 107
+    relazione: "parallelo"
+    nodo_b: 108
+    forza: "media"
+    evidenza: "documentata"
+    fonte: "Storia della fisica"
+    note: "Meitner e Curie (donne nella scienza)"
+
+  - id: 20
+    nodo_a: 209
+    relazione: "collaborazione"
+    nodo_b: 210
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "FOIA CIA"
+    note: "Puthoff e Targ (Stargate)"
+
+  - id: 21
+    nodo_a: 210
+    relazione: "collaborazione"
+    nodo_b: 211
+    forza: "forte"
+    evidenza: "documentata"
+    fonte: "FOIA CIA"
+    note: "Targ e Swann (Stargate)"
+
+  - id: 22
+    nodo_a: 15
+    relazione: "parallelo"
+    nodo_b: 34
+    forza: "debole"
+    evidenza: "inferita"
+    fonte: "[LACUNA_DATI]"
+    note: "Manzetti e Meucci (telefono)"
+
+  - id: 23
+    nodo_a: 16
+    relazione: "parallelo"
+    nodo_b: 64
+    forza: "debole"
+    evidenza: "documentata"
+    fonte: "Storia della medicina"
+    note: "Tiberio e Fleming (penicillina)"
+
+  - id: 24
+    nodo_a: 32
+    relazione: "collaborazione"
+    nodo_b: 33
+    forza: "media"
+    evidenza: "testimoniata"
+    fonte: "Ighina"
+    note: "Ighina e Mastini (monopoli)"
