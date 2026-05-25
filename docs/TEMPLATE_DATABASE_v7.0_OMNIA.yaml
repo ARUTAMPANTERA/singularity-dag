@@ -1,0 +1,129 @@
+---
+# =============================================================================
+# TEMPLATE DATABASE v7.0_OMNIA — STANDARD UFFICIALE SINGULARITY_OS
+# =============================================================================
+# Scopo: Schema conoscitivo per Nodi (Ricercatori, Laboratori, Tecnologie, Eventi)
+# Distinzione: v6.0 = DAG Artifacts (JSON Immutevoli); v7.0 = DB Nodi (YAML Evolutivi)
+# Lock Correlati: OS_L11 (Sync Atomic), GC_129 (Legacy Node Priority), P1 (Zero_Menzogna)
+# =============================================================================
+
+# METADATI DI SISTEMA (Obbligatori per il parsing automatico)
+id: "ID_UNIVOCO"  # Es: "T1-001", "T2-014", "LAB-05", "TECH-09"
+id_legacy: ["VECCHIO_ID_1", "VECCHIO_ID_2"] # Mappatura ID pre-v7 (Lock GC_129)
+nome: "Nome Cognome Completo / Nome Laboratorio / Nome Tecnologia"
+alias: ["Alias 1", "Alias 2", "Soprannome Operativo", "Nome in Codice"]
+tipo_nodo: "RICERCATORE" # Opzioni: RICERCATORE, LABORATORIO, TECNOLOGIA, EVENTO
+periodo: "AAAA-AAAA" # Es: "1890-1956", "1943-1945", "Presente"
+nazione: "CODICE_NAZIONE" # Es: IT, US, DE, RU, FR, UK
+field: "Campo Primario di Ricerca" # Es: "Fisica Nucleare", "Elettromagnetismo", "Antigravità"
+status: "VERIFICATO" # Opzioni: VERIFICATO, SOPPRESSO, CONTROVERSO, SPECULATIVO, GATEKEEPER
+certezza: "alta" # Opzioni: alta, media, bassa, speculativa
+
+# METRICHE EPISTEMICHE (CT-01/08) - Calibrate manualmente o via script
+si_score: 0.00        # Suppression Index (0-1): 0 = Nessuna soppressione, 1 = Soppressione Totale
+delta_score: 0.00     # Prova Delta (Soppressione vs Perdita Naturale): >0.5 indica soppressione attiva
+it_score: 0.00        # Transmission Index (Sopravvivenza dati): 0 = Perso, 1 = Integro
+theta_arch: 0.0       # Majorana Angle (Coerenza Mito/Tech): Allineamento tra narrazione e dato tecnico
+aio_score: 0.0        # Actionability Index (Fattibilità Tech): 0 = Impossibile, 1 = Replicabile
+ciclo_17_fase: 0      # Fase del Ciclo 17 (0-7): Posizione nel ciclo epistemico maggiore
+finestra_5_anni:      # Finestra critica post-demo
+  attiva: false
+  periodo: "AAAA-AAAA"
+  evento_demo: "Descrizione breve dell'evento dimostrativo chiave"
+
+# CLASSIFICAZIONE
+cluster: ["CLUSTER_PRIMARIO", "CLUSTER_SEC"] # Es: ["Fisica_Quantistica", "Energia_Libera"]
+prism_domains: ["D1_Classical", "D6_Aether", "D7_Classified"] # Domini del Prisma Epistemico
+tags_frattali: ["Tag1", "Tag2", "#Vortice", "#Monopolo", "#ZeroPoint"]
+
+# GRAFO RELAZIONALE (Usa ID univoci per i link)
+connessioni_valide: ["ID_Nodo_1", "ID_Nodo_2"] # Link orizzontali (collaboratori, tech correlate)
+l_minus_1_precursors: ["ID_Precursore_1", "ID_Precursore_2"] # Chi ha preceduto questo lavoro
+l_plus_1_heirs: ["ID_Erede_1", "ID_Erede_2"] # Chi ha ereditato/continuato questo lavoro
+hub_collisione: ["LAB-ID_1", "LAB-ID_2"] # Luoghi fisici o istituzionali di convergenza
+
+# VETTORI DI ESPANSIONE & RICERCHE FUTURE (Cruciale per non perdere il filo)
+espansioni_future:
+  - target_id: "ID_DA_INVESTIGARE"
+    tipo_relazione: "L+1|Precursore|Tech_Derivata"
+    priorita: "CRITICA" # Opzioni: CRITICA, ALTA, MEDIA, BASSA
+    motivo_ricerca: "Perché è fondamentale investigare questo collegamento?"
+    stato_attuale: "DA_GENERARE" # Opzioni: DA_GENERARE, IN_LAVORO, COMPLETATO
+domande_aperte_da_chiudere:
+  - "Domanda specifica 1 da risolvere con fonti primarie"
+  - "Domanda specifica 2 su hardware disperso o brevetti bloccati"
+
+# FONTI & BIBLIOGRAFIA STRUTTURATA (Σ0)
+fonti_primarie: ["Brevetto USPTO #XYZ", "Lettera a Fermi (1938)", "Report ENEA 1976", "Diario di Laboratorio"]
+fonti_secondarie: ["Biografia Autorizzata", "Articolo Rivista X", "Documentario TV"]
+fonti_perse_o_secretate: ["Appunti RS/33", "Diari di Laboratorio Sequestrati", "Corrispondenza Classificata"]
+livello_uq_fonti: {"Fonte1": 0.95, "Fonte2": 0.60} # Affidabilità percepita della fonte (0-1)
+
+# AGNOTOLOGIA & SOPPRESSIONE
+meccanismi_soppressione: ["DS2_Sequestro_Documenti", "DS4_Diffamazione_Stampa", "PN1_Perdita_Naturale", "DS1_Censura"]
+narrativa_ufficiale_vs_realta: "Breve sintesi: Cosa dice la versione ufficiale vs cosa emergere dalle prove. Esempio: 'Ufficiale: morto per suicidio. Reale: documenti scomparsi 2 giorni prima della morte.'"
+attori_istituzionali_coinvolti: ["Ente X", "Agenzia Y", "Azienda Z", "Servizio Segreto W"]
+conseguenze_trasmissione: "Impatto della soppressione sulla continuità della ricerca. Esempio: 'Linea di ricerca interrotta per 40 anni.'"
+
+# ANALISI AION STRATIFICATA (Il cuore forense - Obbligatorio v7.0)
+aion_strati:
+  Σ0_source_anchoring: "Ancoraggio alla fonte primaria Tier 0. Datazione e stato di conservazione. Dove si trova il documento originale?"
+  Σ3_literal_extraction: "Estrazione letterale dei claim tecnici senza interpretazione. Cosa dice esattamente il testo?"
+  Σ7_technical_reverse: "Ipotesi di reverse engineering basata sui frammenti disponibili. Come potrebbe funzionare tecnicamente?"
+  Σ11_epistemic_synthesis: "Sintesi finale: Verità residua dopo filtraggio rumore/mito. Qual è il nocciolo duro della verità?"
+  Σ13_forensics_temporale: "Analisi della linea temporale e identificazione gap/lacune. Quali periodi sono bui o sospetti?"
+
+# MEDIA & ARTEFATTI
+media_esistenti: ["Foto Prototipo 1950", "Video RAI 1992", "Schema Circuitale Ricostruito", "Registrazione Audio"]
+stato_disponibilita: {"Foto": "Pubblica", "Schema": "Ricostruito", "Hardware": "Disperso", "Brevetto": "Secretato"}
+
+# IMPATTO & PROIEZIONE
+impatto_storico: "Breve descrizione dell'impatto reale avuto sulla storia o sulla scienza ufficiale."
+impatto_potenziale: "Cosa sarebbe successo se la tecnologia/conoscenza fosse stata rilasciata pubblicamente? Scenario alternativo."
+compatibilita_sintropica: 0.0 # Score 0-10 su quanto la tech riduce l'entropia del sistema (Sintropia)
+
+# LEGAMI TRANS-TEMPLATE
+laboratori_correlati: ["LAB-ID_1", "LAB-ID_2"]
+tecnologie_derivate: ["TECH-ID_1", "TECH-ID_2"]
+tecnologie_precedenti: ["TECH-ID_PREC"]
+
+# METADATA DI VERSIONAMENTO (Tracciabilità assoluta)
+versione_scheda: "7.0"
+ultimo_aggiornamento: "YYYY-MM-DD"
+autore_generazione: "Nome Autore/AI" # Es: "Qwen-Coder-v2.5", "Human-Curator-Alpha"
+stato_generazione: "COMPLETATA" # Opzioni: COMPLETATA, BOZZA, REVISIONE, IN_LAVORO
+changelog:
+  - data: "YYYY-MM-DD"
+    versione: "1.0"
+    modifiche: "Creazione iniziale (Legacy)"
+  - data: "YYYY-MM-DD"
+    versione: "7.0"
+    modifiche: "Migrazione a standard v7.0_OMNIA. Aggiunti strati AION, vettori espansione e changelog strutturato."
+
+---
+# {{nome}}
+*(Sezione narrativa Markdown opzionale per visualizzazione umana, generata automaticamente dallo script)*
+
+## 🧬 Profilo Storico-Scientifico
+{{Inserire qui biografia estesa focalizzata su aspetti tecnici, collaborazioni e dinamiche di potere/soppressione.}}
+
+## ⚙️ Hardware & Tecnologie Chiave
+- **Tech Key:** {{NOME_TECNOLOGIA_PRINCIPALE}}
+- **Meccanismo Operativo:** {{Spiegazione fisica sintetica}}
+- **Reperti Validati:**
+  - {{NOME_REPERTO_1}} (AIO: {{SCORE}}) - Stato: {{STATO}}
+
+## 🔍 Analisi Agnotologica (Prova Delta)
+{{Analisi dettagliata delle firme di soppressione.}}
+
+## 🕸️ Grafo Relazionale (L±1)
+- **Precursori (L-1):** [[Link]]
+- **Eredi (L+1):** [[Link]]
+- **Connessioni Dirette:** [[Link]]
+
+## 📚 Fonti Archivistiche
+- {{FONTE_1}} (Tier: {{TIER}})
+
+---
+*Generato automaticamente tramite SINGULARITY_OS v19.0_OMNIA | Template v7.0_OMNIA*
+*Lock Compliance: OS_L11, GC_129, P1*

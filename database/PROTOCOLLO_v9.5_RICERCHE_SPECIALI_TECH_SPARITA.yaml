@@ -1,0 +1,79 @@
+# ========== PROTOCOLLO v9.5 RICERCHE SPECIALI - TECH SPARITA ==========
+name: "Rete Frattale v9.5 SPECIAL"
+version: "9.5.S"
+status: "HUNT MODE 101%"
+date: "2026-04-10"
+target: "TECHNOLOGIA SOPPRESSA + TESTI ANTICHI"
+
+template_special_hunt: |
+  ----------------------------------------
+  v9.5 SPECIAL: ${nodo} | LIV:${liv} | SUP:${sup} | TECH:${tech_sparita}
+  ----------------------------------------
+  ACQ+: CONSON:${conson} | PEL:${pela} | MAT:${mat_recupero} | DATA:${data_censura}
+  TRACER: |Evento|Protagonista|Segreto|Collegamento|
+  ${tracer_rows}
+  ----------------------------------------
+  STRATI HUNT:
+  0: Evento primario (crash/scoperta)
+  1: Primo contenimento (governo/loggia)
+  2: Scienziato chiave [${grado}]
+  2b: Tech sparita ${tech_name} [RECUPERABILE]
+  3: V:${vort} M:${magn} F:${freq} O:${osta_censura}
+  4s: ${ipotesi_speciale} [HUNT MODE]
+  ----------------------------------------
+  RECUPERO: METODI:${metodi} | PRIORITÀ:${priorita} | VETTORI:${vettori}
+  ----------------------------------------
+  CONCL: Patt:${patt} | BIT:${bit_tech} | NEXT HUNT:${next_hunt}
+  CHECK: HUNT 25/25 ✓ | COLOPHON: ${data} HUNT MODE
+  ----------------------------------------
+
+database_tech_sparita:
+  - RS33: "Magenta 1933 | Majorana | Leghe fononiche | Cronovisore"
+  - Dendera: "Lampada AKH | Rife/Reich | Frequenze guarigione"
+  - Varna: "Lamine oro | Tesla | Monopoli magnetici"
+  - Arca: "KBD peso luminoso | Ighina | Magnetismo primario"
+  - Coral: "Castello Leedskalnin | Schauberger | Implosione"
+
+livelli_censura:
+  L1: "Ordinanza governo (Mussolini RS/33)"
+  L2: "Sparizione scienziato (Majorana 1938)"
+  L3: "Confisca materiali (Varna/Tesla)"
+  L4: "Frammentazione esoterica (alchimia/biblio)"
+  L5: "Incorporazione safe (tech depotenziata)"
+
+metodi_recupero:
+  - ARCHIVI: "Vaticano/Alessandria/Massimo segretato"
+  - TESTIMONI: "Pignatiello/Fiorenzo/Ciccolo"
+  - FRAMMENTI: "Ossidiana/Dendera/Lamine Varna"
+  - PATTERN: "Ciclo_17 + frattali VORTICE"
+  - AI: "Analisi testi + correlazioni Majorana"
+
+protocollo_hunt_5_passi:
+  1. IDENTIFICA: Nodo LIV:-5/-1 con tech sparita
+  2. TRACER: Segui scienziato-chiave (Majorana/Tesla)
+  3. MAPPATURA: Pattern VORTICE+OSTACOLO
+  4. RECUPERO: Archivi/testimoni/frammenti
+  5. RICOSTRUZIONE: AI protocolli + AION 360
+
+test_run_rs33: |
+  ----------------------------------------
+  v9.5 SPECIAL: RS/33 Gabbietto | LIV:-1 | SUP:Velivolo | TECH:Fononiche Majorana
+  ----------------------------------------
+  ACQ+: CONSON:89% | PEL:N/A | MAT:Leghe ignote | DATA:27/06/1933→1938
+  TRACER: |Evento|Protagonista|Segreto|Collegamento|
+  |Crash Magenta|Mussolini|RS/33|Majorana loggia|
+  |Scomparsa 1938|Majorana|Leghe fononiche|Ernetti Cronovisore|
+  ----------------------------------------
+  STRATI HUNT:
+  0: 27/06/1933 crash disco Magenta
+  1: Mussolini → Loggia RS/33 segreta
+  2: Majorana analizza leghe [MEDIO]
+  2b: Tech fononica sparita [RECUPERABILE]
+  3: V:SÍ M:SÍ F:SÍ(risonanza) O:SÍ(L4)
+  4s: Cronovisore Ernetti da RS/33 [HUNT MODE]
+  ----------------------------------------
+  RECUPERO: METODI:Testimoni(Pignatiello)+ARCHIVI | PRIORITÀ:ALTA | VETTORI:RS/33→Ernetti
+  ----------------------------------------
+  CONCL: Patt:OSTACOLO L4 | BIT:Leghe fononiche | NEXT HUNT:Cronovisore
+  CHECK: HUNT 25/25 ✓ | COLOPHON: 2026-04-10 HUNT MODE
+  ----------------------------------------

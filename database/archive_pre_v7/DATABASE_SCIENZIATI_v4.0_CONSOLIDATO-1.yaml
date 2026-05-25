@@ -1,0 +1,3837 @@
+nodi:
+  - id: 1
+    nome: "Leonardo da Vinci"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1452-1519"
+    categoria: "inventore"
+    settore_primario: "ingegneria meccanica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [2, 17]
+    tecnologia_chiave: "Macchina volante e vite aerea"
+    note: "Codici di Madrid e Atlantico; oltre 13000 pagine di note tecniche."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 2
+    nome: "Tommaso Masini Zoroastro"
+    alias: "Zoroastro"
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1460-1510"
+    categoria: "inventore"
+    settore_primario: "meccanica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [1]
+    tecnologia_chiave: "Meccanica applicata"
+    note: "Allievo e collaboratore di Leonardo da Vinci."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 3
+    nome: "Galileo Galilei"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1564-1642"
+    categoria: "fisico"
+    settore_primario: "meccanica e astronomia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [4, 5, 26]
+    tecnologia_chiave: "Metodo sperimentale"
+    note: "Padre del metodo scientifico; condannato dall'Inquisizione nel 1633."
+    fonte_primaria: "Biblioteca Nazionale di Firenze"
+  - id: 4
+    nome: "Evangelista Torricelli"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1608-1647"
+    categoria: "fisico"
+    settore_primario: "barometria"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [3]
+    tecnologia_chiave: "Vuoto barometrico"
+    note: "Allievo di Galileo; inventore del barometro a mercurio (1643)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 5
+    nome: "Giovanni Alfonso Borelli"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1608-1679"
+    categoria: "medico"
+    settore_primario: "biomeccanica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [3]
+    tecnologia_chiave: "Biomeccanica animale"
+    note: "De Motu Animalium (1680); fondatore della iatromeccanica."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 6
+    nome: "Francesco Redi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1626-1697"
+    categoria: "biologo"
+    settore_primario: "generazione spontanea"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Esperimento carne e mosche"
+    note: "Confutò la generazione spontanea con esperimento controllato (1668)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 7
+    nome: "Marcello Malpighi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1628-1694"
+    categoria: "biologo"
+    settore_primario: "microscopia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Capillari e struttura polmonare"
+    note: "Padre della microscopia anatomica; scoprì i capillari sanguigni."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 8
+    nome: "Giovanni Battista Morgagni"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1682-1771"
+    categoria: "medico"
+    settore_primario: "anatomia patologica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Anatomia patologica moderna"
+    note: "De Sedibus et Causis Morborum (1761); fondatore della patologia."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 9
+    nome: "Jacopo Riccati"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1676-1754"
+    categoria: "matematico"
+    settore_primario: "equazioni differenziali"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Equazione di Riccati"
+    note: "Contributi fondamentali alle equazioni differenziali del primo ordine."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 10
+    nome: "Laura Bassi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1711-1778"
+    categoria: "fisico"
+    settore_primario: "fisica sperimentale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Prima professoressa universitaria"
+    note: "Prima donna docente universitaria in Europa (Bologna 1732)."
+    fonte_primaria: "Archivio Università di Bologna"
+  - id: 11
+    nome: "Maria Gaetana Agnesi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1718-1799"
+    categoria: "matematico"
+    settore_primario: "calcolo infinitesimale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Curva di Agnesi"
+    note: "Istituzioni Analitiche (1748); prima donna a scrivere un testo di matematica."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 12
+    nome: "Lazzaro Spallanzani"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1729-1799"
+    categoria: "biologo"
+    settore_primario: "microbiologia sperimentale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Sterilizzazione e pastorizzazione"
+    note: "Sperimenti digestione (1780); precursore della teoria dei germi."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 13
+    nome: "Luigi Galvani"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1737-1798"
+    categoria: "biologo"
+    settore_primario: "bioelettricità"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [14]
+    tecnologia_chiave: "Galvanismo"
+    note: "Scoprì le contrazioni muscolari per stimolo elettrico nella rana (1780)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 14
+    nome: "Alessandro Volta"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1745-1827"
+    categoria: "fisico"
+    settore_primario: "elettrochimica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [13]
+    tecnologia_chiave: "Prima pila elettrica"
+    note: "Inventore della pila voltaica (1800); l'unità Volt gli è dedicata."
+    fonte_primaria: "Brevetti e corrispondenza scientifica"
+  - id: 15
+    nome: "Giovanni Aldini"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1762-1834"
+    categoria: "fisico"
+    settore_primario: "elettroterapia"
+    status: "verificato"
+    certezza: "media"
+    connessioni: [13, 14]
+    tecnologia_chiave: "Elettrostimolazione cadaverica"
+    note: "Nipote di Galvani; esperimenti pubblici su cadaveri (Londra 1803)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 16
+    nome: "Antonio Pacinotti"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1812-1883"
+    categoria: "ingegnere"
+    settore_primario: "elettromagnetismo"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [17]
+    tecnologia_chiave: "Anello di Pacinotti"
+    note: "Inventore dell'anello dinamo (1860); base del motore elettrico moderno."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 17
+    nome: "Galileo Ferraris"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1847-1897"
+    categoria: "ingegnere"
+    settore_primario: "motore a corrente alternata"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [16, 141]
+    tecnologia_chiave: "Campo magnetico rotante"
+    note: "Inventò indipendentemente il motore AC (1885); precursore di Tesla."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 18
+    nome: "Guglielmo Marconi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1874-1937"
+    categoria: "ingegnere"
+    settore_primario: "telegrafia senza fili"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [78, 141]
+    tecnologia_chiave: "Radio transatlantica"
+    note: "Nobel 1909; primo collegamento radio transatlantico (1901). Esperimento Ostia 1935."
+    fonte_primaria: "Nobel Prize"
+  - id: 19
+    nome: "Innocenzo Manzetti"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1826-1883"
+    categoria: "inventore"
+    settore_primario: "telefonia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [20]
+    tecnologia_chiave: "Prototipo telefonico 1865"
+    note: "Costruì un prototipo di telefono nel 1865, prima di Bell."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 20
+    nome: "Antonio Meucci"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1808-1889"
+    categoria: "inventore"
+    settore_primario: "telefonia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [19]
+    tecnologia_chiave: "Telegrafo parlante"
+    note: "Caveat USPTO 1871; Congresso USA 2002 riconosce la sua priorità sul telefono."
+    fonte_primaria: "Risoluzione Congresso USA 2002"
+  - id: 21
+    nome: "Vincenzo Tiberio"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1869-1915"
+    categoria: "medico"
+    settore_primario: "microbiologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Isolamento penicillina 1895"
+    note: "Isolò proprietà antibatteriche dalla muffa Penicillium nel 1895, avant Fleming."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 22
+    nome: "Camillo Golgi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1843-1926"
+    categoria: "medico"
+    settore_primario: "istochimica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Apparato di Golgi"
+    note: "Nobel 1906; inventò la colorazione all'argento per i neuroni."
+    fonte_primaria: "Nobel Prize"
+  - id: 23
+    nome: "Giuseppe Levi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1872-1965"
+    categoria: "medico"
+    settore_primario: "neuroistologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [24]
+    tecnologia_chiave: "Colture cellulari nervose"
+    note: "Maestro di Rita Levi-Montalcini; pioniere delle colture nervose in vitro."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 24
+    nome: "Rita Levi-Montalcini"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1909-2012"
+    categoria: "biologo"
+    settore_primario: "neurobiologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [23]
+    tecnologia_chiave: "Fattore di crescita nervoso NGF"
+    note: "Nobel 1986 per la scoperta del Nerve Growth Factor."
+    fonte_primaria: "Nobel Prize"
+  - id: 25
+    nome: "Giulio Natta"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1903-1979"
+    categoria: "chimico"
+    settore_primario: "chimica dei polimeri"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Polipropilene isotattico"
+    note: "Nobel 1963 per la sintesi dei polimeri stereoregolari (Moplen)."
+    fonte_primaria: "Nobel Prize"
+  - id: 26
+    nome: "Giovanni Battista Riccioli"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1598-1671"
+    categoria: "fisico"
+    settore_primario: "selenografia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [3]
+    tecnologia_chiave: "Nomenclatura crateri lunari"
+    note: "Almagestum Novum (1651); creò la nomenclatura standard dei crateri lunari."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 27
+    nome: "Corrado Segre"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1863-1924"
+    categoria: "matematico"
+    settore_primario: "geometria algebrica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Geometria algebrica"
+    note: "Fondatore della scuola italiana di geometria algebrica."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 28
+    nome: "Federigo Enriques"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1871-1946"
+    categoria: "matematico"
+    settore_primario: "geometria"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Superfici algebriche"
+    note: "Classificazione delle superfici algebriche; filosofo della scienza."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 29
+    nome: "Gino Fano"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1871-1952"
+    categoria: "matematico"
+    settore_primario: "geometria proiettiva"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Piano di Fano"
+    note: "Primo piano proiettivo finito; contributi alla geometria non-euclidea."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 30
+    nome: "Giuseppe Peano"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1858-1932"
+    categoria: "matematico"
+    settore_primario: "logica matematica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Assiomi di Peano"
+    note: "Arithmetices Principia (1889); creò la logica simbolica moderna."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 31
+    nome: "Vito Volterra"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1860-1940"
+    categoria: "matematico"
+    settore_primario: "equazioni integrali"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Equazioni di Lotka-Volterra"
+    note: "Pioniere della matematica applicata all'ecologia (predatori-prede)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 32
+    nome: "Tullio Levi-Civita"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1873-1941"
+    categoria: "matematico"
+    settore_primario: "calcolo tensoriale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [90]
+    tecnologia_chiave: "Trasporto parallelo"
+    note: "Sviluppò il calcolo tensoriale usato da Einstein per la GR."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 33
+    nome: "Giovanni Giorgi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1871-1950"
+    categoria: "ingegnere"
+    settore_primario: "metrologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Sistema MKS"
+    note: "Propose il sistema MKS (metro-kilogrammo-secondo) adottato come SI."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 34
+    nome: "Giordano Bruno"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1548-1600"
+    categoria: "filosofo"
+    settore_primario: "cosmologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Universo infinito e mondi abitati"
+    note: "Bruciato sul rogo; teorizzò l'universo infinito e l'eliocentrismo esteso."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 35
+    nome: "Leonardo Pisano"
+    alias: "Fibonacci"
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1175-1250"
+    categoria: "matematico"
+    settore_primario: "aritmetica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Successione di Fibonacci"
+    note: "Liber Abaci (1202); introdusse il sistema numerico indo-arabico in Europa."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 36
+    nome: "Umberto Nobile"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1885-1978"
+    categoria: "ingegnere"
+    settore_primario: "aeronautica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Dirigibili artici"
+    note: "Primo volo sul Polo Nord con il Norge (1926); costruttore del dirigibile Italia."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 37
+    nome: "Enrico Fermi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1901-1954"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [38, 41]
+    tecnologia_chiave: "Primo reattore nucleare"
+    note: "Nobel 1938; Chicago Pile-1 (1942), primo reattore nucleare funzionante."
+    fonte_primaria: "Nobel Prize"
+  - id: 38
+    nome: "Edoardo Amaldi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1908-1989"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [37]
+    tecnologia_chiave: "INFN e onde gravitazionali"
+    note: "Co-fondatore INFN e CERN; pioniere della ricerca sulle onde gravitazionali."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 39
+    nome: "Bruno Rossi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1905-1993"
+    categoria: "fisico"
+    settore_primario: "raggi cosmici"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [37]
+    tecnologia_chiave: "Telescopio X spaziale"
+    note: "Pioniere dei raggi cosmici e dell'astronomia X spaziale."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 40
+    nome: "Ettore Majorana"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1906-1938"
+    categoria: "fisico"
+    settore_primario: "fisica teorica"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: [38, 53]
+    tecnologia_chiave: "Fermioni di Majorana"
+    note: "Scomparso a Palermo nel marzo 1938; equazione dei neutrini di Majorana."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 41
+    nome: "Bruno Pontecorvo"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1913-1993"
+    categoria: "fisico"
+    settore_primario: "fisica dei neutrini"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [37]
+    tecnologia_chiave: "Oscillazione dei neutrini"
+    note: "Defezione in URSS (1950); teoria dell'oscillazione dei neutrini."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 42
+    nome: "Emilio Segrè"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1905-1989"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [37]
+    tecnologia_chiave: "Scoperta dell'antiprotone"
+    note: "Nobel 1959 per la scoperta dell'antiprotone insieme a Owen Chamberlain."
+    fonte_primaria: "Nobel Prize"
+  - id: 43
+    nome: "Carlo Rubbia"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1934-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Bosoni W e Z"
+    note: "Nobel 1984; scoperta dei bosoni vettori W e Z al CERN."
+    fonte_primaria: "Nobel Prize"
+  - id: 44
+    nome: "Margherita Hack"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1922-2013"
+    categoria: "fisico"
+    settore_primario: "astrofisica stellare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Spettroscopia stellare"
+    note: "Prima donna a dirigere l'Osservatorio astronomico di Trieste."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 45
+    nome: "Federico Faggin"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1941-oggi"
+    categoria: "ingegnere"
+    settore_primario: "microelettronica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Microprocessore Intel 4004"
+    note: "Inventore del primo microprocessore commerciale (Intel 4004, 1971)."
+    fonte_primaria: "Brevetti Intel/Zilog"
+  - id: 46
+    nome: "Riccardo Giacconi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1931-2018"
+    categoria: "fisico"
+    settore_primario: "astronomia X"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Telescopio orbitale X"
+    note: "Nobel 2002; padre dell'astronomia X spaziale (Uhuru, Chandra)."
+    fonte_primaria: "Nobel Prize"
+  - id: 47
+    nome: "Giorgio Parisi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1948-oggi"
+    categoria: "fisico"
+    settore_primario: "sistemi complessi"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Vetri di spin"
+    note: "Nobel 2021 per la scoperta dell'interazione tra disordine e fluttuazioni."
+    fonte_primaria: "Nobel Prize"
+  - id: 48
+    nome: "Giulio Tononi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1960-oggi"
+    categoria: "medico"
+    settore_primario: "neuroscienze della coscienza"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Teoria dell'Informazione Integrata (IIT)"
+    note: "Teoria quantitativa della coscienza; controversial ma molto citata."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 49
+    nome: "Michele Parrinello"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1945-oggi"
+    categoria: "chimico"
+    settore_primario: "dinamica molecolare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Metodo Car-Parrinello"
+    note: "Dinamica molecolare ab initio; tra i più citati nella chimica computazionale."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 50
+    nome: "Paolo Di Vecchia"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1940-oggi"
+    categoria: "fisico"
+    settore_primario: "teoria delle stringhe"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Modello di Veneziano-Di Vecchia"
+    note: "Co-fondatore della teoria delle stringhe (1969); ricercatore al Nordita."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 51
+    nome: "Riccardo Zecchina"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1969-oggi"
+    categoria: "ingegnere"
+    settore_primario: "machine learning teorico"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Algoritmi a messaggi"
+    note: "Pioniere dei metodi di fisica statistica applicati all'AI."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 52
+    nome: "Fabio Benatti"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1960-oggi"
+    categoria: "fisico"
+    settore_primario: "informatica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Open quantum systems"
+    note: "Ricercatore Università di Trieste; sistemi quantistici aperti."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 53
+    nome: "Rolando Pelizza"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1931-1978"
+    categoria: "inventore"
+    settore_primario: "trasmutazione della materia"
+    status: "controverso"
+    certezza: "media"
+    connessioni: [40]
+    tecnologia_chiave: "Macchina a quattro fasi"
+    note: "Associato alle leggende sul bunker di Brescia e la scomparsa di Majorana."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 54
+    nome: "Pier Luigi Ighina"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1908-2004"
+    categoria: "ingegnere"
+    settore_primario: "magnetismo atomico"
+    status: "controverso"
+    certezza: "media"
+    connessioni: [18, 55]
+    tecnologia_chiave: "Atomo magnetico e monopoli"
+    note: "Collaboratore di Marconi; teoria dell'atomo magnetico; CISM di Imola."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 55
+    nome: "Mario Mastini"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1970s"
+    categoria: "altro"
+    settore_primario: "monopoli magnetici"
+    status: "controverso"
+    certezza: "bassa"
+    connessioni: [54]
+    tecnologia_chiave: "Antigravità e monopoli"
+    note: "Collaboratore di Ighina; ricerche sui monopoli magnetici."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 56
+    nome: "Giuseppe Calligaris"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1876-1944"
+    categoria: "medico"
+    settore_primario: "neurofisiologia"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Geometria della memoria dermale"
+    note: "Teoria delle connessioni dermali e memoria; opera controversa ma documentata."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 57
+    nome: "Giacomo Quareschi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1881-1958"
+    categoria: "chimico"
+    settore_primario: "chimica organica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Antisettici prontosil"
+    note: "Ricerche sui sulfamidici; precursore della chemioterapia batterica."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 58
+    nome: "Giuseppe Moscati"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1880-1927"
+    categoria: "medico"
+    settore_primario: "medicina clinica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Medicina sociale"
+    note: "Beatificato 1975, canonizzato 1987; medico dei poveri a Napoli."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 59
+    nome: "Raffaele Bendandi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1893-1979"
+    categoria: "fisico"
+    settore_primario: "sismologia"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Previsione dei terremoti"
+    note: "Autodidatta; alcune previsioni sismiche si rivelarono accurate; non validato scientificamente."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 60
+    nome: "Agostino Gemelli"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1878-1959"
+    categoria: "altro"
+    settore_primario: "psicologia sperimentale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Fondazione Università Cattolica"
+    note: "Fondatore dell'Università Cattolica del Sacro Cuore (1921)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 61
+    nome: "Giuseppe Belluzzo"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1876-1955"
+    categoria: "ingegnere"
+    settore_primario: "turbomacchine"
+    status: "controverso"
+    certezza: "media"
+    connessioni: [62]
+    tecnologia_chiave: "Propulsione magnetodinamica"
+    note: "Ministro e ingegnere; citato nei files RS/33 per propulsione avanzata."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 62
+    nome: "Guglielmo Reiss Romoli"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1900-1970"
+    categoria: "ingegnere"
+    settore_primario: "elettrotecnica avanzata"
+    status: "non_verificato"
+    certezza: "bassa"
+    connessioni: [18, 61]
+    tecnologia_chiave: "Gabinetto RS/33 Magenta"
+    note: "Associato ai file RS/33 (1933); non_verificato; connessione con Marconi contestata."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 63
+    nome: "Edoardo Agnelli"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1892-1935"
+    categoria: "altro"
+    settore_primario: "industria e tecnologia segreta"
+    status: "non_verificato"
+    certezza: "bassa"
+    connessioni: [18]
+    tecnologia_chiave: "Tecnologie segrete RS/33"
+    note: "Citato come finanziatore del progetto RS/33; documentazione assente."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 64
+    nome: "Giuseppe Tartini"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1692-1770"
+    categoria: "altro"
+    settore_primario: "acustica musicale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Tono di combinazione Tartini"
+    note: "Violinista e teorico; scoprì il terzo suono (differenza) nella fisica acustica."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 65
+    nome: "Nicola Cusano"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1401-1464"
+    categoria: "filosofo"
+    settore_primario: "filosofia naturale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Universo infinito e coincidentia oppositorum"
+    note: "De Docta Ignorantia (1440); anticipò l'eliocentrismo e il calcolo infinitesimale."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 66
+    nome: "Nicolaus Copernicus"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "PL"
+    periodo: "1473-1543"
+    categoria: "fisico"
+    settore_primario: "eliocentrismo"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [3]
+    tecnologia_chiave: "Modello eliocentrico"
+    note: "De revolutionibus orbium coelestium (1543); rivoluzione copernicana."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 67
+    nome: "Roger Bacon"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1214-1294"
+    categoria: "filosofo"
+    settore_primario: "ottica sperimentale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Metodo sperimentale medievale"
+    note: "Opus Majus (1267); precursore del metodo scientifico."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 68
+    nome: "Johannes Kepler"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1571-1630"
+    categoria: "fisico"
+    settore_primario: "astronomia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [3]
+    tecnologia_chiave: "Leggi del moto planetario"
+    note: "Tre leggi di Keplero (1609-1619); base della meccanica celeste."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 69
+    nome: "Isaac Newton"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1643-1727"
+    categoria: "fisico"
+    settore_primario: "meccanica classica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [76]
+    tecnologia_chiave: "Gravitazione universale"
+    note: "Principia Mathematica (1687); Calcolo infinitesimale; Ottica."
+    fonte_primaria: "Royal Society"
+  - id: 70
+    nome: "William Harvey"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1578-1657"
+    categoria: "medico"
+    settore_primario: "fisiologia cardiocircolatoria"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Circolazione del sangue"
+    note: "De Motu Cordis (1628); dimostrò la circolazione sanguigna."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 71
+    nome: "Antonie van Leeuwenhoek"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "NL"
+    periodo: "1632-1723"
+    categoria: "biologo"
+    settore_primario: "microscopia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Microscopio e microorganismi"
+    note: "Primo a osservare batteri e protozoi con microscopio artigianale (1670s)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 72
+    nome: "Robert Boyle"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1627-1691"
+    categoria: "chimico"
+    settore_primario: "chimica sperimentale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Legge di Boyle sui gas"
+    note: "The Sceptical Chymist (1661); distinse chimica dall'alchimia."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 73
+    nome: "Carl Linneo"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "SE"
+    periodo: "1707-1778"
+    categoria: "biologo"
+    settore_primario: "tassonomia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Nomenclatura binomiale"
+    note: "Systema Naturae (1735); inventore della nomenclatura binomiale."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 74
+    nome: "Joseph Priestley"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1733-1804"
+    categoria: "chimico"
+    settore_primario: "chimica pneumatica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [75]
+    tecnologia_chiave: "Scoperta dell'ossigeno"
+    note: "Isolò l'ossigeno (1774); scoprì anche azoto, ammoniaca, CO₂."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 75
+    nome: "Antoine Lavoisier"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1743-1794"
+    categoria: "chimico"
+    settore_primario: "chimica moderna"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [74]
+    tecnologia_chiave: "Legge di conservazione della massa"
+    note: "Padre della chimica moderna; ghigliottinato nel 1794."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 76
+    nome: "Michael Faraday"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1791-1867"
+    categoria: "fisico"
+    settore_primario: "induzione elettromagnetica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [69, 77]
+    tecnologia_chiave: "Legge di induzione e gabbia di Faraday"
+    note: "Scoprì l'induzione EM (1831); base di tutti i generatori elettrici."
+    fonte_primaria: "Royal Institution"
+  - id: 77
+    nome: "James Clerk Maxwell"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1831-1879"
+    categoria: "fisico"
+    settore_primario: "elettromagnetismo"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [76, 78]
+    tecnologia_chiave: "Equazioni di Maxwell"
+    note: "Unificò elettricità, magnetismo e luce nelle 4 equazioni (1865)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 78
+    nome: "Heinrich Hertz"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1857-1894"
+    categoria: "fisico"
+    settore_primario: "onde elettromagnetiche"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [18, 77]
+    tecnologia_chiave: "Onde radio"
+    note: "Primo a produrre e rilevare onde EM sperimentalmente (1887)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 79
+    nome: "John Dalton"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1766-1844"
+    categoria: "chimico"
+    settore_primario: "teoria atomica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Teoria atomica chimica"
+    note: "New System of Chemical Philosophy (1808); atomi come unità elementari."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 80
+    nome: "Gregor Mendel"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AT"
+    periodo: "1822-1884"
+    categoria: "biologo"
+    settore_primario: "genetica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Leggi di Mendel sull'ereditarietà"
+    note: "Esperimenti sui piselli (1865); fondatore della genetica classica."
+    fonte_primaria: "Archivio Abbazia di Brno"
+  - id: 81
+    nome: "Louis Pasteur"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1822-1895"
+    categoria: "chimico"
+    settore_primario: "microbiologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [83]
+    tecnologia_chiave: "Pastorizzazione e vaccino rabbia"
+    note: "Confutò la generazione spontanea; inventò vaccino contro la rabbia (1885)."
+    fonte_primaria: "Institut Pasteur"
+  - id: 82
+    nome: "Charles Darwin"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1809-1882"
+    categoria: "biologo"
+    settore_primario: "biologia evolutiva"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Selezione naturale"
+    note: "On the Origin of Species (1859); teoria dell'evoluzione per selezione naturale."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 83
+    nome: "Robert Koch"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1843-1910"
+    categoria: "medico"
+    settore_primario: "batteriologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [81]
+    tecnologia_chiave: "Postulati di Koch"
+    note: "Nobel 1905; isolò i bacilli della TBC (1882) e del colera (1883)."
+    fonte_primaria: "Nobel Prize"
+  - id: 84
+    nome: "Alexander Fleming"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1881-1955"
+    categoria: "medico"
+    settore_primario: "antibiotici"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [21]
+    tecnologia_chiave: "Penicillina"
+    note: "Nobel 1945; scoperta accidentale della penicillina (1928)."
+    fonte_primaria: "Nobel Prize"
+  - id: 85
+    nome: "Marie Curie"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1867-1934"
+    categoria: "chimico"
+    settore_primario: "radioattività"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [86]
+    tecnologia_chiave: "Radio e polonio"
+    note: "Unica a vincere Nobel in due scienze (1903, 1911); coniò 'radioattività'."
+    fonte_primaria: "Nobel Prize"
+  - id: 86
+    nome: "Pierre Curie"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1859-1906"
+    categoria: "fisico"
+    settore_primario: "piezoelettricità"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [85]
+    tecnologia_chiave: "Piezoelettricità"
+    note: "Nobel 1903; scoprì con Marie la radioattività; legge di Curie."
+    fonte_primaria: "Nobel Prize"
+  - id: 87
+    nome: "Sophie Germain"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1776-1831"
+    categoria: "matematico"
+    settore_primario: "teoria dell'elasticità"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Legge delle superfici elastiche"
+    note: "Teorema di Sophie Germain sui numeri primi; teoria elasticità."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 88
+    nome: "Hertha Ayrton"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1854-1923"
+    categoria: "ingegnere"
+    settore_primario: "arco elettrico"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Fisica dell'arco elettrico"
+    note: "Prima donna membro proposto alla Royal Society; The Electric Arc (1902)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 89
+    nome: "Max Planck"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1858-1947"
+    categoria: "fisico"
+    settore_primario: "meccanica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [90]
+    tecnologia_chiave: "Costante di Planck h"
+    note: "Nobel 1918; fondatore della teoria quantistica (1900)."
+    fonte_primaria: "Nobel Prize"
+  - id: 90
+    nome: "Albert Einstein"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1879-1955"
+    categoria: "fisico"
+    settore_primario: "relatività"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [32, 89]
+    tecnologia_chiave: "Relatività ristretta e generale"
+    note: "Nobel 1921 per l'effetto fotoelettrico; E=mc²; Relatività (1905/1915)."
+    fonte_primaria: "Nobel Prize"
+  - id: 91
+    nome: "Ernest Rutherford"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "NZ"
+    periodo: "1871-1937"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Nucleo atomico"
+    note: "Nobel 1908; modello nucleare dell'atomo (1911); prima trasmutazione artificiale."
+    fonte_primaria: "Nobel Prize"
+  - id: 92
+    nome: "Niels Bohr"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DK"
+    periodo: "1885-1962"
+    categoria: "fisico"
+    settore_primario: "fisica atomica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [93]
+    tecnologia_chiave: "Modello atomico di Bohr"
+    note: "Nobel 1922; modello semi-quantistico dell'atomo; principio di complementarità."
+    fonte_primaria: "Nobel Prize"
+  - id: 93
+    nome: "Werner Heisenberg"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1901-1976"
+    categoria: "fisico"
+    settore_primario: "meccanica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [92, 94]
+    tecnologia_chiave: "Principio di indeterminazione"
+    note: "Nobel 1932; meccanica a matrici; principio di indeterminazione (1927)."
+    fonte_primaria: "Nobel Prize"
+  - id: 94
+    nome: "Erwin Schrödinger"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AT"
+    periodo: "1887-1961"
+    categoria: "fisico"
+    settore_primario: "meccanica ondulatoria"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [93]
+    tecnologia_chiave: "Equazione di Schrödinger"
+    note: "Nobel 1933; equazione d'onda quantistica; gatto di Schrödinger."
+    fonte_primaria: "Nobel Prize"
+  - id: 95
+    nome: "Louis de Broglie"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1892-1987"
+    categoria: "fisico"
+    settore_primario: "dualità onda-particella"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Onde di de Broglie"
+    note: "Nobel 1929; ipotesi dualità onda-corpuscolo per la materia (1924)."
+    fonte_primaria: "Nobel Prize"
+  - id: 96
+    nome: "Max von Laue"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1879-1960"
+    categoria: "fisico"
+    settore_primario: "cristallografia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Diffrazione X nei cristalli"
+    note: "Nobel 1914; scoprì la diffrazione dei raggi X nei cristalli."
+    fonte_primaria: "Nobel Prize"
+  - id: 97
+    nome: "Lise Meitner"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AT"
+    periodo: "1878-1968"
+    categoria: "fisico"
+    settore_primario: "fissione nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [117]
+    tecnologia_chiave: "Teoria della fissione nucleare"
+    note: "Elaborò la teoria della fissione (1938); esclusa ingiustamente dal Nobel."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 98
+    nome: "Paul Dirac"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1902-1984"
+    categoria: "fisico"
+    settore_primario: "meccanica quantistica relativistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Equazione di Dirac e antimateria"
+    note: "Nobel 1933; equazione relativistica dell'elettrone; predisse l'antimateria."
+    fonte_primaria: "Nobel Prize"
+  - id: 99
+    nome: "Rosalind Franklin"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1920-1958"
+    categoria: "chimico"
+    settore_primario: "cristallografia del DNA"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [100, 101]
+    tecnologia_chiave: "Foto 51 del DNA"
+    note: "Foto 51 (1952) fu cruciale per Watson-Crick; morì prima del Nobel."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 100
+    nome: "Francis Crick"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1916-2004"
+    categoria: "biologo"
+    settore_primario: "biologia molecolare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [99, 101]
+    tecnologia_chiave: "Struttura del DNA"
+    note: "Nobel 1962; doppia elica DNA con Watson (1953); dogma centrale."
+    fonte_primaria: "Nobel Prize"
+  - id: 101
+    nome: "James Watson"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1928-oggi"
+    categoria: "biologo"
+    settore_primario: "biologia molecolare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [99, 100]
+    tecnologia_chiave: "Doppia elica DNA"
+    note: "Nobel 1962; co-scopritore struttura DNA; direttore Human Genome Project."
+    fonte_primaria: "Nobel Prize"
+  - id: 102
+    nome: "Barbara McClintock"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1902-1992"
+    categoria: "biologo"
+    settore_primario: "genetica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Elementi trasponibili del DNA"
+    note: "Nobel 1983; scoprì i trasposoni ('geni saltatori') nel mais."
+    fonte_primaria: "Nobel Prize"
+  - id: 103
+    nome: "Viktor Schauberger"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AT"
+    periodo: "1885-1958"
+    categoria: "ingegnere"
+    settore_primario: "implosione e idrodinamica"
+    status: "controverso"
+    certezza: "media"
+    connessioni: [141]
+    tecnologia_chiave: "Vortice implosivo e levitazione"
+    note: "Osservatore della natura; teoria dell'implosione come opposto dell'esplosione."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 104
+    nome: "Wilhelm Reich"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AT"
+    periodo: "1897-1957"
+    categoria: "medico"
+    settore_primario: "bioenergia"
+    status: "controverso"
+    certezza: "media"
+    connessioni: [208]
+    tecnologia_chiave: "Accumulatore di orgone"
+    note: "Teoria dell'energia orgonica; arrestato dall'FDA; morì in prigione."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 105
+    nome: "Georges Lakhovsky"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1870-1942"
+    categoria: "ingegnere"
+    settore_primario: "oscillatori multionda"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Oscillatore multionda cellulare"
+    note: "Multi-Wave Oscillator (MWO); teoria cellule come oscillatori elettrici."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 106
+    nome: "Edward Leedskalnin"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "LV"
+    periodo: "1887-1951"
+    categoria: "inventore"
+    settore_primario: "magnetismo applicato"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Coral Castle"
+    note: "Costruì da solo il Coral Castle (FL) spostando 1100 tonnellate di corallo."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 107
+    nome: "Ilya Prigogine"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "BE"
+    periodo: "1917-2003"
+    categoria: "chimico"
+    settore_primario: "termodinamica del non-equilibrio"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Strutture dissipative"
+    note: "Nobel 1977; fondatore della teoria delle strutture dissipative e del caos."
+    fonte_primaria: "Nobel Prize"
+  - id: 108
+    nome: "David Bohm"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1917-1992"
+    categoria: "fisico"
+    settore_primario: "meccanica quantistica interpretazione"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Ordine implicito e variabili nascoste"
+    note: "Wholeness and the Implicate Order (1980); variabili nascoste QM."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 109
+    nome: "Roger Penrose"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1931-oggi"
+    categoria: "fisico"
+    settore_primario: "relatività generale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [110]
+    tecnologia_chiave: "Singolarità e coscienza quantistica"
+    note: "Nobel 2020; teoremi sulle singolarità; Orch-OR (coscienza quantistica)."
+    fonte_primaria: "Nobel Prize"
+  - id: 110
+    nome: "Stephen Hawking"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1942-2018"
+    categoria: "fisico"
+    settore_primario: "cosmologia teorica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [109]
+    tecnologia_chiave: "Radiazione di Hawking"
+    note: "Radiazione Hawking (1974); A Brief History of Time (1988)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 111
+    nome: "Freeman Dyson"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1923-2020"
+    categoria: "fisico"
+    settore_primario: "fisica teorica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Sfera di Dyson"
+    note: "Unificò QED (1949); concetto di sfera di Dyson per civiltà avanzate."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 112
+    nome: "Peter Higgs"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1929-2024"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [113]
+    tecnologia_chiave: "Bosone di Higgs"
+    note: "Nobel 2013; meccanismo di Higgs per la massa (1964); bosone scoperto al CERN 2012."
+    fonte_primaria: "Nobel Prize"
+  - id: 113
+    nome: "François Englert"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "BE"
+    periodo: "1932-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [112]
+    tecnologia_chiave: "Meccanismo di Englert-Brout"
+    note: "Nobel 2013; meccanismo di rottura di simmetria spontanea."
+    fonte_primaria: "Nobel Prize"
+  - id: 114
+    nome: "Anton Zeilinger"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AT"
+    periodo: "1945-oggi"
+    categoria: "fisico"
+    settore_primario: "informazione quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [115, 198]
+    tecnologia_chiave: "Teletrasporto quantistico"
+    note: "Nobel 2022; primo teletrasporto quantistico sperimentale (1997)."
+    fonte_primaria: "Nobel Prize"
+  - id: 115
+    nome: "Alain Aspect"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1947-oggi"
+    categoria: "fisico"
+    settore_primario: "meccanica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [114, 198]
+    tecnologia_chiave: "Test disuguaglianze di Bell"
+    note: "Nobel 2022; esperimenti decisivi sulle violazioni delle disuguaglianze di Bell."
+    fonte_primaria: "Nobel Prize"
+  - id: 116
+    nome: "Friedrich Kekulé"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1829-1896"
+    categoria: "chimico"
+    settore_primario: "chimica organica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Struttura anulare del benzene"
+    note: "Scoprì la struttura esagonale del benzene (1865); il sogno dell'ouroboros."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 117
+    nome: "Otto Hahn"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1879-1968"
+    categoria: "chimico"
+    settore_primario: "fissione nucleare sperimentale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [97]
+    tecnologia_chiave: "Fissione dell'uranio"
+    note: "Nobel 1944; dimostrò sperimentalmente la fissione dell'uranio (1938)."
+    fonte_primaria: "Nobel Prize"
+  - id: 118
+    nome: "Dmitrij Mendeleev"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1834-1907"
+    categoria: "chimico"
+    settore_primario: "chimica inorganica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Tavola periodica degli elementi"
+    note: "Formulò la tavola periodica (1869) predicendo elementi non ancora scoperti."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 119
+    nome: "Ivan Pavlov"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1849-1936"
+    categoria: "medico"
+    settore_primario: "neurofisiologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Riflessi condizionati"
+    note: "Nobel 1904; riflessi condizionati (cane e campanello)."
+    fonte_primaria: "Nobel Prize"
+  - id: 120
+    nome: "Ilja Mečnikov"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1845-1916"
+    categoria: "medico"
+    settore_primario: "immunologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Fagocitosi"
+    note: "Nobel 1908; scoprì la fagocitosi e il ruolo dei leucociti."
+    fonte_primaria: "Nobel Prize"
+  - id: 121
+    nome: "Lev Landau"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1908-1968"
+    categoria: "fisico"
+    settore_primario: "fisica teorica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Superfluidità"
+    note: "Nobel 1962; teoria della superfluidità; il Corso di Fisica Teorica."
+    fonte_primaria: "Nobel Prize"
+  - id: 122
+    nome: "Pëtr Kapica"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1894-1984"
+    categoria: "fisico"
+    settore_primario: "fisica a bassa temperatura"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [121]
+    tecnologia_chiave: "Superfluidità dell'elio"
+    note: "Nobel 1978; scoprì la superfluidità dell'He-4 (1937)."
+    fonte_primaria: "Nobel Prize"
+  - id: 123
+    nome: "Vitalij Ginzburg"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1916-2009"
+    categoria: "fisico"
+    settore_primario: "superconduttività"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Teoria Ginzburg-Landau"
+    note: "Nobel 2003; teoria GL della superconduttività."
+    fonte_primaria: "Nobel Prize"
+  - id: 124
+    nome: "Aleksandr Prochorov"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1916-2002"
+    categoria: "fisico"
+    settore_primario: "laser e maser"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [125]
+    tecnologia_chiave: "Maser"
+    note: "Nobel 1964 con Basov e Townes per lo sviluppo del principio maser-laser."
+    fonte_primaria: "Nobel Prize"
+  - id: 125
+    nome: "Nikolaj Basov"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1922-2001"
+    categoria: "fisico"
+    settore_primario: "laser"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [124]
+    tecnologia_chiave: "Principio di amplificazione laser"
+    note: "Nobel 1964; co-inventore del principio di emissione stimolata (maser/laser)."
+    fonte_primaria: "Nobel Prize"
+  - id: 126
+    nome: "Zhores Alferov"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1930-2019"
+    categoria: "fisico"
+    settore_primario: "semiconduttori"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Eterostrutture semiconduttori"
+    note: "Nobel 2000; eterostrutture a semiconduttore (base dei LED e laser a semiconduttore)."
+    fonte_primaria: "Nobel Prize"
+  - id: 127
+    nome: "Juri Oganessian"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1933-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Elemento 118 Oganesson"
+    note: "Scoperta di elementi superpesanti; elemento 118 (Oganesson) porta il suo nome."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 128
+    nome: "Sergej Korolev"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1907-1966"
+    categoria: "ingegnere"
+    settore_primario: "ingegneria spaziale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Sputnik e Vostok"
+    note: "Padre del programma spaziale sovietico; Sputnik (1957), Vostok (1961)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 129
+    nome: "Igor Kurchatov"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1903-1960"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare applicata"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [130]
+    tecnologia_chiave: "Bomba atomica sovietica"
+    note: "Direttore del progetto atomico URSS; primo reattore sovietico (1946)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 130
+    nome: "Andrej Sacharov"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "RU"
+    periodo: "1921-1989"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [129]
+    tecnologia_chiave: "Bomba H e diritti umani"
+    note: "Co-inventore bomba H sovietica; poi dissidente; Nobel Pace 1975."
+    fonte_primaria: "Nobel Prize"
+  - id: 131
+    nome: "Satyendra Bose"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IN"
+    periodo: "1894-1974"
+    categoria: "fisico"
+    settore_primario: "meccanica statistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [90]
+    tecnologia_chiave: "Statistica di Bose-Einstein"
+    note: "Co-fondatore (con Einstein) della statistica BE; condensato di Bose-Einstein."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 132
+    nome: "Subrahmanyan Chandrasekhar"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IN"
+    periodo: "1910-1995"
+    categoria: "fisico"
+    settore_primario: "astrofisica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Limite di Chandrasekhar"
+    note: "Nobel 1983; limite di massa per nane bianche che collassano in stelle di neutroni."
+    fonte_primaria: "Nobel Prize"
+  - id: 133
+    nome: "Abdus Salam"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "PK"
+    periodo: "1926-1996"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [184, 185]
+    tecnologia_chiave: "Unificazione elettrodebole"
+    note: "Nobel 1979; teoria elettrodebole unificata."
+    fonte_primaria: "Nobel Prize"
+  - id: 134
+    nome: "Hideki Yukawa"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "JP"
+    periodo: "1907-1981"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Mesone pi (pione)"
+    note: "Nobel 1949; primo fisico giapponese Nobel; predisse il pione."
+    fonte_primaria: "Nobel Prize"
+  - id: 135
+    nome: "Sin-Itiro Tomonaga"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "JP"
+    periodo: "1906-1979"
+    categoria: "fisico"
+    settore_primario: "QED"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Rinormalizzazione QED"
+    note: "Nobel 1965 (con Feynman e Schwinger) per QED rinormalizzata."
+    fonte_primaria: "Nobel Prize"
+  - id: 136
+    nome: "Syukuro Manabe"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "JP"
+    periodo: "1931-oggi"
+    categoria: "fisico"
+    settore_primario: "climatologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Modelli climatici globali"
+    note: "Nobel 2021; primo modello fisico del clima terrestre."
+    fonte_primaria: "Nobel Prize"
+  - id: 137
+    nome: "Yoshinori Ohsumi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "JP"
+    periodo: "1945-oggi"
+    categoria: "biologo"
+    settore_primario: "biologia cellulare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Autofagia cellulare"
+    note: "Nobel 2016; meccanismi molecolari dell'autofagia."
+    fonte_primaria: "Nobel Prize"
+  - id: 138
+    nome: "Tu Youyou"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "CN"
+    periodo: "1930-oggi"
+    categoria: "medico"
+    settore_primario: "farmacologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Artemisinina contro la malaria"
+    note: "Nobel 2015; isolò artemisinina dall'Artemisia (1972); milioni di vite salvate."
+    fonte_primaria: "Nobel Prize"
+  - id: 139
+    nome: "Chen Ning Yang"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "CN"
+    periodo: "1922-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [140]
+    tecnologia_chiave: "Violazione della parità"
+    note: "Nobel 1957 (con Lee); violazione parità nelle interazioni deboli."
+    fonte_primaria: "Nobel Prize"
+  - id: 140
+    nome: "Tsung-Dao Lee"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "CN"
+    periodo: "1926-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [139]
+    tecnologia_chiave: "Parità non conservata"
+    note: "Nobel 1957 (con Yang); più giovane Nobel di fisica dell'epoca."
+    fonte_primaria: "Nobel Prize"
+  - id: 141
+    nome: "Nikola Tesla"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1856-1943"
+    categoria: "inventore"
+    settore_primario: "elettromagnetismo"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [17, 18, 103]
+    tecnologia_chiave: "Corrente Alternata"
+    note: "Oltre 300 brevetti; sistema AC; torre Wardenclyffe; Corte Suprema USA 1943."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 142
+    nome: "Thomas Edison"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1847-1931"
+    categoria: "inventore"
+    settore_primario: "elettrotecnica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [141]
+    tecnologia_chiave: "Lampadina e fonografo"
+    note: "Oltre 1000 brevetti; fondò GE; 'guerra delle correnti' con Tesla."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 143
+    nome: "Alexander Graham Bell"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1847-1922"
+    categoria: "inventore"
+    settore_primario: "telecomunicazioni"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [19, 20]
+    tecnologia_chiave: "Brevetto telefono 1876"
+    note: "Brevettò il telefono nel 1876; priorità contestata da Meucci."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 144
+    nome: "Wernher von Braun"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1912-1977"
+    categoria: "ingegnere"
+    settore_primario: "propulsione missilistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [128]
+    tecnologia_chiave: "V-2 e razzo Saturn V"
+    note: "V-2 a Peenemünde; poi NASA; principale artefice di Apollo 11."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 145
+    nome: "Robert Oppenheimer"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1904-1967"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [37, 90]
+    tecnologia_chiave: "Bomba atomica"
+    note: "Direttore scientifico Manhattan Project; 'Sono diventato Morte'."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 146
+    nome: "Richard Feynman"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1918-1988"
+    categoria: "fisico"
+    settore_primario: "elettrodinamica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [145]
+    tecnologia_chiave: "Diagrammi di Feynman"
+    note: "Nobel 1965; QED; nanotecnologie; 'Surely You're Joking'."
+    fonte_primaria: "Nobel Prize"
+  - id: 147
+    nome: "John Wheeler"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1911-2008"
+    categoria: "fisico"
+    settore_primario: "relatività generale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [146]
+    tecnologia_chiave: "Wormhole e geometrodinamica"
+    note: "Coniò 'buco nero' (1967); 'It from bit'; S-matrix con Feynman."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 148
+    nome: "John von Neumann"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1903-1957"
+    categoria: "matematico"
+    settore_primario: "informatica teorica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [149]
+    tecnologia_chiave: "Architettura von Neumann"
+    note: "Padre dell'architettura dei computer; teoria dei giochi; EDVAC."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 149
+    nome: "Alan Turing"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1912-1954"
+    categoria: "matematico"
+    settore_primario: "informatica teorica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [148]
+    tecnologia_chiave: "Macchina di Turing e test di Turing"
+    note: "Padre dell'informatica teorica; decrittò Enigma; condannato per omosessualità."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 150
+    nome: "Claude Shannon"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1916-2001"
+    categoria: "ingegnere"
+    settore_primario: "teoria dell'informazione"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [151]
+    tecnologia_chiave: "Bit ed entropia dell'informazione"
+    note: "A Mathematical Theory of Communication (1948); fondò la teoria dell'informazione."
+    fonte_primaria: "Bell Labs"
+  - id: 151
+    nome: "Norbert Wiener"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1894-1964"
+    categoria: "matematico"
+    settore_primario: "cibernetica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [150]
+    tecnologia_chiave: "Cibernetica"
+    note: "Cybernetics (1948); fondatore della cibernetica e dei sistemi di feedback."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 152
+    nome: "John Bardeen"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1908-1991"
+    categoria: "fisico"
+    settore_primario: "fisica dello stato solido"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [153, 154]
+    tecnologia_chiave: "Transistore e superconduttività"
+    note: "Unico con due Nobel in fisica (1956 transistore; 1972 BCS superconduttività)."
+    fonte_primaria: "Nobel Prize"
+  - id: 153
+    nome: "Walter Brattain"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1902-1987"
+    categoria: "fisico"
+    settore_primario: "fisica stato solido"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [152]
+    tecnologia_chiave: "Transistore a contatto puntuale"
+    note: "Nobel 1956; inventore del transistore con Bardeen e Shockley (1947)."
+    fonte_primaria: "Nobel Prize"
+  - id: 154
+    nome: "William Shockley"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1910-1989"
+    categoria: "fisico"
+    settore_primario: "semiconduttori"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [152, 153]
+    tecnologia_chiave: "Transistore a giunzione"
+    note: "Nobel 1956; inventore del transistore BJT; fondò Shockley Semiconductor."
+    fonte_primaria: "Nobel Prize"
+  - id: 155
+    nome: "George Westinghouse"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1846-1914"
+    categoria: "ingegnere"
+    settore_primario: "distribuzione energia AC"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [141]
+    tecnologia_chiave: "Sistema di distribuzione AC USA"
+    note: "Acquistò i brevetti AC di Tesla; standard elettrico USA."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 156
+    nome: "Charles Steinmetz"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1865-1923"
+    categoria: "ingegnere"
+    settore_primario: "matematica AC"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [141, 155]
+    tecnologia_chiave: "Analisi fasoriale AC"
+    note: "Genio di GE; sviluppò il calcolo vettoriale per circuiti AC."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 157
+    nome: "Elihu Thomson"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1853-1937"
+    categoria: "ingegnere"
+    settore_primario: "generatori AC"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [141]
+    tecnologia_chiave: "Generatori AC Thomson-Houston"
+    note: "Co-fondatore di GE; oltre 700 brevetti."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 158
+    nome: "Michael Pupin"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1858-1935"
+    categoria: "ingegnere"
+    settore_primario: "ingegneria delle telecomunicazioni"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Bobine di Pupin"
+    note: "Brevetto bobine di caricamento (1899) per telefonia a lunga distanza."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 159
+    nome: "Reginald Fessenden"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1866-1932"
+    categoria: "ingegnere"
+    settore_primario: "radio broadcasting"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Prima trasmissione radio AM vocale"
+    note: "Prima trasmissione vocale radio (24 dic 1906); inventore dell'AM."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 160
+    nome: "Lee De Forest"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1873-1961"
+    categoria: "inventore"
+    settore_primario: "elettronica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [159]
+    tecnologia_chiave: "Triodo Audion"
+    note: "Inventore del triodo (1906); rese possibile l'amplificazione elettronica."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 161
+    nome: "Edwin Armstrong"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1890-1954"
+    categoria: "ingegnere"
+    settore_primario: "radio FM"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [160]
+    tecnologia_chiave: "Radio FM e supereterodina"
+    note: "Inventore della radio FM e del circuito supereterodina."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 162
+    nome: "Vladimir Zworykin"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1888-1982"
+    categoria: "ingegnere"
+    settore_primario: "televisione elettronica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Iconoscopio TV"
+    note: "Inventore dell'iconoscopio (telecamera TV) presso RCA."
+    fonte_primaria: "Brevetti RCA"
+  - id: 163
+    nome: "Philo Farnsworth"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1906-1971"
+    categoria: "inventore"
+    settore_primario: "televisione elettronica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [162]
+    tecnologia_chiave: "TV elettronica a scansione"
+    note: "Inventore indipendente della TV elettronica; controversia brevetti con RCA."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 164
+    nome: "Robert Goddard"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1882-1945"
+    categoria: "ingegnere"
+    settore_primario: "propulsione missilistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [144]
+    tecnologia_chiave: "Primo razzo a propellente liquido"
+    note: "Primo volo razzo a liquido (1926); Tsiolkovsky e von Braun ne seguirono i passi."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 165
+    nome: "Howard Aiken"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1900-1973"
+    categoria: "ingegnere"
+    settore_primario: "informatica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [148]
+    tecnologia_chiave: "Harvard Mark I"
+    note: "Progettò il calcolatore Harvard Mark I (1944); primo computer programmabile a nastro."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 166
+    nome: "John Atanasoff"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1903-1995"
+    categoria: "fisico"
+    settore_primario: "informatica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [165]
+    tecnologia_chiave: "ABC – primo calcolatore elettronico"
+    note: "Inventore dell'ABC, primo calcolatore elettronico digitale (1939-1942)."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 167
+    nome: "Presper Eckert"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1919-1995"
+    categoria: "ingegnere"
+    settore_primario: "informatica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [166]
+    tecnologia_chiave: "ENIAC"
+    note: "Co-progettista dell'ENIAC (1945), primo computer elettronico generico."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 168
+    nome: "Grace Hopper"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1906-1992"
+    categoria: "ingegnere"
+    settore_primario: "informatica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [167]
+    tecnologia_chiave: "COBOL e primo compilatore"
+    note: "Ammiraglio US Navy; inventrice del concetto di compilatore; COBOL."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 169
+    nome: "Theodore Maiman"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1927-2007"
+    categoria: "fisico"
+    settore_primario: "ottica laser"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [170]
+    tecnologia_chiave: "Primo laser (rubino, 1960)"
+    note: "Costruì il primo laser funzionante (rubino, 16 maggio 1960)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 170
+    nome: "Charles Townes"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1915-2015"
+    categoria: "fisico"
+    settore_primario: "laser e maser"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [169]
+    tecnologia_chiave: "Maser e concezione del laser"
+    note: "Nobel 1964; inventò il maser (1953); concezione teorica del laser."
+    fonte_primaria: "Nobel Prize"
+  - id: 171
+    nome: "Gordon Gould"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1920-2005"
+    categoria: "fisico"
+    settore_primario: "laser"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: [169, 170]
+    tecnologia_chiave: "Brevetti laser"
+    note: "Coniò il termine 'laser' (1957); lunga battaglia legale sui brevetti (1977-1988)."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 172
+    nome: "Dennis Gabor"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1900-1979"
+    categoria: "fisico"
+    settore_primario: "olografia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Olografia"
+    note: "Nobel 1971; inventò l'olografia (1948)."
+    fonte_primaria: "Nobel Prize"
+  - id: 173
+    nome: "Jack Kilby"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1923-2005"
+    categoria: "ingegnere"
+    settore_primario: "microelettronica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Circuito integrato"
+    note: "Nobel 2000; inventore del circuito integrato (Texas Instruments, 1958)."
+    fonte_primaria: "Nobel Prize"
+  - id: 174
+    nome: "Murray Gell-Mann"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1929-2019"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Quark"
+    note: "Nobel 1969; teorizzò i quark come costituenti di adroni e mesoni."
+    fonte_primaria: "Nobel Prize"
+  - id: 175
+    nome: "Richard Smalley"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1943-2005"
+    categoria: "chimico"
+    settore_primario: "nanotecnologie"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [176, 177]
+    tecnologia_chiave: "Fullereni C60"
+    note: "Nobel 1996; scoperta dei fullereni (buckyballs) nel 1985."
+    fonte_primaria: "Nobel Prize"
+  - id: 176
+    nome: "Robert Curl"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1933-oggi"
+    categoria: "chimico"
+    settore_primario: "chimica del carbonio"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [175, 177]
+    tecnologia_chiave: "Fullereni"
+    note: "Nobel 1996; co-scopritore dei fullereni."
+    fonte_primaria: "Nobel Prize"
+  - id: 177
+    nome: "Harold Kroto"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1939-2016"
+    categoria: "chimico"
+    settore_primario: "chimica del carbonio"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [175, 176]
+    tecnologia_chiave: "Buckminster fullerene"
+    note: "Nobel 1996; co-scopritore del C60 (buckminster fullerene)."
+    fonte_primaria: "Nobel Prize"
+  - id: 178
+    nome: "Leo Szilard"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1898-1964"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [37, 145]
+    tecnologia_chiave: "Reazione a catena nucleare"
+    note: "Brevettò la reazione nucleare a catena (1934); lettera Einstein-Roosevelt."
+    fonte_primaria: "Brevetti USPTO"
+  - id: 179
+    nome: "Hans Bethe"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1906-2005"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [145]
+    tecnologia_chiave: "Ciclo CNO stellare"
+    note: "Nobel 1967; teoria della nucleosintesi stellare (ciclo CNO)."
+    fonte_primaria: "Nobel Prize"
+  - id: 180
+    nome: "Edward Teller"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1908-2003"
+    categoria: "fisico"
+    settore_primario: "fisica nucleare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [145]
+    tecnologia_chiave: "Bomba a idrogeno"
+    note: "Co-progettista della bomba H; 'padre della bomba termonucleare'."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 181
+    nome: "Edward Witten"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1951-oggi"
+    categoria: "fisico"
+    settore_primario: "teoria delle stringhe"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Teoria M"
+    note: "Unico fisico teorico vincitore della Medaglia Fields (1990); M-theory."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 182
+    nome: "Leonard Susskind"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1940-oggi"
+    categoria: "fisico"
+    settore_primario: "teoria delle stringhe"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [181]
+    tecnologia_chiave: "Principio olografico"
+    note: "Co-fondatore della teoria delle stringhe; principio olografico; ER=EPR."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 183
+    nome: "Michio Kaku"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1947-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica teorica divulgativa"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Divulgazione fisica teorica"
+    note: "Fisico e divulgatore; Physics of the Future; Co-fondatore teoria stringhe campi."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 184
+    nome: "Steven Weinberg"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1933-2021"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [133, 185]
+    tecnologia_chiave: "Unificazione elettrodebole"
+    note: "Nobel 1979; modello standard elettrodebole."
+    fonte_primaria: "Nobel Prize"
+  - id: 185
+    nome: "Sheldon Glashow"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1932-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica delle particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [133, 184]
+    tecnologia_chiave: "Simmetria SU(2)×U(1)"
+    note: "Nobel 1979; struttura del modello standard."
+    fonte_primaria: "Nobel Prize"
+  - id: 186
+    nome: "David Gross"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1941-oggi"
+    categoria: "fisico"
+    settore_primario: "cromodinamica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Libertà asintotica QCD"
+    note: "Nobel 2004; libertà asintotica in QCD."
+    fonte_primaria: "Nobel Prize"
+  - id: 187
+    nome: "David Politzer"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1949-oggi"
+    categoria: "fisico"
+    settore_primario: "QCD"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [186]
+    tecnologia_chiave: "Libertà asintotica"
+    note: "Nobel 2004; scoprì indipendentemente la libertà asintotica."
+    fonte_primaria: "Nobel Prize"
+  - id: 188
+    nome: "Frank Wilczek"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1951-oggi"
+    categoria: "fisico"
+    settore_primario: "QCD"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [186]
+    tecnologia_chiave: "QCD gluoni"
+    note: "Nobel 2004; co-scopritore della libertà asintotica con Gross."
+    fonte_primaria: "Nobel Prize"
+  - id: 189
+    nome: "Gerard 't Hooft"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "NL"
+    periodo: "1946-oggi"
+    categoria: "fisico"
+    settore_primario: "teoria di gauge"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [190]
+    tecnologia_chiave: "Rinormalizzazione teorie di gauge"
+    note: "Nobel 1999; dimostrò la rinormalizzabilità delle teorie di gauge non-abeliane."
+    fonte_primaria: "Nobel Prize"
+  - id: 190
+    nome: "Martinus Veltman"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "NL"
+    periodo: "1931-2021"
+    categoria: "fisico"
+    settore_primario: "fisica teorica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [189]
+    tecnologia_chiave: "Rinormalizzazione gauge"
+    note: "Nobel 1999 (con 't Hooft)."
+    fonte_primaria: "Nobel Prize"
+  - id: 191
+    nome: "Georges Charpak"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1924-2010"
+    categoria: "fisico"
+    settore_primario: "rivelatori di particelle"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Camera proporzionale multifilo"
+    note: "Nobel 1992; inventore delle camere multifilo; usate in medicina."
+    fonte_primaria: "Nobel Prize"
+  - id: 192
+    nome: "Claude Cohen-Tannoudji"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1933-oggi"
+    categoria: "fisico"
+    settore_primario: "ottica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [193, 194]
+    tecnologia_chiave: "Raffreddamento laser"
+    note: "Nobel 1997; tecniche di raffreddamento e intrappolamento laser degli atomi."
+    fonte_primaria: "Nobel Prize"
+  - id: 193
+    nome: "Steven Chu"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1948-oggi"
+    categoria: "fisico"
+    settore_primario: "ottica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [192]
+    tecnologia_chiave: "Trappole ottiche per atomi"
+    note: "Nobel 1997; Segretario all'Energia USA (2009-2013)."
+    fonte_primaria: "Nobel Prize"
+  - id: 194
+    nome: "William Phillips"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1948-oggi"
+    categoria: "fisico"
+    settore_primario: "ottica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [192]
+    tecnologia_chiave: "Atomi freddi"
+    note: "Nobel 1997; sviluppò tecniche di raffreddamento Doppler laser."
+    fonte_primaria: "Nobel Prize"
+  - id: 195
+    nome: "Kip Thorne"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1940-oggi"
+    categoria: "fisico"
+    settore_primario: "onde gravitazionali"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [196, 197]
+    tecnologia_chiave: "LIGO e onde gravitazionali"
+    note: "Nobel 2017; co-fondatore LIGO; prima rilevazione onde gravitazionali (2015)."
+    fonte_primaria: "Nobel Prize"
+  - id: 196
+    nome: "Rainer Weiss"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1932-oggi"
+    categoria: "fisico"
+    settore_primario: "strumentazione gravitazionale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [195, 197]
+    tecnologia_chiave: "Interferometro LIGO"
+    note: "Nobel 2017; progettò l'interferometro LIGO."
+    fonte_primaria: "Nobel Prize"
+  - id: 197
+    nome: "Barry Barish"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1936-oggi"
+    categoria: "fisico"
+    settore_primario: "rivelatori gravitazionali"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [195, 196]
+    tecnologia_chiave: "Gestione LIGO"
+    note: "Nobel 2017; direttore LIGO durante la fase critica di costruzione."
+    fonte_primaria: "Nobel Prize"
+  - id: 198
+    nome: "John Clauser"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1942-oggi"
+    categoria: "fisico"
+    settore_primario: "meccanica quantistica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [114, 115]
+    tecnologia_chiave: "Disuguaglianze di Bell sperimentali"
+    note: "Nobel 2022; primo test sperimentale delle disuguaglianze di Bell (1972)."
+    fonte_primaria: "Nobel Prize"
+  - id: 199
+    nome: "Jennifer Doudna"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1964-oggi"
+    categoria: "biologo"
+    settore_primario: "biologia molecolare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "CRISPR-Cas9"
+    note: "Nobel 2020; sviluppò CRISPR-Cas9 come strumento di editing genetico."
+    fonte_primaria: "Nobel Prize"
+  - id: 200
+    nome: "Frances Arnold"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1956-oggi"
+    categoria: "chimico"
+    settore_primario: "biochimica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Evoluzione diretta degli enzimi"
+    note: "Nobel 2018; evoluzione diretta di enzimi e anticorpi."
+    fonte_primaria: "Nobel Prize"
+  - id: 201
+    nome: "Katalin Karikó"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1955-oggi"
+    categoria: "biologo"
+    settore_primario: "biochimica mRNA"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [202]
+    tecnologia_chiave: "Vaccini mRNA"
+    note: "Nobel 2023; modificazioni nucleosidiche che resero possibili i vaccini mRNA COVID."
+    fonte_primaria: "Nobel Prize"
+  - id: 202
+    nome: "Drew Weissman"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1959-oggi"
+    categoria: "medico"
+    settore_primario: "immunologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [201]
+    tecnologia_chiave: "Piattaforma mRNA vaccinale"
+    note: "Nobel 2023 (con Karikó); sviluppò la piattaforma mRNA per vaccini."
+    fonte_primaria: "Nobel Prize"
+  - id: 203
+    nome: "Ardem Patapoutian"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1967-oggi"
+    categoria: "medico"
+    settore_primario: "neuroscienza"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [204]
+    tecnologia_chiave: "Recettori meccanici PIEZO"
+    note: "Nobel 2021; scoperta dei recettori PIEZO per pressione e tatto."
+    fonte_primaria: "Nobel Prize"
+  - id: 204
+    nome: "David Julius"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1955-oggi"
+    categoria: "medico"
+    settore_primario: "neuroscienza"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [203]
+    tecnologia_chiave: "Recettori temperatura e dolore"
+    note: "Nobel 2021; scoperta dei recettori TRPV1 per calore e capsaicina."
+    fonte_primaria: "Nobel Prize"
+  - id: 205
+    nome: "David Baker"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1962-oggi"
+    categoria: "chimico"
+    settore_primario: "biochimica computazionale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [206]
+    tecnologia_chiave: "Design computazionale proteine"
+    note: "Nobel 2024; progettazione computazionale di proteine de novo (Rosetta)."
+    fonte_primaria: "Nobel Prize"
+  - id: 206
+    nome: "Demis Hassabis"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1976-oggi"
+    categoria: "ingegnere"
+    settore_primario: "intelligenza artificiale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [205, 207]
+    tecnologia_chiave: "AlphaFold"
+    note: "Nobel 2024; CEO DeepMind; AlphaFold predice strutture proteiche."
+    fonte_primaria: "Nobel Prize"
+  - id: 207
+    nome: "John Jumper"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1985-oggi"
+    categoria: "ingegnere"
+    settore_primario: "intelligenza artificiale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [206]
+    tecnologia_chiave: "AlphaFold2"
+    note: "Nobel 2024; sviluppò AlphaFold2 risolvendo il protein folding problem."
+    fonte_primaria: "Nobel Prize"
+  - id: 208
+    nome: "Royal Rife"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1888-1971"
+    categoria: "medico"
+    settore_primario: "microscopia e frequenze curative"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: [104]
+    tecnologia_chiave: "Microscopio Rife e Beam Ray"
+    note: "Sviluppò un microscopio a campo universale; Beam Ray contro i virus; soppresso."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 209
+    nome: "John Keely"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1837-1898"
+    categoria: "inventore"
+    settore_primario: "vibrazioni eteriche"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Motore vibrazionale etereo"
+    note: "Affermò di estrarre energia dall'etere tramite vibrazione; non replicato."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 210
+    nome: "Thomas Moray"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1892-1974"
+    categoria: "inventore"
+    settore_primario: "energia radiante"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Dispositivo Moray overunity"
+    note: "Affermò di captare energia cosmica con 'Svedish Stone'; non replicato."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 211
+    nome: "Thomas Townsend Brown"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1905-1985"
+    categoria: "fisico"
+    settore_primario: "elettrogravità"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: [141]
+    tecnologia_chiave: "Effetto Biefeld-Brown"
+    note: "Elettrostimolazione del vuoto; Effetto Biefeld-Brown; ricerche Naval WWII."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 212
+    nome: "Edwin Gray"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1923-1989"
+    categoria: "inventore"
+    settore_primario: "elettronica ad impulsi"
+    status: "controverso"
+    certezza: "bassa"
+    connessioni: []
+    tecnologia_chiave: "Motore EMA overunity"
+    note: "Electric Motor Aid; cold electricity; nessuna replica indipendente."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 213
+    nome: "Stanley Meyer"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1940-1998"
+    categoria: "inventore"
+    settore_primario: "elettrolisi dell'acqua"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Cella HHO buggy ad acqua"
+    note: "Affermò di alimentare un'auto con acqua per elettrolisi; morì improvvisamente."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 214
+    nome: "Bruce DePalma"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1935-1997"
+    categoria: "ingegnere"
+    settore_primario: "fisica non convenzionale"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "N-Machine overunity"
+    note: "N-Machine: generatore Faraday unipolare con anomalia energetica."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 215
+    nome: "John Bedini"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1947-oggi"
+    categoria: "inventore"
+    settore_primario: "free energy circuits"
+    status: "controverso"
+    certezza: "media"
+    connessioni: [212]
+    tecnologia_chiave: "Battery conditioner Bedini"
+    note: "Circuiti di recupero energetico per batterie; comunità free energy."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 216
+    nome: "Harold Aspden"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1929-2014"
+    categoria: "fisico"
+    settore_primario: "fisica del vuoto"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Struttura del vuoto quantistico"
+    note: "Fisico IBM; teoria alternativa del vuoto e dell'etere."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 217
+    nome: "Oleg Jefimenko"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1920-2000"
+    categoria: "fisico"
+    settore_primario: "elettrodinamica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Equazioni di Jefimenko"
+    note: "Generalizzazione delle equazioni di Maxwell; cariche dinamiche."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 218
+    nome: "Hal Puthoff"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1936-oggi"
+    categoria: "fisico"
+    settore_primario: "zero point energy"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: [219, 220]
+    tecnologia_chiave: "Energia del punto zero"
+    note: "SRI International; Programma Stargate; zero point energy."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 219
+    nome: "Russell Targ"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1934-oggi"
+    categoria: "fisico"
+    settore_primario: "remote viewing"
+    status: "declassificato"
+    certezza: "alta"
+    connessioni: [218, 220]
+    tecnologia_chiave: "Remote viewing SRI"
+    note: "Co-fondatore programma Stargate CIA; remote viewing documentato."
+    fonte_primaria: "Archivi CIA declassificati"
+  - id: 220
+    nome: "Ingo Swann"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1933-1995"
+    categoria: "altro"
+    settore_primario: "percezione extrasensoriale"
+    status: "declassificato"
+    certezza: "alta"
+    connessioni: [218, 219]
+    tecnologia_chiave: "Remote viewing operativo"
+    note: "Soggetto-pilota del programma Stargate; sviluppò protocollo CRV."
+    fonte_primaria: "Archivi CIA declassificati"
+  - id: 221
+    nome: "Pat Price"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1918-1975"
+    categoria: "altro"
+    settore_primario: "remote viewing"
+    status: "declassificato"
+    certezza: "media"
+    connessioni: [219]
+    tecnologia_chiave: "Remote viewing CIA"
+    note: "Agente di polizia; soggetto chiave nei primi esperimenti SRI."
+    fonte_primaria: "Archivi CIA declassificati"
+  - id: 222
+    nome: "Joseph McMoneagle"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1946-oggi"
+    categoria: "altro"
+    settore_primario: "remote viewing"
+    status: "declassificato"
+    certezza: "alta"
+    connessioni: [219]
+    tecnologia_chiave: "Remote viewer Stargate"
+    note: "Agente militare; 533 missioni di remote viewing; Remote Viewer #001."
+    fonte_primaria: "Archivi CIA declassificati"
+  - id: 223
+    nome: "K. Eric Drexler"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1955-oggi"
+    categoria: "ingegnere"
+    settore_primario: "nanotecnologie"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Nanotecnologia molecolare"
+    note: "Engines of Creation (1986); fondatore del concetto di nanotecnologia molecolare."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 224
+    nome: "Brian Greene"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1963-oggi"
+    categoria: "fisico"
+    settore_primario: "teoria delle stringhe"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [181]
+    tecnologia_chiave: "The Elegant Universe"
+    note: "Divulgazione della teoria delle stringhe; The Elegant Universe (1999)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 225
+    nome: "Kary Mullis"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1944-2019"
+    categoria: "chimico"
+    settore_primario: "biologia molecolare"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "PCR"
+    note: "Nobel 1993; inventore della PCR (Polymerase Chain Reaction)."
+    fonte_primaria: "Nobel Prize"
+  - id: 226
+    nome: "Linus Pauling"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1901-1994"
+    categoria: "chimico"
+    settore_primario: "chimica strutturale"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Legame chimico e vitamina C"
+    note: "Unico con Nobel in scienze e in pace (1954, 1962); struttura delle proteine."
+    fonte_primaria: "Nobel Prize"
+  - id: 227
+    nome: "Edward Jenner"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1749-1823"
+    categoria: "medico"
+    settore_primario: "vaccinologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Primo vaccino (vaiolo)"
+    note: "Inventore della vaccinazione (1796); usò il cowpox contro il vaiolo."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 228
+    nome: "Jonas Salk"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1914-1995"
+    categoria: "medico"
+    settore_primario: "vaccinologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Vaccino antipolio"
+    note: "Sviluppò il vaccino contro la polio (1955); rifiutò di brevettarlo."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 229
+    nome: "Lynn Margulis"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1938-2011"
+    categoria: "biologo"
+    settore_primario: "biologia evolutiva"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Teoria endosimbiotica"
+    note: "Teoria endosimbiotica dell'origine dei mitocondri e cloroplasti (1967)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 230
+    nome: "Craig Venter"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1946-oggi"
+    categoria: "biologo"
+    settore_primario: "genomica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Genome sequencing e vita sintetica"
+    note: "Sequenziò il genoma umano (2000); primo organismo con genoma sintetico (2010)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 231
+    nome: "Barry Marshall"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AU"
+    periodo: "1951-oggi"
+    categoria: "medico"
+    settore_primario: "gastroenterologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [232]
+    tecnologia_chiave: "Helicobacter pylori e ulcera"
+    note: "Nobel 2005; si autoinfettò con H. pylori per dimostrarne il ruolo nell'ulcera."
+    fonte_primaria: "Nobel Prize"
+  - id: 232
+    nome: "Robin Warren"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AU"
+    periodo: "1937-oggi"
+    categoria: "medico"
+    settore_primario: "patologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [231]
+    tecnologia_chiave: "Helicobacter pylori"
+    note: "Nobel 2005; co-scopritore di H. pylori come causa dell'ulcera peptica."
+    fonte_primaria: "Nobel Prize"
+  - id: 233
+    nome: "Michael Houghton"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "CA"
+    periodo: "1949-oggi"
+    categoria: "medico"
+    settore_primario: "virologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Virus epatite C"
+    note: "Nobel 2020; co-scoperta del virus dell'epatite C."
+    fonte_primaria: "Nobel Prize"
+  - id: 234
+    nome: "Pierre Agostini"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1941-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica laser"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [235, 236]
+    tecnologia_chiave: "Impulsi laser attosecondi"
+    note: "Nobel 2023; sviluppò metodi per produrre impulsi luminosi attosecondi."
+    fonte_primaria: "Nobel Prize"
+  - id: 235
+    nome: "Anne L'Huillier"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1958-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica laser"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [234, 236]
+    tecnologia_chiave: "Generazione armoniche alte"
+    note: "Nobel 2023; scoperta della generazione di armoniche di ordine elevato."
+    fonte_primaria: "Nobel Prize"
+  - id: 236
+    nome: "Frode Sætre"
+    alias: "Ferenc Krausz"
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1962-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica attosecondo"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [234, 235]
+    tecnologia_chiave: "Fisica degli attosecondi"
+    note: "Nobel 2023; dimostrazione sperimentale del moto elettronico su scala attosecondo."
+    fonte_primaria: "Nobel Prize"
+  - id: 237
+    nome: "Michael Rosbash"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1944-oggi"
+    categoria: "biologo"
+    settore_primario: "biologia circadiana"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [238, 239]
+    tecnologia_chiave: "Orologio circadiano molecolare"
+    note: "Nobel 2017; meccanismi molecolari dell'orologio biologico circadiano."
+    fonte_primaria: "Nobel Prize"
+  - id: 238
+    nome: "Jeffrey Hall"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1945-oggi"
+    categoria: "biologo"
+    settore_primario: "biologia circadiana"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [237, 239]
+    tecnologia_chiave: "Gene period e ritmi circadiani"
+    note: "Nobel 2017; clonazione del gene period (per) nel moscerino."
+    fonte_primaria: "Nobel Prize"
+  - id: 239
+    nome: "Michael Young"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1949-oggi"
+    categoria: "biologo"
+    settore_primario: "biologia circadiana"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [237, 238]
+    tecnologia_chiave: "Gene timeless"
+    note: "Nobel 2017; scoperta del gene timeless nel controllo circadiano."
+    fonte_primaria: "Nobel Prize"
+  - id: 240
+    nome: "Rahul Sarpeshkar"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1969-oggi"
+    categoria: "ingegnere"
+    settore_primario: "bioelettronica"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Neural chips analogici"
+    note: "Pioneer dei chip neurologici analogici biomimetici."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 241
+    nome: "Talete di Mileto"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "624-546aC"
+    categoria: "filosofo"
+    settore_primario: "proto-fisica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [242]
+    tecnologia_chiave: "Elettricità statica (ambra)"
+    note: "Primo filosofo naturale; osservò l'attrazione dell'ambra strofinata."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 242
+    nome: "Anassimandro di Mileto"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "610-546aC"
+    categoria: "filosofo"
+    settore_primario: "cosmologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: [241]
+    tecnologia_chiave: "Apekiron – principio cosmico infinito"
+    note: "Primo a concepire un principio cosmico astratto (apekiron)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 243
+    nome: "Pitagora di Samo"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "570-495aC"
+    categoria: "matematico"
+    settore_primario: "matematica e armonia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Teorema di Pitagora"
+    note: "Fondatore della scuola pitagorica; numeri come essenza della realtà."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 244
+    nome: "Democrito di Abdera"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "460-370aC"
+    categoria: "filosofo"
+    settore_primario: "teoria atomica antica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Atomi e vuoto"
+    note: "Formulò la teoria atomica della materia; atomi indivisibili nel vuoto."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 245
+    nome: "Ippocrate di Cos"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "460-370aC"
+    categoria: "medico"
+    settore_primario: "medicina clinica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Giuramento ippocratico"
+    note: "Padre della medicina occidentale; osservazione clinica sistematica."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 246
+    nome: "Aristotele di Stagira"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "384-322aC"
+    categoria: "filosofo"
+    settore_primario: "biologia e logica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Biologia classificatoria"
+    note: "Classificò oltre 500 specie animali; fondatore della logica formale."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 247
+    nome: "Euclide di Alessandria"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "300aC"
+    categoria: "matematico"
+    settore_primario: "geometria"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Elementi di Euclide"
+    note: "Elementi (13 libri); assiomi che dominano la geometria per 2000 anni."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 248
+    nome: "Archimede di Siracusa"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "287-212aC"
+    categoria: "matematico"
+    settore_primario: "matematica e meccanica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Leva, vite e principio di Archimede"
+    note: "Principio di Archimede; calcolo dell'area; specchi ustori."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 249
+    nome: "Ipparco di Nicea"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "190-120aC"
+    categoria: "fisico"
+    settore_primario: "astronomia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Catalogo stellare e precessione"
+    note: "Primo catalogo stellare (~850 stelle); scoprì la precessione degli equinozi."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 250
+    nome: "Aristarco di Samo"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "310-230aC"
+    categoria: "fisico"
+    settore_primario: "astronomia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Eliocentrismo antico"
+    note: "Propose il modello eliocentrico 1800 anni prima di Copernico."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 251
+    nome: "Erone di Alessandria"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GR"
+    periodo: "10-70"
+    categoria: "ingegnere"
+    settore_primario: "meccanica e termodinamica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Eolipila – prima turbina a vapore"
+    note: "Inventò l'eolipila (prima turbina a vapore), l'organo idraulico, automi."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 252
+    nome: "Al-Kindi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IQ"
+    periodo: "801-873"
+    categoria: "filosofo"
+    settore_primario: "ottica e crittografia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Analisi delle frequenze"
+    note: "Primo a descrivere l'analisi delle frequenze in crittografia."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 253
+    nome: "Ibn al-Haytham"
+    alias: "Alhazen"
+    ancore_linguistiche: []
+    nazione: "IQ"
+    periodo: "965-1040"
+    categoria: "fisico"
+    settore_primario: "ottica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Libro dell'Ottica"
+    note: "Kitab al-Manazir (1027); camera oscura; metodo scientifico ante Bacon."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 254
+    nome: "Avicenna"
+    alias: "Ibn Sina"
+    ancore_linguistiche: []
+    nazione: "IR"
+    periodo: "980-1037"
+    categoria: "medico"
+    settore_primario: "medicina e filosofia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Canon Medicinae"
+    note: "Canon of Medicine (1025); testo medico standard per 600 anni."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 255
+    nome: "Al-Khwarizmi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IQ"
+    periodo: "780-850"
+    categoria: "matematico"
+    settore_primario: "algebra"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Algebra e algoritmo"
+    note: "Al-Kitab al-mukhtasar; 'algoritmo' viene dal suo nome."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 256
+    nome: "Ibn Khaldun"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "TN"
+    periodo: "1332-1406"
+    categoria: "storico"
+    settore_primario: "storiografia e sociologia"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Ciclo delle civiltà"
+    note: "Muqaddimah (1377); primo storico a teorizzare cicli delle civiltà."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 257
+    nome: "Paracelso"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "CH"
+    periodo: "1493-1541"
+    categoria: "medico"
+    settore_primario: "iatrochimica"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Chimica medica"
+    note: "Introdusse i minerali in medicina; 'la dose fa il veleno'."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 258
+    nome: "Kurt Gödel"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AT"
+    periodo: "1906-1978"
+    categoria: "matematico"
+    settore_primario: "logica matematica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Teorema di incompletezza"
+    note: "Teoremi di incompletezza (1931); logica matematica; amico di Einstein."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 259
+    nome: "Carl Jung"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "CH"
+    periodo: "1875-1961"
+    categoria: "altro"
+    settore_primario: "psicologia analitica"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Inconscio collettivo"
+    note: "Psicologia analitica; archetip; sincronicità."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 260
+    nome: "Rudolf Steiner"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "AT"
+    periodo: "1861-1925"
+    categoria: "filosofo"
+    settore_primario: "antroposofia"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Antroposofia"
+    note: "Fondatore dell'antroposofia e della pedagogia Waldorf."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 261
+    nome: "Jacques Benveniste"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1935-2004"
+    categoria: "medico"
+    settore_primario: "immunologia"
+    status: "controverso"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Memoria dell'acqua"
+    note: "Ricercatore INSERM; teoria della 'memoria dell'acqua' (1988); molto contestata."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 262
+    nome: "Luc Montagnier"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "FR"
+    periodo: "1932-2022"
+    categoria: "medico"
+    settore_primario: "virologia"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "HIV e onde elettromagnetiche"
+    note: "Nobel 2008 co-scoperta HIV; in seguito sostenne teorie contestate su acqua e EM."
+    fonte_primaria: "Nobel Prize"
+  - id: 263
+    nome: "Stanley Pons"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1943-oggi"
+    categoria: "chimico"
+    settore_primario: "elettrochimica"
+    status: "controverso"
+    certezza: "media"
+    connessioni: [264]
+    tecnologia_chiave: "Fusione fredda"
+    note: "Annuncio controverso di fusione fredda a temperatura ambiente (1989) con Fleischmann."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 264
+    nome: "Martin Fleischmann"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1927-2012"
+    categoria: "chimico"
+    settore_primario: "elettrochimica"
+    status: "controverso"
+    certezza: "media"
+    connessioni: [263]
+    tecnologia_chiave: "Fusione fredda"
+    note: "Co-annuncio fusione fredda (1989); mai replicato in modo definitivo."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 265
+    nome: "Andrea Rossi"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "IT"
+    periodo: "1950-oggi"
+    categoria: "inventore"
+    settore_primario: "energia nucleare a bassa energia"
+    status: "controverso"
+    certezza: "bassa"
+    connessioni: []
+    tecnologia_chiave: "E-Cat LENR"
+    note: "Afferma di aver sviluppato un reattore LENR (E-Cat); non verificato."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 266
+    nome: "Nassim Haramein"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "CH"
+    periodo: "1962-oggi"
+    categoria: "fisico"
+    settore_primario: "fisica unificata"
+    status: "speculativo"
+    certezza: "bassa"
+    connessioni: []
+    tecnologia_chiave: "Teoria della Risonanza"
+    note: "Fisica non convenzionale; Resonance Science Foundation; molto popolare online."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 267
+    nome: "James Lovelock"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1919-2022"
+    categoria: "chimico"
+    settore_primario: "geofisiologia"
+    status: "controverso"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Ipotesi Gaia"
+    note: "Gaia hypothesis (1972); la Terra come sistema autoregolante."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 268
+    nome: "Rupert Sheldrake"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1942-oggi"
+    categoria: "biologo"
+    settore_primario: "biologia teorica"
+    status: "controverso"
+    certezza: "bassa"
+    connessioni: []
+    tecnologia_chiave: "Risonanza morfica"
+    note: "Teoria dei campi morfici; controversa; molto citata in cerchi alternativi."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 269
+    nome: "John Dee"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "GB"
+    periodo: "1527-1608"
+    categoria: "filosofo"
+    settore_primario: "matematica e esoterismo"
+    status: "verificato"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Navigazione e matematica"
+    note: "Matematico, navigatore e occultista elisabettiano; consulente della Corona."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 270
+    nome: "Athanasius Kircher"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "DE"
+    periodo: "1602-1680"
+    categoria: "filosofo"
+    settore_primario: "enciclopedismo barocco"
+    status: "verificato"
+    certezza: "media"
+    connessioni: []
+    tecnologia_chiave: "Mundus Subterraneus"
+    note: "Gesuita poligrafo; Arca di Noè, magnetismo, Egitto; enciclopedismo barocco."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 271
+    nome: "Cornelis Drebbel"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "NL"
+    periodo: "1572-1633"
+    categoria: "inventore"
+    settore_primario: "strumenti scientifici"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Primo sottomarino operativo"
+    note: "Inventò il termostato, il microscopio (indipendente), il primo sottomarino (1620)."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 272
+    nome: "Frank Drake"
+    alias: null
+    ancore_linguistiche: []
+    nazione: "US"
+    periodo: "1930-2022"
+    categoria: "fisico"
+    settore_primario: "radioastronomia SETI"
+    status: "verificato"
+    certezza: "alta"
+    connessioni: []
+    tecnologia_chiave: "Equazione di Drake"
+    note: "SETI; primo esperimento Ozma (1960); Equazione di Drake."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 273
+    nome: "Enki"
+    alias: null
+    ancore_linguistiche: []
+    nazione: null
+    periodo: null
+    categoria: "filosofo"
+    settore_primario: "mitologia sumerica"
+    status: "speculativo"
+    certezza: "bassa"
+    connessioni: [274]
+    tecnologia_chiave: "ME – tavole della saggezza sumeriche"
+    note: "Divinità sumerica del sapere; ME come proto-database della conoscenza."
+    fonte_primaria: "[LACUNA_DATI]"
+  - id: 274
+    nome: "Atrahasis"
+    alias: null
+    ancore_linguistiche: []
+    nazione: null
+    periodo: null
+    categoria: "filosofo"
+    settore_primario: "mitologia accadica"
+    status: "speculativo"
+    certezza: "bassa"
+    connessioni: [273]
+    tecnologia_chiave: "Epopea del diluvio"
+    note: "Figura del diluvio accadico; precede Noè; citato nel sistema frattale LIV -5."
+    fonte_primaria: "[LACUNA_DATI]"

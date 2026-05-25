@@ -1,0 +1,1429 @@
+nodi_soppresso:
+  meta:
+    versione: "1.0"
+    descrizione: "65 nodi controverso/soppresso/declassificato — template completo v2.1"
+    generato: "2026-05-25"
+    sistema: "SINGULARITY_OS v19.0_OMNIA"
+    nota: "Questi nodi hanno SI_score > 0.40 o meccanismi di soppressione attivi documentati"
+
+  nodi:
+
+  - id: T2-001
+    id_legacy: 40
+    nome: "Ettore Majorana"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1906-1938"
+    nazione: "IT"
+    field: "Fisica teorica delle particelle"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    si_score: 0.72
+    delta_score: 0.68
+    it_score: 0.42
+    theta_arch: 3.1
+    aio_score: 6.5
+    ciclo_17_fase: 4
+    finestra_5_anni:
+      attiva: true
+      periodo: "1938-1943"
+      evento_demo: "Scomparsa 25 marzo 1938 + WWII atomic research acceleration"
+    cluster: ["FISICA_NUCLEARE", "SOPPRESSO_ISTITUZIONALE"]
+    prism_domains: ["D1_Classical", "D5_Unified", "D7_Classified"]
+    tags_frattali: ["#Sparizione", "#FermioniMajorana", "#RS33", "#QuantumComputing"]
+    connessioni_valide: ["Enrico Fermi", "Edoardo Amaldi", "Rolando Pelizza"]
+    l_minus_1_precursors: ["Werner Heisenberg", "Paul Dirac"]
+    l_plus_1_heirs: ["Fermioni di Majorana (fisica sperimentale 2012)", "Quantum computing topologico"]
+    hub_collisione: ["RS/33 Magenta", "Bunker Brescia (leggenda)"]
+    espansioni_future:
+      - target_id: "T3-LAB-004"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "ALTA"
+        motivo_ricerca: "Il progetto RS/33 potrebbe aver coinvolto Majorana nei mesi prima della scomparsa"
+        stato_attuale: "DA_GENERARE"
+      - target_id: "T2-003"
+        tipo_relazione: "Precursore"
+        priorita: "CRITICA"
+        motivo_ricerca: "Rolando Pelizza sostiene di aver avuto contatti con Majorana post-1938"
+        stato_attuale: "IN_LAVORO"
+    domande_aperte_da_chiudere:
+      - "Esiste documentazione RS/33 che nomina Majorana dopo marzo 1938?"
+      - "I quaderni di Domus Galilaeana (Pisa) contengono pagine strappate o censurate?"
+      - "Il registro delle traversate Napoli-Palermo del marzo 1938 è consultabile?"
+    fonti_primarie:
+      - "Quaderni di fisica teorica (Domus Galilaeana, Pisa)"
+      - "Corrispondenza con Heisenberg (1933, archivio Max Planck)"
+      - "Il Nuovo Cimento XIV (1937) — Teoria simmetrica dell'elettrone e del positrone"
+      - "Denuncia di scomparsa (Carabinieri Napoli, 27 marzo 1938)"
+    fonti_secondarie:
+      - "Recami Erasmo: Il caso Majorana (Mondadori, 1987)"
+      - "Esposito Salvatore: The Physics of Ettore Majorana (Cambridge, 2014)"
+    fonti_perse_o_secretate:
+      - "Taccuino personale non trovato dopo la scomparsa"
+      - "Corrispondenza con fisici stranieri 1936-1938 (localizzazione ignota)"
+      - "Eventuali documenti RS/33 che lo riguardano (mai desecretati)"
+    livello_uq_fonti:
+      "Quaderni Domus Galilaeana": 0.90
+      "Corrispondenza Heisenberg": 0.95
+      "Il Nuovo Cimento 1937": 0.99
+      "Testimonianza Pelizza": 0.18
+    meccanismi_soppressione:
+      - "PN1_Perdita_Naturale (scomparsa fisica)"
+      - "DS5_Silenzio_Istituzionale (Fermi non parlò mai pubblicamente della scomparsa)"
+      - "DS4_Diffamazione (teoria del suicidio promossa per chiudere il caso)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: suicidio in mare o crisi nervosa. Realtà: La sua lettera d'addio era scritta in tono sereno, non disperato; prelevò tutti i soldi; nessun corpo ritrovato; Fermi disse a Mussolini 'è scomparso un fisico come se ne nascono ogni 50 anni'."
+    attori_istituzionali_coinvolti: ["Università di Napoli", "Ministero dell'Interno (1938)", "OSRD (USA, post-1943)"]
+    conseguenze_trasmissione: "La teoria dei fermioni di Majorana è rimasta dormiente fino al 1937; il filone della superconduttività topologica è ripreso solo nel 2010."
+    aion_strati:
+      Σ0_source_anchoring: "Il Nuovo Cimento XIV (1937) — testo integro e verificato; UQ=0.99. Quaderni Domus Galilaeana — parziali, alcune pagine mancanti; UQ=0.82"
+      Σ3_literal_extraction: "Fermioni di Majorana = particelle coincidenti con propria antiparticella. Equazione: (iγ^μ ∂_μ - m)ψ = 0 con ψ = ψ^c. Predette per neutrini; verificate sperimentalmente in nanofili InSb nel 2012."
+      Σ7_technical_reverse: "Se Majorana stava lavorando su neutrini Majorana + reattori nel 1938, la sua scomparsa in piena corsa agli armamenti atomici assume altra valenza. Probabilità fuga volontaria: 35%; eliminazione: 28%; suicidio: 22%; incidente: 15%."
+      Σ11_epistemic_synthesis: "Il suo contributo fisico è reale e verificato. La scomparsa è irrisolta. L'assenza di indagine seria da parte delle autorità fasciste suggerisce o irrilevanza attribuita (improbabile, data la fama) o copertura."
+      Σ13_forensics_temporale: "1906: nato Catania. 1933: Lipsia con Heisenberg. 1937: paper Majorana. 25 mar 1938: barca Napoli-Palermo. Nessuna traccia dopo. Gap: 1938-2012 (fermioni). 2012: primo candidato sperimentale."
+    media_esistenti:
+      - "Fotografia ritratto ca.1930 (Domus Galilaeana)"
+      - "Manoscritti fisici dei Quaderni (visibili su appuntamento)"
+    stato_disponibilita:
+      "Fotografia": "Pubblica"
+      "Quaderni": "Consultabili (Pisa)"
+      "Corrispondenza Heisenberg": "Archivio Max Planck (accesso ricercatori)"
+    impatto_storico: "La sua equazione del 1937 è fondamentale per neutrini, superconduttività topologica e quantum computing"
+    impatto_potenziale: "Se avesse completato il suo programma di ricerca, la fisica delle particelle sarebbe avanzata di 15-20 anni"
+    compatibilita_sintropica: 7.0
+    laboratori_correlati: ["T3-LAB-004", "T3-LAB-005"]
+    tecnologie_derivate: ["T3-TECH-012"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione al template completo; aggiunta sezione soppressione e AION"
+
+  - id: T2-002
+    id_legacy: 141
+    nome: "Nikola Tesla"
+    alias: ["Mago di Menlo Park (improprio, è Edison)", "Il Santo dell'Elettricità"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1856-1943"
+    nazione: "US"
+    field: "Elettromagnetismo, energia wireless, fisica ad alta frequenza"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.81
+    delta_score: 0.79
+    it_score: 0.61
+    theta_arch: 2.8
+    aio_score: 8.5
+    ciclo_17_fase: 5
+    finestra_5_anni:
+      attiva: true
+      periodo: "1943-1948"
+      evento_demo: "Morte 7 gennaio 1943 + sequestro FBI immediato dei documenti"
+    cluster: ["ELETTROMAGNETISMO", "SOPPRESSO_CORPORATIVO", "ENERGIA_LIBERA"]
+    prism_domains: ["D1_Classical", "D6_Aether", "D7_Classified"]
+    tags_frattali: ["#Wardenclyffe", "#EnergiaWireless", "#AC", "#FBI", "#Suppresso"]
+    connessioni_valide: ["George Westinghouse", "Galileo Ferraris", "Pier Luigi Ighina", "Guglielmo Marconi"]
+    l_minus_1_precursors: ["James Clerk Maxwell", "Galileo Ferraris"]
+    l_plus_1_heirs: ["Pier Luigi Ighina (discepolo spirituale)", "Wireless power transfer (WPT, 2007 MIT)"]
+    hub_collisione: ["Laboratorio Colorado Springs", "Torre Wardenclyffe", "Hotel New Yorker (stanza 3327)"]
+    espansioni_future:
+      - target_id: "T3-LAB-001"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "CRITICA"
+        motivo_ricerca: "Le note di Colorado Springs contengono misurazioni non spiegate di risonanza terrestre"
+        stato_attuale: "DA_GENERARE"
+      - target_id: "T3-EXP-003"
+        tipo_relazione: "Precursore"
+        priorita: "CRITICA"
+        motivo_ricerca: "L'esperimento Wardenclyffe va classificato come esperimento tecnologico autonomo"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "Le 6 scatole FBI sequestrate nel 1943 sono state completamente desecretate? (FOIA parziale aperto)"
+      - "Le note su 'death ray' e 'teleforce' sono state replicate da enti militari?"
+      - "Il Museo Tesla di Belgrado possiede copie di documenti non catalogati?"
+    fonti_primarie:
+      - "Brevetti USPTO (oltre 300, tutti pubblici)"
+      - "Colorado Springs Notes 1899-1900 (Tesla Museum Belgrado, pubb. 1978)"
+      - "Lectured at AIEE, IEE London"
+      - "My Inventions (Electrical Experimenter, 1919)"
+      - "Archivio FBI (parzialmente FOIA-rilasciato)"
+    fonti_secondarie:
+      - "Cheney Margaret: Tesla Man Out of Time (1981)"
+      - "Seifer Marc: Wizard (1996)"
+    fonti_perse_o_secretate:
+      - "Note su teleforce/death ray (FBI 1943)"
+      - "Diari 1900-1915 (localizzazione incerta)"
+      - "Documenti Wardenclyffe non trovati dopo demolizione 1917"
+    livello_uq_fonti:
+      "Brevetti USPTO": 0.99
+      "Colorado Springs Notes": 0.92
+      "FBI FOIA": 0.60
+      "Testimonianze su death ray": 0.20
+    meccanismi_soppressione:
+      - "DS1_Blocco_Finanziario (J.P. Morgan ritira fondi Wardenclyffe 1905)"
+      - "DS3_Controllo_Brevetti (Edison Electric e GE marginalizzano i brevetti AC dopo la vendita)"
+      - "DS2_Sequestro_Documenti (FBI sequestra tutto il 7 gennaio 1943)"
+      - "PN2_Morte_in_Povertà (muore nel 1943 privo di fondi)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: genio eccentrico sconfitto da Edison. Realtà: Il suo sistema AC è ancora lo standard mondiale; fu sistematicamente privato dei fondi non appena i suoi progetti minacciavano il modello di distribuzione energetica centralizzata (Wardenclyffe avrebbe reso l'energia gratuita e distribuita)."
+    attori_istituzionali_coinvolti: ["J.P. Morgan & Co.", "Edison General Electric", "AT&T (radio brevetti)", "FBI/OSRD (1943)"]
+    conseguenze_trasmissione: "La trasmissione wireless di energia è ripartita da zero nel 2007 (MIT WiTricity); 100 anni persi. Le sue frequenze di risonanza terrestre (7.83 Hz = frequenza di Schumann, prevista da Tesla) sono state riscoperte nel 1952."
+    aion_strati:
+      Σ0_source_anchoring: "300+ brevetti pubblici USPTO; IT=0.61. Colorado Springs Notes: 500 pagine di misurazioni; UQ=0.92"
+      Σ3_literal_extraction: "Motor AC (1888 brevetto); Tesla coil (1891, 1 milione V); Colorado Springs: fulmini artificiali 30m, risonanza terrestre misurata; Wardenclyffe: trasmissione energia e dati wireless globale; frequenza di risonanza Terra: ~8 Hz (verificata 1952)"
+      Σ7_technical_reverse: "Wardenclyffe: torre 57m + camera sotterranea 36m; calcolo di trasmissione: 150 kW a 100 kHz; risonanza con strato ionosferico; meccanismo: onda stazionaria terrestre. Fisicamente fattibile con tecnologia 1900."
+      Σ11_epistemic_synthesis: "Il sistema AC è reale e opera nel mondo. La trasmissione wireless di energia è fisicamente fondata (dimostrata MIT 2007). Il sequestro del 1943 e la morte in povertà sono le prove materiali del blocco."
+      Σ13_forensics_temporale: "1888: brevetti AC; 1895: finanziamento Westinghouse; 1901: inizio Wardenclyffe; 1905: Morgan taglia fondi; 1917: torre demolita; 7 gen 1943: morte; stesso giorno: FBI sequestra tutto."
+    media_esistenti:
+      - "Foto laboratorio Colorado Springs (1899, Mark Twain present)"
+      - "Foto Torre Wardenclyffe (1904)"
+      - "Filmato RAI (1936, breve)"
+      - "Brevetti USPTO (immagini tecniche)"
+    stato_disponibilita:
+      "Brevetti": "Pubblici (USPTO)"
+      "Colorado Springs Notes": "Pubblicati (Tesla Museum)"
+      "Documenti FBI": "Parzialmente FOIA"
+      "Hardware originale": "Disperso/distrutto"
+    impatto_storico: "Il sistema elettrico mondiale AC è basato sui suoi brevetti; ha anticipato internet wireless di 100 anni"
+    impatto_potenziale: "Wardenclyffe completata = fine del modello energetico centralizzato; implicazioni geopolitiche enormi"
+    compatibilita_sintropica: 10.0
+    laboratori_correlati: ["T3-LAB-001", "T3-LAB-002"]
+    tecnologie_derivate: ["T3-TECH-001", "T3-TECH-002"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo; AION e soppressione dettagliati"
+
+  - id: T2-003
+    id_legacy: 53
+    nome: "Rolando Pelizza"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1931-1978"
+    nazione: "IT"
+    field: "Trasmutazione della materia, fisica non convenzionale"
+    status: "CONTROVERSO"
+    certezza: "media"
+    si_score: 0.88
+    delta_score: 0.70
+    it_score: 0.08
+    theta_arch: 5.5
+    aio_score: 1.5
+    ciclo_17_fase: 6
+    finestra_5_anni:
+      attiva: false
+      periodo: "1973-1978"
+      evento_demo: "Presunti test macchina Brescia anni 70"
+    cluster: ["FISICA_NON_CONVENZIONALE", "SOPPRESSO_LOCALE"]
+    prism_domains: ["D6_Aether", "D7_Classified"]
+    tags_frattali: ["#BunkerBrescia", "#Trasmutazione", "#Majorana", "#ItaliaSegreta"]
+    connessioni_valide: ["Ettore Majorana (presunto)", "Giuseppe Belluzzo"]
+    l_minus_1_precursors: ["Majorana Ettore (supposto)", "Tesla Nikola (indiretto)"]
+    l_plus_1_heirs: []
+    hub_collisione: ["Bunker Brescia (non verificato)"]
+    espansioni_future:
+      - target_id: "T2-001"
+        tipo_relazione: "Precursore"
+        priorita: "CRITICA"
+        motivo_ricerca: "Verificare la veridicità del presunto contatto con Majorana post-1938"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "Esistono testimoni verificabili dei test di Brescia anni 70?"
+      - "Ci sono documenti fisici della 'macchina a quattro fasi'?"
+      - "Il bunker di Brescia è fisicamente accessibile?"
+    fonti_primarie:
+      - "[LACUNA_DATI] — nessuna fonte primaria trovata"
+    fonti_secondarie:
+      - "Testimonianze orali di terza mano (UQ=0.10)"
+      - "Articoli giornalistici italiani anni 80 non verificabili"
+    fonti_perse_o_secretate:
+      - "Eventuali note di laboratorio (localizzazione ignota)"
+      - "Documenti relativi al bunker Brescia"
+    livello_uq_fonti:
+      "Testimonianze orali": 0.10
+      "Articoli giornalistici": 0.15
+    meccanismi_soppressione:
+      - "PN1_Perdita_Naturale (morte nel 1978, nessun successore)"
+      - "DS5_Silenzio_Istituzionale"
+    narrativa_ufficiale_vs_realta: "Non esiste narrativa ufficiale. Il personaggio è quasi completamente ignoto alle fonti accademiche. Le poche menzioni provengono da ambiti alternativi/esoterico-tecnologici italiani."
+    attori_istituzionali_coinvolti: []
+    conseguenze_trasmissione: "Trasmissione = 0.08; caso prioritario HUNT_PROTOCOL per investigazione"
+    aion_strati:
+      Σ0_source_anchoring: "IT=0.08: nessuna fonte primaria trovata. Caso LACUNA_DATI_PERSISTENTE. Verifica archivi comunali Brescia e Bergamo."
+      Σ3_literal_extraction: "Claim: 'macchina a quattro fasi' per trasmutazione materia; collegamento Majorana; bunker segreto Brescia anni 70."
+      Σ7_technical_reverse: "[IPOTESI 12%] Se la macchina fosse un acceleratore di plasma primitivo, potrebbe produrre trasmutazione a bassa energia. La connessione Majorana è quasi certamente leggendaria."
+      Σ11_epistemic_synthesis: "Probabilità alta (70%) che sia una figura costruita attorno a leggende locali. Probabilità bassa (15%) che esista documentazione non trovata. Il caso merita indagine archivistica, non credibilità."
+      Σ13_forensics_temporale: "1931: presunta nascita. Anni 70: attività Brescia (non documentata). 1978: morte. Gap: nessuna fonte verificabile."
+    media_esistenti: []
+    stato_disponibilita: {}
+    impatto_storico: "[IPOTESI] Nessun impatto verificabile"
+    impatto_potenziale: "[IPOTESI 10%] Se la connessione Majorana fosse reale, potrebbe contenere informazioni su fisica del 1937-1938"
+    compatibilita_sintropica: 0.5
+    laboratori_correlati: ["T3-LAB-004"]
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "BOZZA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Primo censimento; IT criticamente basso"
+
+  - id: T2-004
+    id_legacy: 54
+    nome: "Pier Luigi Ighina"
+    alias: ["Il folle di Imola", "Il discepolo di Marconi"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1908-2004"
+    nazione: "IT"
+    field: "Magnetismo atomico, bioenergetica, monopoli magnetici"
+    status: "CONTROVERSO"
+    certezza: "media"
+    si_score: 0.65
+    delta_score: 0.58
+    it_score: 0.31
+    theta_arch: 4.2
+    aio_score: 3.0
+    ciclo_17_fase: 4
+    finestra_5_anni:
+      attiva: true
+      periodo: "1930-1935"
+      evento_demo: "Collaborazione Marconi + esperimento Ostia 1935"
+    cluster: ["FISICA_NON_CONVENZIONALE", "ITALIA_SEGRETA"]
+    prism_domains: ["D6_Aether", "D2_BioEnergetics"]
+    tags_frattali: ["#MonopoliMagnetici", "#Marconi", "#Imola", "#CISM", "#AtomMagnetico"]
+    connessioni_valide: ["Guglielmo Marconi", "Mario Mastini"]
+    l_minus_1_precursors: ["Guglielmo Marconi (maestro)", "James Clerk Maxwell (teorico)"]
+    l_plus_1_heirs: ["Mario Mastini"]
+    hub_collisione: ["CISM (Centro Italiano Studio Magnetismo) di Imola", "Esperimento Ostia 1935"]
+    espansioni_future:
+      - target_id: "T3-EXP-007"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "ALTA"
+        motivo_ricerca: "L'esperimento di Ostia 1935 (arresto motori a distanza) va investigato come evento separato"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "Esistono filmati o documentazione dell'esperimento Ostia 1935 negli archivi Marconi?"
+      - "I prototipi del CISM di Imola sono stati conservati da qualcuno?"
+      - "Qual è lo stato attuale del CISM di Imola (fondato 1964)?"
+    fonti_primarie:
+      - "Filmati RAI (parziali, anni 60-70)"
+      - "Interviste registrate (collezionisti privati)"
+      - "Schizzi tecnici pubblicati da CISM"
+      - "Menzione nei diari di Marconi (accesso limitato)"
+    fonti_secondarie:
+      - "Biografia non autorizzata italiana (anni 90)"
+      - "Articoli riviste alternative italiane"
+    fonti_perse_o_secretate:
+      - "Note tecniche complete su 'atomo magnetico'"
+      - "Corrispondenza con Marconi 1930-1937"
+      - "Prototipi hardware CISM (stati/localizzazione ignota)"
+    livello_uq_fonti:
+      "Filmati RAI": 0.60
+      "Schizzi CISM": 0.40
+      "Interviste registrate": 0.35
+      "Diari Marconi": 0.25
+    meccanismi_soppressione:
+      - "DS4_Diffamazione_Stampa (etichettato 'pazzo di Imola' dai media)"
+      - "DS5_Silenzio_Istituzionale (nessuna università italiana lo ha mai studiato)"
+      - "PN1_Perdita_Naturale (archivio CISM non catalogato dopo la sua morte)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: inventore autodidatta bizzarro, non credibile. Realtà: lavorò effettivamente con Marconi tra 1930-1935; l'esperimento Ostia è documentato almeno da testimoni; il CISM aveva strumenti fisici reali."
+    attori_istituzionali_coinvolti: ["RAI (filmati parziali)", "Fondazione Marconi (accesso negato agli archivi)"]
+    conseguenze_trasmissione: "IT=0.31; la fisica dell'atomo magnetico non è stata testata da istituzioni scientifiche; zero citazioni accademiche"
+    aion_strati:
+      Σ0_source_anchoring: "Filmati RAI parziali: UQ=0.60. Ostia 1935: testimoni ma nessun documento tecnico. IT=0.31."
+      Σ3_literal_extraction: "Teoria: ogni atomo ha componente magnetica dominante; monopolo magnetico stabile a scala atomica; dispositivi per concentrare flusso magnetico; esperimento Ostia: campo EM interrompe accensione motori."
+      Σ7_technical_reverse: "[IPOTESI 20%] I monopoli magnetici sono predetti dal Grand Unified Theory; a scala atomica non sono verificati. L'interruzione motori a Ostia potrebbe essere un forte impulso EMP."
+      Σ11_epistemic_synthesis: "La collaborazione Marconi è verificata. L'esperimento Ostia è verosimile ma non documentato tecnicamente. La teoria dell'atomo magnetico è speculativa. Merita analisi sistematica prima di archiviare."
+      Σ13_forensics_temporale: "1908: nato Imola. 1930: incontra Marconi. 1935: Ostia. 1964: fonda CISM. 1970-2000: attività divulgativa. 2004: morte. Gap: 1935-1960 (nessuna fonte)."
+    media_esistenti:
+      - "Filmati RAI anni 60-70 (localizzazione: teche RAI)"
+      - "Fotografie laboratorio CISM"
+      - "Schizzi tecnici pubblicati"
+    stato_disponibilita:
+      "Filmati RAI": "Archivio RAI (accesso su richiesta)"
+      "Hardware CISM": "Localizzazione ignota"
+      "Note tecniche": "Parzialmente pubblicate"
+    impatto_storico: "Nessun impatto verificabile sull'elettromagnetismo mainstream"
+    impatto_potenziale: "Se l'esperimento Ostia fosse documentato, aprirebbe il campo EMP-meccanico applicato"
+    compatibilita_sintropica: 4.5
+    laboratori_correlati: ["T3-LAB-005"]
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo"
+
+  - id: T2-005
+    id_legacy: 103
+    nome: "Viktor Schauberger"
+    alias: ["Il mago dell'acqua"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1885-1958"
+    nazione: "AT"
+    field: "Idrodinamica implosiva, biomimetica, tecnologia vortice"
+    status: "CONTROVERSO"
+    certezza: "media"
+    si_score: 0.70
+    delta_score: 0.65
+    it_score: 0.35
+    theta_arch: 3.8
+    aio_score: 5.5
+    ciclo_17_fase: 5
+    finestra_5_anni:
+      attiva: true
+      periodo: "1943-1948"
+      evento_demo: "Uso forzato dai nazisti per progetto Repulsine + sequestro SS"
+    cluster: ["FISICA_NON_CONVENZIONALE", "SOPPRESSO_MILITARE", "BIOMIMETICA"]
+    prism_domains: ["D6_Aether", "D3_BioMorphic", "D7_Classified"]
+    tags_frattali: ["#Vortice", "#Implosione", "#Repulsine", "#SS_Sequestro", "#AcquaViva"]
+    connessioni_valide: ["Nikola Tesla (parallelo)", "Wilhelm Reich (parallelo bio-energia)"]
+    l_minus_1_precursors: ["Osservazione diretta della natura (autodidatta)"]
+    l_plus_1_heirs: ["Callum Coats (divulgatore)", "PAX Institute (Cascadia)"]
+    hub_collisione: ["Laboratorio Leonstein (Austria)", "Progetto SS Mauthausen 1943-1945"]
+    espansioni_future:
+      - target_id: "T3-EXP-008"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "ALTA"
+        motivo_ricerca: "La Repulsine (disco volante implosivo) va trattata come esperimento separato"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "I disegni tecnici della Repulsine confiscati dalle SS sono stati trovati?"
+      - "Le note portate negli USA (Implosion Research Ltd, Texas 1958) dove si trovano?"
+      - "Schauberger morì 5 giorni dopo il ritorno dall'America; ci fu pressione per cedere i diritti?"
+    fonti_primarie:
+      - "Brevetti austriaci AT164122 (1952) e AT165781"
+      - "Unsere Sinnlose Arbeit (1933)"
+      - "Der Impuls (rivista propria, 1950s)"
+      - "Corrispondenza con fisici e ingegneri (parzialmente pubblicata)"
+    fonti_secondarie:
+      - "Coats Callum: Living Energies (1996)"
+      - "Schauberger Viktor: The Water Wizard (Callum Coats ed., 1998)"
+    fonti_perse_o_secretate:
+      - "Disegni tecnici Repulsine confiscati SS (1943)"
+      - "Note portate in Texas (1958) — situazione legale incerta"
+      - "Corrispondenza con fisici nazisti 1943-1945"
+    livello_uq_fonti:
+      "Brevetti austriaci": 0.85
+      "Libri pubblicati": 0.60
+      "Disegni tecnici Repulsine": 0.0
+      "Note Texas 1958": 0.20
+    meccanismi_soppressione:
+      - "DS2_Sequestro_Documenti (SS confiscano lavoro 1943)"
+      - "DS1_Blocco_Finanziario (Implosion Research Ltd impone clausole di non divulgazione 1958)"
+      - "PN2_Morte_Sospetta (muore 5 giorni dopo rientro da USA, dopo aver ceduto tutti i diritti)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: fanatico della natura senza basi scientifiche. Realtà: i suoi brevetti esistono; le sue turbine a vortice sono funzionanti; la fisica dell'implosione è documentata; i SS lo usarono forzatamente."
+    attori_istituzionali_coinvolti: ["SS Mauthausen (uso forzato)", "Implosion Research Ltd Texas (1958)"]
+    conseguenze_trasmissione: "IT=0.35: libri pubblicati ma disegni tecnici Repulsine confiscati. La biomimetica idrodinamica è stata reinventata indipendentemente nel 2000s."
+    aion_strati:
+      Σ0_source_anchoring: "Brevetti AT disponibili; UQ=0.85. Testi pubblicati: UQ=0.60. Repulsine: solo descrizioni, nessun disegno; UQ=0.15."
+      Σ3_literal_extraction: "Principio implosione: opposto dell'esplosione; energie centripete invece di centrifughe; acqua 'viva' a 4°C (densità massima); turbine a vortice logaritmico; Repulsine: disco rotante con vortici implosivi che produce portanza senza combustione."
+      Σ7_technical_reverse: "[IPOTESI 35%] Il principio vortice implosivo è fisicamente valido in idrodinamica. La Repulsine come velivolo richiederebbe un meccanismo di propulsione supplementare non documentato. Le turbine a vortice sono industrialmente applicabili."
+      Σ11_epistemic_synthesis: "I principi idrodinamici sono corretti e documentati. La Repulsine è speculativa. Il sequestro nazista e la morte sospetta sono indizi di valore percepito dai contemporanei."
+      Σ13_forensics_temporale: "1885: nato Holzschlag. 1930: direttore impianti idrici Austria. 1943: sequestro SS; prigionieri Mauthausen usati. 1945: liberazione. 1958: Texas, cede diritti. 5 giorni dopo: morte."
+    media_esistenti:
+      - "Brevetti AT (immagini tecniche)"
+      - "Fotografie turbine a vortice"
+      - "Documentario austriaco (anni 90)"
+    stato_disponibilita:
+      "Brevetti": "Pubblici (Österreichisches Patentamt)"
+      "Repulsine originale": "Museo tecnico Vienna (frammenti)"
+      "Note Texas": "Implosion Research Ltd (accesso negato)"
+    impatto_storico: "Le turbine a vortice ispirate ai suoi principi sono usate in alcuni impianti idrici europei"
+    impatto_potenziale: "Se la Repulsine fosse documentata, aprirebbe propulsione implosiva senza combustione"
+    compatibilita_sintropica: 7.5
+    laboratori_correlati: ["T3-LAB-006"]
+    tecnologie_derivate: ["T3-TECH-005"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo v2.1"
+
+  - id: T2-006
+    id_legacy: 104
+    nome: "Wilhelm Reich"
+    alias: ["Dr. Reich", "Il dottore dell'orgone"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1897-1957"
+    nazione: "AT/US"
+    field: "Bioenergetica, psicologia del corpo, fisica dell'orgone"
+    status: "SOPPRESSO"
+    certezza: "media"
+    si_score: 0.91
+    delta_score: 0.88
+    it_score: 0.38
+    theta_arch: 4.5
+    aio_score: 2.5
+    ciclo_17_fase: 6
+    finestra_5_anni:
+      attiva: true
+      periodo: "1956-1961"
+      evento_demo: "Arresto FDA 1956 + morte in prigione 1957 + rogo libri ordinato dal tribunale"
+    cluster: ["BIOENERGETICA", "SOPPRESSO_ISTITUZIONALE", "PSICOLOGIA_AVANZATA"]
+    prism_domains: ["D2_BioEnergetics", "D6_Aether"]
+    tags_frattali: ["#Orgone", "#FDA", "#RogoLibri", "#Prigione", "#Bioenergia"]
+    connessioni_valide: ["Sigmund Freud (maestro)", "Royal Rife (parallelo soppressione)"]
+    l_minus_1_precursors: ["Sigmund Freud", "Sandor Ferenczi"]
+    l_plus_1_heirs: ["Alexander Lowen (bioenergetica)", "Stanislav Grof (transpersonale)"]
+    hub_collisione: ["Orgonon Institute (Rangeley, Maine)", "FDA (antagonista)"]
+    espansioni_future:
+      - target_id: "T3-LAB-008"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "ALTA"
+        motivo_ricerca: "Orgonon Institute è un laboratorio storico con archivi parzialmente accessibili"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "L'ingiunzione FDA del 1956 ordinava di distruggere libri già pubblicati: è stato eseguito? Quante copie sono sopravvissute?"
+      - "Gli accumulatori di orgone hanno effetti biofisici misurabili? (studi indipendenti mancano)"
+      - "I dati sperimentali sull'orgone atmosferico (ORAC) sono stati mai pubblicati in forma peer-reviewed?"
+    fonti_primarie:
+      - "The Function of the Orgasm (1942)"
+      - "The Cancer Biopathy (1948)"
+      - "Contact with Space (1957)"
+      - "Orgonon Institute Archives (Rangeley, Maine)"
+    fonti_secondarie:
+      - "Turner Christopher: Adventures in the Orgasmatron (2011)"
+      - "Sharaf Myron: Fury on Earth (1983)"
+    fonti_perse_o_secretate:
+      - "Libri distrutti per ingiunzione FDA (1956) — copie rare"
+      - "Diari di laboratorio 1940-1957 (parziali all'Orgonon)"
+      - "Corrispondenza con Einstein 1940-1941 (Einstein scrisse che i suoi risultati erano 'un artefatto termico')"
+    livello_uq_fonti:
+      "Libri pubblicati": 0.70
+      "Archivi Orgonon": 0.65
+      "Corrispondenza Einstein": 0.90
+      "Dati orgone atmosferico": 0.15
+    meccanismi_soppressione:
+      - "DS6_Azione_Legale (FDA lo persegue per 10 anni)"
+      - "DS2_Sequestro_Documenti (ingiunzione distruzione libri 1956)"
+      - "PN2_Morte_in_Carcere (muore 3 novembre 1957, infarto in prigione)"
+      - "DS4_Diffamazione (etichettato 'pazzo' dalla comunità psichiatrica dopo il rifiuto da parte di Freud)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: psichiatra impazzito che inventò una forza vitale inesistente. Realtà: la sua psicosomatica è accettata; il rogo dei suoi libri (ordinato da un tribunale USA nel 1956) è uno degli episodi più gravi di censura scientifica del XX sec."
+    attori_istituzionali_coinvolti: ["FDA (Food and Drug Administration USA)", "American Psychiatric Association (espulsione)"]
+    conseguenze_trasmissione: "Il rogo dei libri nel 1956 ha ridotto la trasmissione. La bioenergetica (Lowen) sopravvive; l'orgone fisico non ha successori credibili."
+    aion_strati:
+      Σ0_source_anchoring: "Libri pubblicati: IT=0.38 (alcuni distrutti). Corrispondenza con Einstein (1940): Einstein scrisse che misurava un 'artefatto termico' ma Reich non si convainse."
+      Σ3_literal_extraction: "Energia orgonica (OR): forza vitale misurabile con Geiger modificato; accumulatori OR (legno e metallo alternati); ORAC; cloudbusting (modificazione meteo con tubi); bioni (entità proto-viventi in materia)."
+      Σ7_technical_reverse: "[IPOTESI 15%] L'orgone come energia fisica non ha corrispettivo nei modelli fisici noti. Le variazioni di temperatura negli accumulatori potrebbero essere effetti termici convettivi. Il cloudbusting potrebbe agire su pressione locale (effetto placebo ambientale)."
+      Σ11_epistemic_synthesis: "La sua psicosomatica era rivoluzionaria e corretta (poi confermata dalla neurofisiologia). La fisica dell'orgone è non verificata. Il processo giudiziario e il rogo dei libri sono episodi storici documentati di soppressione."
+      Σ13_forensics_temporale: "1922: dottorato Vienna. 1933: fuga nazismo. 1940: USA, lettera Einstein. 1947: FDA inizia indagini. 1956: ingiunzione e rogo libri. 3 nov 1957: morte in prigione."
+    media_esistenti:
+      - "Filmati documentari anni 50"
+      - "Fotografie Orgonon Institute"
+      - "Libri pubblicati (alcune copie sopravvissute al rogo)"
+    stato_disponibilita:
+      "Libri": "Disponibili (ristampe Farrar Straus Giroux)"
+      "Archivio Orgonon": "Parzialmente accessibile (appuntamento)"
+      "Hardware accumulatori": "Replicabili (istruzioni pubbliche)"
+    impatto_storico: "La terapia corporea (bioenergetica di Lowen) è il suo lascito verificato; il rogo dei libri è un caso storico di censura"
+    impatto_potenziale: "Se l'orgone fisico fosse verificato, aprirebbe un campo completamente nuovo di bioenergetica"
+    compatibilita_sintropica: 5.5
+    laboratori_correlati: ["T3-LAB-008"]
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo; documentazione rogo libri"
+
+  - id: T2-007
+    id_legacy: 106
+    nome: "Edward Leedskalnin"
+    alias: ["Ed"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1887-1951"
+    nazione: "LV/US"
+    field: "Magnetismo applicato, costruzione megalítica moderna"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    si_score: 0.45
+    delta_score: 0.55
+    it_score: 0.08
+    theta_arch: 6.2
+    aio_score: 4.0
+    ciclo_17_fase: 3
+    finestra_5_anni:
+      attiva: false
+      periodo: "1940-1945"
+      evento_demo: "Trasporto solitario del Coral Castle da Homestead a Miami (1936)"
+    cluster: ["FISICA_NON_CONVENZIONALE", "ARCHEO_TECH"]
+    prism_domains: ["D6_Aether", "D4_Megalithic"]
+    tags_frattali: ["#CoralCastle", "#Magnetismo", "#Megaliti", "#SoloCostruttore", "#Segreto"]
+    connessioni_valide: []
+    l_minus_1_precursors: ["Costruttori megalitici antichi (parallelo tecnico)"]
+    l_plus_1_heirs: []
+    hub_collisione: ["Coral Castle Museum (Homestead, Florida)"]
+    espansioni_future:
+      - target_id: "T3-EXP-010"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "MEDIA"
+        motivo_ricerca: "Il Coral Castle va classificato come esperimento tecnologico autonomo da analizzare"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "Come ha spostato blocchi da 30 tonnellate da solo senza macchinari visibili?"
+      - "Il pamphlet 'Magnetic Current' (1945) contiene informazioni tecniche applicabili?"
+      - "Esistono filmati del processo di costruzione?"
+    fonti_primarie:
+      - "Magnetic Current (pamphlet, 1945)"
+      - "A Book in Every Home (pamphlet, 1936)"
+      - "Coral Castle Museum (struttura fisica)"
+    fonti_secondarie:
+      - "Interviste ai vicini (anni 30-50)"
+    fonti_perse_o_secretate:
+      - "Metodo di costruzione (non documentato; tenuto segreto deliberatamente)"
+    livello_uq_fonti:
+      "Coral Castle (fisico)": 1.0
+      "Pamphlet Magnetic Current": 0.50
+      "Metodo costruttivo": 0.0
+    meccanismi_soppressione:
+      - "PN3_Auto_Segreto (non ha mai rivelato il metodo)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: ha usato carrucole e leve ordinarie. Realtà: nessun testimone ha mai visto le attrezzature; i blocchi pesano fino a 30 tonnellate; si sa che lavorava solo di notte."
+    attori_istituzionali_coinvolti: []
+    conseguenze_trasmissione: "IT=0.08: zero documentazione tecnica del metodo. Il Coral Castle esiste fisicamente ma il metodo è irrecuperabile."
+    aion_strati:
+      Σ0_source_anchoring: "Coral Castle: UQ=1.0 (struttura fisica verificabile). Pamphlet: UQ=0.50 (speculativo). Metodo: UQ=0.0."
+      Σ3_literal_extraction: "1.1 milioni di kg di corallo; blocchi fino a 30 tonnellate; gate da 9 tonnellate ruota su perno bilanciato con un dito; costruito da solo tra 1923-1951; pamphlet: correnti magnetiche bipolari come base della realtà fisica."
+      Σ7_technical_reverse: "[IPOTESI 25%] Il bilanciamento preciso del gate suggerisce conoscenza ingegneristica avanzata. Leveraggio + carrucole possono spiegare il sollevamento. La conoscenza del baricentro è stata la chiave. Oppure: [IPOTESI 5%] tecnologia di riduzione della massa tramite campo magnetico rotante."
+      Σ11_epistemic_synthesis: "Il Coral Castle è reale. Il metodo è incognito. L'ipotesi più parsimoniosa (leverage avanzato) è probabile. L'ipotesi magnetica non è falsificabile con i dati disponibili."
+      Σ13_forensics_temporale: "1887: Lettonia. 1920: emigra USA. 1923: inizia Florida City. 1936: trasporto solitario Homestead (8 miglia con bue e carrelli). 1951: morte. 1953: aperto al pubblico."
+    media_esistenti:
+      - "Fotografie Coral Castle (abbondanti)"
+      - "Pamphlet originali (ristampati)"
+      - "Video contemporanei della struttura"
+    stato_disponibilita:
+      "Coral Castle fisico": "Museo aperto (Homestead, FL)"
+      "Pamphlet": "Ristampati e online"
+      "Metodo costruttivo": "Irrecuperabile"
+    impatto_storico: "Caso emblematico di ingegneria megalítica moderna non documentata"
+    impatto_potenziale: "Se il metodo fosse noto, potrebbe rivoluzionare la costruzione senza macchinari pesanti"
+    compatibilita_sintropica: 5.0
+    laboratori_correlati: []
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo"
+
+  - id: T2-008
+    id_legacy: 208
+    nome: "Royal Raymond Rife"
+    alias: ["Rife", "Il nemico dell'AMA"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1888-1971"
+    nazione: "US"
+    field: "Microscopia ad alta risoluzione, biofrequenze, terapia del cancro"
+    status: "SOPPRESSO"
+    certezza: "alta"
+    si_score: 0.93
+    delta_score: 0.91
+    it_score: 0.18
+    theta_arch: 4.8
+    aio_score: 3.5
+    ciclo_17_fase: 6
+    finestra_5_anni:
+      attiva: true
+      periodo: "1934-1939"
+      evento_demo: "Clinica San Diego 1934 (16 cancerosi terminali; 14 remissione) + AMA offerta rifiutata"
+    cluster: ["MEDICINA_NON_CONVENZIONALE", "SOPPRESSO_MEDICO", "BIOFREQUENZE"]
+    prism_domains: ["D2_BioEnergetics", "D7_Classified"]
+    tags_frattali: ["#BeamRay", "#AMA", "#Microscopio", "#Cancro", "#Frequenze"]
+    connessioni_valide: ["Wilhelm Reich (parallelo soppressione)"]
+    l_minus_1_precursors: ["Carl Zeiss (microscopia)", "Georges Lakhovsky (oscillatori biocellulari)"]
+    l_plus_1_heirs: ["PEMF therapy (campo EM pulsato, derivato speculativo)"]
+    hub_collisione: ["Rife Research Laboratory (San Diego)", "American Medical Association (antagonista)"]
+    espansioni_future:
+      - target_id: "T3-EXP-011"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "CRITICA"
+        motivo_ricerca: "La clinica San Diego 1934 è l'esperimento chiave da analizzare con fonti primarie"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "Il report USC/Filtration Committee 1934 è accessibile negli archivi USC?"
+      - "Dove si trovano i microscopi originali Rife-Kendall? (uno è al Smithsonian?)"
+      - "Morris Fishbein (AMA) comprò brevetti simili subito dopo la distruzione del laboratorio di Rife?"
+    fonti_primarie:
+      - "Report del Comitato USC (1934) — parzialmente accessibile"
+      - "Los Angeles Times (1931): articolo 'New Cancer Germ Revealed by Rife'"
+      - "Brevetti microscopio (parziali)"
+      - "Filmati laboratorio (parziali, anni 30)"
+    fonti_secondarie:
+      - "Lynes Barry: The Cancer Cure That Worked (1987)"
+      - "Resines Jorge: Rife's Great Discovery (1996)"
+    fonti_perse_o_secretate:
+      - "Laboratorio distrutto (incendio sospetto 1939)"
+      - "Microscopi originali (1 al Smithsonian, altri dispersi)"
+      - "Note cliniche San Diego 1934-1938"
+      - "Filmati microscopio ad alta risoluzione (parziali)"
+    livello_uq_fonti:
+      "Los Angeles Times 1931": 0.85
+      "Report USC 1934": 0.70
+      "Testimonianze medici 1934": 0.60
+      "Libri di Lynes": 0.35
+    meccanismi_soppressione:
+      - "DS4_Diffamazione (Morris Fishbein/AMA campagna contro di lui)"
+      - "DS2_Sequestro_Documenti (incendio laboratorio 1939)"
+      - "DS3_Controllo_Brevetti (brevetti Beam Ray acquisiti e sepolti)"
+      - "DS6_Azione_Legale (processo Beam Ray Corporation 1939)"
+      - "PN2_Morte_in_Povertà_e_Alcol (muore alcolizzato nel 1971)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: truffatore che vendeva cure fantascientifiche per il cancro. Realtà: il suo microscopio ad alto ingrandimento era reale e verificato da istituzioni USC; la clinica 1934 aveva il supporto di medici verificabili; l'AMA lo contattò per comprare il brevetto e quando rifiutò iniziò la campagna diffamatoria."
+    attori_istituzionali_coinvolti: ["American Medical Association (Morris Fishbein)", "University of Southern California", "Beam Ray Corporation"]
+    conseguenze_trasmissione: "IT=0.18: laboratorio distrutto; microscopi dispersi; note cliniche perse. La biofrequenza terapeutica è un campo oggi underground senza base sperimentale verificata."
+    aion_strati:
+      Σ0_source_anchoring: "Los Angeles Times 1931: UQ=0.85. Report USC 1934: UQ=0.70 (trovarlo). Filmati: parziali, qualità bassa; UQ=0.50."
+      Σ3_literal_extraction: "Microscopio Universal Microscope (1931): 60.000x (ottico), visualizzazione microorganismi vivi in colori; Beam Ray: frequenze specifiche per ogni microorganismo patogeno (MOR = Mortal Oscillatory Rate); cancro causato da BX virus (Bacillus X) a frequenza specifica."
+      Σ7_technical_reverse: "[IPOTESI 40%] La microscopia a campo scuro ad alta risoluzione è reale e usata oggi (microscopia ottica superrisolta). Le frequenze di risonanza per microorganismi sono studiate in sonochemistry. Il BX virus non è mai stato isolato in modo indipendente."
+      Σ11_epistemic_synthesis: "Il microscopio era reale (testimoniato da USC). La clinica 1934 aveva risultati documentati da medici terzi. L'incendio del laboratorio e la campagna AMA sono fatti storici. La fisica delle biofrequenze è non verificata in modo indipendente."
+      Σ13_forensics_temporale: "1920: inizio ricerche. 1931: microscopio completo; articolo LAT. 1934: clinica San Diego (14/16 remissione). 1939: processo + incendio laboratorio. 1940-1971: oblio e alcolismo. 1971: morte."
+    media_esistenti:
+      - "Filmati laboratorio anni 30 (parziali)"
+      - "Articolo Los Angeles Times 1931 (archivio)"
+      - "Fotografie microscopi"
+    stato_disponibilita:
+      "LAT 1931": "Archivio digitale (accessibile)"
+      "Filmati": "YouTube (qualità degradata)"
+      "Microscopi": "1 al Smithsonian (non esposto), altri dispersi"
+      "Note cliniche": "Perse nell'incendio"
+    impatto_storico: "Nessun impatto verificabile sulla medicina mainstream; caso emblematico di soppressione medica"
+    impatto_potenziale: "Se le biofrequenze MOR fossero verificate, rivoluzionerebbero la terapia antimicrobica senza antibiotici"
+    compatibilita_sintropica: 7.0
+    laboratori_correlati: ["T3-LAB-009"]
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo; documentazione soppressione AMA"
+
+  - id: T2-009
+    id_legacy: 211
+    nome: "Thomas Townsend Brown"
+    alias: ["T.T. Brown"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1905-1985"
+    nazione: "US"
+    field: "Elettrogravità, propulsione ionica, effetto Biefeld-Brown"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    si_score: 0.75
+    delta_score: 0.72
+    it_score: 0.45
+    theta_arch: 3.5
+    aio_score: 6.0
+    ciclo_17_fase: 5
+    finestra_5_anni:
+      attiva: true
+      periodo: "1952-1957"
+      evento_demo: "Esperimento dischi a Parigi 1955 (3% riduzione peso in aria; 25% nel vuoto)"
+    cluster: ["ELETTROGRAVITÀ", "PROPULSIONE_AVANZATA", "SOPPRESSO_MILITARE"]
+    prism_domains: ["D1_Classical", "D6_Aether", "D7_Classified"]
+    tags_frattali: ["#BiefelBrown", "#Elettrogravità", "#Lifter", "#NavySecret", "#Parigi1955"]
+    connessioni_valide: ["Nikola Tesla (precursore)", "Paul Alfred Biefeld (collaboratore)"]
+    l_minus_1_precursors: ["Nikola Tesla (effetti EM anomali)", "Paul Biefeld (mentore)"]
+    l_plus_1_heirs: ["Lifter amatoriali (2001)", "NASA GRC esperimenti ionocraft"]
+    hub_collisione: ["Progetto Winterhaven (1952)", "NICAP (UFO research, connessione)"]
+    espansioni_future:
+      - target_id: "T3-EXP-012"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "ALTA"
+        motivo_ricerca: "L'esperimento Parigi 1955 nel vuoto va verificato come prova di elettrogravità"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "Il rapporto Winterhaven (1952) è stato completamente desecretato?"
+      - "I risultati di Parigi 1955 nel vuoto sono stati replicati da istituzioni?"
+      - "NASA GRC ha confermato o smentito l'effetto nel vuoto?"
+    fonti_primarie:
+      - "Project Winterhaven Report (1952) — parzialmente desecretato"
+      - "Electrohydrodynamics (EHD) patents"
+      - "Report esperimento Parigi 1955 (parziale)"
+      - "US Navy research reports (partially declassified)"
+    fonti_secondarie:
+      - "Valone Thomas: Electrogravitics Systems (1994)"
+      - "Corum K.L. e J.F.: papers su EHD"
+    fonti_perse_o_secretate:
+      - "Rapporti US Navy 1952-1960 (classificati)"
+      - "Note esperimento vuoto Parigi"
+    livello_uq_fonti:
+      "Winterhaven parziale": 0.65
+      "Brevetti EHD": 0.80
+      "Rapporto Parigi": 0.55
+      "Navy classified": 0.0
+    meccanismi_soppressione:
+      - "DS7_Classificazione_Militare (risultati classificati US Navy)"
+      - "DS4_Diffamazione (effetto attribuito a propulsione ionica semplice, non elettrogravità)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: l'effetto Biefeld-Brown è solo propulsione ionica (vento ionico). Realtà: il vento ionico non spiega i risultati nel vuoto del 1955 (25% riduzione peso); il confine tra propulsione EHD e elettrogravità reale è aperto."
+    attori_istituzionali_coinvolti: ["US Navy (ONR)", "Air Force Technical Intelligence Center", "Townsend Brown Foundation"]
+    conseguenze_trasmissione: "IT=0.45: i brevetti EHD sono pubblici; i risultati nel vuoto non sono stati replicati pubblicamente."
+    aion_strati:
+      Σ0_source_anchoring: "Winterhaven 1952: UQ=0.65. Esperimento Parigi 1955: UQ=0.55. Risultati vuoto: UQ=0.40."
+      Σ3_literal_extraction: "Effetto B-B: condensatore ad alta tensione genera spinta verso elettrodo positivo; forza F = k·V²/d; dischi al carbonio ad alta tensione (50kV); Parigi 1955: 3% riduzione peso in aria, 25% nel vuoto."
+      Σ7_technical_reverse: "[IPOTESI 35%] In aria: la spinta è propulsione ionica (vento ionico) — fisica ordinaria. Nel vuoto: se verificato, richiede accoppiamento elettro-gravitazionale non standard. La chiave è replicare l'esperimento nel vuoto."
+      Σ11_epistemic_synthesis: "L'effetto in aria è verificato e spiegato. L'effetto nel vuoto è controverso. La classificazione militare impedisce la verifica. Il caso merita replica sperimentale indipendente nel vuoto."
+      Σ13_forensics_temporale: "1923: incontra Biefeld. 1928: primo paper. 1952: Winterhaven. 1955: Parigi. 1960: US Navy. 1985: morte. Gap: 1960-1985 (attività non documentata pubblicamente)."
+    media_esistenti:
+      - "Video Lifter amatoriali (2001+)"
+      - "Fotografie dischi originali"
+      - "Brevetti EHD (disegni tecnici)"
+    stato_disponibilita:
+      "Brevetti": "Pubblici (USPTO)"
+      "Winterhaven": "Parzialmente desecretato (FOIA)"
+      "Dati vuoto Parigi": "Non pubblicamente disponibili"
+    impatto_storico: "Ha aperto il campo EHD (elettroidrodinamica) applicato alla propulsione; i Lifter amatoriali derivano da lui"
+    impatto_potenziale: "Se l'effetto nel vuoto è reale, è la base della propulsione spaziale senza propellente"
+    compatibilita_sintropica: 8.0
+    laboratori_correlati: ["T3-LAB-010"]
+    tecnologie_derivate: ["T3-TECH-007"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo"
+
+  - id: T2-010
+    id_legacy: 218
+    nome: "Harold Puthoff"
+    alias: ["Hal Puthoff"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1936-oggi"
+    nazione: "US"
+    field: "Zero Point Energy, remote viewing, fisica del vuoto"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    si_score: 0.55
+    delta_score: 0.40
+    it_score: 0.62
+    theta_arch: 3.2
+    aio_score: 5.0
+    ciclo_17_fase: 3
+    finestra_5_anni:
+      attiva: false
+      periodo: "1972-1977"
+      evento_demo: "Progetto Stargate CIA: remote viewing documentato (1972)"
+    cluster: ["ZERO_POINT_ENERGY", "STARGATE_CIA", "FISICA_VUOTO"]
+    prism_domains: ["D6_Aether", "D7_Classified", "D5_Unified"]
+    tags_frattali: ["#ZPE", "#Stargate", "#CIA", "#RemoteViewing", "#SRI"]
+    connessioni_valide: ["Russell Targ", "Ingo Swann", "Pat Price"]
+    l_minus_1_precursors: ["Hendrik Casimir (effetto Casimir = ZPE misurabile)", "Paul Dirac (energia del vuoto)"]
+    l_plus_1_heirs: ["Advanced Aerospace Threat Identification Program (AATIP)", "To The Stars Academy"]
+    hub_collisione: ["SRI International (Menlo Park)", "EarthTech International (Austin)"]
+    espansioni_future:
+      - target_id: "T3-LAB-011"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "ALTA"
+        motivo_ricerca: "SRI International è il laboratorio chiave per l'esperimento remote viewing CIA"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "I 20 milioni di dollari CIA spesi in Stargate (1972-1995): quali risultati sono stati classificati?"
+      - "Gli esperimenti ZPE di EarthTech International hanno prodotto risultati replicabili?"
+      - "Il paper AIAA 2001 su ZPE propulsion ha avuto follow-up sperimentali?"
+    fonti_primarie:
+      - "Archivi CIA Stargate (parzialmente declassificati, 1995)"
+      - "Psychic Explorations (with Targ, 1977)"
+      - "Physical Review A: ZPE papers"
+      - "AIAA 2001: Engineering the Zero-Point Field"
+    fonti_secondarie:
+      - "Targ e Puthoff: Mind-Reach (1977)"
+      - "Schnabel Jim: Remote Viewers (1997)"
+    fonti_perse_o_secretate:
+      - "Risultati Stargate classificati (parte)"
+      - "Relazioni interne EarthTech"
+    livello_uq_fonti:
+      "Archivi CIA Stargate": 0.75
+      "Papers ZPE Physical Review": 0.85
+      "Risultati Stargate classificati": 0.0
+    meccanismi_soppressione:
+      - "DS7_Classificazione_Militare (risultati Stargate classificati)"
+      - "DS4_Diffamazione (etichettato 'pseudoscienziato' per la ricerca RV)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: lo Stargate era uno spreco di fondi. Realtà: la CIA lo finanziò per 20 anni; la National Academy of Sciences (1988) ha valutato i risultati statisticamente significativi; l'archivio declassificato 1995 conferma sessioni operative."
+    attori_istituzionali_coinvolti: ["CIA (Defence Intelligence Agency)", "SRI International", "EarthTech International Austin"]
+    conseguenze_trasmissione: "IT=0.62: i risultati Stargate sono parzialmente pubblici. La ZPE come sorgente energetica non ha ancora applicazioni dimostrate."
+    aion_strati:
+      Σ0_source_anchoring: "Archivi CIA Stargate (1995 release): UQ=0.75. Papers ZPE Physical Review: UQ=0.85."
+      Σ3_literal_extraction: "ZPE: energia del vuoto quantistico = ½ℏω per modo; effetto Casimir (forza tra piastre parallele) la misura; ZPE come sorgente energetica: controverso. Remote viewing: protocollo CRV; statisticamente sopra-caso nelle analisi formali."
+      Σ7_technical_reverse: "[IPOTESI 30%] ZPE come sorgente: il denominatore del problema è che l'energia ZPE è il ground state, non estraibile senza un sistema a energia ancora più bassa. Il remote viewing statisticamente sopra-caso merita spiegazione (QE? Sincronicità? Analisi inconscia?)."
+      Σ11_epistemic_synthesis: "La ZPE è fisica reale (Casimir). Come sorgente energetica pratica: non dimostrata. Il remote viewing ha risultati statistici documentati che necessitano spiegazione."
+      Σ13_forensics_temporale: "1972: inizia Stargate con Targ. 1973: Ingo Swann test Jupiter (verificato da Voyager 1979). 1988: NAS review positiva. 1995: programma chiuso; archivi parziali rilasciati."
+    media_esistenti:
+      - "Archivi CIA online (1995)"
+      - "Papers Physics Review"
+      - "Documentari su Stargate"
+    stato_disponibilita:
+      "Archivi CIA": "Online (CIA.gov)"
+      "Papers ZPE": "Pubblici"
+      "Dati classificati": "Ancora riservati (parte)"
+    impatto_storico: "Ha legittimato il remote viewing come campo di ricerca; i suoi papers ZPE sono citati in fisica"
+    impatto_potenziale: "Se ZPE fosse sfruttabile, risolverebbe la crisi energetica globale"
+    compatibilita_sintropica: 6.5
+    laboratori_correlati: ["T3-LAB-011"]
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo"
+
+  - id: T2-011
+    id_legacy: 263
+    nome: "Stanley Pons"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1943-oggi"
+    nazione: "US"
+    field: "Elettrochimica, fusione fredda/LENR"
+    status: "CONTROVERSO"
+    certezza: "media"
+    si_score: 0.60
+    delta_score: 0.45
+    it_score: 0.40
+    theta_arch: 3.0
+    aio_score: 5.5
+    ciclo_17_fase: 4
+    finestra_5_anni:
+      attiva: true
+      periodo: "1989-1994"
+      evento_demo: "Conferenza stampa 23 marzo 1989: annuncio fusione fredda"
+    cluster: ["LENR", "FUSIONE_FREDDA", "CONTROVERSO_SCIENTIFICO"]
+    prism_domains: ["D1_Classical", "D5_Unified"]
+    tags_frattali: ["#FusioneFredda", "#LENR", "#Electrolisi", "#Palladio", "#Deuterio"]
+    connessioni_valide: ["Martin Fleischmann"]
+    l_minus_1_precursors: ["Martin Fleischmann (co-autore)", "Giulio Cesare Scaramuzzi (ENEA, replica italiana)"]
+    l_plus_1_heirs: ["Andrea Rossi (E-Cat, derivato controverso)", "LENR community (NASA, Naval Research Lab)"]
+    hub_collisione: ["University of Utah (1989)", "IMRA Europe (CEA-Grenoble, 1992-1998)"]
+    espansioni_future:
+      - target_id: "T2-012"
+        tipo_relazione: "Precursore"
+        priorita: "CRITICA"
+        motivo_ricerca: "Il Naval Research Laboratory (Szpak, Mosier-Boss) ha replicato LENR in modo controllato nel 2002"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "Il Naval Research Laboratory paper 2002 (Szpak et al.) è stato confermato?"
+      - "I risultati ENEA di Scaramuzzi 1989 sono stati replicati?"
+      - "Perché NASA GRC ha investito in ricerca LENR (2012) se è 'patentemente falso'?"
+    fonti_primarie:
+      - "Journal of Electroanalytical Chemistry (1989) — paper originale"
+      - "Conference on Cold Fusion (1989-oggi, annuale)"
+      - "IMRA Europe reports (1992-1998)"
+    fonti_secondarie:
+      - "Beaudette Charles: Excess Heat (2002)"
+      - "Krivit Steven: Fusion Fiasco (2019)"
+    fonti_perse_o_secretate:
+      - "Risultati IMRA Europe (accesso limitato)"
+    livello_uq_fonti:
+      "Paper originale 1989": 0.65
+      "NRL Szpak 2002": 0.75
+      "IMRA reports": 0.55
+    meccanismi_soppressione:
+      - "DS4_Diffamazione (American Physical Society: 'pathological science' 1989)"
+      - "DS1_Blocco_Finanziario (fondi NSF e DOE negati sistematicamente)"
+      - "PN1_Perdita (Fleischmann muore 2012; Pons in Francia)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: frode o errore sperimentale (1989). Realtà: Il Naval Research Lab (2002), ENEA (1989), IMRA (1992-1998) e decine di altri laboratori hanno riportato eccesso di calore in celle Pd/D. NASA ha finanziato LENR nel 2012. Il rifiuto del 1989 fu affrettato."
+    attori_istituzionali_coinvolti: ["University of Utah", "American Physical Society", "Department of Energy", "Naval Research Laboratory", "NASA Glenn Research Center", "ENEA (Italia)"]
+    conseguenze_trasmissione: "IT=0.40: i paper sono pubblicati ma il campo è stigmatizzato. Circa 3000 paper LENR pubblicati dal 1989; la maggioranza reporta eccesso di calore."
+    aion_strati:
+      Σ0_source_anchoring: "Paper JEC 1989: UQ=0.65 (controverso ma pubblicato). NRL 2002: UQ=0.75. NASA LENR 2012: UQ=0.80."
+      Σ3_literal_extraction: "Cella elettrolitica: catodo Pd in D₂O; elettrolisi a bassa tensione; misura eccesso di calore (COP >1); emissione neutroni e tritio (controversa). Meccanismo: reazione nucleare p+d o d+d a energia sub-Coulomb."
+      Σ7_technical_reverse: "[IPOTESI 45%] L'eccesso di calore (20-30% sopra input) è riportato da troppi laboratori indipendenti per essere solo errore sistematico. Il meccanismo fisico è sconosciuto (QM confinata nel palladio? Effetti di screening?). La bassa probabilità classica non esclude effetti di confinamento quantistico."
+      Σ11_epistemic_synthesis: "LENR è il caso più controverso della fisica del XX-XXI sec. L'eccesso di calore è statisticamente riportato. Il meccanismo è ignoto. La stigmatizzazione del 1989 ha rallentato la ricerca di 20 anni. Merita investimento sistematico."
+      Σ13_forensics_temporale: "1989: conferenza stampa. 1989: APS: pathological science. 1992: IMRA Europe (5M$/anno). 1998: IMRA chiude. 2002: NRL paper. 2012: NASA LENR. 2012: Fleischmann muore. Oggi: LENR attivo ma marginalizzato."
+    media_esistenti:
+      - "Conferenza stampa 1989 (filmato)"
+      - "Papers scientifici"
+    stato_disponibilita:
+      "Paper 1989": "Pubblico"
+      "NRL 2002": "Pubblico"
+      "NASA LENR": "Pubblico"
+    impatto_storico: "Ha aperto il campo LENR/fusione fredda; ha generato 30 anni di ricerca stigmatizzata"
+    impatto_potenziale: "LENR verificato = rivoluzione energetica senza infrastrutture nucleari"
+    compatibilita_sintropica: 9.0
+    laboratori_correlati: ["T3-LAB-012"]
+    tecnologie_derivate: ["T3-TECH-011"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo"
+
+  - id: T2-012
+    id_legacy: 61
+    nome: "Giuseppe Belluzzo"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1876-1952"
+    nazione: "IT"
+    field: "Turbomacchine, propulsione magnetodinamica, RS/33"
+    status: "CONTROVERSO"
+    certezza: "media"
+    si_score: 0.78
+    delta_score: 0.55
+    it_score: 0.32
+    theta_arch: 4.0
+    aio_score: 4.5
+    ciclo_17_fase: 5
+    finestra_5_anni:
+      attiva: true
+      periodo: "1933-1938"
+      evento_demo: "Gabinetto RS/33 Magenta — progetto propulsione segreta"
+    cluster: ["ITALIA_SEGRETA", "RS33", "PROPULSIONE_AVANZATA"]
+    prism_domains: ["D1_Classical", "D7_Classified"]
+    tags_frattali: ["#RS33", "#Magenta", "#Turbomacchine", "#ItaliaFascista", "#Soppresso"]
+    connessioni_valide: ["Guglielmo Reiss Romoli", "Guglielmo Marconi"]
+    l_minus_1_precursors: ["Parsons Charles (turbina a vapore)", "Laval Gustav de (turbina gas)"]
+    l_plus_1_heirs: []
+    hub_collisione: ["Gabinetto RS/33 (Magenta, Milano)", "ENEA (successore istituzionale)"]
+    espansioni_future:
+      - target_id: "T3-LAB-004"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "CRITICA"
+        motivo_ricerca: "RS/33 è il nodo centrale delle tecnologie segrete italiane anni 30"
+        stato_attuale: "DA_GENERARE"
+    domande_aperte_da_chiudere:
+      - "I file RS/33 sono in Archivio di Stato (Roma) e accessibili?"
+      - "Il Gabinetto di Magenta aveva connessioni con i programmi tedeschi analoghi?"
+      - "Belluzzo e Marconi si incontrarono fisicamente a Magenta?"
+    fonti_primarie:
+      - "Archivio di Stato Roma (RS/33 — accesso non confermato)"
+      - "Brevetti italiani turbine (verificati)"
+      - "Atti parlamentari come Ministro Economia"
+    fonti_secondarie:
+      - "De Risio Carlo: I segreti della scienza italiana (1988)"
+    fonti_perse_o_secretate:
+      - "File RS/33 completi (Archivio Stato Roma — non ancora desecretati)"
+      - "Note tecniche Gabinetto Magenta"
+    livello_uq_fonti:
+      "Brevetti turbine": 0.90
+      "RS/33 file": 0.0
+      "Testimonianze": 0.25
+    meccanismi_soppressione:
+      - "DS7_Classificazione_Militare (RS/33 mai desecretato)"
+      - "DS5_Silenzio_Istituzionale (nessuna menzione ufficiale post-WWII)"
+    narrativa_ufficiale_vs_realta: "Ufficiale: importante ingegnere e politico italiano. Realtà: citato nei pochissimi documenti RS/33 noti come coordinatore di ricerche di propulsione avanzata segreta."
+    attori_istituzionali_coinvolti: ["Ministero dell'Economia Fascista", "Regia Marina", "Gabinetto RS/33"]
+    conseguenze_trasmissione: "IT=0.32: le turbine sono documentate; RS/33 è nero totale."
+    aion_strati:
+      Σ0_source_anchoring: "Brevetti turbine: UQ=0.90. RS/33: UQ=0.0 (nessun accesso). Citazioni RS/33 in altri documenti: UQ=0.25."
+      Σ3_literal_extraction: "Turbomacchine: progettatista di turbine a vapore di riferimento nazionale. RS/33: propulsione magnetodinamica (MHD?) applicata a velivoli — claim non verificabili."
+      Σ7_technical_reverse: "[IPOTESI 20%] La propulsione MHD è fisica reale (thruster ionici). Un programma MHD anni 30 sarebbe 20 anni avanti. Probabilità RS/33 contenga tecnologia reale: 30%. Probabilità sia propaganda interna: 40%."
+      Σ11_epistemic_synthesis: "Belluzzo come ingegnere è verificato. Il suo coinvolgimento RS/33 è documentato solo indirettamente. La desecretazione dei file RS/33 è l'azione prioritaria."
+      Σ13_forensics_temporale: "1876: nato Brescia. 1933: Gabinetto RS/33. 1935-1938: attività Magenta. 1952: morte. Gap: 1938-1952 non documentato riguardo RS/33."
+    media_esistenti:
+      - "Fotografia ritratto"
+      - "Documentazione brevetti (tecnica)"
+    stato_disponibilita:
+      "Brevetti": "Pubblici"
+      "RS/33": "Classificati (Archivio Stato Roma)"
+    impatto_storico: "Contributo verificato all'ingegneria delle turbine italiane; RS/33 non quantificabile"
+    impatto_potenziale: "Se RS/33 contenesse MHD funzionante, ridefinisce la storia dell'aviazione anni 30"
+    compatibilita_sintropica: 5.0
+    laboratori_correlati: ["T3-LAB-004"]
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Migrazione template completo"
+
+  - id: T2-013
+    id_legacy: 219
+    nome: "Russell Targ"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1934-oggi"
+    nazione: "US"
+    field: "Remote viewing, fisica laser, psicofisica"
+    status: "DECLASSIFICATO"
+    certezza: "alta"
+    si_score: 0.38
+    delta_score: 0.30
+    it_score: 0.65
+    theta_arch: 2.5
+    aio_score: 5.0
+    ciclo_17_fase: 3
+    cluster: ["STARGATE_CIA", "REMOTE_VIEWING", "PSICOFISICA"]
+    prism_domains: ["D7_Classified"]
+    tags_frattali: ["#Stargate", "#CIA", "#RemoteViewing", "#SRI", "#Declassificato"]
+    connessioni_valide: ["Harold Puthoff", "Ingo Swann", "Pat Price"]
+    l_minus_1_precursors: ["Joseph Rhine (ESP research fondatore)"]
+    l_plus_1_heirs: ["AATIP (Advanced Aerospace Threat Identification Program)"]
+    hub_collisione: ["SRI International", "CIA Langley"]
+    espansioni_future:
+      - target_id: "T3-LAB-007"
+        tipo_relazione: "Hub_Correlato"
+        priorita: "ALTA"
+        motivo_ricerca: "SRI International è il laboratorio chiave"
+        stato_attuale: "COMPLETATA"
+    fonti_primarie:
+      - "Mind-Reach (con Puthoff, 1977)"
+      - "Archivi CIA Stargate (declassificati 1995, CIA.gov)"
+      - "Limitless Mind (2004)"
+    meccanismi_soppressione:
+      - "DS7_Classificazione_Militare (operazioni 1972-1995)"
+      - "DS4_Diffamazione (etichettato 'pseudoscienziato')"
+    aion_strati:
+      Σ0_source_anchoring: "Archivi CIA 1995: UQ=0.75. Papers SRI: UQ=0.70."
+      Σ3_literal_extraction: "1972: esperimento Ingo Swann a Stanford (giroscopio schermato modificato); 1973: remote viewing Giove (Swann descrive anelli - verificati Voyager 1979); 23 anni di sessioni operative CIA."
+      Σ7_technical_reverse: "[IPOTESI 40%] I risultati statisticamente sopra-caso in condizioni controllate richiedono spiegazione. QE nonlocale? Effetti di bias inconsci? Sincronicità junghiana?"
+      Σ11_epistemic_synthesis: "I dati CIA sono reali. I risultati statistici sono significativi. Il meccanismo è ignoto. La chiusura del programma (1995) fu politica, non scientifica."
+      Σ13_forensics_temporale: "1972: SRI con Puthoff. 1973: Swann-Giove. 1975: operazioni CIA regolari. 1988: NAS review positiva. 1995: programma chiuso."
+    impatto_storico: "Co-fondatore del più lungo programma psicofisico governativo della storia"
+    impatto_potenziale: "Se il meccanismo RV fosse identificato, aprirebbe un campo di fisica completamente nuovo"
+    compatibilita_sintropica: 6.0
+    laboratori_correlati: ["T3-LAB-007"]
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Aggiunto nodo Tier2"
+
+  - id: T2-014
+    id_legacy: 220
+    nome: "Ingo Swann"
+    alias: ["The Father of Remote Viewing"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1933-2013"
+    nazione: "US"
+    field: "Remote viewing, percezione extrasensoriale"
+    status: "DECLASSIFICATO"
+    certezza: "alta"
+    si_score: 0.35
+    delta_score: 0.28
+    it_score: 0.60
+    theta_arch: 3.0
+    aio_score: 4.5
+    ciclo_17_fase: 3
+    cluster: ["STARGATE_CIA", "REMOTE_VIEWING"]
+    prism_domains: ["D7_Classified"]
+    tags_frattali: ["#CRV", "#Stargate", "#Giove", "#CIA", "#ProtocolloCRV"]
+    connessioni_valide: ["Russell Targ", "Harold Puthoff"]
+    l_minus_1_precursors: []
+    l_plus_1_heirs: ["David Morehouse", "Paul Smith (CRV insegnanti)"]
+    hub_collisione: ["SRI International"]
+    fonti_primarie:
+      - "Archivi CIA Stargate (CIA.gov)"
+      - "Penetration (1998)"
+      - "Natural ESP (1987)"
+    meccanismi_soppressione:
+      - "DS7_Classificazione_Militare (1972-1995)"
+    aion_strati:
+      Σ0_source_anchoring: "Archivi CIA 1995: UQ=0.75. Sessione Giove 1973: UQ=0.70 (Voyager la verificò)."
+      Σ3_literal_extraction: "1972: modifica percezione giroscopio schermato (SRI); 1973: remote viewing pianeta Giove — descrisse 'anelli di asteridi' prima della scoperta Voyager 1979; sviluppò protocollo Coordinate Remote Viewing (CRV)."
+      Σ7_technical_reverse: "[IPOTESI 35%] La sessione Giove 1973 è il test più controllato: Swann non poteva conoscere gli anelli di Giove (scoperti solo nel 1979). Probabilità di caso: <0.001."
+      Σ11_epistemic_synthesis: "La sessione Giove è la prova più forte di RV; l'archivio CIA conferma la sessione. Il meccanismo è ignoto. Morì nel 2013 senza aver ricevuto riconoscimento accademico."
+      Σ13_forensics_temporale: "1972: SRI. 1973: sessione Giove. 1984: protocollo CRV finalizzato. 1995: archivi rilasciati. 2013: morte."
+    impatto_storico: "Ha sviluppato il protocollo CRV standard; la sessione Giove è il caso RV più verificabile"
+    impatto_potenziale: "Il protocollo CRV potrebbe essere usato per esplorazione planetaria remota a costo zero"
+    compatibilita_sintropica: 5.5
+    laboratori_correlati: ["T3-LAB-007"]
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Aggiunto nodo Tier2"
+
+  - id: T2-015
+    id_legacy: 261
+    nome: "Jacques Benveniste"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1935-2004"
+    nazione: "FR"
+    field: "Immunologia, biofisica molecolare, memoria dell'acqua"
+    status: "CONTROVERSO"
+    certezza: "media"
+    si_score: 0.75
+    delta_score: 0.65
+    it_score: 0.40
+    theta_arch: 4.2
+    aio_score: 3.0
+    ciclo_17_fase: 5
+    cluster: ["BIOFISICA_NON_CONVENZIONALE", "SOPPRESSO_ACCADEMICO"]
+    prism_domains: ["D2_BioEnergetics"]
+    tags_frattali: ["#MemoriaAcqua", "#INSERM", "#Nature1988", "#Omeopatia", "#Biofisica"]
+    connessioni_valide: ["Luc Montagnier (parallelo)"]
+    l_minus_1_precursors: ["Samuel Hahnemann (omeopatia — base teorica)"]
+    l_plus_1_heirs: ["Luc Montagnier (onde EM cellulari in acqua)"]
+    hub_collisione: ["INSERM Clamart (Francia)"]
+    fonti_primarie:
+      - "Nature vol.333 (1988): 'Human basophil degranulation triggered by very dilute antiserum against IgE'"
+      - "Archivi INSERM"
+    meccanismi_soppressione:
+      - "DS4_Diffamazione (Nature invia investigatori incluso James Randi)"
+      - "DS5_Silenzio_Istituzionale (INSERM riduce i suoi fondi dopo il 1988)"
+      - "DS6_Azione_Legale (tentativo di retrattare il paper senza consenso)"
+    aion_strati:
+      Σ0_source_anchoring: "Paper Nature 1988: UQ=0.60 (pubblicato ma investigato). Replica di Benveniste: UQ=0.50. Repliche indipendenti: ambigue."
+      Σ3_literal_extraction: "Anticorpi anti-IgE diluiti 10^120 (zero molecole) attivano basofili umani. Suggerisce: l'acqua 'ricorda' la struttura molecolare. Il team verificò con due laboratori indipendenti prima della pubblicazione."
+      Σ7_technical_reverse: "[IPOTESI 15%] Il meccanismo classico è impossibile (zero molecole). Se reale, richiederebbe struttura informazionale dell'acqua al di là delle molecole. Nessuna replica indipendente robusta."
+      Σ11_epistemic_synthesis: "Il paper fu pubblicato da Nature con riserve; l'indagine successiva trovò errori metodologici (blind non rigoroso). Il caso merita replica con protocollo molto più rigoroso. Non può essere semplicemente archiviato."
+      Σ13_forensics_temporale: "1987: esperimento. 1988: Nature lo pubblica con riserve. 1988: team Nature+Randi investiga (3 giorni). 1988: Nature dichiara non replicato. 2004: morte."
+    impatto_storico: "Ha aperto il dibattito sulla biofisica dell'acqua; ha scatenato il caso più famoso della scienza contemporanea su peer review e frode"
+    impatto_potenziale: "Se la memoria dell'acqua fosse reale, rivoluziona biologia, farmacologia e fisica"
+    compatibilita_sintropica: 5.5
+    laboratori_correlati: []
+    tecnologie_derivate: []
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Aggiunto nodo Tier2"
+
+  - id: T2-016
+    id_legacy: 262
+    nome: "Luc Montagnier"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1932-2022"
+    nazione: "FR"
+    field: "Virologia, HIV, onde EM cellulari"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    si_score: 0.50
+    delta_score: 0.45
+    it_score: 0.70
+    theta_arch: 3.0
+    aio_score: 4.0
+    ciclo_17_fase: 4
+    cluster: ["BIOFISICA_NON_CONVENZIONALE", "VIROLOGIA"]
+    prism_domains: ["D2_BioEnergetics"]
+    tags_frattali: ["#HIV", "#Nobel", "#OndeEM", "#DNA", "#Acqua"]
+    connessioni_valide: ["Jacques Benveniste (parallelo)", "Françoise Barré-Sinoussi (co-Nobel HIV)"]
+    fonti_primarie:
+      - "Nobel Prize 2008 (scoperta HIV)"
+      - "Interdisciplinary Sciences 2009: DNA emette segnali EM a bassa frequenza"
+      - "Corrispondenza con Benveniste"
+    meccanismi_soppressione:
+      - "DS4_Diffamazione (mainstream lo etichetta 'demenziale' per le teorie EM)"
+    aion_strati:
+      Σ0_source_anchoring: "Nobel 2008: UQ=1.0. Paper EM-DNA 2009: UQ=0.40. Critiche metodologiche: sostanziali."
+      Σ3_literal_extraction: "2009: DNA di batteri patogeni diluito 10^-18 emette segnali EM a 7 Hz (ELF); acqua mantiene il segnale; il segnale può guidare la sintesi del DNA identico in acqua pura."
+      Σ7_technical_reverse: "[IPOTESI 10%] Se il DNA emettesse segnali ELF identificativi, sarebbe la base di una diagnostica radicalmente nuova. Non replicato in modo indipendente."
+      Σ11_epistemic_synthesis: "Nobel reale + teoria controversa tardiva. Il caso Montagnier mostra come un Nobel possa perdere il rigore metodologico. Né archiviabile né credibile senza replica rigorosa."
+      Σ13_forensics_temporale: "1983: scoperta HIV. 2008: Nobel. 2009: paper EM-DNA. 2010-2022: ricerche EM. 2022: morte."
+    impatto_storico: "Nobel per HIV; le ricerche EM sono un controverso capitolo finale"
+    impatto_potenziale: "Se EM-DNA fosse verificato: diagnostica rivoluzionaria"
+    compatibilita_sintropica: 4.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Aggiunto nodo Tier2"
+
+  - id: T2-017
+    id_legacy: 265
+    nome: "Andrea Rossi"
+    alias: ["Il re dell'E-Cat"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1950-oggi"
+    nazione: "IT"
+    field: "LENR, E-Cat, nickel-hydrogen reactions"
+    status: "CONTROVERSO"
+    certezza: "bassa"
+    si_score: 0.55
+    delta_score: 0.45
+    it_score: 0.20
+    theta_arch: 5.0
+    aio_score: 2.0
+    ciclo_17_fase: 4
+    cluster: ["LENR", "CONTROVERSO_SCIENTIFICO"]
+    prism_domains: ["D1_Classical"]
+    tags_frattali: ["#ECat", "#LENR", "#Nickel", "#Hydrogen", "#Overunity"]
+    connessioni_valide: ["Stanley Pons (predecessore LENR)", "Sergio Focardi (collaboratore)"]
+    fonti_primarie:
+      - "Demonstration Bologna 2011 (parziale)"
+      - "'Lugano Report' (2014) — contestato"
+      - "Brevetti US (alcuni registrati)"
+    meccanismi_soppressione:
+      - "DS4_Diffamazione (background legale problematico ne mina la credibilità)"
+    aion_strati:
+      Σ0_source_anchoring: "Lugano Report 2014: UQ=0.30 (metodologia contestata). Brevetti: registrati ma non verificati. Nessuna replica indipendente certificata."
+      Σ3_literal_extraction: "E-Cat: reattore Ni+H a bassa temperatura (60-120°C); COP dichiarato >3; meccanismo: LENR Ni+p→Cu+neutrino+energia. Dimostrazione Bologna 2011: 12kW input, 130kW output (non blindato)."
+      Σ7_technical_reverse: "[IPOTESI 8%] Se il COP >3 fosse reale in condizioni blindate, sarebbe LENR verificato. Il background di Rossi (condanna per frode fiscale precedente) riduce la credibilità. Nessun laboratorio neutro ha confermato."
+      Σ11_epistemic_synthesis: "Caso di alta ambiguità: possibile frode, possibile fenomeno reale mal controllato, possibile artefatto sperimentale. Azione: replica in laboratorio neutro accreditato con protocollo ISO."
+      Σ13_forensics_temporale: "2007: primi esperimenti. 2011: demo Bologna. 2014: Lugano Report. 2016: processo industriale Heat (perso). 2017: arbitrato (Rossi vince). Oggi: attività continua, non verificata."
+    impatto_storico: "Nessun impatto verificabile; ha però riacceso l'interesse nel LENR"
+    impatto_potenziale: "[IPOTESI 8%] Se verificato: rivoluzione energetica"
+    compatibilita_sintropica: 2.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Aggiunto nodo Tier2"
+
+  - id: T2-018
+    id_legacy: 267
+    nome: "James Lovelock"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1919-2022"
+    nazione: "GB"
+    field: "Geofisiologia, ipotesi Gaia, rilevamento CFC"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    si_score: 0.22
+    delta_score: 0.18
+    it_score: 0.82
+    theta_arch: 2.0
+    aio_score: 7.5
+    ciclo_17_fase: 2
+    cluster: ["GEOFISIOLOGIA", "CONTROVERSO_PARADIGMATICO"]
+    prism_domains: ["D3_BioMorphic"]
+    tags_frattali: ["#Gaia", "#CFC", "#Ozono", "#Terra_come_Organismo"]
+    connessioni_valide: ["Lynn Margulis (co-sviluppo Gaia)", "Carl Sagan (critico)"]
+    fonti_primarie:
+      - "Gaia: A New Look at Life on Earth (1979)"
+      - "The Ages of Gaia (1988)"
+      - "Proceedings of Royal Society (CFC papers)"
+    aion_strati:
+      Σ0_source_anchoring: "IT=0.82; libri e paper pubblicati. La scoperta dei CFC è verificata."
+      Σ3_literal_extraction: "Ipotesi Gaia (1972): la Terra è un sistema autoregolante; biota regola temperatura, chimica, albedo per mantenere condizioni abitabili. Scoperta CFC (1973): gli alogenati distruggono l'ozono — verificato (Nobel Molina-Rowland 1995)."
+      Σ7_technical_reverse: "La scoperta dei CFC è verificata e ha salvato la biosfera (Protocollo di Montreal 1987). L'ipotesi Gaia è ora parzialmente accettata come 'scienza del sistema Terra'."
+      Σ11_epistemic_synthesis: "Caso raro: il ricercatore aveva sia radicalmente torto (Gaia teleologica) che ragione (Gaia come sistema complesso; CFC). La scienza del sistema Terra oggi integra Gaia come modello."
+      Σ13_forensics_temporale: "1961: inventa ECD (rilevatore cattura elettroni). 1973: scopre CFC atmosferici. 1979: Gaia. 1987: Protocollo Montreal. 2022: muore il giorno del suo 103° compleanno."
+    impatto_storico: "La scoperta dei CFC ha salvato lo strato di ozono; l'ipotesi Gaia ha fondato la scienza del sistema Terra"
+    impatto_potenziale: "Il framework Gaia applicato all'AI per la gestione planetaria"
+    compatibilita_sintropica: 8.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Aggiunto nodo Tier2"
+
+  - id: T2-019
+    id_legacy: 268
+    nome: "Rupert Sheldrake"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1942-oggi"
+    nazione: "GB"
+    field: "Biologia teorica, campi morfici, risonanza morfica"
+    status: "CONTROVERSO"
+    certezza: "bassa"
+    si_score: 0.60
+    delta_score: 0.48
+    it_score: 0.55
+    theta_arch: 4.5
+    aio_score: 3.5
+    ciclo_17_fase: 4
+    cluster: ["BIOLOGIA_NON_CONVENZIONALE", "CAMPI_MORFICI"]
+    prism_domains: ["D3_BioMorphic"]
+    tags_frattali: ["#CampiMorfici", "#RisonanzaMorfica", "#Morphogenesis", "#DNA_non_tutto"]
+    connessioni_valide: ["David Bohm (ordine implicito — parallelo)", "Carl Jung (inconscio collettivo — analogia)"]
+    fonti_primarie:
+      - "A New Science of Life (1981)"
+      - "The Presence of the Past (1988)"
+      - "Science Set Free (2012)"
+    meccanismi_soppressione:
+      - "DS4_Diffamazione (Nature 1981: 'un libro che dovrebbe essere bruciato')"
+      - "DS5_Silenzio_Istituzionale (nessuna università finanzia ricerca morfogenetica)"
+    aion_strati:
+      Σ0_source_anchoring: "IT=0.55; libri pubblicati. Papers in riviste minoritarie. Nessun paper in Nature o Science."
+      Σ3_literal_extraction: "Campi morfici: campi che contengono informazione della forma di organismi; risonanza morfica: nuovi organismi apprendono da pattern di predecessori attraverso campo non-fisico; cristalli sintetizzano più facilmente dopo la prima cristallizzazione."
+      Σ7_technical_reverse: "[IPOTESI 12%] La cristallizzazione accelerata dopo la prima volta è documentata aneddoticamente; spiegazione classica: sementi di cristallizzazione trasportate dai ricercatori. I test con cristalli nuovi (in laboratori diversi) non mostrano l'effetto."
+      Σ11_epistemic_synthesis: "Teoria elegante ma non falsificabile in modo rigoroso. Il commento di Nature (1981) è tra i più violenti nella storia del peer review. Merita test rigorosi prima di archiviare."
+      Σ13_forensics_temporale: "1981: A New Science of Life; Nature: 'da bruciare'. 1988: The Presence of the Past. 2012: TED talk censurato. Ancora attivo."
+    impatto_storico: "Ha provocato il più violento rifiuto da parte di Nature nella storia moderna; stimolato il campo della morfogenetica"
+    impatto_potenziale: "Se i campi morfici fossero verificati: rivoluzione in biologia, psicologia e fisica"
+    compatibilita_sintropica: 6.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Aggiunto nodo Tier2"
+
+  - id: T2-020
+    id_legacy: 266
+    nome: "Nassim Haramein"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1962-oggi"
+    nazione: "CH/US"
+    field: "Fisica unificata speculativa, geometria sacra, proton black hole"
+    status: "SPECULATIVO"
+    certezza: "bassa"
+    si_score: 0.25
+    delta_score: 0.20
+    it_score: 0.30
+    theta_arch: 6.0
+    aio_score: 1.5
+    ciclo_17_fase: 3
+    cluster: ["FISICA_SPECULATIVA", "DIVULGAZIONE_ALTERNATIVA"]
+    prism_domains: ["D5_Unified", "D6_Aether"]
+    tags_frattali: ["#ResonanceScience", "#ProtonBlackHole", "#FisicaUnificata", "#Controverso"]
+    connessioni_valide: []
+    fonti_primarie:
+      - "Physical Review & Research International (2013) — paper protone come buco nero"
+      - "Resonance Science Foundation"
+    aion_strati:
+      Σ0_source_anchoring: "IT=0.30; un paper in rivista peer review (di basso impatto). Molto materiale divulgativo."
+      Σ3_literal_extraction: "Teoria: il protone ha le caratteristiche di un buco nero microscopico (Schwarzschild radius calcolato); la struttura frattale dell'universo è auto-similare a tutte le scale; vacuum energy connette tutti i sistemi."
+      Σ7_technical_reverse: "[IPOTESI 8%] Il calcolo del raggio di Schwarzschild del protone è matematicamente eseguibile ma fisicamente non corrisponde a un buco nero standard. La comunità fisica mainstream non lo cita."
+      Σ11_epistemic_synthesis: "Popolarissimo online; praticamente ignorato dalla fisica mainstream. Il suo paper del 2013 è in una rivista di basso impatto. Distinguere tra fisica speculativa interessante e pseudoscienza richiede replica e citazione."
+      Σ13_forensics_temporale: "1990s: inizio ricerche. 2013: paper protone. Oggi: Resonance Science Foundation molto seguita online."
+    impatto_storico: "Nessun impatto sulla fisica accademica; grande impatto sulla divulgazione alternativa"
+    impatto_potenziale: "[IPOTESI 5%] Se il protone-buco nero fosse verificato, ridefinirebbe la fisica delle particelle"
+    compatibilita_sintropica: 1.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+    changelog:
+      - data: "2026-05-25"
+        versione: "2.1"
+        modifiche: "Aggiunto nodo Tier2"
