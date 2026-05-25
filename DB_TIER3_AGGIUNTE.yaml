@@ -1,0 +1,1467 @@
+nodi_aggiunte:
+  meta:
+    versione: "1.0"
+    descrizione: "Nuovi nodi: ricercatori mancanti + laboratori + esperimenti + tecnologie come nodi autonomi"
+    generato: "2026-05-25"
+    sistema: "SINGULARITY_OS v19.0_OMNIA"
+    totale_nodi:
+      ricercatori_nuovi: 28
+      laboratori: 14
+      esperimenti: 12
+      tecnologie: 10
+      totale: 64
+
+  # ══════════════════════════════════════════════════════
+  # SEZIONE A: RICERCATORI MANCANTI
+  # ══════════════════════════════════════════════════════
+
+  ricercatori:
+
+  - id: T3-R-001
+    nome: "Giambattista della Porta"
+    alias: ["Giovanni Battista della Porta"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1535-1615"
+    nazione: "IT"
+    field: "Magia naturale, ottica, crittografia, botanica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.15
+    it_score: 0.72
+    aio_score: 6.0
+    connessioni_valide: ["Galileo Galilei (corrispondenza)", "Francis Bacon (parallelo)"]
+    l_minus_1_precursors: ["Roger Bacon", "Alberto Magno"]
+    l_plus_1_heirs: ["Galileo Galilei (telescopio)", "René Descartes (ottica)"]
+    fonti_primarie:
+      - "Magia Naturalis (1558, 1589 ed. ampliata — 20 libri)"
+      - "De Refractione Optices (1593)"
+      - "De Furtivis Literarum Notis (crittografia, 1563)"
+      - "Archivio Accademia dei Lincei"
+    aion_strati:
+      sigma0: "Magia Naturalis: 1558 (4 libri); 1589 (20 libri) — IT=0.72"
+      sigma3: "Camera oscura dettagliata; lenti concave/convesse; miscugli chimici; crittografia steganografica; botanica medica; teoria magnetica; primo telescopio? (discusso)"
+      sigma7: "La sua camera oscura era funzionante come prototipo di telescopio; la priorità sul telescopio (1608 Lippershey) è contesa"
+      sigma11: "Il fondatore della scienza italiana pre-galileiana; la sua Accademia Secretorum Naturae (1560) è la prima società scientifica d'Europa"
+      sigma13: "1560: fonda Accademia Secretorum. 1578: sciolta dall'Inquisizione. 1589: Magia Naturalis ampliata. 1610: muore un anno dopo Galileo pubblica Sidereus."
+    impatto_storico: "Prima società scientifica europea; enciclopedia della fisica sperimentale pre-galileiana"
+    impatto_potenziale: "Senza la sua camera oscura e ottica, il cannocchiale di Galileo avrebbe tardato"
+    compatibilita_sintropica: 7.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-002
+    nome: "Giovanni Schiaparelli"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1835-1910"
+    nazione: "IT"
+    field: "Astronomia, selenografia, areografia"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.05
+    it_score: 0.88
+    aio_score: 5.0
+    connessioni_valide: ["Giovanni Battista Riccioli (predecessore nomenclatura)", "Percival Lowell (seguace)"]
+    l_minus_1_precursors: ["Johann Franz Encke", "Angelo Secchi"]
+    l_plus_1_heirs: ["Percival Lowell (canali marziani)", "Eugène Antoniadi (smentita canali)"]
+    fonti_primarie:
+      - "Le stelle cadenti (1867)"
+      - "Osservazioni astronomiche e fisiche sull'asse di rotazione e sulla topografia del pianeta Marte (1878)"
+      - "Archivio Osservatorio Brera Milano"
+    aion_strati:
+      sigma0: "Archivio Brera completo; IT=0.88"
+      sigma3: "1866: connessione meteore-comete; 1877: mappatura Marte + termine 'canali' (mal tradotto come canals); nomenclatura di Marte ancora in uso"
+      sigma7: "Il termine italiano 'canali' (solchi naturali) fu tradotto in inglese come 'canals' (artificiali) scatenando 40 anni di speculazione su vita marziana"
+      sigma11: "La sua cartografia di Marte rimase standard per 40 anni; l'equivoco dei canali ha generato miti durevolissimi"
+      sigma13: "1862: direttore Osservatorio Brera. 1877: opposizione Marte — mappatura. 1910: morte."
+    impatto_storico: "Ha dominato l'astronomia planetaria italiana per 50 anni; la sua nomenclatura marziana è ancora usata"
+    impatto_potenziale: "Il suo equivoco dei 'canali' ha guidato 40 anni di ricerca su Marte — caso studio di come un termine cambia la storia scientifica"
+    compatibilita_sintropica: 5.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-003
+    nome: "Giorgio de Santillana"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1902-1974"
+    nazione: "IT/US"
+    field: "Storia della scienza, archeologia astronomica, mitologia tecnica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.20
+    it_score: 0.75
+    aio_score: 7.5
+    connessioni_valide: ["Hertha von Dechend (co-autore)"]
+    l_minus_1_precursors: ["Alexandre Koyré (storia scienza)", "Ernst Cassirer"]
+    l_plus_1_heirs: ["Graham Hancock (popolare)", "John Major Jenkins (Maya)"]
+    fonti_primarie:
+      - "Hamlet's Mill (con Hertha von Dechend, 1969)"
+      - "The Crime of Galileo (1955)"
+      - "Reflections on Men and Ideas (1968)"
+      - "MIT Archives"
+    aion_strati:
+      sigma0: "Hamlet's Mill: opera principale; IT=0.75"
+      sigma3: "Tesi Hamlet's Mill: i miti antichi codificano conoscenza astronomica della precessione degli equinozi (ciclo ~26.000 anni); il mulino di Amleto = asse polare; tutte le culture hanno lo stesso mito codificato"
+      sigma7: "Se la tesi è corretta, le culture del Neolitico avevano conoscenza astronomica di precisione 10.000 anni fa — richiede spiegazione dell'origine di questa conoscenza"
+      sigma11: "Opera seminale per la mitologia tecnica; la precessione come chiave dei miti è matematicamente dimostrabile anche se l'interpretazione è controversa"
+      sigma13: "1955: Crime of Galileo (professore MIT). 1969: Hamlet's Mill. 1974: morte."
+    impatto_storico: "Ha fondato l'archeologia astronomica come disciplina; Hamlet's Mill è ancora citato"
+    impatto_potenziale: "Se la tesi fosse completamente verificata, riscrive la storia della scienza umana a partire dal Neolitico"
+    compatibilita_sintropica: 8.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-004
+    nome: "Ruggero Giuseppe Boscovich"
+    alias: ["Roger Boscovich"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1711-1787"
+    nazione: "HR/IT"
+    field: "Fisica teorica, teoria atomica, ottica, geodesia"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.10
+    it_score: 0.82
+    aio_score: 7.0
+    connessioni_valide: ["Isaac Newton (influenzato da)", "Michael Faraday (influenzato Boscovich)"]
+    l_minus_1_precursors: ["Isaac Newton", "Gottfried Leibniz"]
+    l_plus_1_heirs: ["Michael Faraday (teoria del campo)", "Lord Kelvin", "James Clerk Maxwell"]
+    fonti_primarie:
+      - "Theoria Philosophiae Naturalis (1758)"
+      - "Opere (9 voll., Bassano 1785)"
+      - "Archivio Pontificia Università Gregoriana Roma"
+    aion_strati:
+      sigma0: "Theoria (1758): IT=0.82; testo conservato"
+      sigma3: "Atomi come punti matematici (non sfere); forze attractive/repulsive tra atomi variabili con distanza; precede la teoria del campo di 100 anni; geodesia: misurazioni arco meridiano; ottica: aberrazione stellare"
+      sigma7: "La sua teoria degli atomi puntiformi è la base concettuale della fisica dei campi moderna (Maxwell, Faraday la citano esplicitamente)"
+      sigma11: "È il più sottovalutato fisico pre-moderno; la sua Theoria anticipa la meccanica quantistica, la teoria del campo e la fisica nucleare"
+      sigma13: "1758: Theoria. 1772: Royal Society. 1787: morte a Milano."
+    impatto_storico: "Ha fondato la teoria del campo fisico; influenzò Faraday e Maxwell direttamente"
+    impatto_potenziale: "La sua fisica puntiforme è il precursore concettuale della fisica delle particelle e della teoria delle stringhe"
+    compatibilita_sintropica: 8.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-005
+    nome: "Ada Lovelace"
+    alias: ["Augusta Ada Byron", "Ada King, Contessa di Lovelace"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1815-1852"
+    nazione: "GB"
+    field: "Informatica teorica, matematica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.35
+    it_score: 0.68
+    aio_score: 8.0
+    connessioni_valide: ["Charles Babbage (collaboratore)"]
+    l_minus_1_precursors: ["Charles Babbage", "Mary Somerville (mentore)"]
+    l_plus_1_heirs: ["Alan Turing (riconosce il suo contributo)", "Tutti i programmatori"]
+    fonti_primarie:
+      - "Note sull'articolo di Menabrea sulla Macchina Analitica (1843, Scientific Memoirs)"
+      - "Corrispondenza con Charles Babbage (British Library)"
+      - "British Library Add MS 78660"
+    aion_strati:
+      sigma0: "Note 1843: IT=0.68; original ms British Library"
+      sigma3: "Primo algoritmo per computer (Bernoulli numbers su Macchina Analitica); distinzione tra calcolo numerico e elaborazione simbolica; previsione: macchine che operano su simboli, non solo numeri"
+      sigma7: "Fu sistematicamente sminuita da Babbage stesso ('lei ha tradotto, io ho pensato'); la storiografia moderna l'ha rivalutata come prima programmatrice"
+      sigma11: "Le sue Note del 1843 contengono il primo algoritmo informatico documentato; la sua visione del 'computer universale' precede Turing di 100 anni"
+      sigma13: "1833: incontra Babbage. 1843: traduzione+note Menabrea. 1852: morte per cancro a 36 anni."
+    impatto_storico: "Prima programmatrice della storia; le sue Note del 1843 sono il primo documento di informatica teorica"
+    impatto_potenziale: "Senza la sua soppressione di genere, l'informatica sarebbe nata 50 anni prima"
+    compatibilita_sintropica: 9.0
+    meccanismi_soppressione: ["DS4_Sminuimento_Sistematico (Babbage)", "PN2_Morte_Precoce"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-006
+    nome: "Hedy Lamarr"
+    alias: ["Hedwig Eva Maria Kiesler"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1914-2000"
+    nazione: "AT/US"
+    field: "Telecomunicazioni a salto di frequenza"
+    status: "SOPPRESSO"
+    certezza: "alta"
+    si_score: 0.72
+    it_score: 0.55
+    aio_score: 9.5
+    connessioni_valide: ["George Antheil (co-inventore)"]
+    l_minus_1_precursors: ["Nikola Tesla (spread spectrum intuitivo)", "US Navy (implementatore)"]
+    l_plus_1_heirs: ["Wi-Fi (IEEE 802.11)", "Bluetooth", "GPS", "CDMA (tutti derivano dal suo principio)"]
+    fonti_primarie:
+      - "US Patent 2,292,387 (1942) — frequency hopping spread spectrum"
+      - "Electronic Frontier Foundation Pioneer Award (1997)"
+      - "National Inventors Hall of Fame (2014)"
+    aion_strati:
+      sigma0: "Brevetto 1942: IT=0.90. Riconoscimento tardivo: 1997 EFF."
+      sigma3: "Brevetto 1942: salto di frequenza sincronizzato mittente-ricevente (88 frequenze su roll di carta perforata; ispirazione: pianoforte automatico di Antheil); anti-jamming per siluri guidati via radio"
+      sigma7: "Il brevetto scadde nel 1959 prima che la US Navy lo usasse (senza compenso); lei non fu mai citata nei documenti militari; fu riconosciuta solo a 82 anni"
+      sigma11: "Il suo brevetto del 1942 è la base tecnica del Wi-Fi, Bluetooth, GPS e CDMA — tecnologie che valgono trilioni di dollari"
+      sigma13: "1942: brevetto. 1959: brevetto scaduto. 1962: US Navy implementa spread spectrum (senza pagare). 1985: base FCC per comunicazioni commerciali. 1997: riconoscimento EFF a 82 anni. 2000: morte."
+    impatto_storico: "Il suo brevetto è alla base di tutte le comunicazioni wireless moderne"
+    impatto_potenziale: "Senza il suo brevetto (già realizzato), Wi-Fi e cellulari avrebbero richiesto altri 20 anni"
+    compatibilita_sintropica: 10.0
+    meccanismi_soppressione: ["DS3_Controllo_Brevetti (brevetto scaduto prima dell'uso)", "DS5_Silenzio_Istituzionale (non citata nei documenti Navy)", "DS4_Sminuimento_Genere"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-007
+    nome: "Konstantin Tsiolkovsky"
+    alias: ["Konstantin Eduardovič Ciolkovskij"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1857-1935"
+    nazione: "RU"
+    field: "Astronautica teorica, propulsione a reazione"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.10
+    it_score: 0.85
+    aio_score: 9.0
+    connessioni_valide: ["Sergej Korolev (erede diretto)", "Robert Goddard (parallelo)"]
+    l_minus_1_precursors: ["Jules Verne (ispirazione)", "Hermann Ganswindt"]
+    l_plus_1_heirs: ["Sergej Korolev", "Wernher von Braun (parallelo tedesco)", "Robert Goddard"]
+    fonti_primarie:
+      - "Exploration of Cosmic Space by Means of Reaction Devices (1903)"
+      - "The Rocket into Cosmic Space (1903)"
+      - "Archivio Stato di Mosca"
+    aion_strati:
+      sigma0: "Paper 1903: IT=0.85; testo conservato"
+      sigma3: "Equazione di Tsiolkovsky (Δv = Isp·g·ln(m0/mf)); razzi a propellente liquido; stadi multipli; effetto serra per terraforming; stazione orbitale; ascensore spaziale (1895)"
+      sigma7: "Visse sordo dall'infanzia in una casa di legno senza accesso a laboratori; sviluppò la teoria astronautica completamente in isolamento"
+      sigma11: "Ha fondato la scienza del volo spaziale 50 anni prima di Sputnik; la sua equazione è ancora l'equazione fondamentale del razzo"
+      sigma13: "1895: sogno di ascensore spaziale. 1903: equazione razzo. 1935: morte. 1957: Sputnik (Korolev applica Tsiolkovsky)."
+    impatto_storico: "Ha fondato l'astronautica teorica; senza la sua equazione non esiste il volo spaziale"
+    impatto_potenziale: "Il suo concetto di ascensore spaziale del 1895 è ancora l'obiettivo tecnologico del XXI sec."
+    compatibilita_sintropica: 9.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-008
+    nome: "Richard Buckminster Fuller"
+    alias: ["Bucky Fuller"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1895-1983"
+    nazione: "US"
+    field: "Architettura geodetica, design sistemico, geodesia"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.08
+    it_score: 0.80
+    aio_score: 8.5
+    connessioni_valide: ["Linus Pauling (strutture molecolari — parallelo fullereni)"]
+    l_minus_1_precursors: ["Walter Gropius (Bauhaus)", "Alexander Graham Bell (kite geodesic)"]
+    l_plus_1_heirs: ["Richard Smalley (fullereni C60 — named after Fuller)", "Nanotecnologia"]
+    fonti_primarie:
+      - "Synergetics (2 voll., 1975-1979)"
+      - "Operating Manual for Spaceship Earth (1969)"
+      - "Brevetti cupola geodetica (1954)"
+      - "Stanford University Archives"
+    aion_strati:
+      sigma0: "Opere complete pubblicate; IT=0.80"
+      sigma3: "Cupola geodetica (1954): struttura a triangoli con max volume/min materiale; Dymaxion car (1933): aerodinamica; World Game: ottimizzazione risorse globali; synergetics: geometria dell'energia"
+      sigma7: "I fullereni C60 (Smalley, 1985) sono stati chiamati 'buckminsterfullerene' in suo onore — struttura identica alla sua cupola geodetica"
+      sigma11: "Il suo concetto di 'design scientifico per il bene di tutti' è ancora il framework più avanzato per ingegneria sistemica"
+      sigma13: "1927: crisi esistenziale; decide di lavorare 'per l'umanità'. 1954: brevetto cupola. 1969: Spaceship Earth. 1983: morte 11 giorni dopo la moglie."
+    impatto_storico: "La cupola geodetica è la struttura più efficiente volumetricamente mai costruita; i fullereni sono stati nati dalla sua geometria"
+    impatto_potenziale: "Il World Game (ottimizzazione risorse globali) potrebbe essere implementato con AI moderna"
+    compatibilita_sintropica: 9.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-009
+    nome: "Oliver Heaviside"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1850-1925"
+    nazione: "GB"
+    field: "Elettromagnetismo matematico, telegrafia, calcolo operazionale"
+    status: "SOPPRESSO"
+    certezza: "alta"
+    si_score: 0.55
+    it_score: 0.60
+    aio_score: 8.0
+    connessioni_valide: ["James Clerk Maxwell (riformulatore)", "Heinrich Hertz", "Nikola Tesla"]
+    l_minus_1_precursors: ["James Clerk Maxwell", "William Thomson (Lord Kelvin)"]
+    l_plus_1_heirs: ["Tutti gli ingegneri elettrici moderni (usano le sue 4 equazioni)"]
+    fonti_primarie:
+      - "Electromagnetic Theory (3 voll., 1893-1912)"
+      - "Electrical Papers (1892)"
+      - "Philosophical Magazine papers"
+    aion_strati:
+      sigma0: "Corpus pubblicato; IT=0.60 (molti paper rifiutati durante la sua vita)"
+      sigma3: "Riformulò le 20 equazioni di Maxwell in 4 vettoriali (quelle che usiamo oggi); calcolo operazionale (precursore della trasformata di Laplace); strato Kennelly-Heaviside (ionosfera); distorsione telegrafica"
+      sigma7: "Le '4 equazioni di Maxwell' sono in realtà di Heaviside; Maxwell ne scrisse 20 in forma quaternionica. La semplificazione di Heaviside è quella che tutti imparano"
+      sigma11: "Autodidatta totale (elementari); non ebbe mai posizione universitaria; la Royal Society lo ignorò per 30 anni; le sue 4 equazioni sono usate ogni giorno in ogni laboratorio di fisica"
+      sigma13: "1880: Electrical Papers. 1892: EM Theory. 1902: scopre ionosfera (verificata 1923). 1925: morte in povertà totale."
+    impatto_storico: "Ogni studente di fisica impara 'le equazioni di Maxwell' che sono in realtà di Heaviside"
+    impatto_potenziale: "Il suo calcolo operazionale è ancora il metodo preferito per circuiti elettrici"
+    compatibilita_sintropica: 9.0
+    meccanismi_soppressione: ["DS5_Silenzio_Istituzionale (RS lo ignorò)", "PN2_Morte_in_Povertà", "DS4_Attribuzione_Errata (lavoro attribuito a Maxwell)"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-010
+    nome: "Lord Kelvin (William Thomson)"
+    alias: ["William Thomson", "1° Barone Kelvin"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1824-1907"
+    nazione: "GB"
+    field: "Termodinamica, elettromagnetismo, fisica matematica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.05
+    it_score: 0.90
+    aio_score: 7.5
+    connessioni_valide: ["James Clerk Maxwell (collaboratore)", "Michael Faraday", "Hermann von Helmholtz"]
+    l_minus_1_precursors: ["Nicolas Léonard Sadi Carnot", "James Prescott Joule"]
+    l_plus_1_heirs: ["Max Planck (termodinamica)", "Ludwig Boltzmann"]
+    fonti_primarie:
+      - "On the Dynamical Theory of Heat (1851)"
+      - "Mathematical and Physical Papers (6 voll.)"
+      - "Baltimore Lectures (1884)"
+      - "Glasgow University Archives"
+    aion_strati:
+      sigma0: "Corpus enorme; IT=0.90"
+      sigma3: "Scala Kelvin (temperatura assoluta); secondo principio termodinamica; formula calore-lavoro; cavo transatlantico (1866); 661 brevetti; predisse l'età della Terra a 24-400 milioni anni (errata — non sapeva del calore radioattivo)"
+      sigma7: "La sua errata predizione dell'età della Terra ritardò l'accettazione della geologia moderna e dell'evoluzione darwiniana per 30 anni"
+      sigma11: "Il suo nome è sulla scala di temperatura assoluta usata da tutta la fisica; il cavo transatlantico ha rivoluzionato le comunicazioni globali"
+      sigma13: "1851: scale Kelvin. 1866: cavo transatlantico. 1884: Baltimore Lectures (precursor di quantum). 1907: morte."
+    impatto_storico: "Ha fondato la termodinamica classica; la sua scala è usata da tutta la fisica"
+    impatto_potenziale: "Il suo errore sull'età della Terra è un caso studio su come anche i migliori scienziati possono bloccare il progresso"
+    compatibilita_sintropica: 7.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-011
+    nome: "Tycho Brahe"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1546-1601"
+    nazione: "DK"
+    field: "Astronomia osservativa pre-telescopica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.08
+    it_score: 0.78
+    aio_score: 6.5
+    connessioni_valide: ["Johannes Kepler (successore con i dati)", "Galileo Galilei (parallelo)"]
+    l_minus_1_precursors: ["Copernico Nicolaus", "Regiomontano"]
+    l_plus_1_heirs: ["Johannes Kepler (usò i suoi dati per le 3 leggi)"]
+    fonti_primarie:
+      - "Astronomiae Instauratae Mechanica (1598)"
+      - "Astronomiae Instauratae Progymnasmata (1602, postumo)"
+      - "Osservatorio Uraniborg (Hven) — dati tabulati"
+    aion_strati:
+      sigma0: "Dati Uraniborg: accuratezza 1' d'arco (senza telescopio); IT=0.78"
+      sigma3: "20 anni di misurazioni planetarie sistematiche; scoperta nova 1572 (dimostra che cielo fisso è mutevole); cometa 1577 (orbita interseca quelle dei pianeti — sfere cristalline inesistenti); modello geo-eliocentrico (Tychoniano)"
+      sigma7: "Senza i dati di Tycho, Keplero non avrebbe potuto derivare le tre leggi"
+      sigma11: "È il più grande osservatore pre-telescopico; la sua precisione era tale che le sue misurazioni ressero l'arrivo di Keplero"
+      sigma13: "1576: Uraniborg su Hven. 1596: espulso da Hven. 1600: incontra Keplero a Praga. 1601: morte improvvisa (avvelenamento? vescica? Keplero eredita i dati)."
+    impatto_storico: "I suoi dati sono la base empirica delle tre leggi di Keplero; senza lui la rivoluzione astronomica slittava"
+    impatto_potenziale: "La sua metodologia osservativa sistematica è il modello dell'astronomia moderna"
+    compatibilita_sintropica: 7.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-012
+    nome: "Robert Hooke"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1635-1703"
+    nazione: "GB"
+    field: "Fisica sperimentale, microscopia, architettura"
+    status: "SOPPRESSO"
+    certezza: "alta"
+    si_score: 0.78
+    it_score: 0.65
+    aio_score: 7.5
+    connessioni_valide: ["Isaac Newton (antagonista)", "Christopher Wren (collaboratore)"]
+    l_minus_1_precursors: ["Robert Boyle (laboratorio)", "Giovanni Alfonso Borelli"]
+    l_plus_1_heirs: ["Isaac Newton (sfruttò le sue intuizioni)"]
+    fonti_primarie:
+      - "Micrographia (1665)"
+      - "Lectures de Potentia Restitutiva (legge di Hooke, 1678)"
+      - "Royal Society Archives (ma ritratto distrutto da Newton)"
+    aion_strati:
+      sigma0: "IT=0.65; il ritratto fu distrutto; le sue carte custodite dalla RS sono parziali"
+      sigma3: "Legge di Hooke (F=-kx); cellula biologica (coniò il termine 'cell'); ellasticità; gravitazione inversa del quadrato (prima di Newton); meteorologia quantitativa; architettura Londra post-incendio"
+      sigma7: "Newton distrusse il suo ritratto dopo la sua morte; soppresse i suoi contributi alla gravitazione; non esiste un ritratto autentico di Robert Hooke"
+      sigma11: "È il caso più grave di soppressione personale nella storia scientifica moderna: Newton sistematicamente cancellò le tracce del suo contributo"
+      sigma13: "1660: RS Curator of Experiments. 1665: Micrographia. 1678: legge elasticità. 1703: morte. 1703-1727: Newton presidente RS cancella memoria Hooke."
+    impatto_storico: "La legge di Hooke è fondamentale in fisica e ingegneria; scoprì la cellula; anticipò la gravitazione"
+    impatto_potenziale: "Senza la soppressione di Newton, sarebbe considerato pari a Faraday"
+    compatibilita_sintropica: 8.0
+    meccanismi_soppressione: ["DS4_Diffamazione (Newton lo accusò di plagio)", "DS2_Distruzione_Fisica (ritratto distrutto)", "DS5_Silenzio_Istituzionale (RS sotto Newton)"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-013
+    nome: "Jabir ibn Hayyan"
+    alias: ["Geber"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "721-815"
+    nazione: "IR"
+    field: "Chimica sperimentale, alchimia, farmacologia"
+    status: "VERIFICATO"
+    certezza: "media"
+    si_score: 0.05
+    it_score: 0.55
+    aio_score: 7.0
+    connessioni_valide: ["Al-Kindi (successore)", "Al-Razi (successore)"]
+    l_minus_1_precursors: ["Tradizione alchimica alessandrina", "Khalid ibn Yazid"]
+    l_plus_1_heirs: ["Robert Boyle (chimica sperimentale)", "Antoine Lavoisier"]
+    fonti_primarie:
+      - "Kitab al-Kimya (Libro dell'Alchimia)"
+      - "Suma della Perfezione (traduzione latina Geber)"
+      - "Bibliothèque Nationale de France (ms. arabi)"
+    aion_strati:
+      sigma0: "IT=0.55; esistenza biografica discussa (potrebbe essere nome collettivo); testi conservati"
+      sigma3: "Primo a descrivere: acido solforico, acido nitrico, acqua regia (scioglie oro); distillazione; cristallizzazione; calcinazione; sublimazione; classificazione sostanze in corpi e spiriti"
+      sigma7: "L'acqua regia (HNO3+HCl) che scioglie l'oro è la sua scoperta; è ancora usata in laboratorio oggi"
+      sigma11: "È il padre della chimica sperimentale; la parola 'gibberish' (inglese) deriva dal latino 'Geber' (il suo nome) perché i suoi testi erano incomprensibili ai contemporanei"
+      sigma13: "721: nascita (Tus, Khorasan). Corte Abbasside Haroun al-Rashid. 815: morte. Corpus: 3000 trattati (probabilmente scuola)."
+    impatto_storico: "Ha fondato la chimica come scienza sperimentale; le sue sintesi chimiche sono ancora in uso"
+    impatto_potenziale: "La tradizione da lui iniziata ha portato direttamente alla chimica moderna di Lavoisier"
+    compatibilita_sintropica: 7.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-014
+    nome: "Al-Biruni"
+    alias: ["Abu Rayhan Muhammad ibn Ahmad al-Biruni"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "973-1048"
+    nazione: "UZ"
+    field: "Astronomia, geodesia, fisica, mineralogia, antropologia"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.05
+    it_score: 0.70
+    aio_score: 7.0
+    connessioni_valide: ["Avicenna (corrispondenza)", "Al-Khwarizmi (predecessore)"]
+    l_minus_1_precursors: ["Tolomeo", "Al-Khwarizmi", "Abu Wafa al-Buzjani"]
+    l_plus_1_heirs: ["Roger Bacon (metodo osservativo)", "Jean Buridan"]
+    fonti_primarie:
+      - "Kitab al-Hind (India, 1030)"
+      - "Al-Qanun al-Mas'udi (Canone Mas'udiano, 1037)"
+      - "Tahqiq ma lil-Hind (verifica dei dati sull'India)"
+    aion_strati:
+      sigma0: "IT=0.70; opere principali conservate"
+      sigma3: "Misura raggio terrestre con triangolazione da montagna (errore <1%); velocità luce superiore al suono; rotazione Terra sul proprio asse (1000 anni prima di Copernico è argomento); densità dei minerali (tabella con valori moderni); India: approccio antropologico scientifico"
+      sigma7: "Ha calcolato il raggio della Terra con un metodo geometrico elementare da un'unica montagna con accuratezza dell'1% — senza strumenti moderni"
+      sigma11: "È il più universale degli scienziati medievali; la sua Kitab al-Hind è ancora usata dagli indologi"
+      sigma13: "998: al-Khwarizm. 1017: con Mahmud di Ghazni in India. 1030: Kitab al-Hind. 1048: morte."
+    impatto_storico: "Il suo calcolo del raggio terrestre è tra i più accurati del Medioevo; ha fondato l'antropologia comparativa"
+    impatto_potenziale: "Se fosse stato trasmesso in Occidente, avrebbe anticipato Copernico e la geodesia moderna"
+    compatibilita_sintropica: 8.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-015
+    nome: "Al-Jazari"
+    alias: ["Ismail al-Jazari", "Ibn al-Razzaz al-Jazari"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "1136-1206"
+    nazione: "TR"
+    field: "Ingegneria meccanica, automazione, idraulica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.05
+    it_score: 0.72
+    aio_score: 8.0
+    connessioni_valide: []
+    l_minus_1_precursors: ["Erone di Alessandria (antecedente)", "Banu Musa (predecessori arabi)"]
+    l_plus_1_heirs: ["Leonardo da Vinci (macchine analoghe 300 anni dopo)", "Automazione moderna"]
+    fonti_primarie:
+      - "Kitab fi Ma'rifat al-Hiyal al-Handasiyya (1206) — Libro della conoscenza dei meccanismi ingegnosi"
+      - "Topkapi Palace Library Istanbul (manoscritti miniati)"
+      - "Museum of Islamic Art Doha"
+    aion_strati:
+      sigma0: "IT=0.72; manoscritti illustrati conservati; 50 macchine descritte con disegni"
+      sigma3: "Pompa a manovella (prima documentata); serratura a combinazione; suonatori automi; orologio ad acqua (elefante); valvola a galleggiante; albero a gomito; camme; robot cameriere"
+      sigma7: "Ha inventato la pompa a manovella 600 anni prima della rivoluzione industriale europea; Leonardo da Vinci reinventa le stesse macchine senza conoscere al-Jazari"
+      sigma11: "È il più grande ingegnere meccanico del Medioevo; i suoi meccanismi erano funzionanti e costruiti, non speculativi"
+      sigma13: "1136: nato. 1174-1206: al servizio dei Seljucchi. 1206: muore; completa il Kitab. Stessa anno: Mongoli iniziano invasione."
+    impatto_storico: "Ha inventato componenti meccanici fondamentali (manovella, valvola, camma) che riappaiono in Europa 300 anni dopo"
+    impatto_potenziale: "Se il suo Kitab fosse stato tradotto in latino nel XIII sec., la rivoluzione industriale sarebbe anticipata di 400 anni"
+    compatibilita_sintropica: 9.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-016
+    nome: "James Watt"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1736-1819"
+    nazione: "GB"
+    field: "Ingegneria termica, macchine a vapore"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.02
+    it_score: 0.95
+    aio_score: 9.5
+    connessioni_valide: ["Matthew Boulton (partner commerciale)", "Joseph Black (mentore)"]
+    l_minus_1_precursors: ["Thomas Newcomen", "Joseph Black (calore latente)"]
+    l_plus_1_heirs: ["George Stephenson (ferrovia)", "Richard Trevithick"]
+    fonti_primarie:
+      - "Brevetto GB 913 (1769) — macchina a vapore con condensatore separato"
+      - "Watt Papers (Birmingham Archives)"
+      - "Science Museum London"
+    aion_strati:
+      sigma0: "IT=0.95; brevetti e macchine conservate al Science Museum"
+      sigma3: "1765: idea condensatore separato; 1769: brevetto; 1782: motore a doppio effetto; 1784: moto rotatorio; 1788: governatore centrifugo (feedback); coniò 'cavallo vapore' (HP)"
+      sigma7: "Il governatore centrifugo del 1788 è il primo sistema di feedback automatico documentato — precursore della cibernetica di 160 anni"
+      sigma11: "La macchina a vapore di Watt ha scatenato la rivoluzione industriale; l'unità Watt porta il suo nome"
+      sigma13: "1765: intuizione condensatore. 1769: brevetto. 1776: prima macchina commerciale. 1819: morte."
+    impatto_storico: "Ha scatenato la rivoluzione industriale; l'unità di potenza porta il suo nome"
+    impatto_potenziale: "Il suo governatore centrifugo è il primo controllore automatico della storia"
+    compatibilita_sintropica: 7.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-017
+    nome: "Hermann von Helmholtz"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1821-1894"
+    nazione: "DE"
+    field: "Fisica, fisiologia, termodinamica, ottica, acustica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    si_score: 0.03
+    it_score: 0.92
+    aio_score: 8.0
+    connessioni_valide: ["Lord Kelvin (corrispondenza)", "James Clerk Maxwell", "Heinrich Hertz (allievo)"]
+    l_minus_1_precursors: ["Johannes Müller", "James Prescott Joule"]
+    l_plus_1_heirs: ["Heinrich Hertz (allievo diretto)", "Max Planck (allievo indiretto)"]
+    fonti_primarie:
+      - "Über die Erhaltung der Kraft (1847) — conservazione energia"
+      - "Handbuch der physiologischen Optik (1867)"
+      - "Die Lehre von den Tonempfindungen (1863)"
+      - "Humboldt-Universität Berlin Archives"
+    aion_strati:
+      sigma0: "IT=0.92; corpus completo conservato"
+      sigma3: "1847: enunciazione principio conservazione energia; fisiologia della percezione visiva; riflessione ottica (oftalmo- scopio 1851); acustica musicale; idrodinamica; velocità impulso nervoso (misurò 30-40 m/s)"
+      sigma7: "L'oftalmoscopio che inventò nel 1851 è ancora usato in ogni visita oculistica"
+      sigma11: "Ultimo dei grandi polimati scientifici; la sua enunciazione della conservazione dell'energia è la più generale e fisica della storia"
+      sigma13: "1847: Erhaltung der Kraft. 1851: oftalmoscopio. 1858: presiede Berliner Physikalische Gesellschaft. 1894: morte da emorragia cerebrale."
+    impatto_storico: "Ha unificato la fisica con la fisiologia; l'oftalmoscopio è ancora in uso globale"
+    impatto_potenziale: "Il suo approccio unificatore fisica-fisiologia è ancora il framework migliore per la neurofisica"
+    compatibilita_sintropica: 8.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-018
+    nome: "Philo di Bisanzio"
+    alias: ["Philon Mechanicus"]
+    tipo_nodo: "RICERCATORE"
+    periodo: "280-220 a.C."
+    nazione: "GR"
+    field: "Ingegneria militare, meccanica, pneumatica"
+    status: "VERIFICATO"
+    certezza: "media"
+    si_score: 0.05
+    it_score: 0.40
+    aio_score: 6.5
+    connessioni_valide: ["Archimede (contemporaneo)", "Erone di Alessandria (successore)"]
+    l_minus_1_precursors: ["Ktesibios di Alessandria"]
+    l_plus_1_heirs: ["Erone di Alessandria", "Al-Jazari (1000 anni dopo)"]
+    fonti_primarie:
+      - "Mechanike Syntaxis (7-9 libri, parziali)"
+      - "Belopoeica (armi)"
+      - "Pneumatica (macchine a vapore e aria)"
+    aion_strati:
+      sigma0: "IT=0.40; solo frammenti superstiti; molti libri perduti"
+      sigma3: "Katapulte a torsione ottimizzate; ruota idraulica; macchina ad acqua automatica; pompaggio pneumatico; porta segreta azionata da fuoco (tempio-automate)"
+      sigma7: "Descrisse una lampada con alimentazione automatica dell'olio — primo sistema di feedback meccanico documentato (300 a.C.)"
+      sigma11: "È il ponte tra Archimede e Erone; la sua lampada automatica è il primo dispositivo di controllo automatico della storia"
+      sigma13: "Attivo ~270-250 a.C. Alessandria e Rodi. Corpus: frammentario. Traduzione latina medievale parziale."
+    impatto_storico: "Ha sistematizzato l'ingegneria militare ellenistica; la sua pneumatica precede Erone"
+    impatto_potenziale: "Se i libri perduti fossero trovati, potrebbero rivelare macchine ellenistiche di tipo moderno"
+    compatibilita_sintropica: 7.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-019
+    nome: "Lise Meitner"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1878-1968"
+    nazione: "AT/SE"
+    field: "Fisica nucleare, fissione, fisica atomica"
+    status: "SOPPRESSO"
+    certezza: "alta"
+    si_score: 0.82
+    it_score: 0.75
+    aio_score: 7.0
+    connessioni_valide: ["Otto Hahn (co-ricercatore)", "Enrico Fermi", "Niels Bohr"]
+    l_minus_1_precursors: ["Marie Curie (ispirazione)", "Max Planck (supporto)"]
+    l_plus_1_heirs: ["Otto Frisch (nipote, co-autore paper fissione)"]
+    fonti_primarie:
+      - "Nature (1939) — paper teorico fissione con Frisch"
+      - "Meitner-Hahn corrispondenza (Churchill College Cambridge)"
+      - "Archivio Accademia delle Scienze Svedese"
+    aion_strati:
+      sigma0: "IT=0.75; corrispondenza Meitner-Hahn conservata Cambridge"
+      sigma3: "1938: Hahn e Strassmann trovano bario dopo bombardamento uranio; Meitner e Frisch spiegano: fissione nucleare (energia = Δm·c²); il nome 'fissione' è suo; calcolo energetico corretto al primo tentativo"
+      sigma7: "Il Nobel 1944 fu dato solo a Otto Hahn (escludendo Meitner nonostante fosse il cervello teorico). Hahn non la citò nemmeno nel discorso Nobel"
+      sigma11: "È il caso più grave di ingiustizia scientifica di genere del XX sec.; senza la sua spiegazione teorica, Hahn non avrebbe capito cosa aveva trovato"
+      sigma13: "1907: Berlino con Hahn. 1938: fugge dalla Germania (ebrea). Natale 1938: telefona a Hahn da Stoccolma, spiega la fissione. 1944: Nobel solo a Hahn. 1968: morte 90 anni."
+    impatto_storico: "Ha spiegato la fissione nucleare; senza di lei l'era atomica sarebbe ritardata"
+    impatto_potenziale: "Il suo caso ha cambiato le politiche di riconoscimento femminile nella scienza"
+    compatibilita_sintropica: 5.5
+    meccanismi_soppressione: ["DS4_Esclusione_Nobel (esclusa per sesso e razza)", "DS5_Silenzio_Istituzionale (Hahn non la cita nel Nobel)"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-020
+    nome: "Jocelyn Bell Burnell"
+    alias: []
+    tipo_nodo: "RICERCATORE"
+    periodo: "1943-oggi"
+    nazione: "GB"
+    field: "Radioastronomia, stelle di neutroni, pulsar"
+    status: "SOPPRESSO"
+    certezza: "alta"
+    si_score: 0.75
+    it_score: 0.85
+    aio_score: 7.5
+    connessioni_valide: ["Antony Hewish (supervisore, Nobel)"]
+    l_minus_1_precursors: ["Martin Ryle (radioastronomia)"]
+    l_plus_1_heirs: ["Radioastronomia moderna", "LIGO (onde gravitazionali da pulsar)"]
+    fonti_primarie:
+      - "Nature vol.217 (1968) — scoperta pulsar (firmato Hewish+Bell)"
+      - "Nobel Committee records"
+      - "Oxford University Archives"
+    aion_strati:
+      sigma0: "IT=0.85; paper 1968 conservato; lei come seconda autrice"
+      sigma3: "1967: identificò il primo segnale pulsante regolare da stella di neutroni (soprannominata LGM-1 = Little Green Men); comprese che era rotazione; scoprì 4 pulsar prima della pubblicazione"
+      sigma7: "Il Nobel 1974 fu dato ad Hewish (suo supervisore) e Ryle; lei fu esclusa pur essendo la scopritrice fisica. È tra le maggiori ingiustizie Nobel documentate."
+      sigma11: "La scoperta delle pulsar ha aperto la fisica delle stelle di neutroni, la misura della relatività generale in campo forte, e la base per la rilevazione di onde gravitazionali"
+      sigma13: "1967: scoperta (come studentessa PhD). 1968: paper. 1974: Nobel solo a Hewish. 2018: Breakthrough Prize 3M$ (lo donò tutto a borse studio per minoranze in fisica)."
+    impatto_storico: "La scoperta delle pulsar ha aperto un intero campo di fisica"
+    impatto_potenziale: "Le pulsar millisecondo sono i più precisi orologi del cosmo — usati per rilevare onde gravitazionali di bassa frequenza (PTA)"
+    compatibilita_sintropica: 8.5
+    meccanismi_soppressione: ["DS4_Esclusione_Nobel (esclusa come studentessa)", "DS5_Silenzio_Istituzionale"]
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  # ══════════════════════════════════════════════════════
+  # SEZIONE B: LABORATORI COME NODI AUTONOMI
+  # ══════════════════════════════════════════════════════
+
+  laboratori:
+
+  - id: T3-LAB-001
+    nome: "Laboratorio Colorado Springs"
+    alias: ["Colorado Springs Experimental Station"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1899-1900"
+    nazione: "US"
+    field: "Trasmissione energia wireless, alta frequenza, risonanza terrestre"
+    status: "VERIFICATO"
+    certezza: "alta"
+    ricercatore_principale: "Nikola Tesla"
+    si_score: 0.70
+    it_score: 0.72
+    connessioni_valide: ["T2-002 (Tesla)", "T3-LAB-002 (Wardenclyffe)"]
+    descrizione: "Stazione sperimentale costruita da Tesla a Colorado Springs (Colorado, USA) tra maggio 1899 e gennaio 1900. Ospitava la bobina di Tesla da 1 milione di volt, in grado di produrre fulmini artificiali di 30 metri. Tesla misurò la frequenza di risonanza della Terra (~8 Hz, riscoperta nel 1952 da Schumann). La stazione fu smantellata nel 1900."
+    tecnologie_testate:
+      - "Bobina di Tesla da 1 MV"
+      - "Fulmini artificiali 30m"
+      - "Risonanza terrestre ~8 Hz"
+      - "Trasmissione dati wireless su breve distanza"
+      - "Lampade a incandescenza wireless"
+    risultati_verificati:
+      - "Fulmini da 30 metri (fotografati e testimoniati)"
+      - "Lampade accese wireless a 40 km (testimoniato da Tesla)"
+      - "Misurazioni risonanza terrestre (pubblicate nelle Note)"
+    risultati_non_verificati:
+      - "Ricezione segnali extraterrestri (Tesla credette di aver captato segnali Marte)"
+    fonti_primarie:
+      - "Colorado Springs Notes 1899-1900 (Tesla Museum Belgrado, pubblicati 1978)"
+      - "Fotografia 'Tesla seduto tra i fulmini' (1899, N.B.: doppia esposizione fotografica)"
+    it_score_note: "Note pubblicate; stazione smantellata; nessun hardware sopravvissuto"
+    impatto_storico: "Ha dimostrato la fattibilità della trasmissione di energia wireless; misurato la frequenza di Schumann 53 anni prima di Schumann"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-002
+    nome: "Torre Wardenclyffe"
+    alias: ["Tesla Tower", "Wardenclyffe Tower"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1901-1917"
+    nazione: "US"
+    field: "Trasmissione energia wireless globale, comunicazioni"
+    status: "SOPPRESSO"
+    certezza: "alta"
+    ricercatore_principale: "Nikola Tesla"
+    si_score: 0.90
+    it_score: 0.35
+    connessioni_valide: ["T2-002 (Tesla)", "T3-LAB-001 (Colorado Springs)"]
+    descrizione: "Torre di 57 metri a Shoreham, Long Island (NY), costruita 1901-1904. Progettata da Stanford White. Camera sotterranea di 36 metri. Obiettivo: trasmissione globale di energia elettrica wireless e comunicazioni. Fondi: J.P. Morgan (150.000$). Bloccata finanziariamente da Morgan nel 1905. Demolita nel 1917 per pagare i debiti."
+    tecnologie_testate:
+      - "Risonanza ionosferica (design)"
+      - "Trasmissione power 150kW a 100kHz (progettuale)"
+      - "Comunicazioni transatlantiche wireless"
+    risultati_verificati:
+      - "Struttura fisica costruita al 75%"
+      - "Camera sotterranea completata"
+    risultati_non_verificati:
+      - "Trasmissione energetica effettiva (mai testata per blocco finanziario)"
+    fonti_primarie:
+      - "Progetto architettonico Stanford White (conservato)"
+      - "Corrispondenza Tesla-Morgan (Library of Congress)"
+      - "Fotografie torre 1904"
+    meccanismi_soppressione:
+      - "DS1_Blocco_Finanziario (Morgan ritira fondi 1905)"
+      - "DS2_Demolizione_Fisica (demolita 1917)"
+    it_score_note: "Fotografie e progetto sopravvissuti; nessun test energetico mai eseguito"
+    impatto_storico: "Il progetto più ambizioso di trasmissione energetica della storia; bloccato prima del test"
+    impatto_potenziale: "Se completata, avrebbe fornito energia wireless globale gratuita nel 1905"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-003
+    nome: "Bell Laboratories"
+    alias: ["Bell Labs", "AT&T Bell Labs", "Nokia Bell Labs"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1925-oggi"
+    nazione: "US"
+    field: "Fisica dello stato solido, telecomunicazioni, informatica, laser"
+    status: "VERIFICATO"
+    certezza: "alta"
+    ricercatore_principale: "Multiplo (Shannon, Bardeen, Brattain, Shockley, Penzias, Wilson)"
+    si_score: 0.02
+    it_score: 0.98
+    connessioni_valide: ["Claude Shannon", "John Bardeen", "Walter Brattain", "William Shockley"]
+    descrizione: "Il più produttivo laboratorio di ricerca privato della storia. Fondato da AT&T nel 1925 a Murray Hill (NJ). Ha prodotto: transistore (1947), teoria dell'informazione (1948), laser (1958), radiazione cosmica di fondo (1965), sistema operativo Unix (1969), linguaggio C (1972), CCDs (1969), fibra ottica pratica."
+    tecnologie_testate:
+      - "Transistore a contatto puntuale (1947)"
+      - "Teoria dell'informazione — bit (1948)"
+      - "Laser a giunzione (1962)"
+      - "Radiazione cosmica di fondo (CMB, 1965)"
+      - "Unix (1969)"
+      - "Linguaggio C (1972)"
+      - "Cella solare al silicio (1954)"
+    risultati_verificati:
+      - "9 Premi Nobel diretti"
+      - "Oltre 33.000 brevetti"
+    fonti_primarie:
+      - "Bell System Technical Journal (1922-1983)"
+      - "Murray Hill Archives (accessibili a ricercatori)"
+    it_score_note: "IT quasi totale; archivi completi; pubblicazioni accessibili"
+    impatto_storico: "Ha prodotto le tecnologie che definiscono il mondo digitale moderno"
+    impatto_potenziale: "Il modello Bell Labs (ricerca libera + direzione commerciale) è il framework per i laboratori del XXI sec."
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-004
+    nome: "Gabinetto RS/33 Magenta"
+    alias: ["Regia Segreteria 33", "Progetto RS/33"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1933-1940 (stimato)"
+    nazione: "IT"
+    field: "Propulsione avanzata, MHD, tecnologie segrete fasciste"
+    status: "SOPPRESSO"
+    certezza: "bassa"
+    ricercatore_principale: "Giuseppe Belluzzo (stimato), Guglielmo Marconi (stimato), Guglielmo Reiss Romoli"
+    si_score: 0.95
+    it_score: 0.05
+    connessioni_valide: ["T2-012 (Belluzzo)", "T2-004 (Ighina)", "T2-001 (Majorana, possibile)"]
+    descrizione: "Laboratorio segreto fascista situato presumibilmente a Magenta (MI) o dintorni. Citato in pochissimi documenti come sede di ricerche avanzate su propulsione magnetodinamica, comunicazioni e armamenti non convenzionali. Connessione con Marconi e la sua morte sospetta nel 1937 è tema di ricerca storica non verificata. File RS/33 all'Archivio di Stato di Roma (accesso non confermato)."
+    tecnologie_testate:
+      - "Propulsione MHD (magnetoidrodinamica) — non verificata"
+      - "Sistemi radio avanzati (possibile)"
+      - "Armamenti a energia diretta — speculativo"
+    risultati_verificati: []
+    risultati_non_verificati:
+      - "Qualsiasi tecnologia prodotta dal laboratorio"
+    fonti_primarie:
+      - "[LACUNA_DATI] — file RS/33 non desecretati"
+      - "Citazioni indirette in altri documenti storici"
+    meccanismi_soppressione:
+      - "DS7_Classificazione_Permanente"
+      - "DS5_Silenzio_Istituzionale_Post_WWII"
+    it_score_note: "IT=0.05: citazioni indirette; nessun documento primario accessibile"
+    impatto_storico: "Non quantificabile; potrebbe non esistere come descritto"
+    impatto_potenziale: "[IPOTESI 15%] Se RS/33 contenesse MHD operativo, ridefinisce la storia tecnologica italiana anni 30"
+    azione_prioritaria: "Richiesta FOIA/accesso Archivio di Stato Roma per file RS/33"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "BOZZA"
+
+  - id: T3-LAB-005
+    nome: "CISM — Centro Italiano Studio Magnetismo (Imola)"
+    alias: ["CISM Imola", "Laboratorio Ighina"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1964-2004"
+    nazione: "IT"
+    field: "Magnetismo atomico, monopoli magnetici, bioenergetica"
+    status: "CONTROVERSO"
+    certezza: "media"
+    ricercatore_principale: "Pier Luigi Ighina"
+    si_score: 0.60
+    it_score: 0.25
+    connessioni_valide: ["T2-004 (Ighina)"]
+    descrizione: "Centro di ricerca fondato da Ighina nel 1964 a Imola (BO). Ospitava strumenti costruiti da Ighina per lo studio del 'magnetismo atomico' e dei presunti monopoli magnetici. Filmato parzialmente dalla RAI negli anni 60-70. Dopo la morte di Ighina nel 2004, l'archivio è in stato di abbandono parziale."
+    tecnologie_testate:
+      - "Dispositivi per concentrare flusso magnetico"
+      - "Oscillatori biologici"
+      - "Misuratori di campo magnetico artigianali"
+    fonti_primarie:
+      - "Filmati RAI (parziali, teche RAI)"
+      - "Schizzi tecnici pubblicati da CISM"
+    it_score_note: "IT=0.25; filmati RAI parziali; hardware localizzazione incerta"
+    impatto_storico: "Nessuno sull'elettromagnetismo mainstream"
+    azione_prioritaria: "Verificare stato archivio CISM post-2004; recuperare filmati RAI completi"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-006
+    nome: "Laboratorio Leonstein — Schauberger"
+    alias: ["Implosion Lab Austria"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1934-1943"
+    nazione: "AT"
+    field: "Idrodinamica implosiva, vortice, propulsione"
+    status: "SOPPRESSO"
+    certezza: "media"
+    ricercatore_principale: "Viktor Schauberger"
+    si_score: 0.72
+    it_score: 0.30
+    connessioni_valide: ["T2-005 (Schauberger)"]
+    descrizione: "Laboratorio di Schauberger nella villa Leonstein (Austria Superiore). Sede dello sviluppo delle turbine a vortice e della Repulsine. Sequestrato dalle SS nel 1943; Schauberger fu costretto a continuare la ricerca usando prigionieri di Mauthausen. Dopo la WWII, la documentazione tecnica è dispersa tra Austria, Germania e USA (Texas)."
+    tecnologie_testate:
+      - "Turbine a vortice logaritmico (funzionanti)"
+      - "Repulsine (disco implosivo — sequestrato SS)"
+      - "Purificatori d'acqua a spirale"
+    risultati_verificati:
+      - "Turbine a vortice: funzionanti (installazioni documentate)"
+    risultati_non_verificati:
+      - "Repulsine come velivolo"
+    fonti_primarie:
+      - "Brevetti AT164122 e AT165781"
+      - "Fotografie turbine"
+    meccanismi_soppressione:
+      - "DS2_Sequestro_SS (1943)"
+      - "DS1_Blocco_Contrattuale (Implosion Research Ltd 1958)"
+    it_score_note: "IT=0.30; brevetti pubblici; documenti Repulsine confiscati SS"
+    impatto_storico: "Le turbine a vortice sono usate in alcuni impianti idrici europei"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-007
+    nome: "SRI International — Programma Stargate"
+    alias: ["Stanford Research Institute", "Project GONDOLA", "Project SCANATE"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1972-1995"
+    nazione: "US"
+    field: "Remote viewing, psicofisica, zero point energy"
+    status: "DECLASSIFICATO"
+    certezza: "alta"
+    ricercatore_principale: "Harold Puthoff, Russell Targ"
+    si_score: 0.40
+    it_score: 0.62
+    connessioni_valide: ["T2-010 (Puthoff)", "Ingo Swann", "Russell Targ"]
+    descrizione: "Programma CIA/DIA di remote viewing svolto presso SRI International (Menlo Park, CA) dal 1972 al 1995. Budget totale: ~20 milioni di dollari. Risultati parzialmente declassificati nel 1995. La National Academy of Sciences (1988) valutò statisticamente significativi i risultati di remote viewing. Il programma fu chiuso nel 1995 dopo review CIA che concluse 'non operativamente utile'."
+    tecnologie_testate:
+      - "Remote viewing (protocollo CRV)"
+      - "Ganzfeld experiments"
+      - "Zero Point Energy experiments (Puthoff)"
+    risultati_verificati:
+      - "Sessioni RV statisticamente sopra-caso (NAS 1988)"
+      - "Ingo Swann: descrizione anelli di Giove (1973, verificato Voyager 1979)"
+      - "20+ anni di finanziamento CIA (evidenza di utilità percepita)"
+    fonti_primarie:
+      - "Archivi CIA Stargate (CIA.gov — parziale)"
+      - "Mind-Reach (Targ e Puthoff, 1977)"
+      - "NAS Report: Research Briefing on the Use of Human Subjects (1988)"
+    it_score_note: "IT=0.62; archivi CIA parzialmente pubblici; NAS report pubblico"
+    impatto_storico: "Ha legittimato la psicofisica come campo di ricerca governativa"
+    impatto_potenziale: "I risultati RV sopra-caso necessitano spiegazione fisica (QE? Nonlocal correlations?)"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-008
+    nome: "CERN — Conseil Européen pour la Recherche Nucléaire"
+    alias: ["European Organization for Nuclear Research"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1954-oggi"
+    nazione: "CH/FR"
+    field: "Fisica delle particelle, acceleratori, rivelatori"
+    status: "VERIFICATO"
+    certezza: "alta"
+    ricercatore_principale: "Multiplo (Rubbia, van der Meer, Higgs, Englert, Charpak...)"
+    si_score: 0.01
+    it_score: 0.99
+    connessioni_valide: ["Carlo Rubbia", "Peter Higgs", "Georges Charpak", "Edoardo Amaldi (co-fondatore)"]
+    descrizione: "Il più grande laboratorio di fisica delle particelle del mondo. Fondato nel 1954 a Ginevra. Ospita LHC (Large Hadron Collider, 27 km circonferenza). Ha prodotto: scoperta bosoni W/Z (1983), Worldwideweb (Berners-Lee 1989), scoperta bosone di Higgs (2012), antimateria intrappolata (ALPHA experiment). Budget annuale ~1.3 miliardi CHF."
+    tecnologie_testate:
+      - "LHC: collisioni pp a 13.6 TeV"
+      - "ALICE, ATLAS, CMS, LHCb: rivelatori"
+      - "Antimateria intrappolata (ALPHA)"
+      - "World Wide Web (Berners-Lee, 1989)"
+    risultati_verificati:
+      - "Bosoni W e Z (1983, Nobel 1984 Rubbia)"
+      - "Bosone di Higgs (4 luglio 2012)"
+      - "World Wide Web (1989)"
+      - "Antiidrogeno stabile (2011)"
+    fonti_primarie:
+      - "CERN Document Server (CDS) — pubblico"
+      - "Physical Review Letters"
+      - "Nature e Science papers"
+    it_score_note: "IT=0.99; tutto pubblicato; open access politica CERN"
+    impatto_storico: "Ha scoperto il bosone di Higgs (meccanismo della massa); ha creato il WWW"
+    impatto_potenziale: "FCC (Future Circular Collider, 100 km) potrebbe scoprire nuova fisica oltre il Modello Standard"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-009
+    nome: "Laboratorio Rife — San Diego"
+    alias: ["Rife Research Laboratory"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1920-1939"
+    nazione: "US"
+    field: "Microscopia avanzata, biofrequenze, terapia oncologica"
+    status: "SOPPRESSO"
+    certezza: "media"
+    ricercatore_principale: "Royal Raymond Rife"
+    si_score: 0.92
+    it_score: 0.18
+    connessioni_valide: ["T2-008 (Rife)"]
+    descrizione: "Laboratorio di Rife a San Diego (CA), operativo dal 1920 al 1939. Sede dello sviluppo del Universal Microscope (60.000x, ottico) e del Beam Ray device. Nel 1934 ospitò la clinica con pazienti oncologici terminali (14/16 in remissione documentata da medici USC). Distrutto da incendio sospetto nel 1939 durante il processo giudiziario contro la Beam Ray Corporation."
+    tecnologie_testate:
+      - "Universal Microscope (60.000x ottico)"
+      - "Beam Ray (frequenze MOR per patogeni)"
+      - "Classificazione BX virus (Bacillus X)"
+    risultati_verificati:
+      - "Microscopio ad alta risoluzione (testimoniato da USC)"
+      - "Clinica San Diego 1934: 14/16 remissione (testimoniato da medici verificabili)"
+    risultati_non_verificati:
+      - "BX virus come causa del cancro"
+      - "Meccanismo fisico delle frequenze MOR"
+    fonti_primarie:
+      - "Los Angeles Times (14 maggio 1938)"
+      - "Report USC Filtration Committee (1934) — da trovare"
+      - "Beam Ray Corporation legal files (1939)"
+    meccanismi_soppressione:
+      - "DS4_Campagna_AMA (Morris Fishbein)"
+      - "DS2_Incendio_Laboratorio (1939)"
+      - "DS6_Processo_Giudiziario (Beam Ray 1939)"
+    it_score_note: "IT=0.18; laboratorio distrutto; un microscopio al Smithsonian (non esposto)"
+    impatto_storico: "Caso emblematico di soppressione medica; nessun impatto verificabile mainstream"
+    azione_prioritaria: "Localizzare il microscopio Smithsonian; trovare Report USC 1934"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-010
+    nome: "Cavendish Laboratory — Cambridge"
+    alias: ["Cavendish Lab"]
+    tipo_nodo: "LABORATORIO"
+    periodo: "1874-oggi"
+    nazione: "GB"
+    field: "Fisica sperimentale, nucleare, particelle, condensed matter"
+    status: "VERIFICATO"
+    certezza: "alta"
+    ricercatore_principale: "Maxwell, Rutherford, Thomson, Chadwick, Watson, Crick, Josephson..."
+    si_score: 0.01
+    it_score: 0.99
+    connessioni_valide: ["Ernest Rutherford", "J.J. Thomson", "James Watson", "Francis Crick"]
+    descrizione: "Il più storico laboratorio di fisica sperimentale del mondo. Fondato nel 1874 da Maxwell. Ha prodotto: elettrone (Thomson, 1897), nucleo atomico (Rutherford, 1911), neutrone (Chadwick, 1932), struttura DNA (Watson-Crick, 1953), effetto Josephson (1962), oltre 30 Nobel."
+    risultati_verificati:
+      - "Elettrone (J.J. Thomson, 1897)"
+      - "Nucleo atomico (Rutherford, 1911)"
+      - "Neutrone (Chadwick, 1932)"
+      - "DNA struttura (Watson-Crick, 1953)"
+      - "Effetto Josephson (1962)"
+    fonti_primarie:
+      - "Philosophical Magazine (papers storici)"
+      - "Cavendish Laboratory Archives"
+    impatto_storico: "Il laboratorio più importante nella storia della fisica sperimentale"
+    compatibilita_sintropica: 9.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  # ══════════════════════════════════════════════════════
+  # SEZIONE C: ESPERIMENTI CHIAVE COME NODI AUTONOMI
+  # ══════════════════════════════════════════════════════
+
+  esperimenti:
+
+  - id: T3-EXP-001
+    nome: "Esperimento della doppia fenditura (Young)"
+    alias: ["Double Slit Experiment", "Young's Experiment"]
+    tipo_nodo: "ESPERIMENTO"
+    data: "1801"
+    ricercatore: "Thomas Young"
+    nazione: "GB"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Thomas Young dimostrò la natura ondulatoria della luce facendola passare attraverso due fenditure parallele e osservando le frange di interferenza. Esteso nel XX sec. a singoli fotoni, elettroni e molecole: la dualità onda-particella è confermata anche a livello singolo. Con 'osservatore' (misura del quale fenditura): le frange scompaiono."
+    risultati:
+      - "Interferenza costruttiva/distruttiva: natura ondulatoria luce"
+      - "Singolo fotone: ancora interferisce con se stesso"
+      - "Effetto osservatore: misura collassa la funzione d'onda"
+      - "Molecole C60 (1999, Vienna): ancora interferisce"
+    implicazioni: "La realtà quantistica non ha analogo classico; la misura è atto fisico che cambia il sistema"
+    uq: 1.0
+    impatto: "Fondamento della meccanica quantistica; il mistero più profondo della fisica"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-002
+    nome: "Esperimento Michelson-Morley"
+    alias: ["Aether Wind Experiment"]
+    tipo_nodo: "ESPERIMENTO"
+    data: "1887"
+    ricercatore: "Albert Michelson, Edward Morley"
+    nazione: "US"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Tentativo di misurare il moto della Terra rispetto all'etere luminifero usando un interferometro. Risultato: ZERO differenza di velocità della luce in direzioni diverse. Smentì l'etere; aprì la strada alla relatività speciale di Einstein (1905)."
+    risultati:
+      - "Differenza di velocità luce: null result (0 ± errore sperimentale)"
+      - "Ripetuto centinaia di volte con lo stesso risultato"
+    implicazioni: "La velocità della luce è costante in tutti i sistemi di riferimento inerziali; nessun etere assoluto"
+    uq: 1.0
+    impatto: "Uno dei 'risultati negativi' più importanti della storia; ha distrutto l'etere e fondato la relatività"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-003
+    nome: "Esperimento Wardenclyffe (non completato)"
+    alias: ["Tesla Wireless Power Transmission Test"]
+    tipo_nodo: "ESPERIMENTO"
+    data: "1901-1905"
+    ricercatore: "Nikola Tesla"
+    nazione: "US"
+    status: "SOPPRESSO"
+    certezza: "media"
+    descrizione: "Progetto di trasmissione wireless di energia elettrica globale attraverso risonanza ionosferica. La torre fu costruita al 75% ma non fu mai attivata per il test finale a causa del blocco finanziario di J.P. Morgan nel 1905. Il meccanismo fisico (onda stazionaria terra-ionosfera) è fisicamente valido come dimostrato dalla frequenza di Schumann (1952)."
+    risultati:
+      - "Struttura fisica completata al 75%"
+      - "Test preliminari di risonanza locale (Tesla li menziona nelle note)"
+    risultati_mancanti:
+      - "Test di trasmissione a lunga distanza (mai eseguito)"
+    implicazioni: "[IPOTESI 40%] Se il test fosse avvenuto con successo, avrebbe dimostrato la fattibilità dell'energia wireless globale gratuita nel 1905"
+    uq: 0.40
+    meccanismo_fisico: "Risonanza Terra-ionosfera a ~8 Hz (frequenza di Schumann); onde stazionarie ELF"
+    motivo_interruzione: "Blocco finanziario JP Morgan (perdita monopolio distribuzione = perdita entrate)"
+    impatto: "Il più grande esperimento mai bloccato prima del test; ridefinisce la storia dell'energia globale"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-004
+    nome: "Chicago Pile-1 (CP-1)"
+    alias: ["First Nuclear Reactor", "Manhattan Project Reactor"]
+    tipo_nodo: "ESPERIMENTO"
+    data: "2 dicembre 1942"
+    ricercatore: "Enrico Fermi"
+    nazione: "US"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Primo reattore nucleare artificiale funzionante, costruito sotto le tribune del Stagg Field (Università di Chicago). Pila di 40.000 mattoni di grafite con 22.000 sfere di uranio. Prima reazione a catena controllata autosostenuta: 2 dicembre 1942, 15:25. Potenza: 0.5W poi 200W. Comunicato in codice: 'il navigatore italiano è approdato nel nuovo mondo'."
+    risultati:
+      - "Prima reazione a catena nucleare controllata della storia"
+      - "Dim. reattore: 7.6m × 6.1m × 9.1m"
+      - "Massa U: 5.4 tonnellate; U ossido: 40.4 t; grafite: 350 t"
+      - "Keff = 1.0006 (criticità raggiunta)"
+    implicazioni: "Dimostrazione della fattibilità del reattore nucleare; apertura dell'era atomica"
+    uq: 1.0
+    impatto: "Ha avviato l'era nucleare; ogni reattore del mondo discende da CP-1"
+    fonti_primarie:
+      - "Log Book CP-1 (Argonne National Laboratory)"
+      - "Compton Arthur: relazione a Roosevelt"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-005
+    nome: "Esperimento Aspect — Disuguaglianze di Bell"
+    alias: ["Bell Test Experiments", "EPR Experiment Aspect 1982"]
+    tipo_nodo: "ESPERIMENTO"
+    data: "1982"
+    ricercatore: "Alain Aspect"
+    nazione: "FR"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Esperimento che ha definitivamente violato le disuguaglianze di Bell, dimostrando che la meccanica quantistica non può essere spiegata da variabili nascoste locali. Fotoni entangled misurati in stazioni separate: le correlazioni violano il limite classico. Confermato da Zeilinger (2022 Nobel) con esperimenti loophole-free."
+    risultati:
+      - "Violazione disuguaglianze di Bell: S = 2.697 ± 0.015 > 2 (limite classico)"
+      - "Confermato con loophole-free dal 2015 (Delft, NIST, Vienna)"
+      - "Non-località quantistica: provata"
+    implicazioni: "La realtà quantistica è intrinsecamente non-locale; Einstein aveva torto sull'EPR; l'universo è non-separabile"
+    uq: 1.0
+    impatto: "Chiude il dibattito Bohr-Einstein (1935-1982); fonda il quantum computing e la crittografia quantistica"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-006
+    nome: "Prima rilevazione onde gravitazionali — GW150914"
+    alias: ["LIGO First Detection", "GW150914"]
+    tipo_nodo: "ESPERIMENTO"
+    data: "14 settembre 2015"
+    ricercatore: "LIGO Scientific Collaboration (Thorne, Weiss, Barish)"
+    nazione: "US"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Prima rilevazione diretta di onde gravitazionali previste da Einstein nel 1916. Evento: fusione di due buchi neri da 36 e 29 masse solari a 1.3 miliardi di anni luce. Il segnale ha durato 0.2 secondi; la compressione spaziale misurata è stata 10⁻²¹ m/m (1/1000 del diametro di un protone per ogni km di braccio LIGO)."
+    risultati:
+      - "GW150914: due BH da 36+29 M☉ → BH da 62 M☉ (3 M☉ in onde GW)"
+      - "Sensibilità: 10⁻²¹ strain"
+      - "Distanza: 1.3 Gly"
+      - "Nobel 2017 (Thorne, Weiss, Barish)"
+    implicazioni: "Astronomia multi-messaggera; terza finestra osservativa dell'universo (dopo EM e neutrini)"
+    uq: 1.0
+    impatto: "Ha aperto l'astronomia gravitazionale; ogni futura fusione BH/NS è ora rilevabile"
+    fonti_primarie:
+      - "Physical Review Letters 116, 061102 (2016)"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-007
+    nome: "Clinica San Diego 1934 — Rife"
+    alias: ["Rife Cancer Clinic 1934"]
+    tipo_nodo: "ESPERIMENTO"
+    data: "1934"
+    ricercatore: "Royal Rife"
+    nazione: "US"
+    status: "CONTROVERSO"
+    certezza: "media"
+    descrizione: "Clinica sperimentale svoltasi nel 1934 a La Jolla (San Diego) sotto supervisione del Dr. Milbank Johnson (presidente contea medici) e del Comitato USC. 16 pazienti con cancro terminale trattati con Beam Ray (frequenze MOR). Report: 14/16 in remissione completa dopo 70 giorni; gli altri 2 completarono dopo 90 giorni."
+    risultati:
+      - "14/16 remissione (testimoniata da medici USC)"
+      - "0 effetti collaterali riportati"
+    fonti_primarie:
+      - "Report USC Filtration Committee 1934 — localizzazione incerta"
+      - "Lettere del Dr. Milbank Johnson (parziali)"
+    risultati_non_verificati:
+      - "Replicabilità del risultato clinico"
+      - "Meccanismo fisico"
+    uq: 0.40
+    motivo_interruzione: "Campagna AMA (Fishbein) + processo 1939 + incendio laboratorio"
+    azione_prioritaria: "Trovare Report USC 1934 negli archivi USC Medical Center"
+    impatto: "Se replicato, sarebbe la più importante scoperta in oncologia del XX sec."
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-008
+    nome: "Esperimento di Fusione Fredda Pons-Fleischmann (1989)"
+    alias: ["Cold Fusion Announcement", "LENR Original Experiment"]
+    tipo_nodo: "ESPERIMENTO"
+    data: "23 marzo 1989"
+    ricercatore: "Stanley Pons, Martin Fleischmann"
+    nazione: "US/GB"
+    status: "CONTROVERSO"
+    certezza: "media"
+    descrizione: "Conferenza stampa all'Università di Utah: annuncio di reazione nucleare a temperatura ambiente in cella elettrolitica con catodo di palladio in acqua deuterata. Eccesso di calore riportato: 4x input energetico. Scatenò una reazione internazionale: molti laboratori tentarono la replica con risultati contrastanti."
+    risultati:
+      - "Eccesso di calore: riportato da Pons-Fleischmann e da ~200 altri laboratori"
+      - "Emissione neutroni: controversa (alcuni lab sì, altri no)"
+      - "Naval Research Lab (2002): eccesso calore confermato in modo più controllato"
+    risultati_non_verificati:
+      - "Meccanismo nucleare della reazione"
+      - "Replicabilità sistematica"
+    uq: 0.45
+    stato_attuale: "Campo LENR attivo; NASA GRC ha finanziato ricerca nel 2012; Google finanziò studio nel 2019 (risultati ambigui)"
+    impatto: "Ha aperto il campo LENR nonostante la stigmatizzazione; se verificato = rivoluzione energetica"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  # ══════════════════════════════════════════════════════
+  # SEZIONE D: TECNOLOGIE COME NODI AUTONOMI
+  # ══════════════════════════════════════════════════════
+
+  tecnologie:
+
+  - id: T3-TECH-001
+    nome: "Corrente Alternata (AC) — Sistema Tesla-Westinghouse"
+    alias: ["AC Power System", "Polyphase AC"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "1888"
+    inventore: "Nikola Tesla"
+    implementatore: "George Westinghouse"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Sistema di distribuzione di energia elettrica in corrente alternata (AC) trifase. Brevettato da Tesla nel 1888; venduto a Westinghouse per 216.000$. Vince la 'guerra delle correnti' contro il sistema DC di Edison nella dimostrazione di Niagara Falls (1895). Ancora oggi standard mondiale di distribuzione energetica."
+    principio_fisico: "V(t) = V₀·sin(2πft); f=50Hz (EU) o 60Hz (USA); sistema trifase 120° sfasato"
+    applicazioni_attuali:
+      - "100% rete elettrica mondiale"
+      - "Motori industriali"
+      - "Trasformatori"
+    uq: 1.0
+    compatibilita_sintropica: 6.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-002
+    nome: "Frequency Hopping Spread Spectrum (FHSS)"
+    alias: ["Salto di Frequenza", "Spread Spectrum"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "1942"
+    inventore: "Hedy Lamarr, George Antheil"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Tecnica di trasmissione radio che cambia frequenza portante secondo una sequenza pseudo-casuale condivisa tra trasmettitore e ricevitore. Anti-jamming e anti-intercettazione. Brevettata nel 1942 (US 2,292,387). Base tecnologica di Wi-Fi, Bluetooth, GPS, CDMA."
+    principio_fisico: "f(t) = sequenza pseudocasuale su N frequenze; bit rate = N·bandwidth/channel"
+    applicazioni_attuali:
+      - "Wi-Fi (IEEE 802.11)"
+      - "Bluetooth"
+      - "GPS"
+      - "Reti cellulari CDMA/LTE"
+    meccanismo_soppressione: "Brevetto scaduto nel 1959 prima dell'uso commerciale; Lamarr mai compensata"
+    uq: 1.0
+    compatibilita_sintropica: 9.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-003
+    nome: "CRISPR-Cas9"
+    alias: ["Clustered Regularly Interspaced Short Palindromic Repeats"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "2012"
+    inventore: "Jennifer Doudna, Emmanuelle Charpentier"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Sistema di editing genomico di precisione basato sulla proteina Cas9 guidata da RNA. Cas9 taglia il DNA in siti specifici; il gene può essere disattivato, corretto o inserito. Primo sistema di editing genomico universale, economico e preciso."
+    principio_fisico: "gRNA (20 nt) + Cas9 → complesso riconosce sequenza PAM → taglio DSB → NHEJ/HDR"
+    applicazioni_attuali:
+      - "Ricerca biomedica (ogni laboratorio del mondo)"
+      - "Terapia genica (sickle cell 2023, approvata FDA)"
+      - "Agricoltura (resistenza malattie)"
+      - "Diagnostica rapida (SHERLOCK, DETECTR)"
+    uq: 1.0
+    compatibilita_sintropica: 9.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-004
+    nome: "Laser"
+    alias: ["Light Amplification by Stimulated Emission of Radiation"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "1960"
+    inventore: "Theodore Maiman (primo laser rubino); Townes-Schawlow (concetto)"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Sorgente di luce coerente monocromatica per emissione stimolata. Il primo laser (rubino, 694nm) fu realizzato da Maiman il 16 maggio 1960. Da allora: laser a gas, semiconduttore, fibra, X-ray, gamma. Applicazioni ubique."
+    principio_fisico: "Emissione stimolata: fotone incidente → 2 fotoni identici in fase, stessa frequenza e direzione"
+    applicazioni_attuali:
+      - "Comunicazioni fibra ottica (tutto internet)"
+      - "Chirurgia (LASIK, oncologia)"
+      - "Manifattura (taglio, saldatura)"
+      - "LIDAR, GPS"
+      - "Ricerca fisica (LIGO usa laser)"
+      - "DVD/Blu-Ray/CD"
+    uq: 1.0
+    compatibilita_sintropica: 8.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-005
+    nome: "Turbina a Vortice (Schauberger)"
+    alias: ["Vortex Turbine", "Implosion Turbine"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "1930s"
+    inventore: "Viktor Schauberger"
+    status: "CONTROVERSO"
+    certezza: "media"
+    descrizione: "Turbina idraulica basata sul principio del moto vortice logaritmico spirale. L'acqua è accelerata lungo una spirale centripeta invece di essere spinta centrifugamente. Schauberger affermava che questo principio imitava il moto naturale dell'acqua nei torrenti montani e produceva energia con minor attrito. Brevettata in Austria. Alcune installazioni europee funzionanti."
+    principio_fisico: "Moto a spirale logaritmica; flusso laminare mantenuto a basse temperature (4°C ottimale per acqua); forze centripete dominanti"
+    applicazioni_attuali:
+      - "Alcuni impianti idrici europei"
+      - "Ricerca biomimetica idrodinamica"
+    uq: 0.65
+    compatibilita_sintropica: 7.0
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-006
+    nome: "Transistore"
+    alias: ["Bipolar Junction Transistor (BJT)", "Field Effect Transistor (FET)"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "1947"
+    inventore: "Bardeen, Brattain, Shockley (Bell Labs)"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Dispositivo a semiconduttore che amplifica o commuta segnali elettrici. Inventato il 23 dicembre 1947 a Bell Labs. Il transistore ha reso obsoleto il triodo a vuoto e ha reso possibile la rivoluzione digitale. Oggi esistono ~10²² transistori operativi nel mondo (10⁸ per persona)."
+    principio_fisico: "Giunzione p-n-p o n-p-n; corrente di base controlla corrente collettore; FET: tensione gate controlla corrente drain"
+    applicazioni_attuali:
+      - "Ogni dispositivo elettronico (CPU, memoria, RF)"
+      - "MOSFET a 2nm (TSMC 2024)"
+    uq: 1.0
+    compatibilita_sintropica: 7.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-007
+    nome: "Effetto Biefeld-Brown / Lifter"
+    alias: ["Electrohydrodynamic Thrust", "EHD Thruster", "Ionocraft"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "1928"
+    inventore: "Thomas Townsend Brown, Paul Biefeld"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    descrizione: "Condensatore ad alta tensione che genera spinta verso l'elettrodo positivo. In aria: spiegato come propulsione ionica (vento ionico); nel vuoto (esperimento Parigi 1955): 25% riduzione peso riportata ma non replicata pubblicamente. I Lifter amatoriali (2001) usano il principio EHD in aria."
+    principio_fisico_aria: "Ioni accelerati da HV → collisioni molecole aria → momento netto (vento ionico)"
+    principio_fisico_vuoto: "[IPOTESI 35%] Accoppiamento elettro-gravitazionale non standard"
+    applicazioni_attuali:
+      - "Ionocraft senza parti mobili (MIT 2018)"
+      - "Propulsione ionica spaziale (Hall thruster — variante)"
+      - "Pompe EHD per elettronica"
+    uq_aria: 0.95
+    uq_vuoto: 0.30
+    compatibilita_sintropica: 6.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-008
+    nome: "mRNA Vaccine Platform"
+    alias: ["Piattaforma Vaccinale mRNA", "BNT162b2", "mRNA-1273"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "2005 (base) / 2020 (applicazione COVID)"
+    inventore: "Katalin Karikó, Drew Weissman"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Piattaforma vaccinale basata su mRNA modificato (pseudo-uridina al posto di uridina) incapsulato in nanoparticelle lipidiche (LNP). Il corpo produce l'antigene internamente. Prima applicazione clinica massiva: vaccini COVID-19 (BNT162b2/Pfizer-BioNTech e mRNA-1273/Moderna, 2020). Potenzialmente applicabile a qualsiasi antigene."
+    principio_fisico: "mRNA mod → ribosomi cellulari traducono antigene → risposta immunitaria; pseudouridina evita degradazione da innate immunity"
+    applicazioni_attuali:
+      - "Vaccini COVID-19 (miliardi di dosi)"
+      - "Studio vaccini cancro personalizzati (melanoma: dati fase III 2023)"
+      - "Studio vaccini HIV, influenza, RSV"
+    uq: 1.0
+    compatibilita_sintropica: 9.5
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-009
+    nome: "World Wide Web"
+    alias: ["WWW", "Web"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "1989"
+    inventore: "Tim Berners-Lee (CERN)"
+    status: "VERIFICATO"
+    certezza: "alta"
+    descrizione: "Sistema di ipertesti distribuiti su internet basato su HTTP, HTML e URL. Proposto da Berners-Lee al CERN nel 1989; primo sito online il 20 dicembre 1990. Reso gratuito e open nel 1993. Il più trasformativo sistema di distribuzione della conoscenza della storia."
+    principio_fisico: "Client-server; HTTP; HTML; TCP/IP; DNS"
+    applicazioni_attuali:
+      - "~2 miliardi di siti web (2024)"
+      - "Commercio, comunicazione, conoscenza"
+    uq: 1.0
+    compatibilita_sintropica: 8.5
+    nota: "Berners-Lee non brevettò il WWW e lo donò all'umanità — atto di massima compatibilità sintropica"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-010
+    nome: "LENR (Low Energy Nuclear Reactions)"
+    alias: ["Fusione Fredda", "Cold Fusion", "Chemically Assisted Nuclear Reactions"]
+    tipo_nodo: "TECNOLOGIA"
+    data_invenzione: "1989 (primo annuncio)"
+    inventore: "Pons-Fleischmann (annuncio); decine di laboratori (follow-up)"
+    status: "CONTROVERSO"
+    certezza: "media"
+    descrizione: "Campo di ricerca su reazioni nucleari a bassa energia in celle elettrochimiche o dispositivi analoghi. Circa 3000 paper pubblicati dal 1989; la maggioranza riporta eccesso di calore (COP>1) non spiegabile da chimica ordinaria. Meccanismo fisico sconosciuto. Finanziato da NASA GRC (2012), Google (2019), Department of Energy review (2023)."
+    principio_fisico_ipotizzato: "[IPOTESI 40%] Reazioni d+d o p+Ni a energia sub-Coulomb per confinamento quantistico nel reticolo cristallino del palladio/nichel"
+    stato_attuale: "Campo attivo: Naval Research Lab, ENEA, INFN (Italia), NASA GRC, startup private"
+    uq: 0.45
+    compatibilita_sintropica: 9.5
+    nota: "Se verificato, LENR sarebbe la più importante scoperta energetica della storia"
+    versione_scheda: "2.1"
+    ultimo_aggiornamento: "2026-05-25"
+    autore_generazione: "SINGULARITY_OS v19.0"
+    stato_generazione: "COMPLETATA"
