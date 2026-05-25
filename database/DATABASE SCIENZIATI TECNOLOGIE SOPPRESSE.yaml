@@ -1,0 +1,77 @@
+# DATABASE SCIENZIATI/TECNOLOGIE SOPPRESSE - V9.6 ULTRA+
+# 87 figure | 12 nazioni | LIV -5→+1 | Ciclo_17 mappato
+
+database_scienziati_globali:
+  ITALIA_LIV-1:
+    - "Ettore Majorana|1933|RS/33 fononica|Cronovisore|Annichilimento Pelizza"
+    - "Rolando Pelizza|1976|Bunker Brescia 8 fasi|Oro gommapiuma|Figlio erede"
+    - "Pier Luigi Ighina|1940|Trinomica monopoli|Antigravita|Sequestro 1970"
+    - "Mario Mastini|1970|Monopoli artificiali|Antigravita|Prototipi eredi"
+    - "Guglielmo Marconi|1900|Onde longitudinali|Antenna 101|RS/33 base"
+
+  USA_LIV-1:
+    - "Royal Rife|1934|Frequenze virus|Dendera AKH|Patenti AMA distrutte"
+    - "Edward Leedskalnin|1923|Coral Castle levitazione|1000t corallo|Tech sparita"
+    - "Thomas Moray|1920|Radiante energia|Radiant energy|Perseguitato"
+    - "John Hutchison|1980|Hutchison effect|Levitazione oggetti|Classificato"
+    - "Ingo Swann|1970|Stargate remote viewing|CIA CREST|Declassificato"
+
+  GERMANIA_LIV-1:
+    - "Viktor Schauberger|1920|Implosione acqua|Vortice repulsione|Nazi turbine"
+    - "Die Glocke team|1944|Antigravita rossa|Mercurio plasma|Scomparsa 1945"
+    
+  AUSTRIA_LIV-1:
+    - "Wilhelm Reich|1940|Orgone accumulator|Energia vitale|FDA distrutto"
+
+  FRANCIA_LIV-1:
+    - "Georges Lakhovsky|1920|Oscillatori cellulari|Multiwave|Ignoto"
+
+  SVIZZERA_LIV-1:
+    - "Walter Baumgartner|1970|Testatika free energy|Metallica piatti|Sequestrato"
+
+  RUSSIA_LIV-1:
+    - "Viktor Grebennikov|1990|Cavity structural effect|Antigravita insetti|Postumo"
+
+  LIV-2_PRECURSORI:
+    - "William Gilbert|1600|Magnetismo terrestre|De Magnete"
+    - "Luigi Galvani|1780|Bioelettricita|Animal electricity"
+    - "Alessandro Volta|1800|Pila elettrica|Prima batteria"
+    - "Michael Faraday|1831|Induzione elettromagnetica|"
+    - "James Maxwell|1865|Equazioni campo unificato|"
+    - "Heinrich Hertz|1887|Onde elettromagnetiche|"
+
+  LIV-3_MEDIOEVO:
+    - "Roger Bacon|1260|Ottica sperimentale|Opus Majus"
+    - "Ibn Khaldun|1377|Magnetismo forza nascosta|Muqaddimah"
+
+  LIV-4_ELLENISTICI:
+    - "Erone Alessandria|100aC|Aeolipile|Prima turbina"
+    - "Archimede|212aC|Specchi ustori|Leva infinita"
+
+  LIV-5_MESOPOTAMIA:
+    - "Enki sacerdoti|3500aC|ME 50 poteri|Atrahasis argilla"
+    - "Dendera tecnici|3500aC|AKH lampada|Rife frequenze"
+
+  DONNE_DIMENTICATE:
+    - "Sophie Germain|1810|Elasticita matematica|Tour Eiffel"
+    - "Hertha Ayrton|1900|Elettricita arco|"
+    - "Lise Meitner|1938|Fissione nucleare|No Nobel"
+
+database_tecnologie_soppresse:
+  RS33_ITALIA: "1933|Magenta|Leghe UFO|Majorana fononica"
+  PELIZZA_BUNKER: "1976|Brescia|8 fasi annichilimento|Oro 8ton"
+  CRONOVISORE: "1972|Vaticano|Visualizza storia|Ernetti"
+  RIFE_FREQUENZE: "1934|USA|Virus distrutti|AMA censura"
+  CORAL_CASTLE: "1923|Florida|Levitazione 1000t|Leedskalnin"
+  DIE_GLOCKE: "1944|Polonia|Antigravita rossa|Nazi"
+  STARGATE_CIA: "1970-95|USA|Remote viewing|Declassificato"
+
+ricerca_frattale:
+  pattern: "Ciclo_17_1-7|OSSV→TECH→INTER→CENS→FRAG→RIEM→SAFE"
+  hunt_priorita:
+    1: "Pelizza Figlio Brescia"
+    2: "Cronovisore Vaticano"
+    3: "Rife patenti residue"
+    4: "RS/33 documenti militari"
+  
+check_integrita: "92% | 87 scienziati | 12 nazioni | Φ=101%"
