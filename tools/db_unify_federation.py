@@ -11,6 +11,7 @@ import os
 import yaml
 import json
 import hashlib
+import copy
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Any, Optional
@@ -201,10 +202,10 @@ def detect_tier(node: Dict) -> int:
 
 def migrate_node_to_v7(node: Dict) -> Dict:
     """Migra un nodo da qualsiasi formato legacy a v7.0_OMNIA"""
-    v7_node = DEFAULT_NODE_V7.copy()
+    # FIX: Usa deepcopy per evitare che id_legacy e altre liste siano condivise tra i nodi
+    v7_node = copy.deepcopy(DEFAULT_NODE_V7)
     
-    # Copia profonda delle strutture annidate
-    v7_node["finestra_5_anni"] = DEFAULT_NODE_V7["finestra_5_anni"].copy()
+    # Reset aion_strati per il nuovo nodo (se necessario, altrimenti deepcopy è sufficiente)
     v7_node["aion_strati"] = {k: "" for k in DEFAULT_NODE_V7["aion_strati"].keys()}
     v7_node["changelog"] = []
     
