@@ -1,0 +1,1089 @@
+
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  DATABASE_SCIENZIATI_UNIFIED v4.0 — TIER 3: AGGIUNTE                   ║
+# ║  Ricercatori extra · Laboratori · Esperimenti · Tecnologie             ║
+# ║  64 nodi | Schema v2.1_CT                                              ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+meta:
+  versione: "4.0_T3"
+  data: "2026-05-30T00:00:00Z"
+  totale_nodi: 64
+  schema: "v2.1_CT"
+  sottotipi:
+    ricercatori: 20
+    laboratori: 14
+    esperimenti: 12
+    tecnologie: 10
+    entita_ane_extra: 8
+
+# ═══════════════════════════════════════════════════════════════════════════
+# RICERCATORI EXTRA (T3-R)
+# ═══════════════════════════════════════════════════════════════════════════
+ricercatori:
+
+  - id: T3-R-001
+    nome: "Giambattista della Porta"
+    periodo: "1535-1615"
+    nazione: "IT"
+    field: "Magia naturale, ottica, fisica sperimentale"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.55
+    note: "'Magia Naturalis' (1558): 20 libri su esperimenti fisici, camera oscura, magneti, fuochi artificiali. Precursore della camera oscura e dello studio sistematico dei fenomeni naturali."
+    connessioni:
+      - {id: "T1-010", nome: "Leonardo da Vinci", tipo: "parallelo_storico", forza: 0.60}
+    impatto_storico: "Ponte tra alchimia medievale e scienza sperimentale rinascimentale"
+    l_plus_1_heirs: ["Galileo (metodo sperimentale)"]
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-002
+    nome: "Giovanni Schiaparelli"
+    periodo: "1835-1910"
+    nazione: "IT"
+    field: "Astronomia, pianeti, comete"
+    status: "INCORPORATO"
+    certezza: "alta"
+    it_score: 0.82
+    note: "Canali di Marte (1877). Connessione comete-meteore. Rotazione di Mercurio e Venere (errata ma influente). La 'questione marziana' che ha generato interesse per la vita extraterrestre."
+    impatto_storico: "Catalogazione cieli; i 'canali di Marte' hanno alimentato l'esobiologia per 50 anni"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-003
+    nome: "Giorgio de Santillana + Hertha von Dechend"
+    periodo: "1902-1974 / 1915-2001"
+    nazione: "IT/DE"
+    field: "Storia della scienza, archeologia astronomica"
+    status: "CONTROVERSO"
+    certezza: "media"
+    it_score: 0.65
+    note: |
+      'Hamlet's Mill' (1969): i miti antichi come descrizione del moto precessionario.
+      La precessione degli equinozi codificata in miti universali.
+      Controverso ma influente — connessione diretta con AION_LANG.
+    impatto_storico: "Ha aperto il campo dell'archeologia astronomica"
+    compatibilita_sintropica: 7.0
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-004
+    nome: "Ruggero Giuseppe Boscovich"
+    periodo: "1711-1787"
+    nazione: "HR/IT"
+    field: "Fisica atomica proto, matematica, astronomia"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.60
+    note: |
+      'Theoria Philosophiae Naturalis' (1758): atomi come punti di forza puntiformi
+      (non sfere solide). Anticipò la fisica delle forze a corto raggio.
+      Padre Gesuita che anticipa la fisica delle forze fondamentali.
+    impatto_storico: "Ha anticipato il concetto di forze fondamentali e di campo"
+    l_plus_1_heirs: ["Faraday (forze di campo)", "Mach (principio di Mach)"]
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-005
+    nome: "Ada Lovelace"
+    periodo: "1815-1852"
+    nazione: "GB"
+    field: "Informatica proto, algoritmi"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.75
+    note: "Primo algoritmo per la macchina di Babbage (1843). Primo programmatore della storia."
+    impatto_storico: "Primo algoritmo documentato — fondatrice della programmazione"
+    l_plus_1_heirs: ["Turing", "von Neumann", "Grace Hopper"]
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-006
+    nome: "Hedy Lamarr"
+    periodo: "1914-2000"
+    nazione: "AT/US"
+    field: "Frequency hopping, comunicazioni sicure"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.65
+    si_score: 0.55
+    note: |
+      Brevetto FHSS (1942) — frequency hopping spread spectrum.
+      Fondamento di Wi-Fi, Bluetooth, GPS. Brevetto scaduto prima che potesse
+      essere applicato; non ricevette mai royalties.
+    impatto_storico: "Brevetto FHSS = base tecnica di Wi-Fi, Bluetooth, GPS"
+    ciclo_17_fase: 6
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-007
+    nome: "Konstantin Tsiolkovsky"
+    periodo: "1857-1935"
+    nazione: "RU"
+    field: "Astronautica, fisica del razzo"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.72
+    note: "Equazione del razzo (1903). Propellenti liquidi. Stazioni spaziali. 50 anni prima dell'astronautica pratica. Sordo dall'infanzia, lavorò da solo."
+    impatto_storico: "Ha fondato teoricamente l'astronautica; tutto il programma spaziale si basa sulla sua equazione"
+    l_plus_1_heirs: ["von Braun", "Korolev", "Goddard"]
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-008
+    nome: "Richard Buckminster Fuller"
+    periodo: "1895-1983"
+    nazione: "US"
+    field: "Design, geodesica, sistemi"
+    status: "INCORPORATO"
+    certezza: "alta"
+    it_score: 0.80
+    note: |
+      Geodome (cupola geodetica). Dymaxion (design per massima efficienza).
+      'Synergetics': matematica della natura e struttura dell'universo.
+      Concetto di 'fare di più con meno' — principio di efficienza strutturale.
+    impatto_storico: "Cupola geodetica; teoria dei sistemi integrati; sostenibilità ante-litteram"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-009
+    nome: "Robert Hooke"
+    periodo: "1635-1703"
+    nazione: "GB"
+    field: "Biologia microscopica, meccanica, elasticità"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.65
+    si_score: 0.20
+    note: |
+      'Micrographia' (1665): prima osservazione cellule al microscopio.
+      Legge di Hooke (elasticità). Teoria della gravitazione (in rivalità con Newton).
+      Dimenticato perché Newton era un avversario potente.
+    impatto_storico: "Primo biologo microscopico; legge dell'elasticità"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-010
+    nome: "Philo di Bisanzio"
+    periodo: "280-220 a.C."
+    nazione: "GR"
+    field: "Meccanica, automazione, balistica"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.40
+    note: "'Mechanike Syntaxis': catapulte, pneumatici, automi. Anticipa Erone nella meccanica pneumatica."
+    impatto_storico: "Codifica la meccanica militare ellenistica"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-011
+    nome: "Jocelyn Bell Burnell"
+    periodo: "1943-oggi"
+    nazione: "GB"
+    field: "Radioastronomia, pulsar"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.80
+    si_score: 0.40
+    note: |
+      Ha scoperto i pulsar (1967) come studentessa PhD. Il Nobel 1974 andò al suo
+      supervisore Hewish (e Ryle) — non a lei. Caso emblematico di disparità di genere
+      nella scienza. I pulsar sono orologi cosmici naturali.
+    impatto_storico: "Ha scoperto i pulsar — orologi cosmici che verificano la relatività generale"
+    ciclo_17_fase: 6
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-012
+    nome: "Ignaz Semmelweis"
+    periodo: "1818-1865"
+    nazione: "HU"
+    field: "Medicina, igiene, infezioni"
+    status: "MARTIRE"
+    certezza: "alta"
+    it_score: 0.70
+    si_score: 0.75
+    note: |
+      Ha scoperto il lavaggio delle mani in ostetricia (1847) — riduzione mortalità
+      da 10% a 1%. Rifiutato dalla comunità medica. Impazzì e morì in manicomio nel 1865.
+      Poi Pasteur e Lister verificarono la teoria dei germi.
+    meccanismi_soppressione:
+      - "DS4_Diffamazione — attaccato da colleghi per arroganza e mancanza di spiegazione teorica"
+      - "PN2_Morte_in_Manicomio — internato a 47 anni, morì 14 giorni dopo"
+    narrativa_ufficiale_vs_realta: |
+      UFFICIALE: precursore incompreso della sterilizzazione.
+      REALTÀ: ha salvato migliaia di vite, è stato distrutto dalla comunità medica
+      perché non aveva la teoria dei germi per spiegare l'osservazione corretta.
+    impatto_storico: "Fondatore dell'antisepsi; migliaia di vite salvate prima ancora di capire il perché"
+    ciclo_17_fase: 7
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-013
+    nome: "Al-Biruni"
+    periodo: "973-1048"
+    nazione: "UZ"
+    field: "Astronomia, geodesia, fisica, indologia"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.62
+    note: |
+      Ha misurato il raggio della Terra con un metodo geometrico brillante
+      (errore < 1% rispetto al valore reale). Ha scritto enciclopedie su fisica,
+      astronomia, storia, farmacologia. 146 testi sopravvissuti su ~180 prodotti.
+    impatto_storico: "Il più grande scienziato del Medioevo islamico; geodesia moderna ante-litteram"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-014
+    nome: "Nikola Morozov"
+    periodo: "1854-1946"
+    nazione: "RU"
+    field: "Chimica, astronomia, storia alternativa"
+    status: "CONTROVERSO"
+    certezza: "bassa"
+    it_score: 0.42
+    note: |
+      Rivoluzionario russo poi scienziato. Ha sviluppato teorie di revisione
+      della cronologia storica (anticipando Fomenko). Chimico rispettato.
+      Parte del suo lavoro: CONOSCENZA_SITUATA (periodo rivoluzionario russo).
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-015
+    nome: "William Crookes"
+    periodo: "1832-1919"
+    nazione: "GB"
+    field: "Fisica, raggi catodici, spiritismo"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    it_score: 0.70
+    si_score: 0.25
+    note: |
+      Tubo di Crookes (1879): raggi catodici — anticipa la scoperta dell'elettrone.
+      Scoperta del tallio. Poi si interessò allo spiritismo e alla telepatia.
+      Caso simile a Josephson: scienziato verificato che attraversa il confine.
+    impatto_storico: "Tubo di Crookes → scoperta elettrone (Thomson 1897)"
+    l_plus_1_heirs: ["J.J. Thomson (elettrone)", "Röntgen (raggi X)"]
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-016
+    nome: "John Logie Baird"
+    periodo: "1888-1946"
+    nazione: "GB"
+    field: "Televisione, immagini elettroniche"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.72
+    note: "Prima trasmissione TV (1926). Poi sconfitto dal sistema Marconi-EMI. Caso di soppressione corporate dell'inventore originale."
+    ciclo_17_fase: 5
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-017
+    nome: "Charles Proteus Steinmetz"
+    periodo: "1865-1923"
+    nazione: "DE/US"
+    field: "Ingegneria elettrica, corrente alternata"
+    status: "DIMENTICATO"
+    certezza: "alta"
+    it_score: 0.65
+    si_score: 0.20
+    note: |
+      'Il mago di Schenectady'. Ha matematizzato la corrente alternata (numeri complessi per AC).
+      Lavorò con Tesla e poi con GE. Fisicamente menomato. Socialista convinto in GE.
+      Ha reso praticabile l'AC che Tesla aveva inventato.
+    impatto_storico: "Ha matematizzato il sistema AC che Tesla aveva inventato — indispensabile per l'ingegneria elettrica"
+    connessioni:
+      - {id: "T2-002", nome: "Tesla (T2)", tipo: "collaborazione_applicata", forza: 0.75}
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-018
+    nome: "Ilya Prigogine"
+    periodo: "1917-2003"
+    nazione: "BE"
+    field: "Termodinamica non-equilibrio, strutture dissipative"
+    status: "INCORPORATO"
+    certezza: "alta"
+    it_score: 0.85
+    note_speciali: "[CONNESSIONE RETE ETER] — Le strutture dissipative sono la base fisica della sintropia"
+    note: |
+      Nobel Chimica 1977. Strutture dissipative: sistemi lontani dall'equilibrio
+      che si auto-organizzano. Base fisica per comprendere la vita e la sintropia.
+      Connessione diretta con Fantappiè (T1-111).
+    connessioni:
+      - {id: "T1-111", nome: "Fantappiè", tipo: "complemento_teorico", forza: 0.80}
+    impatto_storico: "Strutture dissipative = base fisica dell'auto-organizzazione biologica"
+    compatibilita_sintropica: 9.5
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-019
+    nome: "Stuart Kauffman"
+    periodo: "1939-oggi"
+    nazione: "US"
+    field: "Biologia teorica, sistemi complessi, auto-organizzazione"
+    status: "CONTROVERSO"
+    certezza: "media"
+    it_score: 0.72
+    note: |
+      'The Origins of Order' (1993): l'auto-organizzazione come forza
+      parallela alla selezione naturale. I reti booleane e la criticità.
+      Connessione con Prigogine, Margulis, e la sintropia.
+    impatto_storico: "Teoria dell'auto-organizzazione — base per biologia sintetica e AI"
+    compatibilita_sintropica: 9.0
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-R-020
+    nome: "Nassim Haramein"
+    periodo: "1962-oggi"
+    nazione: "CH/US"
+    field: "Fisica speculativa, struttura spazio-tempo"
+    status: "SPECULATIVO"
+    certezza: "bassa"
+    it_score: 0.55
+    si_score: 0.35
+    aio_score: 1.5
+    note: |
+      Fondatore Resonance Science Foundation.
+      Teoria del campo unificato basato su geometria del vuoto.
+      Pubblicazioni peer-reviewed (2013 Physical Review) + contenuti non verificati.
+      Mescola fisica verificata con speculazione senza chiara separazione.
+    filtro_entropico: "[T4 ALERT] — model di business attorno alle teorie"
+    impatto_storico: "Popolarizzazione della fisica del vuoto — con accuratezza mista"
+    aion_strati:
+      sigma11: "[SPEC] — AIO < 4.0 su claim principali → SCARTO come fisica rigorosa"
+    compatibilita_sintropica: 4.0
+    stato_generazione: "COMPLETATA"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# LABORATORI (T3-LAB)
+# ═══════════════════════════════════════════════════════════════════════════
+laboratori:
+
+  - id: T3-LAB-001
+    nome: "Laboratorio Colorado Springs"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1899-1900"
+    nazione: "US"
+    ricercatore_principale: "T2-002 Tesla"
+    field: "Risonanza terrestre, onde stazionarie, energia wireless"
+    status: "DISTRUTTO"
+    it_score: 0.62
+    fonti:
+      - {fonte: "Colorado Springs Notes (pubblicato 1978)", uq: 0.92, status: "PUBBLICO"}
+    note: |
+      Tesla misurò la frequenza di risonanza della Terra (~8 Hz — coincide con Schumann 1952).
+      Generò fulmini artificiali da 30 metri. Verificò trasmissione energia senza fili.
+      Laboratorio demolito per recuperare rame nel 1901.
+    domande_aperte_da_chiudere:
+      - "Le misure di Tesla della frequenza 8 Hz sono nei Colorado Springs Notes?"
+    impatto_storico: "Prime misure della risonanza terrestre; proto-Schumann"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-002
+    nome: "Torre Wardenclyffe"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1901-1906"
+    nazione: "US"
+    ricercatore_principale: "T2-002 Tesla"
+    field: "Trasmissione energia wireless globale"
+    status: "DEMOLITO 1917"
+    si_score: 0.82
+    it_score: 0.35
+    note: |
+      57 metri altezza + 36 metri di camera sotterranea.
+      Progettata per trasmettere energia elettrica e comunicazioni senza fili al mondo.
+      J.P. Morgan ritirò i fondi quando capì che non si poteva tariffarne l'uso.
+      Demolita nel 1917 per recuperare il rame.
+    domande_aperte_da_chiudere:
+      - "I disegni tecnici completi di Wardenclyffe sono negli archivi USPTO?"
+    impatto_storico: "La torre non completata più famosa della storia"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-003
+    nome: "Bell Laboratories"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1925-oggi"
+    nazione: "US"
+    field: "Fisica dello stato solido, comunicazioni, informatica"
+    status: "VERIFICATO"
+    it_score: 0.95
+    note: |
+      Transistore (1947), laser (1960), UNIX (1969), linguaggio C (1972),
+      onde radio cosmiche di fondo (1965 — Nobel), fotocellula solare.
+      Il laboratorio industriale di ricerca più produttivo della storia.
+    impatto_storico: "7 Nobel usciti da Bell Labs — ha definito il XX secolo tecnologico"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-004
+    nome: "RS/33 — Gabinetto Riservatissimo Magenta"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1933+"
+    nazione: "IT"
+    field: "Analisi materiali crash velivolo non identificato (27/06/1933)"
+    status: "NON_VERIFICATO"
+    si_score: 0.85
+    it_score: 0.04
+    fonti:
+      - {fonte: "Archivio di Stato Roma (RS/33)", uq: 0.0, status: "MAI DESECRETATO"}
+    connessioni:
+      - {id: "T2-007", nome: "Marconi (T2)", tipo: "RS33_connessione", forza: 0.35}
+      - {id: "T2-001", nome: "Majorana (T2)", tipo: "RS33_connessione", forza: 0.30}
+      - {id: "T2-010", nome: "Belluzzo (T2)", tipo: "RS33_coordinamento", forza: 0.45}
+    domande_aperte_da_chiudere:
+      - "Il fascicolo RS/33 è desecretato? Richiesta FOIA all'Archivio di Stato Roma."
+      - "Quali funzionari firmarono i documenti RS/33? Rintracciabili?"
+    note: "Priorità massima per la desecretazione. Se RS/33 è reale, ridefinisce la storia dell'aviazione italiana anni 30."
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-005
+    nome: "CISM — Centro Italiano Studio Magnetismo"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1964-2004"
+    nazione: "IT"
+    field: "Magnetismo atomico, Atomo Magnetico, ERIM"
+    status: "ESISTENTE parzialmente"
+    it_score: 0.40
+    ricercatore_principale: "T2-004 Ighina"
+    connessioni:
+      - {id: "T2-004", nome: "Ighina (T2)", tipo: "sede_principale", forza: 1.0}
+    domande_aperte_da_chiudere:
+      - "Il CISM di Imola è ancora fisicamente accessibile? Chi lo gestisce?"
+      - "I prototipi hardware (Elica Solare, ERIM) sono stati conservati?"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-006
+    nome: "Laboratorio Leonstein — Schauberger"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1945-1958"
+    nazione: "AT"
+    field: "Implosione, fluidodinamica centripeta, Repulsine"
+    status: "CONFISCATO"
+    si_score: 0.85
+    it_score: 0.28
+    ricercatore_principale: "T2-005 Schauberger"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-007
+    nome: "SRI International — Programma Stargate"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1972-1995"
+    nazione: "US"
+    field: "Remote viewing, ESP, parapsicologia applicata (CIA)"
+    status: "DECLASSIFICATO 1995"
+    it_score: 0.71
+    connessioni:
+      - {id: "T2-001m", nome: "Puthoff", tipo: "direzione", forza: 0.95}
+    note: "23 anni di ricerca CIA — 4 milioni USD/anno. Risultati: above chance statisticamente significativi."
+    impatto_storico: "Il programma governativo di ricerca ESP più lungo della storia — declassificato"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-008
+    nome: "CERN — Ginevra"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1954-oggi"
+    nazione: "CH/FR"
+    field: "Fisica particelle, acceleratori, LHC"
+    status: "VERIFICATO"
+    it_score: 0.98
+    note: "Bosone di Higgs (2012). WWW (1989). Antimateria prodotta. Il più grande strumento scientifico mai costruito."
+    impatto_storico: "LHC = confine della fisica fondamentale; ha verificato il Modello Standard"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-009
+    nome: "Laboratorio Rife — San Diego"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1920-1939"
+    nazione: "US"
+    field: "Microscopia ad alta risoluzione, biofrequenze"
+    status: "DISTRUTTO — incendio 1939"
+    si_score: 0.93
+    it_score: 0.12
+    ricercatore_principale: "T2-008 Rife"
+    delta_score: 0.91
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-010
+    nome: "Cavendish Laboratory — Cambridge"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1874-oggi"
+    nazione: "GB"
+    field: "Fisica sperimentale — il laboratorio più produttivo della storia"
+    status: "VERIFICATO"
+    it_score: 0.99
+    note: "29 Nobel da un singolo laboratorio. Elettrone (Thomson 1897), protone, neutrino, DNA (Watson/Crick), radioattività (Rutherford)."
+    impatto_storico: "29 Nobel — ha definito la fisica del XX secolo"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-011
+    nome: "Via Panisperna — Istituto Fisica Roma"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1927-1938"
+    nazione: "IT"
+    field: "Fisica nucleare italiana"
+    status: "VERIFICATO"
+    it_score: 0.92
+    connessioni:
+      - {id: "T1-040", nome: "Fermi", tipo: "sede", forza: 1.0}
+      - {id: "T2-001", nome: "Majorana (T2)", tipo: "presenza", forza: 0.95}
+    impatto_storico: "Fisica nucleare italiana anni 30 — precursore di Manhattan"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-012
+    nome: "PEAR Lab — Princeton"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1979-2007"
+    nazione: "US"
+    field: "Interazione mente-macchina, anomalie psicofisiche"
+    status: "CHIUSO 2007"
+    it_score: 0.62
+    note: "28 anni di dati. Effetti statisticamente significativi ma piccoli (< 0.001% sopra il caso). Rahn/Dunne."
+    impatto_storico: "Il programma di ricerca psi più lungo e rigoroso — chiuso per mancanza di fondi"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-013
+    nome: "Bunker di Chiari (Pelizza)"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1972-1984"
+    nazione: "IT"
+    field: "Macchina radiante a 4 fasi — Pelizza"
+    status: "SEQUESTRATO 1984"
+    si_score: 0.88
+    it_score: 0.22
+    ricercatore_principale: "T2-003 Pelizza"
+    connessioni:
+      - {id: "T2-003", nome: "Pelizza (T2)", tipo: "sede", forza: 1.0}
+    domande_aperte_da_chiudere:
+      - "Il bunker è ancora fisicamente accessibile? Cosa rimane?"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-LAB-014
+    nome: "Los Alamos National Laboratory"
+    tipo_nodo: "LABORATORIO"
+    periodo: "1943-oggi"
+    nazione: "US"
+    field: "Fisica nucleare, armi, sicurezza nazionale"
+    status: "ATTIVO"
+    it_score: 0.80
+    note: "Progetto Manhattan 1943. Tuttora attivo — ricerca nucleare e sicurezza nazionale."
+    impatto_storico: "Bomba atomica. Centro della ricerca di sicurezza nucleare USA"
+    stato_generazione: "COMPLETATA"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ESPERIMENTI (T3-EXP)
+# ═══════════════════════════════════════════════════════════════════════════
+esperimenti:
+
+  - id: T3-EXP-001
+    nome: "Esperimento della Doppia Fenditura (Young)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1801-oggi"
+    nazione: "GB"
+    field: "Natura della luce, dualità onda-particella"
+    status: "VERIFICATO"
+    it_score: 0.99
+    uq: 0.99
+    note: |
+      Thomas Young (1801): la luce si comporta come onda (interferenza).
+      Ripetuto con elettroni singoli (1961): un elettrone alla volta fa interferenza.
+      Con osservazione: l'interferenza scompare.
+      Il più strano esperimento della fisica — il collasso della funzione d'onda.
+    impatto_storico: "Ha dimostrato la dualità onda-particella e il problema della misurazione in QM"
+    aion_strati:
+      sigma11: "[DATO TIER_0] — verificato migliaia di volte. Il più fondamentale esperimento della QM."
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-002
+    nome: "Esperimento Michelson-Morley"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1887"
+    nazione: "US"
+    field: "Etere luminifero, velocità della luce"
+    status: "VERIFICATO"
+    it_score: 0.98
+    note: |
+      Ha cercato di misurare il moto della Terra attraverso l'etere.
+      Risultato: nessuna variazione della velocità della luce (c = costante).
+      Ha distrutto il concetto di etere luminifero classico.
+      Ha aperto la strada alla relatività di Einstein (1905).
+    impatto_storico: "Ha eliminato l'etere classico — ha preparato la relatività speciale"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-003
+    nome: "Esperimento Wardenclyffe (non completato)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1901-1906"
+    nazione: "US"
+    field: "Trasmissione energia wireless globale"
+    status: "INTERROTTO"
+    si_score: 0.82
+    it_score: 0.35
+    note: "Vedi T3-LAB-002. L'esperimento fu interrotto dal ritiro di finanziamenti prima del completamento."
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-004
+    nome: "Chicago Pile-1 (CP-1)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "2 dicembre 1942"
+    nazione: "US"
+    field: "Prima reazione nucleare controllata"
+    status: "VERIFICATO"
+    it_score: 0.99
+    note: |
+      Stadio Stagg Field, Università di Chicago.
+      Prima reazione nucleare a catena controllata.
+      Fermi dirige. Presenza: Compton, Anderson, Szilard, Weil.
+      Ha aperto l'era nucleare. Messaggio in codice: 'The Italian navigator has
+      just landed in the new world.'
+    impatto_storico: "Inizio dell'era atomica — fondamentale per energia nucleare e armi"
+    connessioni:
+      - {id: "T1-040", nome: "Fermi", tipo: "esperimento_diretto", forza: 1.0}
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-005
+    nome: "Esperimento Aspect — Test Bell (1982)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1982"
+    nazione: "FR"
+    field: "Entanglement quantistico, non-locality"
+    status: "VERIFICATO"
+    it_score: 0.99
+    uq: 0.99
+    note: "Ha dimostrato la violazione delle disuguaglianze di Bell → entanglement reale → non-locality confermata. Nobel 2022."
+    impatto_storico: "Ha dimostrato che la non-locality è reale — uno degli esperimenti più importanti del XX secolo"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-006
+    nome: "GW150914 — Prima rilevazione onde gravitazionali (LIGO)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "14 settembre 2015"
+    nazione: "US"
+    field: "Onde gravitazionali, relatività generale"
+    status: "VERIFICATO"
+    it_score: 0.99
+    note: |
+      Fusione di due buchi neri a 1.3 miliardi di anni luce.
+      Segnale durato 0.2 secondi. Frequenza 35-250 Hz.
+      100 anni dopo Einstein, verifica diretta delle onde gravitazionali.
+      Nobel 2017 (Thorne, Weiss, Barish).
+    impatto_storico: "Ha aperto l'astronomia gravitazionale — nuova finestra sull'universo"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-007
+    nome: "Clinica San Diego 1934 — Royal Rife"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1934"
+    nazione: "US"
+    field: "Biofrequenze, oncologia sperimentale"
+    status: "CONTROVERSO"
+    it_score: 0.38
+    si_score: 0.93
+    note: |
+      16 pazienti oncologici terminali. Dopo 3 mesi di trattamento con Beam Ray:
+      14 in remissione completa (verificata da medici terzi).
+      Il comitato USC confermò i risultati — poi scomparve.
+      Poi AMA iniziò la campagna di discredito.
+    domande_aperte_da_chiudere:
+      - "Il report USC è nell'archivio USC? Richiesta FOIA."
+    impatto_storico: "Se verificato: prima cura del cancro con frequenze EM (1934)"
+    connessioni:
+      - {id: "T2-008", nome: "Rife (T2)", tipo: "esperimento_diretto", forza: 1.0}
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-008
+    nome: "Esperimento Fusione Fredda — Pons e Fleischmann (1989)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "23 marzo 1989"
+    nazione: "US/GB"
+    field: "LENR, fusione fredda"
+    status: "CONTROVERSO"
+    it_score: 0.45
+    note: |
+      Conferenza stampa University of Utah: annuncio fusione nucleare a temperatura ambiente.
+      Eccesso di calore misurabile in palladio/deuterio.
+      Reazione mainstream: non replicabile → 'pathological science'.
+      Ma: 150+ paper LENR verificati fino al 2012. Google restart 2019.
+    impatto_storico: "Caso emblematico di claim rivoluzionario non replicato universalmente"
+    ciclo_17_fase: 6
+    connessioni:
+      - {id: "T2-013m", nome: "Fleischmann (T2)", tipo: "esperimento_diretto", forza: 1.0}
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-009
+    nome: "Esperimento ENEA Casaccia — Demo Pelizza 1976"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1976"
+    nazione: "IT"
+    field: "Trasmutazione materia — Pelizza"
+    status: "CONTROVERSO"
+    it_score: 0.30
+    si_score: 0.71
+    note: |
+      Demo macchina Pelizza presso ENEA Casaccia.
+      Rapporto Giordano: "assenza totale di raggi gamma" durante operazione.
+      Mai pubblicato ufficialmente. Citato da testimoni.
+      La più forte evidenza del caso Pelizza — se verificata.
+    domande_aperte_da_chiudere:
+      - "Il Rapporto Giordano è nell'archivio ENEA? FOIA."
+    connessioni:
+      - {id: "T2-003", nome: "Pelizza (T2)", tipo: "esperimento_diretto", forza: 1.0}
+      - {id: "T3-LAB-013", nome: "Bunker Chiari", tipo: "precursore", forza: 0.70}
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-010
+    nome: "Esperimento Effetto Casimir (1948/1997)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1948/1997"
+    nazione: "NL/US"
+    field: "Zero Point Energy, vuoto quantistico"
+    status: "VERIFICATO"
+    it_score: 0.99
+    uq: 0.99
+    note: |
+      Casimir prevede (1948): due piastre conduttrici molto vicine si attraggono
+      per fluttuazioni del vuoto quantistico.
+      Lamoreaux (1997): prima misurazione precisa dell'effetto Casimir.
+      È la prima prova diretta dell'energia del vuoto (ZPE).
+    impatto_storico: "Prima prova sperimentale dell'energia del vuoto quantistico"
+    l_plus_1_heirs: ["Puthoff (ZPE extraction)", "Haisch (inerzia da ZPF)"]
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-011
+    nome: "Esperimento blocco motori Ostia / Via Ostiense (1935-36)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1935-1936"
+    nazione: "IT"
+    field: "Onde EM avanzate, raggio della morte"
+    status: "TESTIMONIATO"
+    it_score: 0.28
+    si_score: 0.61
+    uq: 0.35
+    note: |
+      Demo attribuita a Marconi: motori di automobili bloccati a distanza.
+      Testimone principale: Donna Rachele Mussolini.
+      Nessun documento tecnico sopravvissuto.
+      Se reale: EMP direzionale ante-litteram.
+    connessioni:
+      - {id: "T2-007", nome: "Marconi (T2)", tipo: "esperimento_diretto", forza: 0.80}
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-EXP-012
+    nome: "Teleportazione quantistica (Zeilinger 1997)"
+    tipo_nodo: "ESPERIMENTO"
+    periodo: "1997"
+    nazione: "AT"
+    field: "QM, entanglement, informazione quantistica"
+    status: "VERIFICATO"
+    it_score: 0.99
+    note: "Prima teleportazione quantistica di uno stato quantistico. NON teleportazione di materia — solo informazione quantistica."
+    impatto_storico: "Base per il quantum internet e la crittografia quantistica"
+    stato_generazione: "COMPLETATA"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# TECNOLOGIE (T3-TECH)
+# ═══════════════════════════════════════════════════════════════════════════
+tecnologie:
+
+  - id: T3-TECH-001
+    nome: "Corrente Alternata (AC) — Sistema Tesla-Westinghouse"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1888-oggi"
+    inventori: ["T2-002 Tesla", "T1-westinghouse"]
+    field: "Distribuzione energia elettrica"
+    status: "VERIFICATO"
+    it_score: 0.99
+    aio_score: 9.9
+    note: "Il sistema AC di Tesla+Westinghouse è lo standard mondiale. La 'guerra delle correnti' vinta su Edison DC."
+    impatto_storico: "Ogni presa elettrica nel mondo usa il sistema Tesla"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-002
+    nome: "Frequency Hopping Spread Spectrum (FHSS)"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1942-oggi"
+    inventori: ["T3-R-006 Hedy Lamarr", "George Antheil"]
+    field: "Telecomunicazioni, sicurezza radio"
+    status: "VERIFICATO"
+    it_score: 0.90
+    aio_score: 9.5
+    note: "Brevetto 1942. Base tecnica di Wi-Fi, Bluetooth, GPS, CDMA. Il brevetto scadde prima che Lamarr potesse beneficiarne economicamente."
+    impatto_storico: "Ogni dispositivo wireless moderno usa FHSS"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-003
+    nome: "CRISPR-Cas9"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "2012-oggi"
+    inventori: ["Jennifer Doudna", "Emmanuelle Charpentier"]
+    field: "Editing genomico"
+    status: "VERIFICATO"
+    it_score: 0.95
+    aio_score: 9.8
+    note: "Nobel Chimica 2020. Editing del DNA con precisione chirurgica. Rivoluzione in medicina, agricoltura, biologia."
+    impatto_storico: "Tecnologia più trasformativa in biologia dal DNA"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-004
+    nome: "Laser"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1960-oggi"
+    inventori: ["Theodore Maiman (primo laser, 1960)", "Townes/Schawlow (teoria)"]
+    field: "Fotonica, amplificazione luce"
+    status: "VERIFICATO"
+    it_score: 0.99
+    aio_score: 9.9
+    note: "Light Amplification by Stimulated Emission of Radiation. Base di: CD/DVD/Blu-ray, chirurgia, internet in fibra, LIGO, LiDAR, stampa 3D."
+    impatto_storico: "Tecnologia trasversale — presente in quasi ogni settore industriale"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-005
+    nome: "Turbina a Vortice Centripeto (Schauberger)"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1930-1958"
+    inventori: ["T2-005 Schauberger"]
+    field: "Fluidodinamica, energia idraulica"
+    status: "PARZIALMENTE VERIFICATO"
+    it_score: 0.38
+    aio_score: 7.8
+    note: "Principio opposto alle turbine convenzionali. Efficienza idrodinamica verificata. Repulsine: mai completamente documentata."
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-006
+    nome: "Transistore"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1947-oggi"
+    inventori: ["Bardeen + Brattain + Shockley (Bell Labs)"]
+    field: "Elettronica, semiconduttori"
+    status: "VERIFICATO"
+    it_score: 0.99
+    aio_score: 9.9
+    note: "Nobel 1956. La tecnologia più replicata nella storia: ~10^22 transistori prodotti. Ogni chip moderno ne ha miliardi."
+    impatto_storico: "Il componente che ha reso possibile l'era digitale"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-007
+    nome: "Effetto Biefeld-Brown / Lifter"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1923-oggi"
+    inventori: ["T2-009 T.T. Brown"]
+    field: "Propulsione ionica, elettrogravità"
+    status: "PARZIALMENTE VERIFICATO"
+    it_score: 0.48
+    aio_score: 7.8
+    note: "Condensatore asimmetrico HV genera spinta in aria (EHD verificato). Propulsione nel vuoto: controversa."
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-008
+    nome: "Piattaforma mRNA Vaccine"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1990-oggi"
+    inventori: ["Katalin Karikó", "Drew Weissman", "Pieter Cullis"]
+    field: "Biotecnologie, vaccini"
+    status: "VERIFICATO"
+    it_score: 0.90
+    aio_score: 9.5
+    note: |
+      Nobel Medicina 2023 a Karikó e Weissman. Karikó lavorò per decenni
+      senza finanziamenti adeguati (case study di perseveranza contro l'istituzione).
+      I vaccini COVID hanno dimostrato la piattaforma.
+    impatto_storico: "Ha dimostrato che l'mRNA può essere usato come farmaco"
+    ciclo_17_fase: 7
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-009
+    nome: "World Wide Web"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1989-oggi"
+    inventori: ["Tim Berners-Lee (CERN 1989)"]
+    field: "Internet, condivisione informazione"
+    status: "VERIFICATO"
+    it_score: 0.99
+    note: "Proposta al CERN: 'Vague but exciting' (Berners-Lee boss). Nessun brevetto — donato all'umanità."
+    impatto_storico: "Ha creato internet come lo conosciamo"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-TECH-010
+    nome: "LENR / Fusione Fredda"
+    tipo_nodo: "TECNOLOGIA"
+    periodo: "1989-oggi"
+    inventori: ["T2-013m Fleischmann + Pons", "T3-R-018m Piantelli"]
+    field: "Fisica nucleare, energia"
+    status: "FRONTIERA_PARZIALE"
+    it_score: 0.45
+    aio_score: 6.1
+    note: |
+      Effetto probabilmente reale ma non universalmente replicabile.
+      Google restart 2019. SRI International ongoing. 150+ paper verificati.
+      La difficoltà di replica sistematica è l'ostacolo principale.
+    ciclo_17_fase: 6
+    stato_generazione: "COMPLETATA"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ENTITA ANE EXTRA (oltre Enki e Atrahasis in T1)
+# ═══════════════════════════════════════════════════════════════════════════
+entita_ane_extra:
+
+  - id: T3-ANE-001
+    nome: "Ezechiele — Visione della Merkabah"
+    tipo_nodo: "ENTITA_ANE"
+    periodo: "593-571 a.C. (datazione profezia)"
+    nazione: "Mesopotamia/Babilonia"
+    field: "Teologia ebraica, visione mistica, analisi AION"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    it_score: 0.92
+    aion_strati:
+      sigma0: "Testo masoretico Ez 1: UQ=0.98. Rotolo Mar Morto (4QEzek): UQ=0.95."
+      sigma3: |
+        Ezechiele 1: 4 hayyot (viventi), 4 ofanim (ruote), hashmal, kavod.
+        Dimensioni non date. Materiali: electrum (hashmal), cristallo (raqia),
+        zaffiro (base), fuoco + luce.
+      sigma7: |
+        [TRIPLO LAYER]
+        LITERAL: testo religioso ebraico — visione divina del profeta in esilio.
+        SYMBOLIC: trono mobile di YHWH — teologia della presenza divina.
+        FUNCTIONAL: [IPOTESI 48%] se analizzato con L_Omega:
+        4 generatori + campo rotante + scarica centrale (hashmal) + piattaforma
+        = sistema propulsivo con geometria quaternionale.
+        Maaseh Merkabah: testi mistici ebraici basati su questa visione (II sec.).
+      sigma11: "Testo: DATO TIER_0. Visione propulsiva: IPOTESI 48%. L_Omega applicabile: INFERENZA."
+    impatto_storico: "Fondamento della mistica ebraica (Merkabah); caso d'analisi AION primario"
+    compatibilita_sintropica: 9.0
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-ANE-002
+    nome: "Enuma Elish — Epopea della Creazione Babilonese"
+    tipo_nodo: "ENTITA_ANE"
+    periodo: "~1100 a.C. (redazione)"
+    nazione: "Mesopotamia"
+    field: "Cosmologia sumerica, creazione, separazione primordiale"
+    status: "VERIFICATO"
+    certezza: "alta"
+    it_score: 0.85
+    aion_strati:
+      sigma0: "Tavolette accadiche British Museum + Yale Babylonian Collection. UQ=0.90."
+      sigma3: |
+        Marduk separa Tiamat in due 'lastre' — Raqia bifasica.
+        ME trasferiti da Anu a Marduk. Creazione luminari con funzione cronometrica.
+        50 nomi di Marduk = operatori funzionali (L_Omega applicabile).
+      sigma7: |
+        [PARALLELO con Genesi 1]: separazione acque sopra/sotto, luminari come clock,
+        'cielo' come membrana distesa (raqia/Tiamat dimezzata).
+        AIO per membrana distesa: 7.2. AIO per funzione clock: 8.5.
+    impatto_storico: "Testo cosmologico più importante dell'ANE — base comparativa per Genesi"
+    compatibilita_sintropica: 8.5
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-ANE-003
+    nome: "Vimana — Testi Vedici sul Volo"
+    tipo_nodo: "ENTITA_ANE"
+    periodo: "~1500-500 a.C."
+    nazione: "IN"
+    field: "Cosmologia vedica, velivoli sacri"
+    status: "SPECULATIVO"
+    certezza: "bassa"
+    it_score: 0.55
+    aio_score: 3.5
+    note: |
+      Rig Veda, Mahabharata, Vaimanika Shastra (controverso, forse XX sec.).
+      Descrizioni di veicoli volanti con forze propulsive non identificate.
+      AIO < 4.0 → SCARTO come fisica pratica.
+      Valore: analisi AION della terminologia propulsiva sanscrita.
+    aion_strati:
+      sigma11: "[SPEC 0.15] AIO 3.5 — sotto soglia. Valore: analisi linguistica sanscrita, non fisica pratica."
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-ANE-004
+    nome: "Tavolette Sumeriche — Lista dei RE"
+    tipo_nodo: "ENTITA_ANE"
+    periodo: "~2000 a.C. (redazione)"
+    nazione: "Mesopotamia"
+    field: "Cronologia reale, Deep Time, preistoria"
+    status: "VERIFICATO"
+    certezza: "alta"
+    it_score: 0.82
+    note: |
+      Lista dei Re Sumerici: regni di 36.000 anni prima del Diluvio.
+      'Il diluvio abbatté la regalità' — discontinuità cronologica.
+      CONOSCENZA_SITUATA: sistema numerologico sessagesimale può spiegare
+      i regni lunghissimi (1 anno = n unità sessuagesimali?).
+    impatto_storico: "Prima lista cronologica della storia — base per datazione mesopotamica"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-ANE-005
+    nome: "Arca dell'Alleanza — Analisi AION"
+    tipo_nodo: "ENTITA_ANE"
+    periodo: "~1300-600 a.C."
+    nazione: "IL"
+    field: "Tecnologia religiosa ebraica, condensatore geometrico"
+    status: "CONTROVERSO"
+    certezza: "alta"
+    it_score: 0.15
+    uq: 0.75
+    aio_score: 8.2
+    connessioni:
+      - {id: "T3-EXP-014m", nome: "Condensatore Leyden", tipo: "parallelo_strutturale", forza: 0.80}
+    note: "Vedi analisi completa in T3-TECH-011 e negli esempi precompilati PATCH2_ADDENDUM."
+    maji_theta_arch: 35.0
+    maji_verdetto: "INTERFERENZA_COSTRUTTIVA"
+    impatto_storico: "Oggetto sacro più citato nella Bibbia — caso primario di analisi AION"
+    compatibilita_sintropica: 7.0
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-ANE-006
+    nome: "Meccanismo di Anticitera — Analisi AION"
+    tipo_nodo: "ENTITA_ANE"
+    periodo: "100-150 a.C."
+    nazione: "GR"
+    field: "Astronomia meccanica, computazione analogica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    it_score: 0.95
+    uq: 0.96
+    aio_score: 9.5
+    note: |
+      Tomografia 3D 2006-2021: 82 ingranaggi, meccanismo differenziale,
+      calcolo eclissi + pianeti + calendario.
+      Tecnologia meccanica non ricreata fino al XIV secolo.
+    impatto_storico: "Prova che la tecnologia meccanica del I sec. a.C. era molto più avanzata di quanto si credesse"
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-ANE-007
+    nome: "Testi di Nag Hammadi — Gnosi e Fisica"
+    tipo_nodo: "ENTITA_ANE"
+    periodo: "II-III sec. d.C. (testi) / 1945 (scoperta)"
+    nazione: "EG"
+    field: "Gnosi, cosmologia alternativa, fisica dell'emanazione"
+    status: "VERIFICATO"
+    certezza: "alta"
+    it_score: 0.80
+    note: |
+      52 testi gnostici. Cosmologia basata su emanazione (non creazione ex-nihilo).
+      Demiurgo come operatore tecnico (non Dio supremo).
+      Pneuma come forza fisica. Pleromatic field come precursore ZPE.
+      Connessione con Bohm (ordine implicato) e Fantappiè (sintropia).
+    compatibilita_sintropica: 8.5
+    stato_generazione: "COMPLETATA"
+
+  - id: T3-ANE-008
+    nome: "Batteria di Baghdad — Analisi AION"
+    tipo_nodo: "ENTITA_ANE"
+    periodo: "250 a.C.-650 d.C."
+    nazione: "IQ"
+    field: "Elettrochimica antica"
+    status: "VERIFICATO"
+    certezza: "alta"
+    it_score: 0.82
+    uq: 0.82
+    aio_score: 8.5
+    note: "Vedi analisi completa in PATCH2 esempi precompilati. MythBusters 2005: 4.33V verificati."
+    maji_theta_arch: 28.0
+    maji_verdetto: "INTERFERENZA_COSTRUTTIVA"
+    stato_generazione: "COMPLETATA"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEAL DATABASE T3
+# ═══════════════════════════════════════════════════════════════════════════
+seal:
+  file: "DATABASE_SCIENZIATI_UNIFIED_v4.0_T3.yaml"
+  nodi:
+    ricercatori: 20
+    laboratori: 14
+    esperimenti: 12
+    tecnologie: 10
+    entita_ane: 8
+    totale: 64
+  note_chiave:
+    - "T3-LAB-004 RS/33: priorità massima desecretazione (FOIA Archivio Stato Roma)"
+    - "T3-EXP-007 Clinica Rife 1934: report USC da trovare"
+    - "T3-EXP-009 Demo Pelizza ENEA 1976: Rapporto Giordano da trovare"
+    - "T3-R-018 Prigogine: connessione diretta con Fantappiè (sintropia)"
+    - "T3-ANE-001 Ezechiele: caso primario di analisi AION L_Omega"
+  timestamp: "2026-05-30T00:00:00Z"
+  motto: "Ogni nodo è una domanda aperta. La risposta è nella ricerca. 🜁"

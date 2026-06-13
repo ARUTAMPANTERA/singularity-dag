@@ -1,0 +1,559 @@
+
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  NODE_SCHEMA_v2.1_CT — SCHEMA MASTER UNIFICATO                         ║
+# ║  SINGULARITY_OS v19.0_OMNIA + DATABASE_RETE_ETER v4.0                 ║
+# ║  Base: Replit v2.1 + Estensioni Claude Temù CT-01-08                   ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+schema_meta:
+  nome: "NODE_SCHEMA_v2.1_CT"
+  versione: "2.1_CT"
+  data: "2026-05-30T00:00:00Z"
+  sistemi_compatibili:
+    - "SINGULARITY_OS v19.0_OMNIA_UNIFIED"
+    - "DATABASE_SCIENZIATI_UNIFIED v4.0"
+    - "HTML_ENCICLOPEDIA_FORENSE v1.0"
+    - "DAG SINGULARITY (GitHub)"
+  principio: |
+    Schema simmetrico, applicabile a tutti i nodi indipendentemente dal tipo.
+    Ogni campo ha semantica precisa e valore predefinito se assente.
+    I campi CT-XX provengono dai contributi originali Claude Temù.
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 1 — IDENTITÀ NODO
+# ═══════════════════════════════════════════════════════════════════════════
+identita:
+  id:
+    tipo: string
+    formato: "T1-NNN | T2-NNN | T3-R-NNN | T3-L-NNN | T3-E-NNN | T3-T-NNN"
+    esempio: "T2-001"
+    obbligatorio: true
+
+  id_legacy:
+    tipo: integer
+    desc: "ID nel DATABASE_SCIENZIATI_v4_0_CONSOLIDATO (1-274)"
+    obbligatorio: false
+
+  nome:
+    tipo: string
+    desc: "Nome completo — sempre in italiano o nella lingua originale"
+    obbligatorio: true
+
+  alias:
+    tipo: array_string
+    desc: "Soprannomi, pseudonimi, codici progetto"
+    default: []
+
+  tipo_nodo:
+    tipo: enum
+    valori: ["RICERCATORE", "TECNOLOGIA", "LABORATORIO", "ESPERIMENTO", "FENOMENO", "ENTITA_ANE"]
+    obbligatorio: true
+
+  periodo:
+    tipo: string
+    formato: "YYYY-YYYY | ~YYYY | sec. XIV | etc."
+    obbligatorio: true
+
+  nazione:
+    tipo: string
+    formato: "Codice ISO 3166-1 alpha-2 (IT, US, FR, AT...)"
+    obbligatorio: true
+
+  field:
+    tipo: string
+    desc: "Campo scientifico primario (max 60 caratteri)"
+    obbligatorio: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 2 — STATUS EPISTEMICO
+# ═══════════════════════════════════════════════════════════════════════════
+status_epistemico:
+  classificazione:
+    tipo: enum
+    valori:
+      - "VERIFICATO"           # Mainstream, fonti primarie solide
+      - "INCORPORATO"          # Assorbito nel paradigma scientifico
+      - "CONTROVERSO"          # Dispute accademiche aperte
+      - "SOPPRESSO"            # Evidenze di blocco intenzionale
+      - "SEMPLIFICATO"         # Ridotto dal mainstream (perdita componenti)
+      - "DIMENTICATO"          # Caduto nell'oblio senza soppressione attiva
+      - "DECLASSIFICATO"       # Era classificato, ora pubblico
+      - "FRONTIERA_VALIDATA"   # Effetto verificato, meccanismo dibattuto
+      - "FRONTIERA_PARZIALE"   # Parzialmente verificato
+      - "FRONTIERA_SPECULATIVA"# Fisicamente plausibile, non verificato
+      - "FRONTIERA_POST_QUANTUM"# Richiede fisica oltre QM standard
+      - "GATEKEEPER"           # Custode istituzionale (consapevole o no)
+      - "MARTIRE"              # Morto/rovinato per il lavoro
+      - "SPECULATIVO"          # Oltre il plausibile fisicamente
+    obbligatorio: true
+
+  certezza_globale:
+    tipo: enum
+    valori: ["alta", "media", "bassa", "speculativa"]
+    obbligatorio: true
+
+  uq_system:
+    tipo: float
+    range: "0.0-1.0"
+    desc: "Uncertainty Quotient globale del nodo"
+    default: 0.50
+
+  nd_score_medio:
+    tipo: float
+    range: "0.0-14.0"
+    desc: "Nd_v8 medio delle analisi sul nodo"
+    default: 0.0
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 3 — METRICHE FNC E AGNOTOLOGIA
+# ═══════════════════════════════════════════════════════════════════════════
+metriche_fnc_agnotologia:
+  si_score:
+    tipo: float
+    range: "0.0-1.0"
+    desc: "Suppression Index: (IR × FD) / RS"
+    formula:
+      IR: "Indicatore Rimozione — forza delle firme DS"
+      FD: "Forza Documentale — quanto è documentata la soppressione"
+      RS: "Resistenza Storica — quanto del lavoro è sopravvissuto"
+    CT_ref: "Nessuno — metrica nativa"
+    default: 0.0
+
+  delta_score:
+    tipo: float
+    range: "0.0-1.0"
+    desc: "CT-02: Soppressione intenzionale vs Perdita naturale"
+    CT_ref: "CT-02 Prova Delta"
+    formula: |
+      Δ = (firme_DS trovate - firme_PN trovate) / totale_firme_cercate
+      > 0.60 = SOPPRESSIONE PROBABILE
+      0.20-0.60 = AMBIGUO → /superposition
+      < 0.20 = PERDITA NATURALE
+    default: 0.0
+
+  it_score:
+    tipo: float
+    range: "0.0-1.0"
+    desc: "CT-07: Indice Trasmissione — quanto del lavoro sopravvive verificabile"
+    CT_ref: "CT-07 Indice di Trasmissione"
+    formula: "IT = clamp((D_acc / D_stim) × (1 - fragmentazione) × fonte_weight, 0, 1)"
+    interpretazione:
+      ">0.70": "Alta trasmissione"
+      "0.40-0.70": "Parziale"
+      "0.20-0.40": "Frammentata"
+      "<0.20": "Quasi nulla"
+    default: 0.50
+
+  theta_arch:
+    tipo: float
+    range: "0.0-180.0"
+    unita: "gradi"
+    desc: "CT-06 MAJI: angolo interferenza claim vs evidenze attese"
+    CT_ref: "CT-06 Majorana Archaeology Investigation"
+    interpretazione:
+      "0-20°": "[INTERFERENZA_COSTRUTTIVA] — claim fortemente supportato"
+      "20-60°": "[STATO_INTERMEDIO] — parzialmente supportato"
+      "60-120°": "[CONFLITTO_EPISTEMICO] — evidenze contrastanti"
+      "120-180°": "[VOID_NEUTRAL] — claim non verificabile"
+    default: 90.0
+
+  aio_score:
+    tipo: float
+    range: "0.0-10.0"
+    desc: "Matrice AIO: compatibilità termodinamica + cinematica + materiali"
+    formula: "AIO = (compatibilità_termodinamica × coerenza_cinematica × plausibilità_materiale) / 3 × 10"
+    soglie:
+      "<4.0": "SCARTO — sotto soglia, non analizzare come claim fisico"
+      "4.0-6.0": "FRONTIERA"
+      "6.0-8.0": "PLAUSIBILE"
+      ">8.0": "FORTE — [INFERENZA] se supportato da fonti"
+    default: 5.0
+
+  ciclo_17_fase:
+    tipo: integer
+    range: "1-7"
+    desc: "Fase del Ciclo_17 in cui si trova attualmente il nodo"
+    fasi:
+      1: "Osservazione — fenomeno emerge"
+      2: "Sviluppo — ricercatore lavora"
+      3: "Interesse istituzionale"
+      4: "Interruzione — soppressione attiva"
+      5: "Frammentazione — parziale sopravvivenza"
+      6: "Riemersione — interesse rinnovato"
+      7: "Incorporazione — assorbito dal mainstream"
+    default: null
+
+  finestra_5_anni:
+    tipo: object
+    desc: "CT-03: Vulnerabilità massima nei 5 anni post-prima-demo"
+    CT_ref: "CT-03 Finestra dei 5 Anni"
+    campi:
+      stato: "ATTIVA | SCADUTA | NON_APPLICABILE"
+      periodo: "YYYY-YYYY"
+      evento: "Descrizione prima demo/pubblicazione pubblica"
+    default: {stato: "NON_APPLICABILE"}
+
+  kairos_impact:
+    tipo: float
+    range: "0.0-1.0"
+    desc: "Impatto della Finestra dei 5 anni sul KAIROS_score"
+    formula: "KAIROS_base × (1 + 0.15) se in finestra"
+    CT_ref: "CT-03 + KAIROS module"
+    default: 0.0
+
+  compatibilita_sintropica:
+    tipo: float
+    range: "0.0-10.0"
+    desc: "Quanto il lavoro è coerente con il principio di sintropia (Fantappiè)"
+    scala:
+      "0-3": "Anti-entropico solo localmente"
+      "3-6": "Strutture auto-organizzanti"
+      "6-8": "Forte coerenza sinergica"
+      "8-10": "Massima integrazione sinergica"
+    default: 5.0
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 4 — METRICHE CT AGGIUNTIVE
+# ═══════════════════════════════════════════════════════════════════════════
+metriche_ct_avanzate:
+
+  drift_semantico_CT01:
+    tipo: object
+    CT_ref: "CT-01 Legge del Drift Semantico Direzionale"
+    desc: "Per nodi ENTITA_ANE — traccia il drift FISICO→BIOLOGICO→SOCIALE→DIVINO"
+    campi:
+      fase_attestata: "fisico | biologico | sociale | divino"
+      drift_score: "0.0-1.0"
+      senso_primario_recuperato: "string"
+    obbligatorio_se: "tipo_nodo == ENTITA_ANE"
+
+  omega_peel_CT04:
+    tipo: string
+    CT_ref: "CT-04 Ω_PEEL Spellatura Semantica"
+    desc: "Nucleo proto-fisico recuperato dopo spellatura dei layer semantici"
+    obbligatorio_se: "tipo_nodo == ENTITA_ANE"
+
+  triangolo_indipendenza_CT05:
+    tipo: object
+    CT_ref: "CT-05 Triangolo di Indipendenza"
+    campi:
+      C1_geografica: "bool — ≥3000 km o barriera"
+      C2_temporale: "bool — nessun contatto documentato"
+      C3_linguistica: "bool — famiglie linguistiche diverse"
+      C4_indipendente: "bool — nessuna rotta scambio"
+      risultato: "FORTE | DEBOLE | FALLITO | NON_APPLICABILE"
+      bonus_significance: "+0.25 | +0.10 | 0 | 0"
+    obbligatorio_se: "tipo_nodo == TECNOLOGIA e claims_cross_culturali"
+
+  paradosso_testimone_CT08:
+    tipo: string
+    CT_ref: "CT-08 Paradosso del Testimone"
+    desc: "Analisi testimoni prossimali/distali — credibili per COSA, non per PERCHÉ"
+    default: null
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 5 — CLAIM E TECNOLOGIE
+# ═══════════════════════════════════════════════════════════════════════════
+claim_template:
+  id_claim: "C-NNN"
+  descrizione: "Descrizione esatta del fenomeno o device"
+  matrice_prism:
+    tipo: enum
+    valori: ["D1_Classical", "D2_Chemistry", "D3_Quantum", "D4_ProtoScience",
+             "D5_BioTech", "D6_Aether", "D7_Classified", "D8_OOPARTS", "D9_VOID"]
+    multipli: true
+  aio_score:
+    tipo: float
+    range: "0.0-10.0"
+  livello_attestazione:
+    tipo: enum
+    valori: ["PHYSICAL", "TEXTUAL_T01", "TEXTUAL_T02", "TESTIMONIAL", "MYTHOLOGICAL", "NONE"]
+  uq_claim:
+    tipo: float
+    range: "0.0-1.0"
+  tag:
+    tipo: enum
+    valori: ["[DATO]", "[INFERENZA]", "[IPOTESI X%]", "[FRONTIERA X/10]", "[SPEC]", "[VOID-SPEC X/10]"]
+  filtro_entropico:
+    T1: "COP>1 senza fonte: Nd+3 | OK"
+    T2: "Prototipo verificato terzi: Nd+3 se assente | OK"
+    T3: "Paper peer-reviewed: Nd+3 se assente | OK"
+    T4: "Capitale pre-demo: Nd+3 ALERT se sì senza spiegazione | OK"
+    risultato: "PLAUSIBILE | SOSPETTO | PATTERN_FRODE"
+  degradation_5d:
+    tipo: float
+    range: "0.0-1.0"
+    desc: "deg = media(fisica, testuale, culturale, semantica, tecnologica)"
+  operatore_L_omega: "EMISSIONE_X | ROTAZIONE_X | GRADIENTE_X | etc."
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 6 — MAJI CT-06
+# ═══════════════════════════════════════════════════════════════════════════
+majorana_archaeology_schema:
+  claim_testato: "Il claim più estremo/controverso"
+  evidenze_attese:
+    - attesa_N:
+        desc: "Cosa dovremmo trovare se fosse vero"
+        stato: "TROVATA | NON_TROVATA | IMPOSSIBILE_TROVARE"
+        peso: "+1 | -1 | 0"
+  calcolo:
+    found: "N (somma pesi positivi)"
+    not_found: "M (somma pesi negativi)"
+    theta_arch: "arccos(found / (found + not_found)) × 180/π"
+  verdetto:
+    tipo: enum
+    valori: ["INTERFERENZA_COSTRUTTIVA", "DATO_PURIFICATO", "STATO_INTERMEDIO",
+             "CONFLITTO_EPISTEMICO", "VOID_NEUTRAL"]
+    soglie:
+      "0-20°": "INTERFERENZA_COSTRUTTIVA"
+      "20-60°": "STATO_INTERMEDIO"
+      "60-120°": "CONFLITTO_EPISTEMICO"
+      "120-180°": "VOID_NEUTRAL"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 7 — PLURALISTIC ENGINE GOV_L19
+# ═══════════════════════════════════════════════════════════════════════════
+pluralistic_engine_schema:
+  nota: "I tre metodi sono paralleli e MAI fusi in sintesi"
+  bayesiano:
+    prior: "X%"
+    likelihood: "Y%"
+    posterior: "Z% — P(claim|dati) = P(dati|claim) × P(claim) / P(dati)"
+  lakatosiano:
+    nucleo_duro: "Assunzione irrinunciabile del programma"
+    cintura_protettiva: "Ipotesi ausiliarie modificabili"
+    status: "PROGRESSIVO | DEGENERATIVO"
+  abduttivo:
+    migliore_spiegazione: "La spiegazione più semplice dei fatti noti"
+    fatti_spiegati: "N/M"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 8 — FONTI
+# ═══════════════════════════════════════════════════════════════════════════
+fonti_schema:
+  tier_0_primarie:
+    desc: "Documenti fisici originali, brevetti verificati, artefatti fisici"
+    uq_moltiplicatore: 1.0
+  tier_1_accademiche:
+    desc: "Paper peer-reviewed, edizioni critiche, archivi istituzionali verificati"
+    uq_moltiplicatore: 0.85
+  tier_2_secondarie:
+    desc: "Saggi, biografie, inchieste giornalistiche rigorose"
+    uq_moltiplicatore: 0.70
+  tier_3_testimonianze:
+    desc: "Testimoni prossimali e distali — credibili per COSA (CT-08)"
+    uq_moltiplicatore: 0.50
+  tier_X_anonime_controverse:
+    desc: "Fonti senza autore verificabile o fortemente contestate"
+    uq_moltiplicatore: 0.25
+  fonti_perse_o_secretate:
+    desc: "Documenti distrutti, confiscati, mai desecretati"
+    note: "La presenza di questa categoria aumenta delta_score"
+  classificazione_ignoranza_GOV_L17:
+    tipo: enum
+    valori: ["FATTUALE", "STRUTTURALE", "METODOLOGICA", "STRATEGICA"]
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 9 — CONNESSIONI
+# ═══════════════════════════════════════════════════════════════════════════
+connessioni_schema:
+  target_id: "ID nodo target"
+  nome: "Nome del nodo target (per leggibilità)"
+  relazione:
+    tipo: enum
+    valori: ["filiazione_teorica", "collaborazione", "convergenza_teorica",
+             "brevetti_contesi", "RS33_connessione", "soppressione",
+             "parallelo", "cluster_geografico", "ispirazione_tecnica",
+             "trasmissione_fisica", "indiretta"]
+  forza_legame:
+    tipo: float
+    range: "0.0-1.0"
+  status_connessione:
+    tipo: enum
+    valori: ["[DATO]", "[INFERENZA]", "[TESTIMONIATO]", "[PARALLELO]",
+             "[NON_VER]", "[IPOTESI]", "[SPEC]"]
+  periodo: "YYYY-YYYY opzionale"
+  triangolo_indipendenza_CT05:
+    tipo: enum
+    valori: ["FORTE", "DEBOLE", "FALLITO", "NON_APPLICABILE"]
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 10 — AION STRATI
+# ═══════════════════════════════════════════════════════════════════════════
+aion_strati_schema:
+  sigma0:
+    nome: "SOURCE"
+    contenuto: "Ancoraggio (Fonte, Datazione, Preservation ratio, Chain, IT_score)"
+    obbligatorio: true
+  sigma3:
+    nome: "LITERAL"
+    contenuto: "Dati fattuali grezzi — fatti verificabili senza interpretazione"
+    obbligatorio: true
+  sigma5:
+    nome: "SHADOW_ANE"
+    contenuto: "Paralleli ANE, intertestualità storica (se tipo_nodo == ENTITA_ANE)"
+    obbligatorio_se: "tipo_nodo == ENTITA_ANE"
+  sigma7:
+    nome: "TECHNICAL + TRIPLO_LAYER"
+    contenuto: |
+      [LITERAL]: cosa dice esattamente il fenomeno
+      [SYMBOLIC]: significato culturale/epistemico
+      [FUNCTIONAL]: descrittori fisici degli effetti
+      [L_Omega]: operatori fisici (se tipo_nodo tecnologico/ANE)
+    obbligatorio: true
+  sigma8:
+    nome: "OMEGA_RECONSTRUCTION"
+    contenuto: "Ω_PEEL (CT-04) + reverse engineering hardware ipotetico"
+    obbligatorio_se: "tipo_nodo == TECNOLOGIA o ENTITA_ANE"
+  sigma10:
+    nome: "CONVERGENCE"
+    contenuto: "Vettore primario tra domini PRISM con giustificazione scarti"
+    obbligatorio_se: "claims con ≥2 domini PRISM"
+  sigma11:
+    nome: "SYNTHESIS"
+    contenuto: "Giudizio finale: tag_epistemico, Nd, UQ, MAJI_theta, Quality pass"
+    obbligatorio: true
+  sigma13:
+    nome: "TEMPORAL_FORENSICS"
+    contenuto: |
+      T1: sequenza cronologica verificata
+      T2: gap flaggati [LACUNA_TEMPORALE]
+      T3: drift CT-01 calcolato
+      T4: test predittivo
+    obbligatorio: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 11 — CAMPI OPERATIVI (nuovi da schema v2.1 Replit)
+# ═══════════════════════════════════════════════════════════════════════════
+campi_operativi:
+  narrativa_ufficiale_vs_realta:
+    tipo: string
+    desc: "Confronto sistematico tra la versione ufficiale e i dati disponibili"
+    obbligatorio_se: "status IN [CONTROVERSO, SOPPRESSO, SEMPLIFICATO]"
+
+  domande_aperte_da_chiudere:
+    tipo: array_string
+    desc: "Lista di azioni concrete per completare la ricerca sul nodo"
+    esempio:
+      - "Esiste documentazione X in archivio Y? Richiedere FOIA."
+      - "Il rapporto Z è consultabile?"
+
+  fonti_perse_o_secretate:
+    tipo: array_string
+    desc: "Documenti che sappiamo esistere ma non accessibili"
+
+  media_esistenti:
+    tipo: array_object
+    schema: "{tipo: string, desc: string, dove: string, accesso: string}"
+    desc: "Materiale fisico o digitale esistente (filmati, foto, hardware)"
+
+  stato_disponibilita:
+    tipo: string
+    desc: "Stato attuale dell'accesso ai documenti e materiali"
+
+  l_minus_1_precursors:
+    tipo: array_string
+    desc: "Chi ha lavorato su questo prima — frattale L-1"
+
+  l_plus_1_heirs:
+    tipo: array_string
+    desc: "Chi ha continuato dopo — frattale L+1"
+
+  hub_collisione:
+    tipo: array_string
+    desc: "Luoghi fisici dove questo nodo incontra altri (laboratori, conferenze)"
+
+  cluster:
+    tipo: array_string
+    desc: "Pattern Rete Eter attivi sul nodo"
+    valori_possibili:
+      - "VORTICE"
+      - "FREQUENZE"
+      - "MONOPOLO"
+      - "ZERO_POINT"
+      - "OSTACOLO"
+      - "CICLO_ISTITUZIONALE"
+      - "ITALIA_SEGRETA"
+      - "RS33"
+      - "SOPPRESSO_MILITARE"
+      - "SOPPRESSO_CORPORATIVO"
+      - "SOPPRESSO_MEDICO"
+      - "SOPPRESSO_ACCADEMICO"
+      - "BIOFISICA_NON_CONVENZIONALE"
+      - "LENR"
+      - "VIROLOGIA"
+
+  impatto_storico:
+    tipo: string
+    desc: "Impatto verificato sul mondo reale"
+    obbligatorio: true
+
+  impatto_potenziale:
+    tipo: string
+    desc: "Impatto ipotetico se verificato o completato"
+    obbligatorio: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEZIONE 12 — METADATI SCHEDA
+# ═══════════════════════════════════════════════════════════════════════════
+metadati_scheda:
+  versione_scheda: "2.1_CT"
+  ultimo_aggiornamento:
+    formato: "ISO8601 — YYYY-MM-DDTHH:MM:SSZ"
+    obbligatorio: true
+  autore_generazione: "SINGULARITY_OS v19.0_OMNIA | Claude Temù"
+  stato_generazione:
+    tipo: enum
+    valori: ["COMPLETATA", "BOZZA", "IN_LAVORO", "DEPRECATA", "DA_VERIFICARE"]
+    default: "BOZZA"
+  changelog:
+    tipo: array_string
+    desc: "Storia delle modifiche significative"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ID MAP — Conversione vecchi ID → nuovi T-NNN
+# ═══════════════════════════════════════════════════════════════════════════
+id_migration_map:
+  nota: "Da DATABASE_RETE_ETER_v1 → DATABASE_SCIENZIATI_UNIFIED v4.0"
+  mappa:
+    # Tier 2 — Soppressi
+    G-10: "T2-001"  # Majorana
+    G-04: "T2-002"  # Tesla
+    I-04: "T2-003"  # Pelizza
+    C-01: "T2-004"  # Ighina
+    E-01: "T2-005"  # Schauberger
+    E-05: "T2-006"  # Reich
+    G-09: "T2-007"  # Marconi
+    E-03: "T2-008"  # Rife
+    E-16: "T2-009"  # T.T. Brown
+    # Nuovi T2
+    T2-010: "Belluzzo (nuovo)"
+    T2-011: "Mastini D. (da C-03)"
+    # Tier 1 — Canonici
+    P-01: "T1-galvani"
+    P-02: "T1-volta"
+    P-04: "T1-orsted"
+    P-05: "T1-faraday"
+    P-06: "T1-carnot"
+    G-01: "T1-maxwell"
+    G-02: "T1-heaviside"
+    G-03: "T1-hertz"
+    G-06: "T1-rontgen"
+    G-07: "T1-curie"
+    G-08: "T1-planck"
+    E-10: "T1-fermi"
+    E-11: "T1-segre-amaldi"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEAL SCHEMA
+# ═══════════════════════════════════════════════════════════════════════════
+seal:
+  file: "NODE_SCHEMA_v2.1_CT.yaml"
+  timestamp: "2026-05-30T00:00:00Z"
+  fonti_schema:
+    - "Replit v2.1 (template_database_node.yaml)"
+    - "Gemini Pro template (sessione 2026-05-30)"
+    - "Claude Temù CT-01-CT-08 (estensioni)"
+    - "DATABASE_RETE_ETER_v1 (campi operativi)"
+  compatibilita: "Backward compatible con tutti i file database precedenti"
+  motto: "Schema simmetrico — nessun nodo escluso — zero campi inventati. 🜁"

@@ -1,0 +1,244 @@
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║  MASTER_INDEX v4.0 — INDICE COMPLETO DATABASE SCIENZIATI UNIFIED       ║
+# ║  ~300 nodi | Tutti i tier | Lookup rapido senza caricare tutto          ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+meta:
+  versione: "4.0"
+  data: "2026-05-30T00:00:00Z"
+  totale_nodi: 299
+  file_sorgente:
+    T1: "DATABASE_SCIENZIATI_UNIFIED_v4.0_T1.yaml"
+    T2: "DATABASE_SCIENZIATI_UNIFIED_v4.0_T2.yaml"
+    T3: "DATABASE_SCIENZIATI_UNIFIED_v4.0_T3.yaml"
+    SCHEMA: "NODE_SCHEMA_v2.1_CT.yaml"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# INDICE T2 — SOPPRESSI E CONTROVERSI (26 nodi)
+# ═══════════════════════════════════════════════════════════════════════════
+tier2:
+  - {id: T2-001, nome: "Ettore Majorana", periodo: "1906-1938?", status: CONTROVERSO, si: 0.85, it: 0.42, theta: 36.9}
+  - {id: T2-002, nome: "Nikola Tesla", periodo: "1856-1943", status: VERIFICATO, si: 0.82, it: 0.61, theta: 28.0}
+  - {id: T2-003, nome: "Rolando Pelizza", periodo: "1938-2022", status: CONTROVERSO, si: 0.71, it: 0.22, theta: 36.87}
+  - {id: T2-004, nome: "Pier Luigi Ighina", periodo: "1908-2004", status: CONTROVERSO, si: 0.78, it: 0.31, theta: 42.0}
+  - {id: T2-005, nome: "Viktor Schauberger", periodo: "1885-1958", status: CONTROVERSO, si: 0.85, it: 0.35, theta: 38.0}
+  - {id: T2-006, nome: "Wilhelm Reich", periodo: "1897-1957", status: SOPPRESSO, si: 0.91, it: 0.38, theta: 45.0}
+  - {id: T2-007, nome: "Guglielmo Marconi", periodo: "1874-1937", status: SEMPLIFICATO, si: 0.61, it: 0.42, theta: 35.0}
+  - {id: T2-008, nome: "Royal Raymond Rife", periodo: "1888-1971", status: SOPPRESSO, si: 0.93, it: 0.18, theta: 48.0}
+  - {id: T2-009, nome: "Thomas Townsend Brown", periodo: "1905-1985", status: CONTROVERSO, si: 0.75, it: 0.45, theta: 35.0}
+  - {id: T2-010, nome: "Giuseppe Belluzzo", periodo: "1876-1952", status: CONTROVERSO, si: 0.78, it: 0.32, theta: 40.0}
+  - {id: T2-011, nome: "Domenico Mastini", periodo: "1897-1973", status: SOPPRESSO, si: 0.85, it: 0.42, theta: 30.0}
+  - {id: T2-013, nome: "Jacques Benveniste", periodo: "1935-2004", status: CONTROVERSO, si: 0.75, it: 0.40, theta: 70.0}
+  - {id: T2-014, nome: "Luc Montagnier", periodo: "1932-2022", status: CONTROVERSO, si: 0.50, it: 0.70, theta: 65.0}
+  # Nodi da completare
+  - {id: T2-016, nome: "Luigi Fantappiè", periodo: "1901-1956", status: DIMENTICATO, si: 0.55, note: "BOZZA — alta priorità"}
+  - {id: T2-017, nome: "Martin Fleischmann", periodo: "1927-2012", status: CONTROVERSO, si: 0.55, note: "BOZZA"}
+  - {id: T2-018, nome: "Harold Burr", periodo: "1889-1973", status: DIMENTICATO, si: 0.40, note: "BOZZA"}
+  - {id: T2-019, nome: "Fritz-Albert Popp", periodo: "1938-oggi", status: FRONTIERA_VALIDATA, si: 0.35, note: "BOZZA"}
+  - {id: T2-020, nome: "Edward Leedskalnin", periodo: "1887-1951", status: DIMENTICATO, si: 0.69, note: "BOZZA"}
+  - {id: T2-021, nome: "Russell Targ", periodo: "1934-oggi", status: DECLASSIFICATO, si: 0.52, note: "BOZZA"}
+  - {id: T2-022, nome: "Ingo Swann", periodo: "1933-2013", status: DECLASSIFICATO, si: 0.52, note: "BOZZA"}
+  - {id: T2-023, nome: "Thomas H. Moray", periodo: "1892-1974", status: SOPPRESSO, si: 0.79, note: "BOZZA — alta priorità"}
+  - {id: T2-024, nome: "Georges Lakhovsky", periodo: "1869-1942", status: SOPPRESSO, si: 0.78, note: "BOZZA"}
+  - {id: T2-025, nome: "Stanley Pons", periodo: "1943-oggi", status: CONTROVERSO, si: 0.55, note: "BOZZA"}
+  - {id: T2-026, nome: "Andrea Rossi", periodo: "1950-oggi", status: CONTROVERSO, si: 0.45, note: "BOZZA"}
+
+# ═══════════════════════════════════════════════════════════════════════════
+# INDICE T1 — CANONICI (188 nodi)
+# ═══════════════════════════════════════════════════════════════════════════
+tier1_schema_forense:
+  - {id: T1-001, nome: "Enki/Ea", tipo: ENTITA_ANE, periodo: "III millennio a.C."}
+  - {id: T1-002, nome: "Atrahasis/Utnapishtim", tipo: ENTITA_ANE, periodo: "II millennio a.C."}
+  - {id: T1-003, nome: "Archimede", periodo: "287-212 a.C.", status: VERIFICATO, it: 0.72}
+  - {id: T1-004, nome: "Erone di Alessandria", periodo: "10-70 d.C.", status: DIMENTICATO, it: 0.55, note_speciale: "PRECURSORE_RETE_ETER — Eolipila 1700 anni prima di Watt"}
+  - {id: T1-005, nome: "Al-Jazari", periodo: "1136-1206", status: DIMENTICATO, it: 0.65}
+  - {id: T1-006, nome: "Alhazen / Ibn al-Haytham", periodo: "965-1040", status: DIMENTICATO, it: 0.68}
+  - {id: T1-007, nome: "Paracelso", periodo: "1493-1541", status: CONTROVERSO, it: 0.58}
+  - {id: T1-010, nome: "Leonardo da Vinci", periodo: "1452-1519", status: VERIFICATO, it: 0.42, note_speciale: "PRECURSORE_RETE_ETER"}
+  - {id: T1-011, nome: "Galileo Galilei", periodo: "1564-1642", status: INCORPORATO, it: 0.85}
+  - {id: T1-012, nome: "Isaac Newton", periodo: "1643-1727", status: INCORPORATO, it: 0.92, note_speciale: "Manoscritti alchemici non analizzati"}
+  - {id: T1-020, nome: "Luigi Galvani", periodo: "1737-1798", status: INCORPORATO, it: 0.82, note: "Aveva ragione — bioelettricità reale"}
+  - {id: T1-021, nome: "Alessandro Volta", periodo: "1745-1827", status: INCORPORATO, it: 0.95}
+  - {id: T1-022, nome: "Hans Christian Ørsted", periodo: "1777-1851", status: INCORPORATO, it: 0.88}
+  - {id: T1-023, nome: "Michael Faraday", periodo: "1791-1867", status: SEMPLIFICATO, it: 0.88, si: 0.30, note_speciale: "PRECURSORE_RETE_ETER — linee di forza"}
+  - {id: T1-024, nome: "James Clerk Maxwell", periodo: "1831-1879", status: SEMPLIFICATO, it: 0.60, si: 0.40, note_speciale: "PRECURSORE_RETE_ETER — 20 eq. quaternioniche"}
+  - {id: T1-025, nome: "Oliver Heaviside", periodo: "1850-1925", status: GATEKEEPER, it: 0.70, note: "Rimosso termine scalare da Maxwell"}
+  - {id: T1-026, nome: "Heinrich Hertz", periodo: "1857-1894", status: INCORPORATO, it: 0.85}
+  - {id: T1-030, nome: "Marie Curie", periodo: "1867-1934", status: INCORPORATO, it: 0.92}
+  - {id: T1-031, nome: "Albert Einstein", periodo: "1879-1955", status: INCORPORATO, it: 0.95}
+  - {id: T1-032, nome: "Max Planck", periodo: "1858-1947", status: INCORPORATO, it: 0.96, note_speciale: "PRECURSORE_RETE_ETER — ZPE nasce qui"}
+  - {id: T1-033, nome: "Niels Bohr", periodo: "1885-1962", status: INCORPORATO, it: 0.92}
+  - {id: T1-034, nome: "Werner Heisenberg", periodo: "1901-1976", status: INCORPORATO, it: 0.90}
+  - {id: T1-035, nome: "Paul Dirac", periodo: "1902-1984", status: INCORPORATO, it: 0.92, note: "Monopolo Dirac 1931 → ematite 2024"}
+  - {id: T1-036, nome: "Erwin Schrödinger", periodo: "1887-1961", status: INCORPORATO, it: 0.90}
+  - {id: T1-040, nome: "Enrico Fermi", periodo: "1901-1954", status: INCORPORATO, it: 0.95}
+  - {id: T1-041, nome: "Richard Feynman", periodo: "1918-1988", status: INCORPORATO, it: 0.95}
+  - {id: T1-042, nome: "David Bohm", periodo: "1917-1992", status: DIMENTICATO, it: 0.72, si: 0.30, note_speciale: "PRECURSORE_RETE_ETER — effetto AB"}
+  - {id: T1-043, nome: "Segrè + Amaldi", periodo: "1905-1989", status: INCORPORATO, it: 0.90}
+  - {id: T1-044, nome: "Alain Aspect", periodo: "1947-oggi", status: VERIFICATO, it: 0.90}
+  - {id: T1-050, nome: "Alan Turing", periodo: "1912-1954", status: MARTIRE, it: 0.82, si: 0.45}
+  - {id: T1-051, nome: "John von Neumann", periodo: "1903-1957", status: INCORPORATO, it: 0.92}
+  - {id: T1-052, nome: "Claude Shannon", periodo: "1916-2001", status: INCORPORATO, it: 0.95}
+  - {id: T1-053, nome: "Norbert Wiener", periodo: "1894-1964", status: INCORPORATO, it: 0.85}
+  - {id: T1-060, nome: "Charles Darwin", periodo: "1809-1882", status: INCORPORATO, it: 0.95}
+  - {id: T1-061, nome: "Gregor Mendel", periodo: "1822-1884", status: DIMENTICATO, it: 0.80, si: 0.25}
+  - {id: T1-062, nome: "Watson + Crick", periodo: "1928-oggi", status: INCORPORATO, it: 0.90}
+  - {id: T1-063, nome: "Rosalind Franklin", periodo: "1920-1958", status: DIMENTICATO, it: 0.75, si: 0.50}
+  - {id: T1-064, nome: "Lynn Margulis", periodo: "1938-2011", status: CONTROVERSO, it: 0.80, si: 0.40}
+  - {id: T1-070, nome: "Antoine Lavoisier", periodo: "1743-1794", status: MARTIRE, it: 0.88}
+  - {id: T1-071, nome: "Dmitri Mendeleev", periodo: "1834-1907", status: INCORPORATO, it: 0.95}
+  - {id: T1-080, nome: "Edwin Hubble", periodo: "1889-1953", status: INCORPORATO, it: 0.90}
+  - {id: T1-082, nome: "Stephen Hawking", periodo: "1942-2018", status: INCORPORATO, it: 0.90}
+  - {id: T1-090, nome: "Ramón y Cajal", periodo: "1852-1934", status: INCORPORATO, it: 0.92}
+  - {id: T1-091, nome: "Karl Pribram", periodo: "1919-2015", status: CONTROVERSO, it: 0.75}
+  - {id: T1-092, nome: "Roger Penrose", periodo: "1931-oggi", status: CONTROVERSO, it: 0.82}
+  - {id: T1-100, nome: "Brian Josephson", periodo: "1940-oggi", status: CONTROVERSO, it: 0.80, si: 0.35}
+  - {id: T1-101, nome: "Anton Zeilinger", periodo: "1945-oggi", status: VERIFICATO, it: 0.90}
+  - {id: T1-110, nome: "Evangelista Torricelli", periodo: "1608-1647", status: INCORPORATO, it: 0.88}
+  - {id: T1-111, nome: "Luigi Fantappiè", periodo: "1901-1956", status: DIMENTICATO, it: 0.48, si: 0.55, note_speciale: "PRECURSORE_RETE_ETER — sintropia"}
+  - {id: T1-112, nome: "Emilio Del Giudice", periodo: "1940-2014", status: CONTROVERSO, it: 0.60}
+
+tier1_compatti:
+  note: "Ulteriori 140 nodi in formato compatto nel file T1"
+  gruppi:
+    - {gruppo: "Precursori antichi", ids: "T1-C-001 a T1-C-009", count: 9}
+    - {gruppo: "Astronomi classici", ids: "T1-C-010 a T1-C-015", count: 6}
+    - {gruppo: "Illuminismo industriale", ids: "T1-C-020 a T1-C-026", count: 7}
+    - {gruppo: "XIX sec. termodinamica", ids: "T1-C-030 a T1-C-034", count: 5}
+    - {gruppo: "XX sec. nucleare", ids: "T1-C-040 a T1-C-044", count: 5}
+    - {gruppo: "Contemporanei", ids: "T1-C-050 a T1-C-056", count: 7}
+    - {gruppo: "Informatica AI", ids: "T1-C-060 a T1-C-065", count: 6}
+
+# ═══════════════════════════════════════════════════════════════════════════
+# INDICE T3 — AGGIUNTE (64 nodi)
+# ═══════════════════════════════════════════════════════════════════════════
+tier3:
+  ricercatori:
+    - {id: T3-R-001, nome: "Giambattista della Porta", periodo: "1535-1615", status: DIMENTICATO}
+    - {id: T3-R-002, nome: "Giovanni Schiaparelli", periodo: "1835-1910", status: INCORPORATO}
+    - {id: T3-R-003, nome: "De Santillana + von Dechend", periodo: "1902-2001", status: CONTROVERSO}
+    - {id: T3-R-004, nome: "Ruggero Boscovich", periodo: "1711-1787", status: DIMENTICATO}
+    - {id: T3-R-005, nome: "Ada Lovelace", periodo: "1815-1852", status: DIMENTICATO}
+    - {id: T3-R-006, nome: "Hedy Lamarr", periodo: "1914-2000", status: DIMENTICATO, si: 0.55}
+    - {id: T3-R-007, nome: "Konstantin Tsiolkovsky", periodo: "1857-1935", status: DIMENTICATO}
+    - {id: T3-R-008, nome: "Buckminster Fuller", periodo: "1895-1983", status: INCORPORATO}
+    - {id: T3-R-009, nome: "Robert Hooke", periodo: "1635-1703", status: DIMENTICATO}
+    - {id: T3-R-010, nome: "Philo di Bisanzio", periodo: "280-220 a.C.", status: DIMENTICATO}
+    - {id: T3-R-011, nome: "Jocelyn Bell Burnell", periodo: "1943-oggi", status: DIMENTICATO, si: 0.40}
+    - {id: T3-R-012, nome: "Ignaz Semmelweis", periodo: "1818-1865", status: MARTIRE, si: 0.75}
+    - {id: T3-R-013, nome: "Al-Biruni", periodo: "973-1048", status: DIMENTICATO}
+    - {id: T3-R-014, nome: "Nikola Morozov", periodo: "1854-1946", status: CONTROVERSO}
+    - {id: T3-R-015, nome: "William Crookes", periodo: "1832-1919", status: CONTROVERSO}
+    - {id: T3-R-016, nome: "John Logie Baird", periodo: "1888-1946", status: DIMENTICATO}
+    - {id: T3-R-017, nome: "Charles Steinmetz", periodo: "1865-1923", status: DIMENTICATO}
+    - {id: T3-R-018, nome: "Ilya Prigogine", periodo: "1917-2003", status: INCORPORATO, note: "sintropia operativa"}
+    - {id: T3-R-019, nome: "Stuart Kauffman", periodo: "1939-oggi", status: CONTROVERSO}
+    - {id: T3-R-020, nome: "Nassim Haramein", periodo: "1962-oggi", status: SPECULATIVO, aio: 1.5}
+  laboratori:
+    - {id: T3-LAB-001, nome: "Laboratorio Colorado Springs (Tesla)", status: DISTRUTTO}
+    - {id: T3-LAB-002, nome: "Torre Wardenclyffe (Tesla)", status: DEMOLITO_1917, si: 0.82}
+    - {id: T3-LAB-003, nome: "Bell Laboratories", status: ATTIVO}
+    - {id: T3-LAB-004, nome: "RS/33 Magenta", status: NON_VERIFICATO, si: 0.85, priorita: "FOIA"}
+    - {id: T3-LAB-005, nome: "CISM Imola (Ighina)", status: PARZIALMENTE_ESISTENTE}
+    - {id: T3-LAB-006, nome: "Laboratorio Leonstein (Schauberger)", status: CONFISCATO}
+    - {id: T3-LAB-007, nome: "SRI International — Stargate", status: DECLASSIFICATO_1995}
+    - {id: T3-LAB-008, nome: "CERN Ginevra", status: ATTIVO}
+    - {id: T3-LAB-009, nome: "Laboratorio Rife San Diego", status: DISTRUTTO_1939, si: 0.93}
+    - {id: T3-LAB-010, nome: "Cavendish Laboratory Cambridge", status: ATTIVO}
+    - {id: T3-LAB-011, nome: "Via Panisperna Roma", status: VERIFICATO}
+    - {id: T3-LAB-012, nome: "PEAR Lab Princeton", status: CHIUSO_2007}
+    - {id: T3-LAB-013, nome: "Bunker Chiari (Pelizza)", status: SEQUESTRATO_1984, si: 0.88}
+    - {id: T3-LAB-014, nome: "Los Alamos National Laboratory", status: ATTIVO}
+  esperimenti:
+    - {id: T3-EXP-001, nome: "Doppia Fenditura (Young)", uq: 0.99}
+    - {id: T3-EXP-002, nome: "Michelson-Morley", uq: 0.98}
+    - {id: T3-EXP-003, nome: "Wardenclyffe (non completato)", uq: 0.35, si: 0.82}
+    - {id: T3-EXP-004, nome: "Chicago Pile-1", uq: 0.99}
+    - {id: T3-EXP-005, nome: "Esperimento Aspect Bell", uq: 0.99}
+    - {id: T3-EXP-006, nome: "GW150914 — onde gravitazionali", uq: 0.99}
+    - {id: T3-EXP-007, nome: "Clinica San Diego 1934 (Rife)", uq: 0.38, si: 0.93, priorita: "ARCHIVIO USC"}
+    - {id: T3-EXP-008, nome: "Fusione Fredda Pons-Fleischmann 1989", uq: 0.45}
+    - {id: T3-EXP-009, nome: "Demo Pelizza ENEA 1976", uq: 0.30, si: 0.71, priorita: "FOIA ENEA"}
+    - {id: T3-EXP-010, nome: "Effetto Casimir 1948/1997", uq: 0.99}
+    - {id: T3-EXP-011, nome: "Blocco motori Ostia 1935-36 (Marconi)", uq: 0.35}
+    - {id: T3-EXP-012, nome: "Teleportazione quantistica Zeilinger 1997", uq: 0.99}
+  tecnologie:
+    - {id: T3-TECH-001, nome: "Sistema AC Tesla-Westinghouse", uq: 0.99, aio: 9.9}
+    - {id: T3-TECH-002, nome: "FHSS (Hedy Lamarr)", uq: 0.90, aio: 9.5}
+    - {id: T3-TECH-003, nome: "CRISPR-Cas9", uq: 0.95, aio: 9.8}
+    - {id: T3-TECH-004, nome: "Laser", uq: 0.99, aio: 9.9}
+    - {id: T3-TECH-005, nome: "Turbina Vortice (Schauberger)", uq: 0.45, aio: 7.8}
+    - {id: T3-TECH-006, nome: "Transistore", uq: 0.99, aio: 9.9}
+    - {id: T3-TECH-007, nome: "Effetto Biefeld-Brown", uq: 0.48, aio: 7.8}
+    - {id: T3-TECH-008, nome: "Piattaforma mRNA Vaccine", uq: 0.90, aio: 9.5}
+    - {id: T3-TECH-009, nome: "World Wide Web", uq: 0.99}
+    - {id: T3-TECH-010, nome: "LENR/Fusione Fredda", uq: 0.45, aio: 6.1}
+  entita_ane:
+    - {id: T3-ANE-001, nome: "Ezechiele — Merkabah", uq: 0.75, aio: 6.5, theta: 48.0}
+    - {id: T3-ANE-002, nome: "Enuma Elish", uq: 0.90, aio: 7.8}
+    - {id: T3-ANE-003, nome: "Vimana Testi Vedici", uq: 0.15, aio: 3.5, note: "SOTTO SOGLIA"}
+    - {id: T3-ANE-004, nome: "Lista dei Re Sumerici", uq: 0.82}
+    - {id: T3-ANE-005, nome: "Arca dell'Alleanza", uq: 0.75, aio: 8.2, theta: 35.0}
+    - {id: T3-ANE-006, nome: "Meccanismo di Anticitera", uq: 0.96, aio: 9.5}
+    - {id: T3-ANE-007, nome: "Testi Nag Hammadi", uq: 0.80}
+    - {id: T3-ANE-008, nome: "Batteria di Baghdad", uq: 0.82, aio: 8.5, theta: 28.0}
+
+# ═══════════════════════════════════════════════════════════════════════════
+# QUICK LOOKUP — Ricerca per parametro
+# ═══════════════════════════════════════════════════════════════════════════
+quick_lookup:
+
+  soppressi_alta_priorita:
+    desc: "si_score > 0.80 — massima soppressione documentata"
+    nodi: ["T2-006 Reich (0.91)", "T2-008 Rife (0.93)", "T2-011 Mastini (0.85)",
+           "T2-001 Majorana (0.85)", "T2-005 Schauberger (0.85)"]
+
+  frontiera_validata:
+    desc: "Effetto verificato, meccanismo dibattuto"
+    nodi: ["T1-042 Bohm (AB effect)", "T2-009 Brown (in aria)", "T3-TECH-010 LENR",
+           "T2-019 Popp (biofotoni)", "T3-EXP-010 Casimir"]
+
+  maji_interferenza_costruttiva:
+    desc: "theta_arch < 40° — claim fortemente supportato"
+    nodi: ["T3-ANE-008 Batteria Baghdad (28°)", "T3-ANE-005 Arca Alleanza (35°)",
+           "T2-007 Marconi (35°)", "T2-002 Tesla (28°)", "T2-001 Majorana (36.9°)",
+           "T2-003 Pelizza (36.87°)"]
+
+  precursori_rete_eter:
+    desc: "Nodi T1 con connessione diretta alla Rete Eter"
+    nodi: ["T1-023 Faraday (linee di forza)", "T1-024 Maxwell (eq. quaternioniche)",
+           "T1-025 Heaviside (gatekeeper)", "T1-032 Planck (ZPE)",
+           "T1-042 Bohm (effetto AB)", "T1-111 Fantappiè (sintropia)",
+           "T1-004 Erone (eolipila)", "T1-010 Leonardo (macchine)"]
+
+  domande_aperte_prioritarie:
+    desc: "Azioni di ricerca concrete da eseguire"
+    lista:
+      - {azione: "FOIA Archivio Stato Roma — RS/33", nodo: "T3-LAB-004", priorita: "MASSIMA"}
+      - {azione: "FOIA ENEA Casaccia — Rapporto Giordano 1976", nodo: "T3-EXP-009", priorita: "ALTA"}
+      - {azione: "Archivio USC — Report Comitato Rife 1934", nodo: "T3-EXP-007", priorita: "ALTA"}
+      - {azione: "Fondazione Marconi — Diari Elettra 1930-37", nodo: "T2-007", priorita: "ALTA"}
+      - {azione: "CISM Imola — Stato attuale e hardware Ighina", nodo: "T3-LAB-005", priorita: "MEDIA"}
+      - {azione: "Bunker Chiari — Accessibilità fisica", nodo: "T3-LAB-013", priorita: "MEDIA"}
+      - {azione: "Conferenze Senato 2025-26 — Transcript Pelizza", nodo: "T2-003", priorita: "MEDIA"}
+
+  cluster_filo_italiano:
+    sequenza: "Marconi → Ighina → Majorana → Pelizza → Belluzzo"
+    nodi: ["T2-007", "T2-004", "T2-001", "T2-003", "T2-010"]
+    hub_geografici: ["Roma (Marconi, Ostia)", "Imola (Ighina, CISM)", "Chiari/Brescia (Pelizza)", "Magenta (RS/33)"]
+
+  compatibilita_sintropica_top:
+    desc: "Nodi con massima compatibilità sintropica (>= 9.0)"
+    nodi: ["T2-002 Tesla (10.0)", "T1-111 Fantappiè (10.0)", "T3-R-018 Prigogine (9.5)",
+           "T2-001 Majorana (9.5)", "T3-R-019 Kauffman (9.0)", "T3-ANE-001 Ezechiele (9.0)",
+           "T3-ANE-002 Enuma Elish (8.5)", "T1-001 Enki (9.0)"]
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEAL
+# ═══════════════════════════════════════════════════════════════════════════
+seal:
+  file: "MASTER_INDEX_v4.0.yaml"
+  totale_nodi_indicizzati: 299
+  timestamp: "2026-05-30T00:00:00Z"
+  prossimo_passo: "CONNECTIONS_GRAPH_v4.0.yaml + HTML_ENCICLOPEDIA_v1.0"
+  motto: "L'indice è la mappa. La mappa non è il territorio. 🜁"
