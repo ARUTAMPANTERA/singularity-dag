@@ -1,0 +1,167 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# FONTI_MESOAMERICANA_v0.1.yaml
+# Sistema: SINGULARITY_OS v22.1_SINTROPIC_SEALED
+# Scopo: Fonti verificate via ricerca web diretta per pattern
+#        "dono di conoscenza/tecnologia + limitazione o esilio"
+# Target: 1) Quetzalcoatl/Kukulkan  2) Popol Vuh vista offuscata
+#         3) Contro-evidenza diffusionista (TIER_X se pseudoscientifiche)
+# Metodo: URL + data accesso + TIER + primaria/secondaria + citazione ±3 frasi
+# Stato: SCAFFOLD — raccolta fonti, NON verdetto CT-05
+# ═══════════════════════════════════════════════════════════════════════════
+
+meta:
+  nome: "FONTI_MESOAMERICANA"
+  versione: "0.1"
+  data: "2026-08-09"
+  data_accesso: "2026-08-09"
+  principio: |
+    Raccolta di fonti accessibili. Nessun claim di universalità.
+    Il verdetto CT-05 (Triangolo di Indipendenza) spetta all'analisi successiva.
+    Fonte non accessibile → [LACUNA_DATI]. Zero invenzione [GC_001].
+  pattern_target: "dono di conoscenza/tecnologia + limitazione o esilio"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 1. QUETZALCOATL / KUKULKAN — donatore di arti + esilio (Tezcatlipoca)
+# ═══════════════════════════════════════════════════════════════════════════
+quetzalcoatl_kukulkan:
+
+  - id: QM-001
+    titolo: "Orpheus: Myths of the World — Quetzalcoatl (Sacred Texts)"
+    url: "https://sacred-texts.com/etc/omw/omw82.htm"
+    data_accesso: "2026-08-09"
+    tier: "TIER_1"
+    tipo: "secondaria (raccolta mitologica basata su fonti coloniali)"
+    citazione: |
+      "In Tollan all the arts and crafts that we know of were first practised, for Quetzalcoatl taught them to the people there. He taught them the smelting of silver and the clearing and setting of precious stones; he taught the craft of building with stones; he taught them how to make statues, and paint signs in books, and keep count of the moons and suns. All crafts except the craft of war Quetzalcoatl taught the people of Tollan."
+      "Then it came to pass that Tezcatlipoca ... descended upon Tollan by means of spider-webs."
+    nota: "Dono esplicito di metallurgia, costruzione, scrittura/pittura, calendario; intervento di Tezcatlipoca che interrompe l'ordine."
+
+  - id: QM-002
+    titolo: "World History Encyclopedia — Quetzalcóatl"
+    url: "https://www.worldhistory.org/Quetzalcoatl/"
+    data_accesso: "2026-08-09"
+    tier: "TIER_1"
+    tipo: "secondaria sintetica (basata su fonti primarie coloniali)"
+    citazione: |
+      "In Central Mexico from 1200, the feathered serpent god was considered the patron god of priests and merchants as well as the god of learning, science, agriculture, crafts and the arts. He also invented the calendar... and even discovered corn (maize)..."
+      "In an alternative version... Quetzalcóatl and Tezcatlipoca repeatedly fight each other..."
+    nota: "Ruolo di inventore di calendario, agricoltura, arti; antagonismo strutturale con Tezcatlipoca."
+
+  - id: QM-003
+    titolo: "Bancroft / Gutenberg — The Native Races, Volume 3 (sintesi Sahagún)"
+    url: "https://www.gutenberg.org/files/43123/43123-h/43123-h.htm"
+    data_accesso: "2026-08-09"
+    tier: "TIER_1"
+    tipo: "secondaria (riassunto di fonti coloniali, incluso Sahagún)"
+    citazione: |
+      "The adherents of this god were all devoted to the mechanical arts, dexterous in working the green stone called chalchiuite, and in founding the precious metals; all of which arts had their beginning and origin with the said Quetzalcoatl."
+      "So the sorcerers said, Go then, but leave behind all the mechanical arts, the melting of silver, the working of precious stones and of masonry, the painting, feather-working, and other crafts."
+    nota: "Esplicita richiesta di lasciare le arti meccaniche al momento dell'esilio/partenza."
+
+  - id: QM-004
+    titolo: "Britannica — Quetzalcóatl (sintesi standard)"
+    url: "https://www.britannica.com/topic/Quetzalcoatl"
+    data_accesso: "2026-08-09"
+    tier: "TIER_1"
+    tipo: "secondaria"
+    citazione: |
+      "In Aztec times... Quetzalcóatl was revered as the patron of priests, the inventor of the calendar and of books, and the protector of goldsmiths and other craftsmen..."
+      "But the god of the night sky, Tezcatlipoca, expelled him from Tula by performing feats of black magic."
+    nota: "Inventore di calendario e libri + espulsione da Tula ad opera di Tezcatlipoca."
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 2. POPOL VUH — limitazione della conoscenza umana ("vedevano troppo")
+# ═══════════════════════════════════════════════════════════════════════════
+popol_vuh_limitazione:
+
+  - id: PV-001
+    titolo: "Jason Colavito transcription — Popol Vuh (vista offuscata)"
+    url: "https://www.jasoncolavito.com/popol-vuh.html"
+    data_accesso: "2026-08-09"
+    tier: "TIER_1"
+    tipo: "secondaria (trascrizione/traduzione inglese di testo coloniale)"
+    citazione: |
+      "But the gods were not wholly pleased with this thing; Heaven they thought had overshot its mark; these men were too perfect; knew, understood, and saw too much. Therefore there was counsel again in heaven... Let us now contract their sight, so that they may see only a little of the surface of the earth and be content. Thereupon the Heart of Heaven breathed a cloud over the pupil of the eyes of men, and a veil came over it as when one breathes on the face of a mirror; thus was the globe of the eye darkened..."
+    nota: "Episodio chiave: uomini creati dal mais vedono/conoscono troppo → dei limitano deliberatamente la vista."
+
+  - id: PV-002
+    titolo: "Humanities LibreTexts — Popul Vuh summary"
+    url: "https://human.libretexts.org/Courses/Los_Angeles_Mission_College/ENGL_C1000%3A_OER_at_LAMC/05%3A_The_Little_Reader_of_World_Literature/5.02%3A_The_Popul_Vuh"
+    data_accesso: "2026-08-09"
+    tier: "TIER_2"
+    tipo: "secondaria didattica"
+    citazione: |
+      "However, this time the gods have made creatures that know as much as the gods themselves, which displeases them. The deity known as the Heart of Heaven blows a mist into the creatures’ eyes, limiting what humans can see and know."
+    nota: "Conferma della limitazione deliberata della conoscenza."
+
+  - id: PV-003
+    titolo: "Christenson translation reference (Mesoweb / electronic edition)"
+    url: "https://pressbooks.nvcc.edu/app/uploads/sites/78/2025/04/PopolVuh.pdf"
+    data_accesso: "2026-08-09"
+    tier: "TIER_1"
+    tipo: "secondaria (traduzione accademica di testo primario coloniale K’iche’)"
+    citazione: |
+      [Accesso al PDF di Christenson 2007; episodio della creazione dell’uomo di mais e della nebulizzazione della vista presente nelle edizioni standard.]
+    nota: "Edizione di riferimento accademica. Testo completo consultabile; citazione completa dell’episodio richiede estratto puntuale da edizione cartacea/PDF completo."
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 3. CONTRO-EVIDENZA [CI_L3] — tesi diffusioniste Mesoamerica ↔ Vicino Oriente
+# ═══════════════════════════════════════════════════════════════════════════
+contro_evidenza_diffusionismo:
+
+  - id: DIF-001
+    titolo: "Sino-Platonic Papers 195 — Mesoamerican calendar & Eurasian lunar zodiac"
+    url: "https://sino-platonic.org/complete/spp195_mesoamerica.pdf"
+    data_accesso: "2026-08-09"
+    tier: "TIER_X"
+    tipo: "secondaria (tesi diffusionista)"
+    citazione: |
+      "...the series of 20 day-names on which the Mesoamerican calendar is based ... shows multiple and elaborate correspondences with the Eurasian lunar zodiac and its associated deities as identified in China, India, and the Near East. ... This system’s mere presence in Mesoamerica, in view of its arbitrary features, would seem persuasive evidence of contacts..."
+    nota: "Tesi diffusionista esplicita (calendario). Mainstream accademico la tratta come non dimostrata / speculative → TIER_X."
+
+  - id: DIF-002
+    titolo: "ResearchGate — Pre-Columbian Transoceanic Influences (overview)"
+    url: "https://www.researchgate.net/publication/274954932_Pre-Columbian_Transoceanic_Influences_Far-Out_Fantasy_Unproven_Possibility_or_Undeniable_Reality"
+    data_accesso: "2026-08-09"
+    tier: "TIER_X"
+    tipo: "secondaria (rassegna diffusionista)"
+    citazione: |
+      "Diffusionism posits that almost all cultural change—and cultural content—is a result of interaction and cultural exchange among societies, not of repeated independent invention."
+    nota: "Definizione e difesa del paradigma diffusionista; non costituisce prova primaria di contatti Near East–Mesoamerica."
+
+  - id: DIF-003
+    titolo: "Ancient Mesoamerica (Cambridge) — terracotta head of supposed Roman origin"
+    url: "https://www.cambridge.org/core/journals/ancient-mesoamerica/article/abs/mesoamerican-evidence-of-precolumbian-transoceanic-contacts/702B9AC3C0E004C98FCD586C5BB7E7C7"
+    data_accesso: "2026-08-09"
+    tier: "TIER_X"
+    tipo: "secondaria (caso isolato, controversia)"
+    citazione: |
+      "A thermoluminescent age test ... set the age limits of the artifact at 1780 ± 400 b.p., which is consistent with the Roman-origin hypothesis. ... permits the acceptance of the object as the first hard evidence from Mesoamerica to support pre-Hispanic transoceanic contacts..."
+    nota: "Caso singolo (testa in terracotta). Non consenso mainstream; resta controversa → TIER_X."
+
+  - id: DIF-004
+    titolo: "The Atlantic (archive) — The Diffusionists Have Landed"
+    url: "https://web.archive.org/web/20101124173516/https:/www.theatlantic.com/past/docs/issues/2000/01/001stengel.htm"
+    data_accesso: "2026-08-09"
+    tier: "TIER_X"
+    tipo: "secondaria giornalistica"
+    citazione: |
+      "You've probably heard of those crackpot theories about ancient Phoenicians or Chinese in the New World. Maybe it's time to start paying attention."
+    nota: "Articolo divulgativo pro-diffusionismo. Non fonte primaria."
+
+lacune_dichiarate:
+  - "Traduzione integrale primaria del Popol Vuh (edizione critica interlineare completa) non estratta qui; si rimanda a Christenson 2003/2007 e Tedlock."
+  - "Codice Florentino (Sahagún) Libro III testo Nahuatl completo non citato integralmente; si usano sintesi accessibili."
+  - "Nessuna fonte primaria pre-coloniale diretta per il mito di Quetzalcoatl (tutte le versioni sono coloniali o post)."
+
+seal:
+  file: "FONTI_MESOAMERICANA_v0.1.yaml"
+  fonti_raccolte: 11
+  target_coperti: 3
+  timestamp: "2026-08-09T19:32:00Z"
+  metodo: "Ricerca web diretta 2026-08-09 — zero fonti da memoria non verificata"
+  nota_finale: |
+    Questa è una raccolta di orientamento. Nessun pattern dichiarato universale.
+    CT-05 da applicare separatamente. L'assenza di contatti precolombiani
+    dimostrati resta lo stato del consenso accademico mainstream.
+  motto: "Le fonti parlano. Il triangolo decide. 🜁"
