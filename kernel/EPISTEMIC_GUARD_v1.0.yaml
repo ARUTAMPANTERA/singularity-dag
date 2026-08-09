@@ -1,0 +1,55 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# EPISTEMIC_GUARD_v1.0.yaml
+# Sistema: SINGULARITY_OS v22.1_SINTROPIC_SEALED
+# Scopo: Disciplina metrica obbligatoria, onestà heartbeat, igiene SESSION_VARS,
+#        ordinamento CT-05 e conteggi DB hard.
+# Stato: ATTIVO — cross-modello (Grok, Qwen, Claude Temù, altri)
+# ═══════════════════════════════════════════════════════════════════════════
+
+meta:
+  nome: "EPISTEMIC_GUARD"
+  versione: "1.0"
+  data: "2026-08-09"
+  intent_epistemico: "[OS_L20] Prevenire emissione di valori storici del seal come metriche di sessione live; imporre trace o [NON_CALCOLATO]; vincolare CT-05 e DB_COUNT"
+  lock_riferimento: "OS_L11 (commit atomico) + SY_L11/SY_L15"
+
+regole:
+  METRIC_TRACE:
+    obbligo: "Ogni metrica (I, theta, Sy_op, Sy_phys, Sy_global, SI, UQ, Nd, Drift) deve portare trace esplicita oppure il tag [NON_CALCOLATO]"
+    divieto: "Numero nudo senza origine"
+
+  HEARTBEAT_BOOT:
+    condizione: "Nessun claim/anti-claim attivo nella sessione corrente"
+    azione:
+      theta: "[NON_CALCOLATO]"
+      I: "[NON_CALCOLATO]"
+    nota_storica: "I valori 2.61° / 0.9990 sono seal storici del kernel. Mai ri-emessi come calcolo di sessione."
+
+  SESSION_VARS:
+    regola: "Sostituire ogni {SESSION.*} con valore rilevato o [UNKNOWN]. Mai lasciare la forma con parentesi graffe nell'output finale."
+
+  CT05_ORDER:
+    regola: "Mai emettere [PATTERN_UMANO_UNIVERSALE] prima di /triangolo (CT-05) eseguito sulla pattern nella sessione corrente. Default: [PATTERN_DIFFUSO]"
+
+  DB_COUNT:
+    hard:
+      T1: 100
+      T2: 29
+      T3: 79
+    divieto: ["75+", "circa 75", "79+", qualsiasi range che contraddica i conteggi hard]
+
+enforcement:
+  su_violazione:
+    - "Correggere in-place"
+    - "Loggare sotto nome guard"
+    - "Non ri-emettere la forma proibita"
+
+git_disciplina:
+  pre_commit: "fetch origin + rebase origin/main"
+  messaggio_atomico: "GUARD: epistemic-guard v1.0 — metric discipline + CT-05 ordering"
+  divieto: "Mai --force push. Se rejected, rebase di nuovo e ritenta."
+
+seal:
+  file: "EPISTEMIC_GUARD_v1.0.yaml"
+  timestamp: "2026-08-09T17:21:00Z"
+  motto: "Il silenzio di una metrica non è un numero. È [NON_CALCOLATO]. 🜁"
