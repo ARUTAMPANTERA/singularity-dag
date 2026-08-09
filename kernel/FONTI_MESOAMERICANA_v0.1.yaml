@@ -11,7 +11,7 @@
 
 meta:
   nome: "FONTI_MESOAMERICANA"
-  versione: "0.1"
+  versione: "0.1.1"
   data: "2026-08-09"
   data_accesso: "2026-08-09"
   principio: |
@@ -19,6 +19,15 @@ meta:
     Il verdetto CT-05 (Triangolo di Indipendenza) spetta all'analisi successiva.
     Fonte non accessibile → [LACUNA_DATI]. Zero invenzione [GC_001].
   pattern_target: "dono di conoscenza/tecnologia + limitazione o esilio"
+  correzione_2026_08_09: |
+    METALLURGIA RIMOSSA dal pattern Quetzalcoatl come elemento di indipendenza.
+    [DATO] Metallurgia in Mesoamerica compare ~600-800 CE in West Mexico,
+    per diffusione marittima da Ecuador/Perù (Sud America). Posteriore di
+    300-600 anni al picco di Teotihuacan e al culto del serpente piumato
+    classico. Le fonti coloniali (Sahagún et al.) attribuiscono a Quetzalcoatl
+    "smelting of silver" / fonditura di metalli, ma è anacronismo mitologico
+    proiettato a posteriori. Resta valido per il pattern: agricoltura (mais),
+    scrittura/calendario, arti/costruzione, esilio forzato da Tezcatlipoca.
 
 # ═══════════════════════════════════════════════════════════════════════════
 # 1. QUETZALCOATL / KUKULKAN — donatore di arti + esilio (Tezcatlipoca)
@@ -34,7 +43,11 @@ quetzalcoatl_kukulkan:
     citazione: |
       "In Tollan all the arts and crafts that we know of were first practised, for Quetzalcoatl taught them to the people there. He taught them the smelting of silver and the clearing and setting of precious stones; he taught the craft of building with stones; he taught them how to make statues, and paint signs in books, and keep count of the moons and suns. All crafts except the craft of war Quetzalcoatl taught the people of Tollan."
       "Then it came to pass that Tezcatlipoca ... descended upon Tollan by means of spider-webs."
-    nota: "Dono esplicito di metallurgia, costruzione, scrittura/pittura, calendario; intervento di Tezcatlipoca che interrompe l'ordine."
+    nota: |
+      Dono di costruzione, scrittura/pittura, calendario; intervento di Tezcatlipoca.
+      [CORREZIONE] "smelting of silver" è presente nelle fonti coloniali ma
+      storicamente anacronistico (metallurgia mesoamericana ~800 CE per diffusione
+      da Sud America). Non usare come prova di indipendenza tecnologica antica.
 
   - id: QM-002
     titolo: "World History Encyclopedia — Quetzalcóatl"
@@ -45,7 +58,7 @@ quetzalcoatl_kukulkan:
     citazione: |
       "In Central Mexico from 1200, the feathered serpent god was considered the patron god of priests and merchants as well as the god of learning, science, agriculture, crafts and the arts. He also invented the calendar... and even discovered corn (maize)..."
       "In an alternative version... Quetzalcóatl and Tezcatlipoca repeatedly fight each other..."
-    nota: "Ruolo di inventore di calendario, agricoltura, arti; antagonismo strutturale con Tezcatlipoca."
+    nota: "Ruolo di inventore di calendario, agricoltura, arti; antagonismo strutturale con Tezcatlipoca. Metallurgia non citata qui."
 
   - id: QM-003
     titolo: "Bancroft / Gutenberg — The Native Races, Volume 3 (sintesi Sahagún)"
@@ -56,7 +69,10 @@ quetzalcoatl_kukulkan:
     citazione: |
       "The adherents of this god were all devoted to the mechanical arts, dexterous in working the green stone called chalchiuite, and in founding the precious metals; all of which arts had their beginning and origin with the said Quetzalcoatl."
       "So the sorcerers said, Go then, but leave behind all the mechanical arts, the melting of silver, the working of precious stones and of masonry, the painting, feather-working, and other crafts."
-    nota: "Esplicita richiesta di lasciare le arti meccaniche al momento dell'esilio/partenza."
+    nota: |
+      Esplicita richiesta di lasciare le arti meccaniche al momento dell'esilio.
+      [CORREZIONE] "founding the precious metals" / "melting of silver" = proiezione
+      coloniale anacronistica. Non usare per CT-05 come tecnologia indipendente antica.
 
   - id: QM-004
     titolo: "Britannica — Quetzalcóatl (sintesi standard)"
@@ -67,7 +83,23 @@ quetzalcoatl_kukulkan:
     citazione: |
       "In Aztec times... Quetzalcóatl was revered as the patron of priests, the inventor of the calendar and of books, and the protector of goldsmiths and other craftsmen..."
       "But the god of the night sky, Tezcatlipoca, expelled him from Tula by performing feats of black magic."
-    nota: "Inventore di calendario e libri + espulsione da Tula ad opera di Tezcatlipoca."
+    nota: |
+      Inventore di calendario e libri + espulsione da Tula ad opera di Tezcatlipoca.
+      "Protector of goldsmiths" riflette la realtà azteca tarda (post-metallurgia),
+      non l'origine del culto classico.
+
+  - id: QM-CORR-METALLURGIA
+    titolo: "Wikipedia + Hosler et al. — Metallurgy in pre-Columbian Mesoamerica"
+    url: "https://en.wikipedia.org/wiki/Metallurgy_in_pre-Columbian_Mesoamerica"
+    data_accesso: "2026-08-09"
+    tier: "TIER_0"
+    tipo: "secondaria sintetica (consenso archeologico)"
+    citazione: |
+      "The emergence of metallurgy in pre-Columbian Mesoamerica occurred relatively late... with distinctive works of metal apparent in West Mexico by roughly 800 CE, and perhaps as early as 600 CE. Metallurgical techniques likely diffused northward from regions in Central or South America via maritime trade routes."
+    nota: |
+      [DATO CORRETTIVO] Metallurgia mesoamericana = caso di diffusione documentata
+      da Sud America, non di invenzione indipendente. Non appartiene al pattern
+      "dono tecnologico indipendente" per Quetzalcoatl classico.
 
 # ═══════════════════════════════════════════════════════════════════════════
 # 2. POPOL VUH — limitazione della conoscenza umana ("vedevano troppo")
@@ -156,12 +188,15 @@ lacune_dichiarate:
 
 seal:
   file: "FONTI_MESOAMERICANA_v0.1.yaml"
-  fonti_raccolte: 11
+  versione: "0.1.1"
+  fonti_raccolte: 12
   target_coperti: 3
-  timestamp: "2026-08-09T19:32:00Z"
+  timestamp: "2026-08-09T22:18:00Z"
   metodo: "Ricerca web diretta 2026-08-09 — zero fonti da memoria non verificata"
+  correzione_applicata: "Metallurgia rimossa dal pattern di indipendenza Quetzalcoatl (diffusione documentata ~800 CE)"
   nota_finale: |
     Questa è una raccolta di orientamento. Nessun pattern dichiarato universale.
     CT-05 da applicare separatamente. L'assenza di contatti precolombiani
-    dimostrati resta lo stato del consenso accademico mainstream.
+    Near East–Mesoamerica dimostrati resta lo stato del consenso accademico mainstream.
+    Metallurgia mesoamericana è essa stessa un caso di contatto (Sud America), non di indipendenza.
   motto: "Le fonti parlano. Il triangolo decide. 🜁"
