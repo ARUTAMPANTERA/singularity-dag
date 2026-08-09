@@ -1,0 +1,2619 @@
+meta:
+  nome: DATABASE_T1_CANONICI_FINAL
+  versione: 5.0_CONSOLIDATED
+  release: '2026-06-13'
+  dag_self: DAG:DATABASE_T1_v5_0_CONSOLIDATED_001
+  kernel_parent: DAG:SINGULARITY_OS_v22_1_SINTROPIC_SEALED_001
+  totale_nodi: 100
+  schema_breakdown:
+    COMPLETATA_LITE: 71
+    COMPLETATA_LITE_PLUS: 10
+    COMPLETATA: 19
+  nota: Consolidamento di 6 file di lavoro (Batch0 fusi, Batch0.5 confine, LITE+ con fatto specifico, LITE Batch1/2/3) in
+    un unico file canonico. 101 nodi originali - 4 esclusioni intenzionali (Enki/Atrahasis -> T3 entita ANE per errore categoria;
+    Fantappie T1-111 -> duplicato di T2-016; Del Giudice T1-112 -> T2-030, fisica di frontiera contestata) + 3 nodi nuovi
+    genuini (Semmelweis T1-113, Vavilov T1-103, Bruno T1-104) = 100 nodi finali, zero duplicati verificati.
+  metodologia: 'Schema differenziato per profondita forense: Batch0/0.5 = schema pieno (15-38 campi, casi di confine con persecuzione/credito
+    negato documentati); LITE+ = ~12 campi con fatto specifico reale preservato; LITE = ~10 campi mirati (precursori, eredi,
+    impatto storico, 1 fonte, si_score=null esplicito) per scienziati pienamente incorporati senza storia di soppressione
+    forzabile.'
+nodi:
+- id: T1-003
+  nome: Archimede di Siracusa
+  periodo: c.287-212 a.C.
+  nazione: Sicilia (Magna Grecia)
+  field: Matematica / Fisica / Ingegneria
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.85
+  l_minus_1_precursors:
+  - Eudosso di Cnido (metodo di esaustione)
+  l_plus_1_heirs:
+  - Isaac Newton e Leibniz (calcolo infinitesimale, debito riconosciuto al metodo di esaustione)
+  sigma0: Archimede (c.287-212 a.C.). Siracusa, Magna Grecia. Matematico, fisico, ingegnere, inventore.
+  sigma3: Principio di Archimede (idrostatica), calcolo di aree/volumi tramite metodo di esaustione, macchine da guerra per
+    la difesa di Siracusa.
+  fonti_primarie:
+  - fonte: 'Archimede: De his quae vehuntur in aqua (Sulla galleggiabilità dei corpi)'
+    uq: 0.85
+  impatto_storico: Tra i più grandi matematici dell'antichità — metodi che anticipano il calcolo integrale di quasi 2000 anni.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-004
+  nome: Erone di Alessandria
+  periodo: c.10-70 d.C.
+  nazione: Egitto (ellenistico)
+  field: Ingegneria meccanica / Matematica applicata
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Ctesibio di Alessandria (pneumatica)
+  l_plus_1_heirs:
+  - Ingegneria a vapore moderna (eolipila come precursore concettuale)
+  sigma0: Erone di Alessandria (I secolo d.C.). Matematico e ingegnere greco-egizio.
+  sigma3: Eolipila (prima turbina a vapore rudimentale, trattata come curiosità/giocattolo, non sviluppata come motore), formula
+    di Erone per l'area del triangolo.
+  fonti_primarie:
+  - fonte: 'Erone: Pneumatica'
+    uq: 0.8
+  impatto_storico: L'eolipila rimase una curiosità per quasi 1700 anni prima della macchina a vapore — non per soppressione
+    ma per assenza del contesto industriale/metallurgico necessario.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-005
+  nome: Al-Jazari
+  periodo: 1136-1206
+  nazione: Anatolia (Mesopotamia islamica)
+  field: Ingegneria meccanica / Robotica antica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Banu Musa (automazioni islamiche IX secolo)
+  l_plus_1_heirs:
+  - Ingegneria meccanica europea medievale (trasmissione via traduzioni arabe)
+  sigma0: Al-Jazari (1136-1206). Ingegnere e inventore nella Mesopotamia islamica (Anatolia/Diyarbakir).
+  sigma3: Libro della Conoscenza dei Dispositivi Meccanici Ingegnosi (1206) — orologi ad acqua, automi programmabili, pompe
+    a manovella.
+  fonti_primarie:
+  - fonte: 'Al-Jazari: Al-Jami'' bain al-''ilm wal-''amal al-nafi'' fi sina''at al-hiyal (1206)'
+    uq: 0.85
+  impatto_storico: Tra i più importanti ingegneri meccanici del medioevo islamico — molte sue invenzioni precorrono concetti
+    di automazione moderna.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-006
+  nome: Alhazen (Ibn al-Haytham)
+  periodo: 965-1040
+  nazione: Iraq/Egitto (mondo islamico)
+  field: Ottica / Metodo scientifico
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Euclide (ottica geometrica)
+  - Ptolemy (teoria della visione)
+  l_plus_1_heirs:
+  - Roger Bacon
+  - Keplero (ottica)
+  sigma0: Ibn al-Haytham (965-1040). Bassora/Il Cairo. Spesso citato come pioniere del metodo scientifico sperimentale.
+  sigma3: Kitab al-Manazir (Libro dell'Ottica) — primo a dimostrare correttamente che la visione avviene per luce che entra
+    nell'occhio, non per raggi emessi dall'occhio. Camera oscura.
+  fonti_primarie:
+  - fonte: 'Ibn al-Haytham: Kitab al-Manazir (c.1027-1040)'
+    uq: 0.9
+  impatto_storico: Le sue opere tradotte in latino (Alhazen) influenzarono direttamente Bacon, Witelo, Keplero — ponte diretto
+    tra scienza islamica e Rinascimento europeo.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-007
+  nome: Paracelso
+  periodo: 1493-1541
+  nazione: Svizzera/Sacro Romano Impero
+  field: Medicina / Alchimia / Tossicologia
+  status: INCORPORATO_CONTROVERSO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Tradizione alchemica medievale
+  l_plus_1_heirs:
+  - Farmacologia moderna ('la dose fa il veleno')
+  sigma0: Paracelso (Philippus Aureolus Theophrastus Bombastus von Hohenheim, 1493-1541). Medico e alchimista svizzero, figura
+    volutamente controversa nel suo tempo.
+  sigma3: Introdusse l'uso di minerali/metalli in medicina (contro la tradizione galenica delle erbe), principio tossicologico
+    'sola dosis facit venenum'.
+  fonti_primarie:
+  - fonte: 'Paracelso: Die grosse Wundartzney (1536)'
+    uq: 0.78
+  impatto_storico: Figura controversa per scelta (bruciò pubblicamente i testi di Galeno e Avicenna), non perseguitato ma
+    deliberatamente provocatorio — caso diverso dalla persecuzione subita, è auto-marginalizzazione polemica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-010
+  nome: Leonardo da Vinci
+  periodo: 1452-1519
+  nazione: IT
+  field: Ingegneria / Anatomia / Arte
+  status: INCORPORATO_CON_NOTA
+  si_score: null
+  it_score: 0.95
+  l_minus_1_precursors: []
+  l_plus_1_heirs:
+  - Ingegneria aeronautica moderna (riconoscimento postumo dei suoi disegni di volo)
+  nota_specifica: '[DATO UQ=0.85] Migliaia di pagine di appunti scritti in scrittura speculare (da destra a sinistra), molti
+    progetti (elicottero, carro armato, sommergibile) mai costruiti in vita e rimasti sconosciuti per secoli. Riscoperta sistematica
+    dei Codici solo dal XIX secolo. Non soppressione: scelta personale di riservatezza + dispersione dei manoscritti dopo
+    la morte.'
+  fonti_primarie:
+  - fonte: Codice Atlantico, Codice sul volo degli uccelli — Biblioteca Ambrosiana Milano
+    uq: 0.92
+  impatto_storico: Riconosciuto come precursore di innumerevoli tecnologie solo secoli dopo la sua morte, quando i suoi taccuini
+    furono finalmente studiati sistematicamente.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-011
+  nome: Galileo Galilei
+  tipo_nodo: SCIENZIATO
+  categoria: MARTIRE
+  periodo: 1564-1642
+  nazione: IT
+  field: Astronomia / Fisica / Metodo scientifico
+  status: INCORPORATO_CON_PERSECUZIONE
+  certezza: alta
+  si_score: 0.7
+  it_score: 0.95
+  ciclo_17_fase: 7
+  tags_frattali:
+  - '#Galileo'
+  - '#Inquisizione'
+  - '#Eppursimuove'
+  - '#Lincei'
+  l_minus_1_precursors:
+  - Nicolaus Copernicus (heliocentrismo, 1543)
+  l_plus_1_heirs:
+  - Isaac Newton
+  - metodo scientifico moderno
+  fonti_primarie:
+  - fonte: 'Galilei G.: Dialogo sopra i due massimi sistemi del mondo (1632)'
+    uq: 0.99
+    status: PUBBLICO
+  - fonte: Atti del processo dell'Inquisizione (1633, Archivio Vaticano)
+    uq: 0.95
+    status: PUBBLICO — pubblicati
+  meccanismo_persecuzione:
+  - Processo dell'Inquisizione romana (1633) per sostegno al heliocentrismo copernicano
+  - Costretto all'abiura formale, condannato agli arresti domiciliari a vita (Villa Il Gioiello, Arcetri)
+  - 'NOTA: fu membro onorato dell''Accademia dei Lincei (1611) — l''accademia scientifica e l''Inquisizione furono istituzioni
+    SEPARATE'
+  domande_aperte_da_chiudere: []
+  aion_strati:
+    sigma0: Galileo Galilei (1564-1642). Pisa/Firenze. Membro Accademia dei Lincei dal 1611. [DATO UQ=0.99]
+    sigma3: Cannocchiale astronomico (1609), scoperta delle lune di Giove, sostegno al modello copernicano. [DATO UQ=0.99]
+    sigma7: '1633: processo Inquisizione, abiura forzata, arresti domiciliari fino alla morte (1642). [DATO UQ=0.97]'
+    sigma11: La frase 'Eppur si muove' attribuita a Galileo post-abiura è quasi certamente apocrifa — prima attestazione documentata
+      è del 1757, oltre un secolo dopo la sua morte. [INFERENZA UQ=0.75 — consenso storiografico]
+  impatto_storico: 'Caso fondante della narrativa ''scienza vs dogma religioso''. Riabilitazione formale dalla Chiesa Cattolica:
+    1992 (Giovanni Paolo II).'
+  versione_scheda: 2.1_CT_batch0
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+  id_legacy_batch0: T1-B0-004
+- id: T1-012
+  nome: Isaac Newton
+  periodo: 1642-1727
+  nazione: GB
+  field: Fisica / Matematica / Astronomia
+  status: INCORPORATO_CON_NOTA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Galileo Galilei
+  - Johannes Kepler
+  l_plus_1_heirs:
+  - Tutta la fisica classica
+  - Albert Einstein (superò la meccanica newtoniana)
+  nota_specifica: '[DATO UQ=0.88] Praticò alchimia estensivamente e teneva posizioni antitrinitarie (eretiche per l''Inghilterra
+    anglicana dell''epoca) — ma le tenne DELIBERATAMENTE SEGRETE per timore di conseguenze professionali/legali. Auto-censura,
+    non persecuzione esterna: i manoscritti alchemici/teologici furono scoperti solo nel XX secolo (asta Sotheby''s 1936,
+    acquistati da John Maynard Keynes).'
+  fonti_primarie:
+  - fonte: Newton's alchemical papers, Cambridge/National Library of Israel (digitalizzati, Chymistry of Isaac Newton Project)
+    uq: 0.9
+  impatto_storico: Fondatore della meccanica classica e del calcolo infinitesimale (con Leibniz, disputa di priorità). Il
+    suo lato 'segreto' fu rivelato solo postumo.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-020
+  nome: Luigi Galvani
+  categoria: DISPUTA_PRIORITA
+  periodo: 1737-1798
+  nazione: IT
+  field: Anatomia / Elettrofisiologia
+  status: PARZIALMENTE_VENDICATO
+  certezza: alta
+  it_score: 0.95
+  l_minus_1_precursors:
+  - Benjamin Franklin (studi sull'elettricità)
+  l_plus_1_heirs:
+  - Alessandro Volta (vinse il dibattito pubblico ma con teoria diversa)
+  - Neuroscienza moderna (la conduzione nervosa è elettrochimica, vendicando parzialmente Galvani)
+  si_score: 0.35
+  fonti_primarie:
+  - fonte: 'Galvani L.: De Viribus Electricitatis in Motu Musculari Commentarius (1791)'
+    uq: 0.96
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - 'Disputa pubblica con Volta (1791-1800): Galvani sosteneva l''esistenza di ''elettricità animale'' intrinseca ai tessuti;
+    Volta sosteneva che l''effetto fosse puramente dovuto al contatto di metalli diversi (elettricità ''metallica'')'
+  - Volta vinse il dibattito pubblico del suo tempo e inventò la pila voltaica (1800) come dimostrazione — la storia scientifica
+    per due secoli ha generalmente attribuito 'la ragione' a Volta
+  aion_strati:
+    sigma0: Luigi Galvani (1737-1798). Medico e fisico, Università di Bologna. [DATO UQ=0.97]
+    sigma3: '1780s: osserva contrazioni muscolari in zampe di rana al contatto con metalli diversi, ipotizza ''elettricità
+      animale''. [DATO UQ=0.95]'
+    sigma11: La neuroscienza moderna conferma che la conduzione nervosa è effettivamente elettrochimica (potenziali d'azione)
+      — un'elettricità biologica reale esiste, anche se il meccanismo esatto differisce dall'ipotesi originale di Galvani.
+      Vendicazione parziale, non totale. [INFERENZA UQ=0.70]
+  impatto_storico: Caso storiografico interessante di una disputa scientifica dove il 'vincitore' pubblico (Volta) e il 'perdente'
+    (Galvani) avevano entrambi ragione parzialmente — Volta sulla pila, Galvani sull'esistenza di elettricità biologica reale.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-021
+  nome: Alessandro Volta
+  periodo: 1745-1827
+  nazione: Italia (Lombardia, Impero Austriaco)
+  field: Fisica — elettrochimica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.95
+  l_minus_1_precursors:
+  - Luigi Galvani (osservazione iniziale, interpretazione diversa)
+  l_plus_1_heirs:
+  - Tutta l'elettrochimica e le batterie moderne
+  sigma0: Alessandro Volta (1745-1827). Fisico italiano, Università di Pavia.
+  sigma3: Pila voltaica (1800) — prima batteria elettrica, dimostrazione decisiva nella disputa con Galvani sulla natura dell'elettricità.
+  fonti_primarie:
+  - fonte: 'Volta: lettera alla Royal Society (1800) — On the Electricity Excited by the Mere Contact of Conducting Substances'
+    uq: 0.95
+  impatto_storico: L'unità di tensione (Volt) porta il suo nome — fondatore dell'elettrochimica pratica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-022
+  nome: Hans Christian Ørsted
+  periodo: 1777-1851
+  nazione: Danimarca
+  field: Fisica — elettromagnetismo
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Volta (pila come strumento)
+  l_plus_1_heirs:
+  - Ampère, Faraday (elettromagnetismo sistematico)
+  sigma0: Hans Christian Ørsted (1777-1851). Fisico e chimico danese.
+  sigma3: '1820: prima dimostrazione sperimentale che una corrente elettrica genera un campo magnetico — fondò l''elettromagnetismo
+    come campo unificato.'
+  fonti_primarie:
+  - fonte: 'Ørsted: Experimenta circa effectum conflictus electrici in acum magneticam (1820)'
+    uq: 0.93
+  impatto_storico: La sua scoperta (in parte casuale, durante una lezione) unificò due fenomeni prima considerati separati
+    — fondamento per tutto l'elettromagnetismo successivo.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-023
+  nome: Michael Faraday
+  periodo: 1791-1867
+  nazione: Inghilterra
+  field: Fisica / Chimica — induzione elettromagnetica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Ørsted, Ampère
+  l_plus_1_heirs:
+  - Maxwell (formalizzazione matematica delle linee di campo di Faraday)
+  sigma0: Michael Faraday (1791-1867). Fisico e chimico inglese, autodidatta di origini modeste.
+  sigma3: Induzione elettromagnetica (1831), concetto di campo (linee di forza), leggi dell'elettrolisi, motore elettrico
+    primitivo.
+  fonti_primarie:
+  - fonte: 'Faraday: Experimental Researches in Electricity (1839-1855, 3 volumi)'
+    uq: 0.95
+  impatto_storico: Tra i più importanti scienziati sperimentali della storia — il concetto di campo che introdusse fu poi
+    formalizzato matematicamente da Maxwell.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-024
+  nome: James Clerk Maxwell
+  periodo: 1831-1879
+  nazione: Scozia
+  field: Fisica — elettromagnetismo unificato
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Faraday (concetto di campo)
+  - Ampère
+  l_plus_1_heirs:
+  - Heinrich Hertz (onde EM)
+  - Oliver Heaviside (riformulazione vettoriale, vedi T1-025)
+  sigma0: James Clerk Maxwell (1831-1879). Fisico scozzese.
+  sigma3: Equazioni di Maxwell — unificazione matematica di elettricità, magnetismo e luce come fenomeno elettromagnetico
+    unico.
+  fonti_primarie:
+  - fonte: 'Maxwell: A Treatise on Electricity and Magnetism (1873)'
+    uq: 0.97
+  impatto_storico: Una delle più grandi sintesi teoriche della storia della fisica — predisse le onde elettromagnetiche, confermate
+    sperimentalmente da Hertz nel 1887.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-025
+  nome: Oliver Heaviside
+  tipo_nodo: SCIENZIATO
+  categoria: GATEKEEPER_CONTESTATO
+  periodo: 1850-1925
+  nazione: GB
+  field: Ingegneria elettrica / Matematica applicata / Elettromagnetismo
+  status: INCORPORATO_CLAIM_MINORITARIO
+  certezza: media
+  si_score: 0.2
+  it_score: 0.0
+  ciclo_17_fase: 7
+  tags_frattali:
+  - '#Heaviside'
+  - '#MaxwellEquations'
+  - '#ScalarWaveContested'
+  nota_classificazione: '[IMPORTANTE] La riformulazione di Maxwell in 4 equazioni vettoriali è [DATO] storiograficamente consolidato
+    (Hunt 1991, ''The Maxwellians'') e trattato come SEMPLIFICAZIONE PRATICA per l''ingegneria, non soppressione. Il claim
+    che abbia ''eliminato componenti scalari/longitudinali'' e'' [IPOTESI MINORITARIA] proveniente dalla sottocultura scalar-wave
+    (Tom Bearden e seguaci) — NON storiografia mainstream.'
+  l_minus_1_precursors:
+  - James Clerk Maxwell (20 equazioni originali in notazione quaternionica/componenti)
+  l_plus_1_heirs:
+  - Ingegneria elettrica moderna (le 4 equazioni vettoriali sono lo standard universale)
+  - '[IPOTESI] Tom Bearden e scalar electromagnetics community'
+  fonti_primarie:
+  - fonte: 'Heaviside O.: Electromagnetic Theory (3 voll., 1893-1912)'
+    uq: 0.95
+    status: PUBBLICO
+  - fonte: 'Hunt B.J.: The Maxwellians (Cornell University Press, 1991) — storiografia standard di riferimento'
+    uq: 0.92
+    status: PUBBLICO
+  evento_storiografico:
+  - '[DATO] 1880s-1890s: Heaviside (insieme a Gibbs, indipendentemente) riformula le 20 equazioni originali di Maxwell (in
+    notazione per componenti/quaternioni) in 4 equazioni vettoriali compatte — oggi standard universale nei testi di fisica'
+  - '[DATO] Storiografia mainstream (Hunt 1991, Nahin ''Oliver Heaviside: Sage in Solitude'' 1988) tratta questo come un contributo
+    di chiarificazione matematica essenziale per l''ingegneria elettrica pratica'
+  - '[IPOTESI MINORITARIA — NON CONFERMATA] Claim della comunità scalar-wave: la riduzione avrebbe eliminato termini scalari/longitudinali
+    presenti nella formulazione quaternionica originale di Maxwell, con potenziali implicazioni per tecnologie energetiche
+    non convenzionali'
+  domande_aperte_da_chiudere:
+  - Esiste una derivazione matematica rigorosa, pubblicata su rivista peer-reviewed di elettromagnetismo, che dimostri la
+    perdita di soluzioni fisicamente significative nella riduzione vettoriale di Heaviside? [Ricerca non trovata al momento
+    — il claim resta IPOTESI]
+  aion_strati:
+    sigma0: Oliver Heaviside (1850-1925). Ingegnere e matematico autodidatta britannico. [DATO UQ=0.97]
+    sigma3: Riformulò le equazioni di Maxwell in notazione vettoriale (4 equazioni), introdusse l'analisi operazionale, predisse
+      la ionosfera (strato di Heaviside). [DATO UQ=0.95]
+    sigma7: La sua riformulazione divenne lo standard didattico e ingegneristico mondiale entro il 1900. [DATO UQ=0.90]
+    sigma11: Il claim di 'eliminazione' di componenti scalari e' una IPOTESI non verificata, originaria di letteratura scalar-wave
+      (Bearden), priva finora di dimostrazione matematica pubblicata in sede peer-reviewed accademica. [IPOTESI 15% UQ=0.15]
+    sigma13: '[SPECULAZIONE grado 5/10] Possibili ''tecnologie energetiche scalari'' bloccate dalla semplificazione di Heaviside.
+      Non falsificabile con framework fisico attuale.'
+  impatto_storico: Le 4 equazioni vettoriali di Heaviside-Gibbs sono il fondamento didattico universale dell'elettromagnetismo
+    classico. Il claim di soppressione resta confinato a letteratura non-accademica.
+  versione_scheda: 2.1_CT_batch0
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+  id_legacy_batch0: T1-B0-008
+- id: T1-026
+  nome: Heinrich Hertz
+  periodo: 1857-1894
+  nazione: Germania
+  field: Fisica — onde elettromagnetiche
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Maxwell (predizione teorica delle onde EM)
+  l_plus_1_heirs:
+  - Marconi, Tesla (applicazioni radio)
+  sigma0: Heinrich Hertz (1857-1894). Fisico tedesco, morto giovane (36 anni).
+  sigma3: '1887: prima generazione e rilevazione sperimentale di onde elettromagnetiche, confermando la teoria di Maxwell.'
+  fonti_primarie:
+  - fonte: 'Hertz: Untersuchungen über die Ausbreitung der elektrischen Kraft (1888)'
+    uq: 0.95
+  impatto_storico: L'unità di frequenza (Hertz) porta il suo nome — la sua conferma sperimentale apri la strada alla radio.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-030
+  nome: Marie Curie
+  periodo: 1867-1934
+  nazione: PL/FR
+  field: Fisica / Chimica — radioattività
+  status: INCORPORATA_CON_NOTA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Henri Becquerel
+  l_plus_1_heirs:
+  - Irène Joliot-Curie (figlia, Nobel 1935)
+  nota_specifica: '[DATO UQ=0.85] 1911: candidatura all''Académie des Sciences francese respinta (votazione di un voto), in
+    un clima pubblico inasprito da uno scandalo mediatico sessista sulla sua relazione con Paul Langevin, scoppiato proprio
+    mentre riceveva il secondo Nobel (Chimica 1911). Caso di resistenza superata: vinse comunque 2 Nobel, unica persona ad
+    averli vinti in due scienze diverse.'
+  fonti_primarie:
+  - fonte: Archivi Académie des Sciences, voto 1911
+    uq: 0.85
+  impatto_storico: Pioniera della radioattività, unica vincitrice di Nobel in due discipline scientifiche distinte (Fisica
+    1903, Chimica 1911).
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-031
+  nome: Albert Einstein
+  periodo: 1879-1955
+  nazione: Germania/Svizzera/USA
+  field: Fisica teorica — relatività
+  status: INCORPORATO
+  si_score: 0.0
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Maxwell (elettromagnetismo)
+  - Lorentz (trasformazioni)
+  l_plus_1_heirs:
+  - Tutta la fisica del XX secolo
+  sigma0: Albert Einstein (1879-1955). Fisico teorico tedesco-americano.
+  sigma3: Relatività speciale (1905) e generale (1915), effetto fotoelettrico (Nobel 1921), E=mc².
+  fonti_primarie:
+  - fonte: 'Einstein: Die Grundlage der allgemeinen Relativitätstheorie (1916)'
+    uq: 0.99
+  nota_specifica: '[DATO UQ=0.85] Rigettò il modello dell''etere luminifero (mainstream physics, confermato dalla relatività
+    speciale) e fu scettico sull''interpretazione standard della meccanica quantistica (EPR paradox) — entrambe posizioni
+    scientifiche legittime nel dibattito, non gatekeeping.'
+  impatto_storico: Il fisico più influente del XX secolo — la relatività generale rimane la teoria standard della gravitazione.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-032
+  nome: Max Planck
+  periodo: 1858-1947
+  nazione: Germania
+  field: Fisica teorica — meccanica quantistica
+  status: INCORPORATO
+  si_score: 0.0
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Wien, Rayleigh-Jeans (problema del corpo nero)
+  l_plus_1_heirs:
+  - Einstein, Bohr, tutta la meccanica quantistica
+  sigma0: Max Planck (1858-1947). Fisico teorico tedesco.
+  sigma3: '1900: quantizzazione dell''energia per risolvere la catastrofe ultravioletta — nascita della meccanica quantistica.
+    1911: formulò anche la teoria dell''energia di punto zero (zero-point energy).'
+  fonti_primarie:
+  - fonte: 'Planck: Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum (1900)'
+    uq: 0.97
+  nota_specifica: '[DATO UQ=0.90] Planck fu ORIGINATORE, non oppositore, della zero-point energy (1911-1912, ''zweite Theorie'')
+    — claim contrari circolati in narrative non verificate vanno corretti.'
+  impatto_storico: Fondatore della meccanica quantistica — costante di Planck (h) è tra le costanti fondamentali della fisica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-033
+  nome: Niels Bohr
+  periodo: 1885-1962
+  nazione: Danimarca
+  field: Fisica teorica — struttura atomica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Rutherford (modello nucleare dell'atomo)
+  l_plus_1_heirs:
+  - Heisenberg, Schrödinger (meccanica quantistica matriciale/ondulatoria)
+  sigma0: Niels Bohr (1885-1962). Fisico danese, fondatore dell'Istituto di Copenaghen.
+  sigma3: Modello atomico di Bohr (livelli energetici quantizzati, 1913), principio di complementarità, interpretazione di
+    Copenaghen della MQ.
+  fonti_primarie:
+  - fonte: 'Bohr: On the Constitution of Atoms and Molecules (1913)'
+    uq: 0.95
+  impatto_storico: L'Istituto di Copenaghen sotto Bohr fu il principale centro mondiale di sviluppo della meccanica quantistica
+    negli anni '20-'30.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-034
+  nome: Werner Heisenberg
+  periodo: 1901-1976
+  nazione: Germania
+  field: Fisica teorica — meccanica quantistica matriciale
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Bohr
+  - Born
+  l_plus_1_heirs:
+  - Tutta la meccanica quantistica moderna
+  sigma0: Werner Heisenberg (1901-1976). Fisico teorico tedesco.
+  sigma3: Meccanica quantistica matriciale (1925), principio di indeterminazione (1927).
+  fonti_primarie:
+  - fonte: 'Heisenberg: Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen (1925)'
+    uq: 0.96
+  impatto_storico: Il principio di indeterminazione è uno dei pilastri concettuali della fisica del XX secolo.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-035
+  nome: Paul Dirac
+  periodo: 1902-1984
+  nazione: Inghilterra
+  field: Fisica teorica — meccanica quantistica relativistica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Heisenberg, Schrödinger
+  l_plus_1_heirs:
+  - Tutta l'elettrodinamica quantistica (QED)
+  sigma0: Paul Dirac (1902-1984). Fisico teorico inglese.
+  sigma3: Equazione di Dirac (1928) — unifica meccanica quantistica e relatività speciale, predice l'antimateria (positrone,
+    confermato 1932).
+  fonti_primarie:
+  - fonte: 'Dirac: The Quantum Theory of the Electron (1928)'
+    uq: 0.97
+  impatto_storico: La predizione teorica dell'antimateria, confermata sperimentalmente 4 anni dopo, è tra i trionfi predittivi
+    più notevoli della fisica teorica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-036
+  nome: Erwin Schrödinger
+  periodo: 1887-1961
+  nazione: Austria
+  field: Fisica teorica — meccanica ondulatoria
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - de Broglie (dualismo onda-particella)
+  l_plus_1_heirs:
+  - Tutta la meccanica quantistica ondulatoria
+  sigma0: Erwin Schrödinger (1887-1961). Fisico teorico austriaco.
+  sigma3: Equazione di Schrödinger (1926) — formulazione ondulatoria della meccanica quantistica, equivalente matematicamente
+    alla formulazione matriciale di Heisenberg.
+  fonti_primarie:
+  - fonte: 'Schrödinger: Quantisierung als Eigenwertproblem (1926)'
+    uq: 0.96
+  impatto_storico: L'equazione di Schrödinger è lo strumento matematico centrale della meccanica quantistica non relativistica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-040
+  nome: Enrico Fermi
+  periodo: 1901-1954
+  nazione: Italia/USA
+  field: Fisica nucleare e delle particelle
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.97
+  l_minus_1_precursors:
+  - Rutherford (fisica nucleare sperimentale)
+  l_plus_1_heirs:
+  - Progetto Manhattan, fisica delle particelle del dopoguerra
+  sigma0: Enrico Fermi (1901-1954). Fisico italiano, emigrato negli USA nel 1938 (leggi razziali, moglie ebrea).
+  sigma3: Teoria del decadimento beta, prima reazione nucleare a catena controllata (Chicago Pile-1, 1942), statistica di
+    Fermi-Dirac.
+  fonti_primarie:
+  - fonte: 'Fermi: Tentativo di una teoria dei raggi beta (1934)'
+    uq: 0.96
+  impatto_storico: Unico scienziato del XX secolo eccellente sia in fisica teorica che sperimentale — figura centrale del
+    Progetto Manhattan.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-041
+  nome: Richard Feynman
+  periodo: 1918-1988
+  nazione: USA
+  field: Fisica teorica — elettrodinamica quantistica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Dirac (QED precedente)
+  l_plus_1_heirs:
+  - Tutta la fisica delle particelle moderna (diagrammi di Feynman)
+  sigma0: Richard Feynman (1918-1988). Fisico teorico americano.
+  sigma3: Formulazione path-integral della meccanica quantistica, diagrammi di Feynman per QED (Nobel 1965, condiviso con
+    Schwinger e Tomonaga).
+  fonti_primarie:
+  - fonte: 'Feynman: QED: The Strange Theory of Light and Matter (1985, divulgativo)'
+    uq: 0.9
+  impatto_storico: I diagrammi di Feynman sono lo strumento standard di calcolo in tutta la fisica delle particelle moderna.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-042
+  nome: David Bohm
+  categoria: MARTIRE_POLITICO
+  periodo: 1917-1992
+  nazione: US
+  field: Fisica quantistica / Interpretazione causale della meccanica quantistica
+  status: PERSEGUITATO_ESILIO
+  certezza: alta
+  si_score: 0.5
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Robert Oppenheimer (suo supervisore PhD a Berkeley)
+  - Louis de Broglie (onda pilota)
+  l_plus_1_heirs:
+  - John Stewart Bell (disuguaglianze di Bell, ispirate dal lavoro di Bohm)
+  - Interpretazione di de Broglie-Bohm oggi attivamente studiata
+  fonti_primarie:
+  - fonte: 'HUAC (House Un-American Activities Committee): trascrizioni udienze 1949'
+    uq: 0.9
+    status: PUBBLICO — National Archives
+  - fonte: 'Bohm D.: A Suggested Interpretation of the Quantum Theory in Terms of ''Hidden Variables'' (Phys. Rev. 1952)'
+    uq: 0.96
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - '1949: convocato da HUAC per passate associazioni con il Partito Comunista, si rifiuta di testimoniare contro colleghi
+    (Quinto Emendamento)'
+  - Arrestato, poi assolto, ma Princeton non rinnova il contratto. Costretto a lasciare gli USA
+  - Passaporto USA revocato — visse in esilio (Brasile, Israele, infine UK) per il resto della vita, non poté tornare negli
+    USA per anni
+  aion_strati:
+    sigma0: David Bohm (1917-1992). Fisico quantistico americano, PhD a Berkeley sotto Oppenheimer. [DATO UQ=0.95]
+    sigma3: '1952: formulò un''interpretazione causale/deterministica della meccanica quantistica (variabili nascoste) come
+      alternativa all''interpretazione di Copenaghen. [DATO UQ=0.92]'
+    sigma7: '1949-1951: persecuzione maccartista, esilio forzato. Continuò il lavoro teorico da Brasile, Israele, poi Birkbeck
+      College Londra. [DATO UQ=0.90]'
+  impatto_storico: La sua interpretazione, marginalizzata per decenni durante l'esilio, è oggi un campo di ricerca attivo
+    in fondamenti della meccanica quantistica.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-043
+  nome: Emilio Segrè e Edoardo Amaldi
+  periodo: 1905-1989 / 1908-1989
+  nazione: Italia
+  field: Fisica nucleare — 'i ragazzi di Via Panisperna'
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.95
+  l_minus_1_precursors:
+  - Enrico Fermi (gruppo di Roma)
+  l_plus_1_heirs:
+  - Fisica nucleare italiana del dopoguerra
+  sigma0: Emilio Segrè (1905-1989) e Edoardo Amaldi (1908-1989). Membri del gruppo 'Via Panisperna' guidato da Fermi a Roma.
+  sigma3: 'Segrè: scoperta del tecnezio e dell''antiprotone (Nobel 1959). Amaldi: ricostruzione della fisica italiana nel
+    dopoguerra, co-fondatore del CERN.'
+  fonti_primarie:
+  - fonte: 'Segrè E.: Enrico Fermi, Physicist (1970, memorie)'
+    uq: 0.85
+  impatto_storico: Segrè emigrò per leggi razziali (come Fermi); Amaldi rimase in Italia e fu architetto della ricostruzione
+    scientifica post-bellica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-044
+  nome: Alain Aspect
+  periodo: 1947-
+  nazione: Francia
+  field: Fisica quantistica sperimentale
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - John Stewart Bell (disuguaglianze di Bell)
+  l_plus_1_heirs:
+  - Zeilinger, Clauser (Nobel condiviso 2022)
+  sigma0: Alain Aspect (1947-). Fisico francese.
+  sigma3: Esperimenti (1981-1982) che confermano sperimentalmente la violazione delle disuguaglianze di Bell — entanglement
+    quantistico verificato. Nobel per la Fisica 2022 (condiviso con Clauser e Zeilinger).
+  fonti_primarie:
+  - fonte: 'Aspect A. et al.: Experimental Test of Bell''s Inequalities Using Time-Varying Analyzers (Phys. Rev. Lett. 1982)'
+    uq: 0.96
+  impatto_storico: I suoi esperimenti hanno chiuso sperimentalmente il dibattito su variabili nascoste locali in meccanica
+    quantistica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-045
+  nome: Murray Gell-Mann
+  periodo: 1929-2019
+  nazione: USA
+  field: Fisica delle particelle — quark
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Fermi, classificazione delle particelle anni '50
+  l_plus_1_heirs:
+  - Modello Standard
+  sigma0: Murray Gell-Mann (1929-2019). Fisico teorico americano.
+  sigma3: Modello a quark (1964, con George Zweig indipendentemente), classificazione delle particelle subatomiche (Nobel
+    1969).
+  fonti_primarie:
+  - fonte: 'Gell-Mann M.: A Schematic Model of Baryons and Mesons (Phys. Lett. 1964)'
+    uq: 0.95
+  impatto_storico: Il modello a quark è il fondamento della classificazione moderna delle particelle subatomiche.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-046
+  nome: Peter Higgs
+  periodo: 1929-2024
+  nazione: Inghilterra/Scozia
+  field: Fisica teorica — meccanismo di Higgs
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Goldstone, Nambu (rottura spontanea di simmetria)
+  l_plus_1_heirs:
+  - Modello Standard, CERN/LHC (conferma sperimentale 2012)
+  sigma0: Peter Higgs (1929-2024). Fisico teorico britannico.
+  sigma3: Meccanismo di Higgs (1964) — spiega come le particelle acquisiscono massa. Bosone di Higgs confermato sperimentalmente
+    al CERN nel 2012, Nobel 2013.
+  fonti_primarie:
+  - fonte: 'Higgs P.: Broken Symmetries and the Masses of Gauge Bosons (Phys. Rev. Lett. 1964)'
+    uq: 0.96
+  nota_specifica: '[INFERENZA UQ=0.55] Il suo paper originale fu inizialmente respinto da Physics Letters (1964) prima di
+    essere accettato da Physical Review Letters dopo revisione — episodio editoriale normale, non soppressione, ma talvolta
+    citato impropriamente come tale.'
+  impatto_storico: La conferma sperimentale del bosone di Higgs nel 2012 completò il Modello Standard, 48 anni dopo la predizione
+    teorica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-050
+  nome: Alan Turing
+  tipo_nodo: SCIENZIATO
+  categoria: MARTIRE
+  periodo: 1912-1954
+  nazione: GB
+  field: Matematica / Informatica teorica / Crittoanalisi
+  status: INCORPORATO_CON_PERSECUZIONE
+  certezza: alta
+  si_score: 0.75
+  it_score: 0.0
+  ciclo_17_fase: 7
+  tags_frattali:
+  - '#Turing'
+  - '#Bletchley'
+  - '#Persecuzione1952'
+  l_minus_1_precursors:
+  - Kurt Gödel (incompletezza)
+  - Alonzo Church (calcolabilità)
+  l_plus_1_heirs:
+  - Tutta l'informatica teorica moderna
+  - AI/Machine Learning (Turing Test)
+  fonti_primarie:
+  - fonte: 'Turing A.M.: On Computable Numbers (Proc. London Math. Soc. 1936)'
+    uq: 0.99
+    status: PUBBLICO
+  - fonte: Atti processuali R v. Turing and Murray (1952, Knutsford)
+    uq: 0.93
+    status: PUBBLICO — archivi storici
+  meccanismo_persecuzione:
+  - Condanna 1952 per 'gross indecency' (omosessualità, illegale in UK fino al 1967)
+  - Castrazione chimica forzata (terapia con estrogeni) come alternativa al carcere
+  - Revoca security clearance, esclusione da GCHQ
+  domande_aperte_da_chiudere:
+  - La causa della morte (1954, avvelenamento da cianuro) fu suicidio o incidente? Il coroner concluse suicidio, ma storici
+    come Jack Copeland (2012) hanno segnalato che Turing teneva apparecchiature con cianuro in casa per esperimenti di galvanizzazione,
+    rendendo l'esposizione accidentale plausibile. [QUESTIONE STORIOGRAFICA APERTA, non risolta]
+  aion_strati:
+    sigma0: Alan Turing (1912-1954). Matematico, Bletchley Park (decrittazione Enigma, WWII). Fondatore dell'informatica teorica.
+      [DATO UQ=0.99]
+    sigma3: '1936: macchina di Turing, fondamento della computabilità. WWII: ruolo chiave nella decrittazione tedesca. 1950:
+      Turing Test. [DATO UQ=0.98]'
+    sigma7: '1952: condannato per omosessualità, sottoposto a castrazione chimica. 1954: morte per avvelenamento da cianuro,
+      41 anni. [DATO UQ=0.95 sui fatti, vedi domanda aperta su causa esatta]'
+    sigma11: Il contributo di Turing fu pienamente riconosciuto solo postumo — scuse ufficiali del governo UK (Gordon Brown
+      2009, perdono reale 2013). [DATO UQ=0.92]
+  impatto_storico: Fondatore dell'informatica teorica. Il suo lavoro a Bletchley Park è stimato aver accorciato la guerra
+    di 2+ anni (storiografia standard). La persecuzione post-bellica rimane un caso di riferimento su trattamento di scienziati
+    LGBT+.
+  versione_scheda: 2.1_CT_batch0
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+  id_legacy_batch0: T1-B0-001
+- id: T1-051
+  nome: John von Neumann
+  periodo: 1903-1957
+  nazione: Ungheria/USA
+  field: Matematica / Informatica teorica / Fisica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Turing (calcolabilità)
+  - Hilbert (formalismo matematico)
+  l_plus_1_heirs:
+  - Tutta l'architettura dei computer moderni (architettura von Neumann)
+  sigma0: John von Neumann (1903-1957). Matematico ungherese-americano, poliedrico (matematica, fisica, informatica, economia).
+  sigma3: Architettura von Neumann (base dei computer moderni), fondamenti matematici della meccanica quantistica, teoria
+    dei giochi (con Morgenstern), Progetto Manhattan.
+  fonti_primarie:
+  - fonte: 'von Neumann: First Draft of a Report on the EDVAC (1945)'
+    uq: 0.93
+  impatto_storico: L'architettura von Neumann è ancora oggi il modello base della maggioranza dei computer esistenti.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-052
+  nome: Claude Shannon
+  periodo: 1916-2001
+  nazione: USA
+  field: Matematica — teoria dell'informazione
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Nyquist, Hartley (teoria dei segnali precedente)
+  l_plus_1_heirs:
+  - Tutta l'informatica e le telecomunicazioni moderne
+  sigma0: Claude Shannon (1916-2001). Matematico e ingegnere americano, Bell Labs.
+  sigma3: A Mathematical Theory of Communication (1948) — fondò la teoria dell'informazione, concetto di entropia informazionale
+    (bit).
+  fonti_primarie:
+  - fonte: 'Shannon C.: A Mathematical Theory of Communication (Bell System Technical Journal, 1948)'
+    uq: 0.97
+  impatto_storico: Fondamento teorico di tutta la trasmissione digitale dell'informazione — internet, compressione dati, crittografia.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-053
+  nome: Norbert Wiener
+  periodo: 1894-1964
+  nazione: USA
+  field: Matematica — cibernetica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Maxwell (teoria del controllo, governor)
+  l_plus_1_heirs:
+  - Teoria dei sistemi di controllo, robotica, AI
+  sigma0: Norbert Wiener (1894-1964). Matematico americano, MIT.
+  sigma3: Fondò la cibernetica (1948) — studio dei sistemi di controllo e retroazione (feedback) in macchine e organismi viventi.
+  fonti_primarie:
+  - fonte: 'Wiener N.: Cybernetics: Or Control and Communication in the Animal and the Machine (1948)'
+    uq: 0.9
+  impatto_storico: La cibernetica influenzò profondamente l'informatica, la robotica, le scienze cognitive e la teoria dei
+    sistemi.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-060
+  nome: Charles Darwin
+  periodo: 1809-1882
+  nazione: Inghilterra
+  field: Biologia evolutiva
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Lamarck
+  - Malthus (pressione di selezione)
+  l_plus_1_heirs:
+  - Tutta la biologia evolutiva moderna
+  sigma0: Charles Darwin (1809-1882). Naturalista inglese.
+  sigma3: L'origine delle specie (1859) — teoria della selezione naturale come meccanismo dell'evoluzione.
+  fonti_primarie:
+  - fonte: 'Darwin C.: On the Origin of Species (1859)'
+    uq: 0.98
+  nota_specifica: '[DATO UQ=0.80] Possedeva il paper di Mendel (1866) nella propria biblioteca ma, secondo tradizione storiografica,
+    non lo studiò mai a fondo — un possibile incontro mancato tra le due grandi teorie biologiche del secolo (vedi T1-061
+    Mendel).'
+  impatto_storico: La teoria dell'evoluzione per selezione naturale è il fondamento unificante di tutta la biologia moderna.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-061
+  nome: Gregor Mendel
+  categoria: MARTIRE_PARADIGMA
+  periodo: 1822-1884
+  nazione: AT
+  field: Genetica / Botanica
+  status: INCORPORATO_DOPO_OBLIO
+  certezza: alta
+  si_score: 0.4
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Nessuno diretto identificato — lavoro originale e isolato
+  l_plus_1_heirs:
+  - Hugo de Vries, Carl Correns, Erich von Tschermak (ri-scopritori indipendenti, 1900)
+  - Tutta la genetica moderna
+  fonti_primarie:
+  - fonte: 'Mendel G.: Versuche über Pflanzen-Hybriden (Verhandlungen des naturforschenden Vereines in Brünn, 1866)'
+    uq: 0.97
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - Pubblicò i suoi risultati su piselli (1866) in una rivista regionale poco letta (Brno, Moravia) — quasi nessun impatto
+    sulla comunità scientifica per 34 anni
+  - Darwin possedeva una copia del paper di Mendel nella sua biblioteca ma, secondo la tradizione storiografica, non la lesse
+    mai attentamente — un possibile incontro mancato cruciale tra le due grandi teorie biologiche del secolo
+  aion_strati:
+    sigma0: Gregor Mendel (1822-1884). Frate agostiniano e naturalista, abate del monastero di Brno. [DATO UQ=0.96]
+    sigma3: Esperimenti su 7 anni con piante di pisello, stabilendo le leggi dell'eredità (dominanza, segregazione, assortimento
+      indipendente). [DATO UQ=0.95]
+    sigma7: Oblio quasi totale 1866-1900. Riscoperto indipendentemente da tre botanici nel 1900, che trovarono il suo paper
+      retrospettivamente. Termine 'genetica mendeliana' coniato postumo. [DATO UQ=0.93]
+  impatto_storico: Fondatore della genetica, riconosciuto solo 16 anni dopo la morte — caso classico di lavoro corretto ignorato
+    per assenza di canale di diffusione adeguato, non per soppressione attiva.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-062
+  nome: James Watson e Francis Crick
+  periodo: 1928- / 1916-2004
+  nazione: USA/Inghilterra
+  field: Biologia molecolare — struttura del DNA
+  status: INCORPORATO_CON_NOTA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Rosalind Franklin (dati cristallografici, vedi T1-063)
+  l_plus_1_heirs:
+  - Tutta la biologia molecolare moderna
+  sigma0: James Watson (1928-) e Francis Crick (1916-2004). Cambridge, Cavendish Laboratory.
+  sigma3: '1953: modello a doppia elica del DNA. Nobel 1962 (condiviso con Wilkins).'
+  fonti_primarie:
+  - fonte: 'Watson J., Crick F.: Molecular Structure of Nucleic Acids (Nature, 1953)'
+    uq: 0.98
+  nota_specifica: '[DATO UQ=0.90] Il loro modello si basò su dati cristallografici di Rosalind Franklin, condivisi con Watson
+    da Wilkins senza il pieno consenso di Franklin. Vedi T1-063 per il caso di credito negato.'
+  impatto_storico: La scoperta della struttura del DNA è tra le più importanti della biologia del XX secolo.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-063
+  nome: Rosalind Franklin
+  categoria: MARTIRE_CREDITO_NEGATO
+  periodo: 1920-1958
+  nazione: GB
+  field: Cristallografia a raggi X / Biologia molecolare
+  status: CREDITO_NEGATO
+  certezza: alta
+  si_score: 0.6
+  it_score: 0.0
+  l_minus_1_precursors:
+  - William Astbury (primi studi cristallografici su DNA)
+  l_plus_1_heirs:
+  - James Watson, Francis Crick (usarono i suoi dati per il modello a doppia elica)
+  fonti_primarie:
+  - fonte: 'Franklin R., Gosling R.G.: Molecular Configuration in Sodium Thymonucleate (Nature, 1953) — pubblicato nello stesso
+      numero di Watson-Crick'
+    uq: 0.96
+    status: PUBBLICO
+  - fonte: 'Maddox B.: Rosalind Franklin: The Dark Lady of DNA (HarperCollins 2002) — biografia di riferimento'
+    uq: 0.85
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - La sua 'Photo 51' (diffrazione a raggi X del DNA) fu mostrata a Watson da Wilkins SENZA il suo consenso esplicito — dato
+    cruciale per il modello a doppia elica
+  - Morì nel 1958 di cancro ovarico, a 37 anni — quattro anni prima del Nobel 1962 assegnato a Watson, Crick e Wilkins (i
+    Nobel non si assegnano postumi)
+  - Il libro di Watson 'The Double Helix' (1968) la descrisse in modo sminuente, contribuendo a una narrativa pubblica riduttiva
+    del suo ruolo
+  aion_strati:
+    sigma0: Rosalind Franklin (1920-1958). Cristallografa britannica, King's College London. [DATO UQ=0.97]
+    sigma3: '1952: produce la ''Photo 51'', la migliore immagine di diffrazione a raggi X del DNA fino ad allora, mostrando
+      chiaramente la struttura elicoidale. [DATO UQ=0.95]'
+    sigma7: '1953: Watson e Crick pubblicano il modello a doppia elica usando dati di Franklin (Photo 51 + report non pubblicato)
+      senza che lei ne fosse pienamente consapevole all''epoca. 1962: Nobel a Watson/Crick/Wilkins — lei era già morta. [DATO
+      UQ=0.90]'
+  impatto_storico: Caso di riferimento internazionale su credito scientifico negato a una donna, ampiamente rivalutato dalla
+    storiografia post-1970 (Anne Sayre, Brenda Maddox).
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-064
+  nome: Lynn Margulis
+  categoria: MARTIRE_PARADIGMA
+  periodo: 1938-2011
+  nazione: US
+  field: Biologia evolutiva / Microbiologia
+  status: INCORPORATA_DOPO_RIGETTO
+  certezza: alta
+  si_score: 0.45
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Konstantin Mereschkowski (teoria simbiogenetica, 1905, ignorata)
+  - Ivan Wallin (1920s, ignorato)
+  l_plus_1_heirs:
+  - Intera biologia cellulare moderna (mitocondri/cloroplasti come ex-batteri è oggi canone)
+  fonti_primarie:
+  - fonte: 'Sagan L. (Margulis): On the Origin of Mitosing Cells (J. Theor. Biol. 1967)'
+    uq: 0.95
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - 'Il paper del 1967 (teoria endosimbiotica: mitocondri e cloroplasti derivano da batteri inglobati) fu rifiutato da circa
+    15 riviste prima della pubblicazione'
+  - Per oltre un decennio la teoria fu considerata marginale/eccentrica dalla biologia evolutiva mainstream
+  aion_strati:
+    sigma0: Lynn Margulis (1938-2011). Biologa evolutiva americana. [DATO UQ=0.96]
+    sigma3: '1967: propone che mitocondri e cloroplasti siano discendenti di batteri endosimbionti antichi. [DATO UQ=0.93]'
+    sigma7: Rigetto iniziale di ~15 riviste. Accettazione piena negli anni '80-'90 con conferme genetiche (DNA mitocondriale
+      distinto). Oggi è biologia cellulare canonica nei libri di testo. [DATO UQ=0.92]
+  impatto_storico: Caso da manuale di rigetto paradigmatico seguito da piena vendicazione — la teoria endosimbiotica è oggi
+    insegnata in ogni corso introduttivo di biologia.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-065
+  nome: Craig Venter
+  periodo: 1946-
+  nazione: USA
+  field: Genomica — sequenziamento del genoma
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Watson, Crick, Sanger (sequenziamento DNA)
+  l_plus_1_heirs:
+  - Genomica personalizzata, biologia sintetica
+  sigma0: Craig Venter (1946-). Biologo e imprenditore americano.
+  sigma3: Co-completamento del sequenziamento del genoma umano (2000-2003, in competizione/collaborazione con il Progetto
+    Genoma Pubblico), prima cellula sintetica (2010).
+  fonti_primarie:
+  - fonte: 'Venter J.C. et al.: The Sequence of the Human Genome (Science, 2001)'
+    uq: 0.93
+  impatto_storico: Pioniere della genomica veloce e della biologia sintetica — figura controversa per l'approccio commerciale/privato
+    alla scienza genomica, non per soppressione.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-070
+  nome: Antoine Lavoisier
+  periodo: 1743-1794
+  nazione: Francia
+  field: Chimica — nomenclatura e conservazione della massa
+  status: INCORPORATO_MORTE_POLITICA
+  si_score: 0.05
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Priestley (isolò l'ossigeno, interpretazione errata)
+  l_plus_1_heirs:
+  - Tutta la chimica moderna
+  sigma0: Antoine Lavoisier (1743-1794). Chimico francese, anche fermier général (esattore delle tasse).
+  sigma3: Legge di conservazione della massa, nomenclatura chimica moderna, corretta interpretazione dell'ossigeno (rispetto
+    a Priestley).
+  fonti_primarie:
+  - fonte: 'Lavoisier: Traité élémentaire de chimie (1789)'
+    uq: 0.97
+  nota_specifica: '[DATO UQ=0.95] Giustiziato durante il Terrore (1794) come fermier général — per ragioni FISCALI/POLITICHE,
+    non per la sua chimica, che fu incorporata immediatamente senza soppressione. T1 puro, non martire scientifico nonostante
+    la morte violenta.'
+  impatto_storico: Fondatore della chimica moderna — la sua morte fu una tragedia politica del Terrore, non un caso di soppressione
+    scientifica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-071
+  nome: Dmitri Mendeleev
+  periodo: 1834-1907
+  nazione: RU
+  field: Chimica — tavola periodica
+  status: INCORPORATO_CON_NOTA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - John Newlands (legge delle ottave, priorità contestata)
+  l_plus_1_heirs:
+  - Tutta la chimica moderna
+  nota_specifica: '[INFERENZA UQ=0.55] Mai eletto all''Accademia Russa delle Scienze nonostante la fama internazionale — attribuito
+    da alcuni storici a tensioni politiche (posizioni progressiste, supporto a studenti coinvolti in proteste) più che a merito
+    scientifico.'
+  fonti_primarie:
+  - fonte: 'Mendeleev D.: Sulla relazione delle proprietà con il peso atomico degli elementi (1869)'
+    uq: 0.97
+  impatto_storico: La tavola periodica resta uno strumenti fondanti della chimica moderna.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-072
+  nome: Linus Pauling
+  periodo: 1901-1994
+  nazione: US
+  field: Chimica / Biologia molecolare
+  status: INCORPORATO_CON_DUALITA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Gilbert N. Lewis (legame chimico)
+  l_plus_1_heirs:
+  - Watson e Crick (competé con loro sulla struttura del DNA, perse con il modello a tripla elica errato)
+  nota_specifica: '[DATO UQ=0.85] CASO INVERSO rispetto alla maggioranza dei nodi: 2 Premi Nobel legittimi (Chimica 1954,
+    Pace 1962) seguiti da un netto allontanamento dal mainstream negli anni ''70-''90 per la promozione di megadosi di vitamina
+    C come cura per cancro e raffreddore — posizioni ampiamente respinte da trial clinici controllati. Non soppresso: divenne
+    lui stesso fonte di claims non supportati dall''evidenza.'
+  fonti_primarie:
+  - fonte: 'Pauling L.: Vitamin C and the Common Cold (1970) — claim successivamente non confermato da RCT multipli'
+    uq: 0.8
+  impatto_storico: Tra i più importanti chimici del XX secolo; la sua eredità è complicata dalla svolta orthomolecolare degli
+    ultimi 20 anni di carriera.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-080
+  nome: Edwin Hubble
+  periodo: 1889-1953
+  nazione: USA
+  field: Astronomia extragalattica — espansione dell'universo
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Vesto Slipher (redshift galattico, dati precedenti)
+  - Henrietta Leavitt (relazione periodo-luminosità Cefeidi, base del metodo di Hubble)
+  l_plus_1_heirs:
+  - Georges Lemaître (teoria del Big Bang)
+  - Fred Hoyle (vedi T1-081, oppositore della stessa teoria)
+  sigma0: Edwin Hubble (1889-1953). Astronomo americano, Osservatorio di Mount Wilson.
+  sigma3: '1924: dimostra che le ''nebulose a spirale'' sono galassie esterne alla Via Lattea. 1929: legge di Hubble — le
+    galassie si allontanano con velocità proporzionale alla distanza (universo in espansione).'
+  fonti_primarie:
+  - fonte: 'Hubble E.: A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae (PNAS, 1929)'
+    uq: 0.96
+  nota_specifica: '[DATO UQ=0.70] Il lavoro chiave su cui si basò (relazione periodo-luminosità delle Cefeidi) fu di Henrietta
+    Leavitt, computer umano all''Harvard College Observatory, mai pienamente riconosciuta in vita (le donne all''epoca non
+    potevano operare i telescopi).'
+  impatto_storico: La scoperta dell'espansione dell'universo è il fondamento osservativo della teoria del Big Bang. Il telescopio
+    spaziale Hubble porta il suo nome.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-081
+  nome: Fred Hoyle
+  periodo: 1915-2001
+  nazione: GB
+  field: Astrofisica / Nucleosintesi stellare
+  status: INCORPORATO_CON_NOTA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Arthur Eddington
+  l_plus_1_heirs:
+  - William Fowler (Nobel 1983, basato su teoria che Hoyle co-sviluppò)
+  nota_specifica: '[INFERENZA UQ=0.60] Escluso dal Nobel 1983 per la nucleosintesi stellare (assegnato solo a Fowler), nonostante
+    Hoyle ne fosse co-teorizzatore originale. Storiograficamente attribuito al suo carattere pubblicamente contrarian (coniò
+    ''Big Bang'' come termine derisorio, sostenne la teoria Steady State anche dopo la scoperta del fondo cosmico 1965). Non
+    e'' persecuzione, e'' uno snub probabilmente legato alla personalità.'
+  fonti_primarie:
+  - fonte: 'Hoyle F., Fowler W., Burbidge G., Burbidge M.: Synthesis of the Elements in Stars (Rev. Mod. Phys. 1957)'
+    uq: 0.93
+  impatto_storico: Teoria della nucleosintesi stellare oggi pienamente accettata; l'esclusione dal Nobel resta un caso discusso
+    nella storiografia della fisica.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-082
+  nome: Stephen Hawking
+  periodo: 1942-2018
+  nazione: Inghilterra
+  field: Fisica teorica — cosmologia/buchi neri
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Penrose (teoremi delle singolarità)
+  l_plus_1_heirs:
+  - Cosmologia teorica contemporanea
+  sigma0: Stephen Hawking (1942-2018). Fisico teorico inglese, Cambridge. Affetto da SLA dal 1963.
+  sigma3: Radiazione di Hawking (1974) — i buchi neri emettono radiazione e possono evaporare, teoremi delle singolarità (con
+    Penrose).
+  fonti_primarie:
+  - fonte: 'Hawking S.: A Brief History of Time (1988, divulgativo)'
+    uq: 0.85
+  impatto_storico: Tra i fisici teorici più noti pubblicamente del XX secolo — nessun caso di soppressione documentato; la
+    sua carriera fu pienamente incorporata e celebrata.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-090
+  nome: Santiago Ramón y Cajal
+  periodo: 1852-1934
+  nazione: Spagna
+  field: Neuroanatomia — teoria del neurone
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - 'Camillo Golgi (tecnica di colorazione, ma interpretazione opposta: teoria reticolare)'
+  l_plus_1_heirs:
+  - Tutta la neuroscienza moderna
+  sigma0: Santiago Ramón y Cajal (1852-1934). Neuroanatomista spagnolo.
+  sigma3: Teoria del neurone (i neuroni sono cellule discrete e separate, non una rete continua come sosteneva Golgi) — Nobel
+    1906 condiviso proprio con Golgi, nonostante le teorie opposte.
+  fonti_primarie:
+  - fonte: 'Cajal: Textura del sistema nervioso del hombre y los vertebrados (1899-1904)'
+    uq: 0.93
+  impatto_storico: La teoria del neurone di Cajal prevalse storicamente su quella reticolare di Golgi — caso interessante
+    di Nobel condiviso tra teorie scientificamente incompatibili.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-091
+  nome: Karl Pribram
+  periodo: 1919-2015
+  nazione: USA
+  field: Neuroscienza — teoria olografica della memoria
+  status: INCORPORATO_MINORITARIO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Dennis Gabor (matematica degli ologrammi)
+  l_plus_1_heirs:
+  - Comunità neuroscienza computazionale (parziale ripresa)
+  sigma0: Karl Pribram (1919-2015). Neuroscienziato americano di origine austriaca.
+  sigma3: Propose che la memoria sia codificata nel cervello in modo distribuito/olografico piuttosto che localizzato in singoli
+    punti.
+  fonti_primarie:
+  - fonte: 'Pribram K.: Languages of the Brain (1971)'
+    uq: 0.75
+  nota_specifica: '[INFERENZA UQ=0.50] Ipotesi minoritaria ma seriamente discussa in neuroscienza — non refutata definitivamente
+    né pienamente accettata, diversa da un caso di soppressione attiva.'
+  impatto_storico: La sua ipotesi rimane un riferimento nella discussione su codifica distribuita vs localizzata della memoria.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-092
+  nome: Roger Penrose
+  periodo: 1931-
+  nazione: Inghilterra
+  field: Fisica matematica / Teoria della coscienza (minoritaria)
+  status: INCORPORATO_CON_TEORIA_MINORITARIA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Hawking (collaborazione sui teoremi delle singolarità)
+  l_plus_1_heirs:
+  - Stuart Hameroff (teoria Orch-OR, minoritaria)
+  sigma0: Roger Penrose (1931-). Fisico matematico inglese, Nobel per la Fisica 2020 (teoremi sui buchi neri).
+  sigma3: Teoremi delle singolarità (con Hawking), twistor theory. Teoria Orch-OR (con Hameroff) sulla coscienza quantistica
+    — ipotesi minoritaria e contestata in neuroscienza.
+  fonti_primarie:
+  - fonte: 'Penrose R.: The Emperor''s New Mind (1989, divulgativo sulla teoria della coscienza)'
+    uq: 0.7
+  nota_specifica: '[INFERENZA UQ=0.45] La teoria Orch-OR sulla coscienza è ampiamente criticata dalla comunità neuroscientifica
+    mainstream — Penrose stesso è pienamente incorporato per il lavoro sui buchi neri (Nobel), la teoria della coscienza è
+    un side-project minoritario, non un caso di persecuzione.'
+  impatto_storico: Contributi fondamentali alla relatività generale (Nobel 2020); la teoria della coscienza quantistica resta
+    speculativa.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-100
+  nome: Brian Josephson
+  periodo: 1940-
+  nazione: Inghilterra
+  field: Fisica — effetto Josephson / parapsicologia (minoritaria)
+  status: INCORPORATO_CON_DUALITA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - BCS theory (superconduttività)
+  l_plus_1_heirs:
+  - Tecnologia SQUID, qubit superconduttori
+  sigma0: Brian Josephson (1940-). Fisico inglese, Nobel per la Fisica 1973.
+  sigma3: Effetto Josephson (1962) — tunneling quantistico tra superconduttori, fondamento di SQUID e qubit moderni.
+  fonti_primarie:
+  - fonte: 'Josephson B.: Possible New Effects in Superconductive Tunnelling (Phys. Lett. 1962)'
+    uq: 0.96
+  nota_specifica: '[DATO UQ=0.80] Dopo il Nobel, divenne pubblico sostenitore della parapsicologia/telepatia, posizione ampiamente
+    criticata dalla comunità dei fisici — caso analogo a Pauling (T1-072): scienziato Nobel con svolta tardiva verso posizioni
+    minoritarie/controverse, non perseguitato per questo.'
+  impatto_storico: L'effetto Josephson è tecnologia chiave per i moderni computer quantistici superconduttori.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-101
+  nome: Anton Zeilinger
+  periodo: 1945-
+  nazione: Austria
+  field: Fisica quantistica sperimentale — teletrasporto quantistico
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Aspect, Bell
+  l_plus_1_heirs:
+  - Crittografia quantistica, comunicazione quantistica satellitare
+  sigma0: Anton Zeilinger (1945-). Fisico austriaco, Nobel per la Fisica 2022.
+  sigma3: Prime demo sperimentali di teletrasporto quantistico (1997), entanglement multi-fotone.
+  fonti_primarie:
+  - fonte: 'Bouwmeester D., Zeilinger A. et al.: Experimental Quantum Teleportation (Nature 1997)'
+    uq: 0.95
+  impatto_storico: Pioniere sperimentale della seconda rivoluzione quantistica (informazione/crittografia quantistica).
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-102
+  nome: Kip Thorne
+  periodo: 1940-
+  nazione: USA
+  field: Fisica teorica — relatività generale/onde gravitazionali
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Wheeler (suo supervisore)
+  l_plus_1_heirs:
+  - Collaborazione LIGO
+  sigma0: Kip Thorne (1940-). Fisico teorico americano, Caltech.
+  sigma3: Co-fondatore di LIGO, predizioni teoriche su onde gravitazionali e buchi neri, consulente scientifico del film Interstellar.
+    Nobel 2017.
+  fonti_primarie:
+  - fonte: 'Abbott B.P. et al. (LIGO Collaboration): Observation of Gravitational Waves (Phys. Rev. Lett. 2016)'
+    uq: 0.97
+  impatto_storico: La prima detection diretta di onde gravitazionali (2015) confermò una predizione di Einstein di 100 anni
+    prima.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-103
+  nome: Nikolai Vavilov
+  tipo_nodo: SCIENZIATO
+  categoria: MARTIRE
+  periodo: 1887-1943
+  nazione: RU
+  field: Genetica / Botanica / Biologia agraria
+  status: PERSEGUITATO_MORTE
+  certezza: alta
+  si_score: 0.92
+  it_score: 0.0
+  ciclo_17_fase: 6
+  tags_frattali:
+  - '#Vavilov'
+  - '#Lysenkoismo'
+  - '#URSS'
+  l_minus_1_precursors:
+  - Gregor Mendel (genetica classica)
+  - Thomas Hunt Morgan
+  l_plus_1_heirs:
+  - Genetica moderna post-lysenkoista
+  - Banche di semi globali (eredità del suo lavoro)
+  fonti_primarie:
+  - fonte: 'Vavilov N.I.: Studies on the Origin of Cultivated Plants (1926)'
+    uq: 0.96
+    status: PUBBLICO
+  - fonte: Atti del processo NKVD (1940, archivi sovietici parzialmente declassificati post-1991)
+    uq: 0.85
+    status: PUBBLICO PARZIALE
+  meccanismo_persecuzione:
+  - Arrestato dall'NKVD nel 1940 per opposizione scientifica al lysenkoismo (teoria pseudo-lamarckiana sostenuta da Stalin
+    tramite Trofim Lysenko)
+  - Condannato a morte (1941), poi commutata a 20 anni di prigione
+  - Morto di fame in prigione a Saratov, 26 gennaio 1943
+  domande_aperte_da_chiudere: []
+  aion_strati:
+    sigma0: Nikolai Vavilov (1887-1943). Botanico e genetista sovietico, fondatore della più grande banca di semi al mondo
+      (Istituto di Genetica Vegetale, Leningrado). [DATO UQ=0.97]
+    sigma3: Teoria dei centri di origine delle piante coltivate. Raccolse 250.000+ campioni di semi in spedizioni globali.
+      [DATO UQ=0.95]
+    sigma7: '1940: arrestato per difesa della genetica mendeliana contro il lysenkoismo di stato. Morto di fame in prigione
+      1943, durante l''assedio di Leningrado in cui i suoi stessi colleghi protessero la banca semi (alcuni morirono di fame
+      piuttosto che mangiare i semi conservati). [DATO UQ=0.94]'
+  impatto_storico: Caso di riferimento assoluto per soppressione politica della scienza genetica. Il lysenkoismo, imposto
+    per decreto statale 1948-1964, causò un ritardo di decenni nella genetica sovietica.
+  versione_scheda: 2.1_CT_batch0
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+  id_legacy_batch0: T1-B0-006
+- id: T1-104
+  nome: Giordano Bruno
+  tipo_nodo: SCIENZIATO
+  categoria: MARTIRE
+  periodo: 1548-1600
+  nazione: IT
+  field: Filosofia naturale / Cosmologia
+  status: PERSEGUITATO_MORTE
+  certezza: alta
+  si_score: 0.9
+  it_score: 0.95
+  ciclo_17_fase: 6
+  tags_frattali:
+  - '#GiordanoBruno'
+  - '#Rogo1600'
+  - '#UniversoInfinito'
+  l_minus_1_precursors:
+  - Nicolaus Copernicus (heliocentrismo)
+  - Niccolò Cusano (universo infinito, teologico)
+  l_plus_1_heirs:
+  - Cosmologia moderna (pluralità dei mondi)
+  fonti_primarie:
+  - fonte: 'Bruno G.: De l''infinito, universo e mondi (1584)'
+    uq: 0.96
+    status: PUBBLICO
+  - fonte: Atti del processo dell'Inquisizione romana (1592-1600, Archivio Vaticano, parzialmente pubblicati 1942)
+    uq: 0.88
+    status: PUBBLICO PARZIALE
+  meccanismo_persecuzione:
+  - Processo Inquisizione romana durato 7 anni (1593-1600)
+  - 'Condannato per eresia su molteplici capi: universo infinito, pluralità dei mondi abitati, negazione di alcuni dogmi trinitari'
+  - Bruciato vivo a Campo de' Fiori, Roma, 17 febbraio 1600
+  domande_aperte_da_chiudere:
+  - Quanto del processo fu per le sue idee cosmologiche specificamente vs eresie teologiche più generali (negazione Trinità,
+    transustanziazione)? Gli storici (Yates, Rowland) dibattono il peso relativo dei capi d'accusa.
+  aion_strati:
+    sigma0: Giordano Bruno (1548-1600). Filosofo e frate dominicano italiano, poi apostata. [DATO UQ=0.97]
+    sigma3: Propose un universo infinito con infiniti mondi e stelle, anticipando concetti cosmologici moderni. [DATO UQ=0.93]
+    sigma7: '1600: bruciato vivo a Roma dopo 7 anni di processo inquisitoriale. Caso di pena capitale più estrema tra gli
+      scienziati/filosofi naturali dell''epoca. [DATO UQ=0.96]'
+    sigma11: Il peso relativo tra eresia cosmologica e eresia teologica nel processo resta dibattuto storiograficamente. [INFERENZA
+      UQ=0.60]
+  impatto_storico: Caso più estremo di persecuzione per idee cosmologiche nella prima età moderna — superiore a Galileo in
+    severità della pena. Riferimento simbolico per libertà di pensiero scientifico.
+  versione_scheda: 2.1_CT_batch0
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+  id_legacy_batch0: T1-B0-005
+- id: T1-110
+  nome: Evangelista Torricelli
+  periodo: 1608-1647
+  nazione: Italia (Granducato di Toscana)
+  field: Fisica — pressione atmosferica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.95
+  l_minus_1_precursors:
+  - Galileo Galilei (suo maestro)
+  l_plus_1_heirs:
+  - Blaise Pascal (conferma sperimentale in quota)
+  sigma0: Evangelista Torricelli (1608-1647). Fisico e matematico italiano, allievo di Galileo.
+  sigma3: Invenzione del barometro a mercurio (1643), prima dimostrazione che l'atmosfera ha peso/pressione misurabile.
+  fonti_primarie:
+  - fonte: 'Torricelli: lettere a Michelangelo Ricci (1644) — prima descrizione dell''esperimento barometrico'
+    uq: 0.9
+  impatto_storico: L'unità di pressione 'torr' porta il suo nome — fondatore della fisica della pressione atmosferica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-113
+  nome: Ignaz Semmelweis
+  tipo_nodo: SCIENZIATO
+  categoria: MARTIRE
+  periodo: 1818-1865
+  nazione: HU
+  field: Medicina / Ostetricia / Igiene
+  status: INCORPORATO_CON_PERSECUZIONE
+  certezza: alta
+  si_score: 0.85
+  it_score: 0.0
+  ciclo_17_fase: 7
+  tags_frattali:
+  - '#Semmelweis'
+  - '#TeoriaGermi'
+  - '#SemmelweisReflex'
+  l_minus_1_precursors:
+  - Oliver Wendell Holmes Sr. (febbre puerperale, 1843, ignorato similmente)
+  l_plus_1_heirs:
+  - Louis Pasteur
+  - Joseph Lister (antisepsi chirurgica)
+  fonti_primarie:
+  - fonte: 'Semmelweis I.: Die Ätiologie, der Begriff und die Prophylaxis des Kindbettfiebers (1861)'
+    uq: 0.97
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - Rigetto sistematico della comunità medica viennese alla teoria che le mani dei medici trasmettessero infezioni puerperali
+  - Esclusione professionale, derisione pubblica ('Semmelweis reflex' coniato in suo onore per il rigetto automatico di evidenze
+    controintuitive)
+  - Internamento in manicomio (Vienna, 1865) — morì 2 settimane dopo per setticemia da una ferita, possibilmente da percosse
+    del personale
+  domande_aperte_da_chiudere:
+  - Il deterioramento mentale finale di Semmelweis era patologia psichiatrica indipendente o conseguenza dello stress da ostracismo
+    professionale prolungato?
+  aion_strati:
+    sigma0: Ignaz Semmelweis (1818-1865). Medico ungherese, ostetrico presso l'Ospedale Generale di Vienna. [DATO UQ=0.98]
+    sigma3: '1847: dimostra che il lavaggio delle mani con cloruro di calcio riduce la mortalità da febbre puerperale dal
+      18% al 1-2%. [DATO UQ=0.96]'
+    sigma7: La comunità medica rigettò la teoria per 20+ anni — mancava un meccanismo teorico (la teoria dei germi di Pasteur
+      arrivò solo nel 1860s-1880s). Semmelweis morì nel 1865, prima della piena vendicazione scientifica. [DATO UQ=0.93]
+    sigma11: Il termine 'Semmelweis reflex' è oggi usato in epistemologia per descrivere il rigetto automatico di evidenze
+      che contraddicono paradigmi stabiliti. [DATO UQ=0.88 — termine storiografico consolidato]
+  impatto_storico: Caso di riferimento assoluto nella storia della medicina per il rigetto di evidenze empiriche solide in
+    assenza di un meccanismo teorico accettato. Pienamente vendicato dalla teoria dei germi.
+  versione_scheda: 2.1_CT_batch0
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+  id_legacy_batch0: T1-B0-003
+  alias_id:
+  - T3-R-012
+- id: T1-C-001
+  nome: Talete di Mileto
+  periodo: c.624-546 a.C.
+  nazione: Ionia (Asia Minore greca)
+  field: Filosofia naturale / Astronomia / Geometria
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Tradizione babilonese/egizia (astronomia osservazionale)
+  l_plus_1_heirs:
+  - Anassimandro, Pitagora — scuola ionica
+  sigma0: Talete di Mileto (c.624-546 a.C.). Considerato il primo filosofo della tradizione occidentale.
+  sigma3: Predizione di un'eclissi solare (585 a.C.), teoremi geometrici di base, proposta dell'acqua come principio primo
+    (arché) di tutte le cose.
+  fonti_primarie:
+  - fonte: 'Aristotele: Metafisica (riferimenti a Talete, fonte secondaria più antica)'
+    uq: 0.7
+  impatto_storico: Considerato il fondatore della filosofia naturale occidentale e del pensiero razionale sistematico sulla
+    natura.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-002
+  nome: Pitagora
+  periodo: c.570-495 a.C.
+  nazione: Samo/Magna Grecia
+  field: Matematica / Filosofia / Teoria musicale
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.7
+  l_minus_1_precursors:
+  - Tradizione matematica egizia/babilonese
+  l_plus_1_heirs:
+  - Platone
+  - Euclide
+  sigma0: Pitagora di Samo (c.570-495 a.C.). Fondò una scuola filosofico-religiosa a Crotone (Magna Grecia, oggi Italia).
+  sigma3: Teorema di Pitagora (probabilmente noto in forma pratica a babilonesi prima, ma sistematizzato dalla sua scuola),
+    rapporti numerici nella teoria musicale.
+  fonti_primarie:
+  - fonte: Fonti indirette — nessun testo pitagorico originale sopravvive, tradizione orale/scolastica
+    uq: 0.55
+  impatto_storico: Fondatore di una tradizione che unì matematica, musica e cosmologia — influenza diretta su Platone e la
+    matematica greca classica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-003
+  nome: Euclide
+  periodo: c.300 a.C.
+  nazione: Alessandria (Egitto ellenistico)
+  field: Geometria / Matematica assiomatica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Eudosso di Cnido
+  - Teeteto
+  l_plus_1_heirs:
+  - Tutta la geometria classica fino al XIX secolo (geometrie non-euclidee come superamento)
+  sigma0: Euclide di Alessandria (c.300 a.C.). Poche notizie biografiche certe sopravvivono.
+  sigma3: Elementi — sistematizzazione assiomatico-deduttiva della geometria, libro di testo matematico più influente della
+    storia (in uso fino al XX secolo).
+  fonti_primarie:
+  - fonte: 'Euclide: Elementi (c.300 a.C.)'
+    uq: 0.95
+  impatto_storico: Il metodo assiomatico-deduttivo degli Elementi è il modello fondante di tutto il ragionamento matematico
+    rigoroso successivo.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-004
+  nome: Eratostene di Cirene
+  periodo: c.276-194 a.C.
+  nazione: Cirene/Alessandria
+  field: Geografia / Astronomia / Matematica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Tradizione astronomica babilonese
+  l_plus_1_heirs:
+  - Geografia scientifica successiva
+  sigma0: Eratostene (c.276-194 a.C.). Direttore della Biblioteca di Alessandria.
+  sigma3: Stimò la circonferenza terrestre (errore di circa 1-16% secondo le stime moderne sull'unità di misura usata) tramite
+    misurazione di ombre a Siene e Alessandria.
+  fonti_primarie:
+  - fonte: 'Cleomede: De motu circulari (fonte secondaria che riporta il metodo di Eratostene)'
+    uq: 0.7
+  impatto_storico: Prima misurazione scientificamente fondata delle dimensioni della Terra nella storia.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-005
+  nome: Ipazia di Alessandria
+  categoria: MARTIRE
+  periodo: c.350-415
+  nazione: EG
+  field: Matematica / Astronomia / Filosofia neoplatonica
+  status: PERSEGUITATA_MORTE
+  certezza: alta
+  si_score: 0.8
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Teone di Alessandria (suo padre, matematico)
+  - Plotino (neoplatonismo)
+  l_plus_1_heirs:
+  - Tradizione neoplatonica successiva
+  - Sinesio di Cirene (suo allievo, vescovo)
+  fonti_primarie:
+  - fonte: 'Socrate Scolastico: Storia Ecclesiastica, libro VII (V secolo) — fonte cristiana contemporanea che descrive l''omicidio'
+    uq: 0.85
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - '415 d.C.: uccisa da una folla (probabilmente parabalani, monaci cristiani) ad Alessandria, in un contesto di tensioni
+    politico-religiose tra il prefetto Oreste e il vescovo Cirillo'
+  - Il suo insegnamento pubblico di filosofia/matematica a una città a maggioranza cristiana in trasformazione la rese un
+    simbolo conteso
+  aion_strati:
+    sigma0: Ipazia (c.350-415). Capo della scuola neoplatonica di Alessandria. Una delle poche donne scienziate dell'antichità
+      di cui abbiamo documentazione diretta. [DATO UQ=0.90]
+    sigma3: Commentari ad opere matematiche (Diofanto, Apollonio), insegnamento pubblico di astronomia e filosofia. Nessuna
+      sua opera originale sopravvive direttamente. [DATO UQ=0.75]
+  impatto_storico: Simbolo storico del conflitto scienza/religione nell'antichità tardiva, sebbene il contesto reale fosse
+    più politico (lotta di potere Oreste-Cirillo) che una persecuzione mirata alla sua scienza in quanto tale.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-C-006
+  nome: Jabir ibn Hayyan (Geber)
+  periodo: c.721-815
+  nazione: Iraq/Iran (mondo islamico)
+  field: Alchimia / Chimica sperimentale
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Alchimia ellenistica/egizia
+  l_plus_1_heirs:
+  - Chimica sperimentale europea medievale (tramite traduzioni latine 'Geber')
+  sigma0: Jabir ibn Hayyan (c.721-815). Spesso chiamato 'padre della chimica' per l'approccio sperimentale sistematico.
+  sigma3: Sviluppo di tecniche di distillazione, cristallizzazione, sublimazione; descrizioni sistematiche di acidi.
+  fonti_primarie:
+  - fonte: Corpus attribuito a Jabir — autenticità e datazione di singole opere dibattuta dagli storici
+    uq: 0.6
+  impatto_storico: Le tecniche sperimentali sistematizzate nel corpus jabiriano furono fondamentali per la chimica medievale
+    europea.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-007
+  nome: Al-Khwarizmi
+  periodo: c.780-850
+  nazione: Persia/Baghdad (Califfato Abbaside)
+  field: Matematica / Algebra / Astronomia
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Matematica indiana (sistema numerico decimale)
+  l_plus_1_heirs:
+  - Tutta l'algebra moderna (il termine 'algoritmo' deriva dal suo nome latinizzato)
+  sigma0: Muhammad ibn Musa al-Khwarizmi (c.780-850). Casa della Saggezza, Baghdad.
+  sigma3: Al-Jabr wa-l-Muqabala — fondò l'algebra come disciplina sistematica; introdusse in Occidente il sistema numerico
+    decimale indiano.
+  fonti_primarie:
+  - fonte: 'Al-Khwarizmi: Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala (c.820)'
+    uq: 0.9
+  impatto_storico: Il termine 'algoritmo' e 'algebra' derivano direttamente dal suo nome e dal titolo della sua opera — fondamento
+    di matematica e informatica moderne.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-008
+  nome: Roger Bacon
+  periodo: c.1219-1292
+  nazione: Inghilterra
+  field: Filosofia naturale / Ottica / Metodo empirico
+  status: INCORPORATO_CON_NOTA
+  si_score: 0.25
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Ibn al-Haytham (Alhazen, ottica)
+  - Robert Grosseteste (suo maestro a Oxford)
+  l_plus_1_heirs:
+  - Metodo scientifico sperimentale successivo
+  sigma0: Roger Bacon (c.1219-1292). Frate francescano, filosofo naturale, Oxford.
+  sigma3: Promosse il metodo empirico/sperimentale (scientia experimentalis), studi di ottica, prime descrizioni teoriche
+    di lenti correttive e telescopio.
+  fonti_primarie:
+  - fonte: 'Bacon R.: Opus Majus (1267)'
+    uq: 0.85
+  impatto_storico: Alcune fonti riportano un periodo di reclusione/restrizione da parte dell'ordine francescano (anni 1270s)
+    per opere non autorizzate — circostanze esatte dibattute storiograficamente, non chiare quanto i casi del Batch0.5.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-009
+  nome: Robert Grosseteste
+  periodo: c.1175-1253
+  nazione: Inghilterra
+  field: Filosofia naturale / Ottica / Teologia
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Aristotele (filosofia naturale)
+  l_plus_1_heirs:
+  - Roger Bacon (suo allievo diretto a Oxford)
+  sigma0: Robert Grosseteste (c.1175-1253). Vescovo di Lincoln, primo cancelliere dell'Università di Oxford.
+  sigma3: Primi trattati sistematici sulla luce come principio fisico fondamentale (De Luce), metodo basato su osservazione
+    e verifica.
+  fonti_primarie:
+  - fonte: 'Grosseteste: De Luce (c.1225-1230)'
+    uq: 0.75
+  impatto_storico: Considerato fondatore della tradizione scientifica di Oxford, precursore del metodo sperimentale tramite
+    il suo allievo Roger Bacon.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-010
+  nome: Nicolaus Copernicus
+  periodo: 1473-1543
+  nazione: Polonia/Prussia Reale
+  field: Astronomia — heliocentrismo
+  status: INCORPORATO_CON_NOTA
+  si_score: 0.2
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Aristarco di Samo (heliocentrismo antico, ignorato per 1800 anni)
+  l_plus_1_heirs:
+  - Galileo, Keplero, Newton
+  sigma0: Nicolaus Copernicus (1473-1543). Canonico e astronomo, Polonia/Prussia Reale.
+  sigma3: De revolutionibus orbium coelestium (1543) — modello heliocentrico del sistema solare.
+  fonti_primarie:
+  - fonte: 'Copernico: De revolutionibus orbium coelestium (1543, pubblicato l''anno della morte)'
+    uq: 0.95
+  impatto_storico: Pubblicò strategicamente solo in punto di morte (1543) — non subì persecuzione diretta in vita, a differenza
+    di Galileo/Bruno che difesero pubblicamente le sue idee decenni dopo.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-011
+  nome: Tycho Brahe
+  periodo: 1546-1601
+  nazione: Danimarca
+  field: Astronomia osservazionale
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Copernico (modello teorico)
+  l_plus_1_heirs:
+  - Johannes Kepler (suo assistente, usò i suoi dati per le leggi del moto planetario)
+  sigma0: Tycho Brahe (1546-1601). Astronomo danese, osservatorio di Uraniborg.
+  sigma3: Le osservazioni astronomiche più precise dell'era pre-telescopica; modello geo-heliocentrico (compromesso) proprio.
+  fonti_primarie:
+  - fonte: 'Brahe: Astronomiae instauratae mechanica (1598)'
+    uq: 0.85
+  impatto_storico: I suoi dati osservazionali, ereditati da Keplero, furono determinanti per la scoperta delle leggi del moto
+    planetario.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-012
+  nome: Johannes Kepler
+  periodo: 1571-1630
+  nazione: Sacro Romano Impero (Germania)
+  field: Astronomia / Fisica matematica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Copernico
+  - Tycho Brahe (dati osservazionali)
+  l_plus_1_heirs:
+  - Isaac Newton (leggi di Keplero come base per la gravitazione universale)
+  sigma0: Johannes Kepler (1571-1630). Astronomo e matematico tedesco.
+  sigma3: Tre leggi del moto planetario (orbite elittiche, non circolari) — basate sui dati di Tycho Brahe.
+  fonti_primarie:
+  - fonte: 'Kepler: Astronomia nova (1609)'
+    uq: 0.92
+  impatto_storico: Le sue leggi rimangono valide oggi e furono la base empirica per la legge di gravitazione di Newton.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-013
+  nome: René Descartes
+  periodo: 1596-1650
+  nazione: Francia
+  field: Filosofia / Matematica — geometria analitica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Euclide
+  - Eudosso
+  l_plus_1_heirs:
+  - Newton, Leibniz (calcolo, basato su geometria analitica)
+  sigma0: René Descartes (1596-1650). Filosofo e matematico francese.
+  sigma3: Geometria analitica (coordinate cartesiane), Discorso sul Metodo, dualismo mente-corpo.
+  fonti_primarie:
+  - fonte: 'Descartes: La Géométrie (1637)'
+    uq: 0.92
+  impatto_storico: Le coordinate cartesiane sono fondamento di tutta la matematica e fisica moderna.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-014
+  nome: Christiaan Huygens
+  periodo: 1629-1695
+  nazione: Repubblica delle Sette Provincie Unite (Olanda)
+  field: Fisica / Astronomia — teoria ondulatoria della luce
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Descartes (ottica)
+  l_plus_1_heirs:
+  - Thomas Young, Fresnel (teoria ondulatoria, vendicata nel XIX secolo contro la teoria corpuscolare di Newton)
+  sigma0: Christiaan Huygens (1629-1695). Fisico, matematico, astronomo olandese.
+  sigma3: Teoria ondulatoria della luce (in competizione con la teoria corpuscolare di Newton), orologio a pendolo, scoperta
+    degli anelli di Saturno.
+  fonti_primarie:
+  - fonte: 'Huygens: Traité de la Lumière (1690)'
+    uq: 0.9
+  impatto_storico: La sua teoria ondulatoria, inizialmente minoritaria rispetto a Newton, fu vendicata nel XIX secolo dagli
+    esperimenti di Young e Fresnel.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-015
+  nome: Gottfried Wilhelm Leibniz
+  periodo: 1646-1716
+  nazione: DE
+  field: Matematica / Filosofia — calcolo infinitesimale
+  status: INCORPORATO_CON_NOTA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Descartes
+  - Pascal
+  l_plus_1_heirs:
+  - Notazione leibniziana ancora oggi standard in analisi matematica
+  nota_specifica: '[DATO UQ=0.90] Disputa di priorità feroce con Newton sull''invenzione del calcolo infinitesimale (1699-1716),
+    con accuse reciproche di plagio. La Royal Society (presieduta da Newton) condusse un''indagine ''indipendente'' nel 1712
+    che — non a caso — favorì Newton. Oggi si riconosce sviluppo indipendente da entrambi.'
+  fonti_primarie:
+  - fonte: Royal Society Commercium Epistolicum (1712) — report della disputa, redatto sotto influenza di Newton stesso
+    uq: 0.85
+  impatto_storico: La notazione di Leibniz (dy/dx, ∫) è quella universalmente usata oggi, non quella di Newton — vendicazione
+    notazionale postuma.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-C-020
+  nome: Benjamin Franklin
+  periodo: 1706-1790
+  nazione: Colonie americane/USA
+  field: Fisica — elettricità / Politica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Pieter van Musschenbroek (bottiglia di Leida)
+  l_plus_1_heirs:
+  - Volta, Galvani (elettrostatica/elettrodinamica)
+  sigma0: Benjamin Franklin (1706-1790). Scienziato e statista americano.
+  sigma3: Esperimento dell'aquilone (1752, natura elettrica dei fulmini), parafulmine, teoria del fluido elettrico unico (carica
+    positiva/negativa).
+  fonti_primarie:
+  - fonte: 'Franklin: Experiments and Observations on Electricity (1751)'
+    uq: 0.9
+  impatto_storico: Pioniere dell'elettrostatica sperimentale, figura fondante sia della scienza che della politica americana.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-021
+  nome: Joseph Priestley
+  categoria: MARTIRE
+  periodo: 1733-1804
+  nazione: GB
+  field: Chimica / Teologia dissidente (Unitarianesimo)
+  status: PERSEGUITATO_ESILIO
+  certezza: alta
+  si_score: 0.55
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Stephen Hales (chimica dei gas)
+  l_plus_1_heirs:
+  - Antoine Lavoisier (interpretò correttamente l'ossigeno che Priestley scoprì ma chiamò 'aria deflogisticata')
+  fonti_primarie:
+  - fonte: 'Priestley J.: Experiments and Observations on Different Kinds of Air (1774-1786)'
+    uq: 0.95
+    status: PUBBLICO
+  - fonte: Resoconti contemporanei dei Birmingham Riots (luglio 1791)
+    uq: 0.88
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - '14 luglio 1791: una folla anti-dissidenti/anti-rivoluzione francese distrugge casa, laboratorio, libri e strumenti scientifici
+    di Priestley a Birmingham (i ''Priestley Riots'')'
+  - 'Causa: il suo dissenso religioso (Unitarianesimo) e il supporto pubblico alla Rivoluzione Francese, non la sua chimica
+    in sé'
+  - Emigrò negli USA nel 1794, non ritornò mai in Inghilterra
+  aion_strati:
+    sigma0: Joseph Priestley (1733-1804). Chimico e teologo inglese, ministro Unitariano. [DATO UQ=0.97]
+    sigma3: '1774: isola l''ossigeno (che chiama ''aria deflogisticata''), pur interpretandolo erroneamente nel quadro della
+      teoria del flogisto. [DATO UQ=0.93]'
+    sigma7: '1791: violenza di folla distrugge casa e laboratorio. Emigrazione forzata negli Stati Uniti nel 1794. [DATO UQ=0.90]'
+  impatto_storico: Scopritore dell'ossigeno (sebbene interpretato male teoricamente). Caso da manuale di persecuzione per
+    posizioni religiose/politiche, non per il contenuto scientifico del suo lavoro.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-C-022
+  nome: James Watt
+  periodo: 1736-1819
+  nazione: Scozia
+  field: Ingegneria meccanica — macchina a vapore
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Thomas Newcomen (macchina a vapore precedente, meno efficiente)
+  l_plus_1_heirs:
+  - Rivoluzione Industriale britannica
+  sigma0: James Watt (1736-1819). Ingegnere scozzese.
+  sigma3: Miglioramento radicale della macchina a vapore di Newcomen (condensatore separato, 1769) — efficienza energetica
+    drasticamente aumentata.
+  fonti_primarie:
+  - fonte: Brevetto Watt 1769, Boulton & Watt Company records
+    uq: 0.9
+  impatto_storico: Le sue macchine a vapore furono motore tecnologico primario della Rivoluzione Industriale.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-023
+  nome: André-Marie Ampère
+  periodo: 1775-1836
+  nazione: Francia
+  field: Fisica — elettromagnetismo
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Ørsted (scoperta connessione elettricità-magnetismo, 1820)
+  l_plus_1_heirs:
+  - Maxwell (sintesi elettromagnetica completa)
+  sigma0: André-Marie Ampère (1775-1836). Fisico e matematico francese.
+  sigma3: Formalizzazione matematica dell'elettromagnetismo (legge di Ampère), fondatore dell'elettrodinamica come disciplina.
+  fonti_primarie:
+  - fonte: 'Ampère: Mémoire sur la théorie mathématique des phénomènes électrodynamiques (1827)'
+    uq: 0.9
+  impatto_storico: L'unità di corrente elettrica (Ampere) porta il suo nome — fondatore dell'elettrodinamica matematica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-024
+  nome: Sadi Carnot
+  periodo: 1796-1832
+  nazione: Francia
+  field: Fisica — termodinamica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - James Watt (macchina a vapore pratica)
+  l_plus_1_heirs:
+  - Clausius, Kelvin (seconda legge della termodinamica)
+  sigma0: Sadi Carnot (1796-1832). Fisico e ingegnere militare francese. Morto giovane (36 anni) di colera.
+  sigma3: Ciclo di Carnot — limite teorico massimo di efficienza per qualsiasi macchina termica, fondamento della seconda
+    legge della termodinamica.
+  fonti_primarie:
+  - fonte: 'Carnot: Réflexions sur la puissance motrice du feu (1824)'
+    uq: 0.92
+  impatto_storico: Il suo unico trattato pubblicato fondò la termodinamica teorica moderna — morte prematura, non persecuzione,
+    ne limitò l'opera.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-025
+  nome: Joseph Henry
+  periodo: 1797-1878
+  nazione: USA
+  field: Fisica — elettromagnetismo
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Ørsted, Ampère
+  l_plus_1_heirs:
+  - Faraday (induzione, scoperta indipendentemente quasi in parallelo)
+  sigma0: Joseph Henry (1797-1878). Fisico americano, primo Segretario della Smithsonian Institution.
+  sigma3: Elettromagneti potenti, scoperta dell'autoinduzione (in parallelo a Faraday, priorità talvolta contesa ma generalmente
+    riconosciuta a entrambi indipendentemente).
+  fonti_primarie:
+  - fonte: 'Henry: pubblicazioni Smithsonian, 1830s-1840s'
+    uq: 0.82
+  impatto_storico: L'unità di induttanza (Henry) porta il suo nome — figura fondante della fisica americana del XIX secolo.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-026
+  nome: Charles Babbage
+  periodo: 1791-1871
+  nazione: GB
+  field: Matematica / Calcolo meccanico
+  status: INCORPORATO_CON_NOTA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Blaise Pascal (calcolatrici meccaniche)
+  l_plus_1_heirs:
+  - Ada Lovelace (collaboratrice)
+  - Informatica moderna (riconosciuto postumo come precursore)
+  nota_specifica: '[DATO UQ=0.88] Il finanziamento governativo britannico per la Difference Engine fu ritirato nel 1842 dopo
+    17.000 sterline spese (somma enorme per l''epoca) e ripetuti ritardi/costi crescenti — causa amministrativa/economica,
+    non ideologica. La macchina fu costruita realmente solo nel 1991 dal Science Museum di Londra, dimostrando che il progetto
+    originale era tecnicamente valido.'
+  fonti_primarie:
+  - fonte: 'Babbage C.: Passages from the Life of a Philosopher (1864)'
+    uq: 0.9
+  impatto_storico: Riconosciuto postumo come pioniere del calcolo automatico — la Difference Engine costruita nel 1991 ha
+    confermato la validità tecnica del progetto.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-C-030
+  nome: Lord Kelvin (William Thomson)
+  tipo_nodo: SCIENZIATO
+  categoria: GATEKEEPER_ERRORE_STORIOGRAFICO
+  periodo: 1824-1907
+  nazione: GB
+  field: Fisica / Termodinamica / Geofisica
+  status: INCORPORATO_ERRORE_DOCUMENTATO
+  certezza: alta
+  si_score: 0.0
+  it_score: 0.0
+  ciclo_17_fase: 7
+  tags_frattali:
+  - '#LordKelvin'
+  - '#EtaDellaTerra'
+  - '#Termodinamica'
+  nota_classificazione: '[IMPORTANTE] Kelvin NON ''bloccò'' la termodinamica — ne fu CO-FONDATORE (scala Kelvin, secondo principio).
+    L''evento rilevante è un ERRORE SCIENTIFICO in buona fede dovuto a dati mancanti (radioattività, scoperta dopo la sua
+    morte), non un atto di gatekeeping deliberato.'
+  l_minus_1_precursors:
+  - Sadi Carnot
+  - James Joule
+  l_plus_1_heirs:
+  - Termodinamica moderna
+  - Ernest Rutherford (corresse la stima con la radioattività)
+  fonti_primarie:
+  - fonte: 'Thomson W.: On the Secular Cooling of the Earth (1862)'
+    uq: 0.96
+    status: PUBBLICO
+  evento_storiografico:
+  - '1862-1899: Kelvin stima l''età della Terra tra 20 e 400 milioni di anni basandosi sul tasso di raffreddamento termico,
+    in conflitto con le stime geologiche (centinaia di milioni-miliardi di anni) basate su erosione/sedimentazione'
+  - 'Causa dell''errore: la radioattività (fonte di calore interno della Terra) fu scoperta da Becquerel solo nel 1896, e
+    il suo ruolo nel bilancio termico terrestre fu compreso solo dopo la morte di Kelvin (Rutherford, 1904+)'
+  - 'NON un atto di soppressione: Kelvin usò correttamente la fisica disponibile alla sua epoca con i dati che aveva'
+  domande_aperte_da_chiudere: []
+  aion_strati:
+    sigma0: William Thomson, Lord Kelvin (1824-1907). Fisico britannico, co-fondatore della termodinamica moderna. Scala Kelvin
+      a lui dedicata. [DATO UQ=0.99]
+    sigma3: Stimò l'età della Terra in 20-400 milioni di anni (varie pubblicazioni 1862-1899), basandosi sul raffreddamento
+      termico newtoniano. [DATO UQ=0.95]
+    sigma7: La scoperta della radioattività (1896) e il suo contributo al riscaldamento radiogenico terrestre invalidò il
+      modello di Kelvin — Rutherford lo dimostrò pubblicamente nel 1904, alla presenza di un anziano Kelvin in sala. [DATO
+      UQ=0.90 — anecdota storiograficamente attestata]
+  impatto_storico: 'Caso da manuale di storia della scienza: un errore in buona fede causato da incompletezza dei dati disponibili,
+    non da soppressione. Va distinto nettamente dai casi di persecuzione attiva (Turing, Semmelweis, Vavilov).'
+  versione_scheda: 2.1_CT_batch0
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+  id_legacy_batch0: T1-B0-007
+- id: T1-C-031
+  nome: Hermann von Helmholtz
+  periodo: 1821-1894
+  nazione: Germania
+  field: Fisica / Fisiologia — conservazione dell'energia
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Joule, Mayer (termodinamica)
+  l_plus_1_heirs:
+  - Hertz (suo allievo)
+  sigma0: Hermann von Helmholtz (1821-1894). Fisico e fisiologo tedesco.
+  sigma3: Formulazione generale del principio di conservazione dell'energia (1847), studi su percezione visiva/uditiva.
+  fonti_primarie:
+  - fonte: 'Helmholtz: Über die Erhaltung der Kraft (1847)'
+    uq: 0.93
+  impatto_storico: Tra le figure scientifiche più versatili del XIX secolo — contributi fondamentali sia in fisica che in
+    fisiologia sensoriale.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-032
+  nome: Ludwig Boltzmann
+  tipo_nodo: SCIENZIATO
+  categoria: MARTIRE
+  periodo: 1844-1906
+  nazione: AT
+  field: Fisica statistica / Termodinamica / Meccanica statistica
+  status: INCORPORATO_CON_OSTRACISMO
+  certezza: alta
+  si_score: 0.55
+  it_score: 0.0
+  ciclo_17_fase: 7
+  tags_frattali:
+  - '#Boltzmann'
+  - '#Atomismo'
+  - '#MachOstwald'
+  l_minus_1_precursors:
+  - James Clerk Maxwell (teoria cinetica dei gas)
+  - Rudolf Clausius (entropia)
+  l_plus_1_heirs:
+  - Meccanica statistica moderna
+  - Albert Einstein (moto browniano, confermò atomismo 1905)
+  fonti_primarie:
+  - fonte: 'Boltzmann L.: Vorlesungen über Gastheorie (1896-1898)'
+    uq: 0.97
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - Aspro conflitto accademico con la scuola energetista (Ernst Mach, Wilhelm Ostwald) che rigettava l'esistenza reale degli
+    atomi come ipotesi metafisica non necessaria
+  - Isolamento intellettuale negli ultimi anni di carriera, aggravato da problemi di salute mentale documentati (probabile
+    disturbo bipolare)
+  domande_aperte_da_chiudere:
+  - Il suicidio (1906, Duino) è attribuibile principalmente all'ostracismo accademico o alla condizione di salute mentale
+    preesistente? La storiografia (Cercignani 1998) tende a una lettura multi-causale, non mono-causale.
+  aion_strati:
+    sigma0: Ludwig Boltzmann (1844-1906). Fisico austriaco, fondatore della meccanica statistica. Formula S=k·log(W) sulla
+      sua tomba a Vienna. [DATO UQ=0.98]
+    sigma3: Distribuzione di Boltzmann, teorema H, fondazione statistica della seconda legge della termodinamica. [DATO UQ=0.97]
+    sigma7: '1900s: aspro dibattito con Mach/Ostwald sull''esistenza reale degli atomi (energetismo vs atomismo). Boltzmann
+      si suicidò nel 1906 a Duino, poco prima che Einstein (1905, moto browniano) e Perrin (1908) fornissero prova empirica
+      definitiva dell''atomismo. [DATO UQ=0.90]'
+    sigma11: Il suicidio multi-causale (ostracismo + salute mentale) rimane oggetto di dibattito storiografico equilibrato,
+      non riducibile a sola persecuzione. [INFERENZA UQ=0.65]
+  impatto_storico: La sua formulazione statistica dell'entropia fu vendicata storicamente entro 2-3 anni dalla morte. Caso
+    emblematico di come il rigetto paradigmatico possa precedere di poco la piena vendicazione empirica.
+  versione_scheda: 2.1_CT_batch0
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+  id_legacy_batch0: T1-B0-002
+- id: T1-C-033
+  nome: Josiah Willard Gibbs
+  periodo: 1839-1903
+  nazione: US
+  field: Fisica chimica / Termodinamica
+  status: INCORPORATO_DOPO_OBLIO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Clausius
+  - Maxwell
+  l_plus_1_heirs:
+  - Tutta la termodinamica chimica moderna
+  nota_specifica: '[INFERENZA UQ=0.65] Lavoro fondamentale (regola delle fasi, energia libera) largamente ignorato negli USA
+    in vita per lo stile espositivo estremamente conciso/difficile e l''isolamento relativo di Yale dai centri europei. Riconosciuto
+    pienamente solo dopo la traduzione/diffusione europea (Ostwald, van der Waals).'
+  fonti_primarie:
+  - fonte: 'Gibbs J.W.: On the Equilibrium of Heterogeneous Substances (1876-1878)'
+    uq: 0.95
+  impatto_storico: Oggi considerato fondatore della termodinamica chimica moderna — riconoscimento arrivato tardi ma pieno.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-C-034
+  nome: Jacobus Henricus van 't Hoff
+  periodo: 1852-1911
+  nazione: Olanda
+  field: Chimica — stereochimica
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Pasteur (chiralità molecolare)
+  l_plus_1_heirs:
+  - Chimica organica strutturale moderna
+  sigma0: Jacobus van 't Hoff (1852-1911). Chimico olandese, primo Nobel per la Chimica (1901).
+  sigma3: Teoria della disposizione tetraedrica degli atomi di carbonio, fondamento della stereochimica.
+  fonti_primarie:
+  - fonte: 'van ''t Hoff: La chimie dans l''espace (1875)'
+    uq: 0.88
+  impatto_storico: Fondatore della stereochimica moderna — primo Premio Nobel per la Chimica della storia.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-040
+  nome: Ernest Rutherford
+  periodo: 1871-1937
+  nazione: Nuova Zelanda/Inghilterra
+  field: Fisica nucleare
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - J.J. Thomson (suo supervisore, modello atomico precedente)
+  l_plus_1_heirs:
+  - Bohr (suo assistente), Hahn (fissione)
+  sigma0: Ernest Rutherford (1871-1937). Fisico neozelandese, 'padre della fisica nucleare'.
+  sigma3: Modello atomico nucleare (esperimento della lamina d'oro, 1909-1911), prima trasmutazione artificiale di un elemento
+    (1919).
+  fonti_primarie:
+  - fonte: 'Rutherford: The Scattering of α and β Particles by Matter (1911)'
+    uq: 0.96
+  impatto_storico: Dimostrò pubblicamente nel 1904 l'errore di Kelvin sull'età della Terra, usando la radioattività come orologio
+    geologico.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-041
+  nome: Lise Meitner
+  categoria: MARTIRE_CREDITO_NEGATO
+  periodo: 1878-1968
+  nazione: AT
+  field: Fisica nucleare
+  status: CREDITO_NEGATO
+  certezza: alta
+  si_score: 0.65
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Otto Hahn (collaboratore 30 anni)
+  - Enrico Fermi (bombardamento neutronico)
+  l_plus_1_heirs:
+  - Progetto Manhattan (applicazione, mai partecipò per principio)
+  - Glenn Seaborg (elemento 109 Meitnerium nominato in suo onore, 1997)
+  fonti_primarie:
+  - fonte: 'Meitner L., Frisch O.R.: Disintegration of Uranium by Neutrons (Nature, 1939) — spiegazione teorica della fissione'
+    uq: 0.97
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - '1938: costretta a fuggire la Germania nazista (origine ebraica) — perse l''accesso diretto al laboratorio dove la fissione
+    fu poi misurata da Hahn/Strassmann'
+  - '1944: Premio Nobel per la Chimica assegnato SOLO a Otto Hahn per la scoperta della fissione, nonostante Meitner e Frisch
+    avessero fornito l''interpretazione teorica essenziale e Meitner fosse stata collaboratrice diretta di Hahn per 30 anni'
+  - Il Comitato Nobel svedese, secondo storici successivi (Ruth Lewin Sime, biografa), sottostimò il contributo di una scienziata
+    donna esiliata
+  aion_strati:
+    sigma0: Lise Meitner (1878-1968). Fisica austriaca, seconda donna a conseguire un dottorato in fisica a Vienna. 30 anni
+      di collaborazione con Otto Hahn a Berlino. [DATO UQ=0.96]
+    sigma3: 'Dicembre 1938: da Stoccolma (in esilio), riceve i dati di Hahn/Strassmann su un misterioso prodotto di bario
+      dal bombardamento dell''uranio. Con il nipote Otto Frisch, fornisce la corretta interpretazione teorica: fissione nucleare.
+      [DATO UQ=0.95]'
+    sigma7: '1944: Nobel Chimica solo a Hahn. Meitner esclusa nonostante il contributo teorico determinante. [DATO UQ=0.93
+      — ampiamente documentato e riconosciuto retrospettivamente come ingiustizia]'
+  impatto_storico: 'Caso di riferimento internazionale sull''esclusione di scienziate donne dal riconoscimento Nobel. Riabilitazione
+    parziale: elemento Meitnerio (109) nominato in suo onore nel 1997.'
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-C-042
+  nome: Otto Hahn
+  periodo: 1879-1968
+  nazione: Germania
+  field: Chimica nucleare — fissione
+  status: INCORPORATO_CON_NOTA
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Fermi (bombardamento neutronico)
+  l_plus_1_heirs:
+  - Progetto Manhattan
+  sigma0: Otto Hahn (1879-1968). Chimico tedesco, 30 anni di collaborazione con Lise Meitner.
+  sigma3: '1938: scoperta sperimentale della fissione nucleare dell''uranio (con Strassmann), interpretata teoricamente da
+    Meitner e Frisch.'
+  fonti_primarie:
+  - fonte: 'Hahn O., Strassmann F.: Über den Nachweis und das Verhalten der bei der Bestrahlung des Urans... (1939)'
+    uq: 0.96
+  nota_specifica: '[DATO UQ=0.93] Nobel Chimica 1944 solo a Hahn — vedi T1-C-041 Meitner per il contesto dell''esclusione
+    della sua collaboratrice di lunga data.'
+  impatto_storico: La scoperta sperimentale della fissione aprì l'era nucleare — caso indissociabile dalla vicenda di Meitner.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-043
+  nome: J. Robert Oppenheimer
+  categoria: MARTIRE_POLITICO
+  periodo: 1904-1967
+  nazione: US
+  field: Fisica teorica / Direzione scientifica (Progetto Manhattan)
+  status: PERSEGUITATO_POLITICO
+  certezza: alta
+  si_score: 0.6
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Max Born (meccanica quantistica)
+  - Niels Bohr
+  l_plus_1_heirs:
+  - Intera generazione di fisici nucleari USA del dopoguerra
+  fonti_primarie:
+  - fonte: 'AEC Personnel Security Board: In the Matter of J. Robert Oppenheimer (trascrizione udienze 1954, declassificata)'
+    uq: 0.95
+    status: PUBBLICO
+  - fonte: 'DOE: riabilitazione formale 2022 — annullamento della decisione 1954'
+    uq: 0.97
+    status: PUBBLICO — comunicato ufficiale
+  meccanismo_persecuzione:
+  - '1954: udienze di sicurezza durante il Maccartismo — revocato il nulla osta di sicurezza per passate associazioni con
+    il Partito Comunista (anni ''30) e per l''opposizione allo sviluppo della bomba H'
+  - Escluso da ulteriori incarichi governativi classificati per il resto della vita
+  - '2022: il Dipartimento dell''Energia USA annulla formalmente la decisione del 1954, riconoscendola viziata da pregiudizio
+    politico'
+  aion_strati:
+    sigma0: J. Robert Oppenheimer (1904-1967). Direttore scientifico del Progetto Manhattan, Los Alamos. [DATO UQ=0.98]
+    sigma3: Guidò lo sviluppo della prima bomba atomica (1942-1945). Dopo la guerra, si opповse pubblicamente allo sviluppo
+      della bomba all'idrogeno. [DATO UQ=0.96]
+    sigma7: '1954: nulla osta di sicurezza revocato in un''udienza ampiamente vista come politicamente motivata (rivalità
+      con Edward Teller, clima maccartista). 2022: riabilitazione formale postuma. [DATO UQ=0.95]'
+  impatto_storico: Caso emblematico di persecuzione politica di uno scienziato di altissimo profilo durante il Maccartismo,
+    con riabilitazione ufficiale 68 anni dopo.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-C-044
+  nome: Andrei Sakharov
+  categoria: MARTIRE_POLITICO
+  periodo: 1921-1989
+  nazione: RU
+  field: Fisica nucleare / Attivismo per i diritti umani
+  status: PERSEGUITATO_ESILIO_INTERNO
+  certezza: alta
+  si_score: 0.55
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Igor Kurchatov (programma nucleare sovietico)
+  l_plus_1_heirs:
+  - Movimento dissidente sovietico post-1968
+  fonti_primarie:
+  - fonte: 'Sakharov A.: Memoirs (Knopf 1990) — autobiografia'
+    uq: 0.88
+    status: PUBBLICO
+  - fonte: 'Comitato Nobel per la Pace: motivazione premio 1975'
+    uq: 0.95
+    status: PUBBLICO
+  meccanismo_persecuzione:
+  - Padre della bomba all'idrogeno sovietica (anni '50), successivamente divenne il principale dissidente per i diritti umani
+    in URSS
+  - '1980: esiliato internamente a Gorky (oggi Nizhny Novgorod) dopo la critica all''invasione sovietica dell''Afghanistan
+    — niente contatti con stranieri, sorveglianza costante per 7 anni'
+  - '1975: Premio Nobel per la Pace, ma il governo sovietico gli impedì di viaggiare a Oslo per riceverlo'
+  aion_strati:
+    sigma0: Andrei Sakharov (1921-1989). Fisico nucleare sovietico, poi dissidente per i diritti umani. [DATO UQ=0.97]
+    sigma3: 'Anni ''50: progettazione della bomba all''idrogeno sovietica (RDS-37, 1955). [DATO UQ=0.95]'
+    sigma7: '1980-1986: esilio interno a Gorky per attivismo sui diritti umani. Liberato da Gorbaciov nel 1986 (glasnost).
+      [DATO UQ=0.94]'
+  impatto_storico: Transizione unica da architetto di armi nucleari a simbolo mondiale dei diritti umani — caso di persecuzione
+    politica statale ben documentato con fonti occidentali e sovietiche post-1991.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-C-050
+  nome: Steven Weinberg
+  periodo: 1933-2021
+  nazione: USA
+  field: Fisica teorica — teoria elettrodebole
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Fermi (teoria debole)
+  l_plus_1_heirs:
+  - Modello Standard
+  sigma0: Steven Weinberg (1933-2021). Fisico teorico americano.
+  sigma3: Teoria di unificazione elettrodebole (1967, con Salam e Glashow indipendentemente), Nobel 1979.
+  fonti_primarie:
+  - fonte: 'Weinberg S.: A Model of Leptons (Phys. Rev. Lett. 1967)'
+    uq: 0.95
+  impatto_storico: Parte fondante del Modello Standard della fisica delle particelle.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-051
+  nome: Abdus Salam
+  categoria: MARTIRE_RELIGIOSO
+  periodo: 1926-1996
+  nazione: PK
+  field: Fisica teorica — teoria elettrodebole
+  status: PERSEGUITATO_RELIGIOSO
+  certezza: alta
+  si_score: 0.62
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Enrico Fermi (teoria debole)
+  - Julian Schwinger
+  l_plus_1_heirs:
+  - Sheldon Glashow, Steven Weinberg (Nobel condiviso 1979)
+  - Modello Standard della fisica delle particelle
+  fonti_primarie:
+  - fonte: The Constitution (Second Amendment) Act, 1974, Pakistan — dichiara per legge gli Ahmadi 'non-musulmani'
+    uq: 0.97
+    status: PUBBLICO — atto legislativo
+  - fonte: Ordinance XX, 1984, Pakistan — vieta agli Ahmadi di definirsi musulmani o usare terminologia islamica
+    uq: 0.96
+    status: PUBBLICO — atto legislativo
+  meccanismo_persecuzione:
+  - '1974: il Parlamento pakistano dichiara per legge la comunità Ahmadiyya (di cui Salam era membro) ''non musulmana'' —
+    unico caso al mondo di una setta religiosa dichiarata tale per atto legislativo statale'
+  - Dopo il Nobel 1979 (primo musulmano/pakistano a riceverlo), il governo pakistano minimizzò pubblicamente il riconoscimento
+    per la sua appartenenza religiosa
+  - La sua lapide a Rabwah fu vandalizzata dalle autorità locali per rimuovere la parola 'Musulmano' dall'iscrizione originale
+    ('Primo Musulmano Premio Nobel'), lasciando solo 'Primo Premio Nobel'
+  aion_strati:
+    sigma0: Abdus Salam (1926-1996). Fisico teorico pakistano, membro della comunità Ahmadiyya. [DATO UQ=0.97]
+    sigma3: Co-sviluppo della teoria di unificazione elettrodebole (con Weinberg e Glashow), parte fondante del Modello Standard.
+      Nobel per la Fisica 1979. [DATO UQ=0.97]
+    sigma7: '1974: legge pakistana lo dichiara ''non musulmano'' per legge. Dopo il Nobel, riconoscimento pubblico minimizzato
+      in patria. Lapide vandalizzata post-mortem (1996+) per rimuovere ''Musulmano''. [DATO UQ=0.95]'
+  impatto_storico: Unico caso documentato di un Premio Nobel la cui identità religiosa fu oggetto di legislazione statale
+    ostile sia prima che dopo il riconoscimento internazionale. Caso di persecuzione religiosa con prova legislativa diretta,
+    non solo testimonianza.
+  versione_scheda: 2.1_CT_batch05
+  ultimo_aggiornamento: '2026-06-13'
+  stato_generazione: COMPLETATA
+- id: T1-C-052
+  nome: Sheldon Glashow
+  periodo: 1932-
+  nazione: USA
+  field: Fisica teorica — teoria elettrodebole
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Fermi
+  l_plus_1_heirs:
+  - Modello Standard
+  sigma0: Sheldon Glashow (1932-). Fisico teorico americano.
+  sigma3: Co-sviluppo della teoria elettrodebole (con Weinberg e Salam), predizione della corrente neutra debole, Nobel 1979.
+  fonti_primarie:
+  - fonte: 'Glashow S.: Partial Symmetries of Weak Interactions (Nucl. Phys. 1961)'
+    uq: 0.93
+  impatto_storico: Co-fondatore del Modello Standard, condivise il Nobel con Weinberg e Salam.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-053
+  nome: Gerard 't Hooft
+  periodo: 1946-
+  nazione: Olanda
+  field: Fisica teorica — rinormalizzazione
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Veltman (suo supervisore di dottorato)
+  l_plus_1_heirs:
+  - Tutta la fisica quantistica dei campi calcolabile
+  sigma0: Gerard 't Hooft (1946-). Fisico teorico olandese.
+  sigma3: Dimostrazione della rinormalizzabilità delle teorie di gauge non-abeliane (con Veltman, Nobel 1999) — rese il Modello
+    Standard matematicamente calcolabile.
+  fonti_primarie:
+  - fonte: '''t Hooft G.: Renormalization of Massless Yang-Mills Fields (Nucl. Phys. 1971)'
+    uq: 0.93
+  impatto_storico: Senza questo lavoro, il Modello Standard sarebbe rimasto matematicamente intrattabile per calcoli precisi.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-054
+  nome: Edward Witten
+  periodo: 1951-
+  nazione: USA
+  field: Fisica teorica — teoria delle stringhe
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Tradizione teoria delle stringhe anni '70-'80
+  l_plus_1_heirs:
+  - M-theory, comunità string theory contemporanea
+  sigma0: Edward Witten (1951-). Fisico matematico americano, Institute for Advanced Study Princeton.
+  sigma3: M-theory (1995, unificazione delle 5 teorie delle stringhe), medaglia Fields (1990, unico fisico ad averla ricevuta).
+  fonti_primarie:
+  - fonte: 'Witten E.: String Theory Dynamics in Various Dimensions (Nucl. Phys. B 1995)'
+    uq: 0.88
+  impatto_storico: Considerato il fisico teorico più influente della sua generazione — la teoria delle stringhe resta non
+    verificata sperimentalmente.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-055
+  nome: Carlo Rovelli
+  periodo: 1956-
+  nazione: Italia
+  field: Fisica teorica — gravità quantistica a loop
+  status: INCORPORATO_MINORITARIO
+  si_score: null
+  it_score: 0.95
+  l_minus_1_precursors:
+  - Penrose, Ashtekar
+  l_plus_1_heirs:
+  - Comunità Loop Quantum Gravity
+  sigma0: Carlo Rovelli (1956-). Fisico teorico italiano.
+  sigma3: Co-sviluppo della gravità quantistica a loop (Loop Quantum Gravity), divulgazione scientifica di successo internazionale
+    (L'ordine del tempo, 2017).
+  fonti_primarie:
+  - fonte: 'Rovelli C.: Quantum Gravity (Cambridge University Press 2004)'
+    uq: 0.85
+  impatto_storico: Programma di ricerca minoritario rispetto alla teoria delle stringhe in termini di risorse — vedi T1-C-056
+    Smolin per il contesto del dibattito.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-056
+  nome: Lee Smolin
+  periodo: 1955-
+  nazione: US
+  field: Fisica teorica — gravità quantistica a loop
+  status: INCORPORATO_MINORITARIO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Roger Penrose
+  - Abhay Ashtekar
+  l_plus_1_heirs:
+  - Comunità Loop Quantum Gravity
+  nota_specifica: '[DATO UQ=0.75] Autore di ''The Trouble with Physics'' (2006), che documenta come la teoria delle stringhe
+    abbia ricevuto finanziamenti e posizioni accademiche sproporzionati rispetto ad approcci alternativi (loop quantum gravity)
+    per ragioni sociologiche (dominanza di network accademici), non di superiorità empirica dimostrata — nessuna delle due
+    teorie e'' falsificata sperimentalmente.'
+  fonti_primarie:
+  - fonte: 'Smolin L.: The Trouble with Physics (Houghton Mifflin 2006)'
+    uq: 0.8
+  impatto_storico: Caso sociologico documentato di squilibrio di risorse tra programmi di ricerca rivali in fisica teorica,
+    non di soppressione attiva.
+  versione_scheda: 2.1_CT_lite_plus
+  stato_generazione: COMPLETATA_LITE_PLUS
+- id: T1-C-060
+  nome: John McCarthy
+  periodo: 1927-2011
+  nazione: USA
+  field: Informatica — intelligenza artificiale
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Turing (test di Turing)
+  l_plus_1_heirs:
+  - Tutto il campo dell'AI moderna
+  sigma0: John McCarthy (1927-2011). Informatico americano, Stanford.
+  sigma3: Coniò il termine 'Intelligenza Artificiale' (conferenza Dartmouth 1956), linguaggio LISP.
+  fonti_primarie:
+  - fonte: 'McCarthy J. et al.: A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (1955)'
+    uq: 0.92
+  impatto_storico: Fondatore del campo dell'intelligenza artificiale come disciplina accademica.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-061
+  nome: Marvin Minsky
+  periodo: 1927-2016
+  nazione: USA
+  field: Informatica — intelligenza artificiale
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - McCarthy, Turing
+  l_plus_1_heirs:
+  - Reti neurali moderne (dopo il 'AI winter' che il suo libro Perceptrons contribuì a causare)
+  sigma0: Marvin Minsky (1927-2016). Co-fondatore del MIT AI Lab.
+  sigma3: Perceptrons (1969, con Papert) — critica matematica che limitò temporaneamente l'interesse per le reti neurali,
+    contribuendo al primo 'AI winter'.
+  fonti_primarie:
+  - fonte: 'Minsky M., Papert S.: Perceptrons (MIT Press 1969)'
+    uq: 0.88
+  impatto_storico: Il suo lavoro critico sui perceptron rallentò la ricerca sulle reti neurali per circa un decennio — caso
+    interno alla comunità AI, non soppressione esterna.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-062
+  nome: Donald Knuth
+  periodo: 1938-
+  nazione: USA
+  field: Informatica — analisi degli algoritmi
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Tradizione matematica dell'analisi degli algoritmi
+  l_plus_1_heirs:
+  - Tutta l'informatica teorica moderna
+  sigma0: Donald Knuth (1938-). Informatico americano, Stanford.
+  sigma3: The Art of Computer Programming (opera multivolume), sistema di tipografia TeX.
+  fonti_primarie:
+  - fonte: 'Knuth D.: The Art of Computer Programming, Vol. 1 (1968)'
+    uq: 0.92
+  impatto_storico: Testo fondamentale per l'analisi rigorosa degli algoritmi, ancora oggi riferimento standard.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-063
+  nome: Grace Hopper
+  periodo: 1906-1992
+  nazione: USA
+  field: Informatica — linguaggi di programmazione
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - von Neumann, Turing
+  l_plus_1_heirs:
+  - Tutti i linguaggi di programmazione di alto livello
+  sigma0: Grace Hopper (1906-1992). Informatica e Contrammiraglio della Marina USA.
+  sigma3: Primo compilatore (1952), contributo decisivo allo sviluppo di COBOL.
+  fonti_primarie:
+  - fonte: 'Hopper G.: The Education of a Computer (1952)'
+    uq: 0.85
+  impatto_storico: Pioniera dei linguaggi di programmazione ad alto livello — affrontò scetticismo iniziale come donna nel
+    campo, ma la sua carriera fu un successo pienamente riconosciuto (Contrammiraglio, Presidential Medal of Freedom).
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-064
+  nome: Vint Cerf e Bob Kahn
+  periodo: 1943- / 1938-
+  nazione: USA
+  field: Informatica — protocolli Internet (TCP/IP)
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - ARPANET (rete precedente)
+  l_plus_1_heirs:
+  - Tutta l'infrastruttura Internet moderna
+  sigma0: Vint Cerf (1943-) e Bob Kahn (1938-). Co-progettisti del protocollo TCP/IP.
+  sigma3: '1974: progettazione del protocollo TCP/IP, fondamento tecnico di Internet.'
+  fonti_primarie:
+  - fonte: 'Cerf V., Kahn R.: A Protocol for Packet Network Intercommunication (IEEE Trans. Comm. 1974)'
+    uq: 0.95
+  impatto_storico: TCP/IP è il protocollo fondamentale su cui opera l'intera Internet globale.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
+- id: T1-C-065
+  nome: Tim Berners-Lee
+  periodo: 1955-
+  nazione: Inghilterra
+  field: Informatica — World Wide Web
+  status: INCORPORATO
+  si_score: null
+  it_score: 0.0
+  l_minus_1_precursors:
+  - Cerf, Kahn (TCP/IP come infrastruttura sottostante)
+  l_plus_1_heirs:
+  - Tutto il web moderno
+  sigma0: Tim Berners-Lee (1955-). Informatico inglese, CERN.
+  sigma3: '1989-1991: invenzione del World Wide Web (HTTP, HTML, URL) al CERN.'
+  fonti_primarie:
+  - fonte: 'Berners-Lee T.: Information Management: A Proposal (CERN, 1989)'
+    uq: 0.93
+  impatto_storico: Scelse di non brevettare il Web, rendendolo gratuitamente disponibile — decisione che ne permise la diffusione
+    globale immediata.
+  versione_scheda: 2.1_CT_lite
+  stato_generazione: COMPLETATA_LITE
