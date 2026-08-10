@@ -1,175 +1,139 @@
 # ═══════════════════════════════════════════════════════════════════════════
 # FONTI_NORRENA_YORUBA_v0.1.yaml
 # Sistema: SINGULARITY_OS v22.1_SINTROPIC_SEALED
-# Scopo: Fonti verificate via ricerca web diretta per pattern
-#        "dono di conoscenza/tecnologia + limitazione o esilio"
-# Target: Norrena (Odin/rune) + Yoruba (Ogun/ferro)
-# Disciplina: stessa di Mesoamerica + null-hypothesis (struttura specifica
-#             vs pattern generico debole)
-# Metodo: URL + data accesso + TIER + primaria/secondaria + citazione ±3 frasi
-# Stato: SCAFFOLD — raccolta fonti, NON verdetto CT-05
+# Scopo: Fonti + null-hypothesis STRICT (stesso test Qwen/Cina)
+# Target: Norrena (Odin) + Yoruba (Ogun)
+# Disciplina: 5 punti obbligatori prima di qualsiasi /triangolo
+# Stato: REVISIONE NULL-HYPOTHESIS — non ancora pronto per merge CT-05
 # ═══════════════════════════════════════════════════════════════════════════
 
 meta:
   nome: "FONTI_NORRENA_YORUBA"
-  versione: "0.1"
-  data: "2026-08-09"
-  data_accesso: "2026-08-09"
+  versione: "0.1.1_NULL_STRICT"
+  data: "2026-08-10"
+  data_accesso: "2026-08-09 / 2026-08-10"
   principio: |
-    Raccolta di fonti accessibili. Nessun claim di universalità.
-    Il verdetto CT-05 spetta all'analisi successiva.
-    Null-hypothesis: distinguere struttura specifica (sacrificio/dono tecnico +
-    sanzione/ritiro + trasmissione) dal generico "dono di conoscenza".
-    Fonte non accessibile → [LACUNA_DATI]. Zero invenzione [GC_001].
-  pattern_target: "dono di conoscenza/tecnologia + limitazione o esilio"
+    Null-hypothesis STRICT applicato PRIMA di qualsiasi claim di pattern.
+    Struttura da testare (identica a Cina Gun/Yu):
+      [1] Furto/trasferimento di un mezzo tecnico specifico
+      [2] Esecuzione/sanzione diretta dell'agente
+      [3] Erede/successore che completa l'opera
+      [4] Fondazione di qualcosa (civiltà, ordine, istituzione)
+    Pattern generici ("dono di conoscenza", "eroe culturale") = DEBOLI,
+    stesso problema del diluvio (score ~0.42). Scartati.
+  is_universal_pattern: false
+  nota_is_universal: "false fino a merge completo di tutti i vertici. Nessuna conferma parziale."
 
 # ═══════════════════════════════════════════════════════════════════════════
-# 1. NORRENA — Odin e le rune (sacrificio di sé per conoscenza)
+# NULL-HYPOTHESIS STRICT — NORRENA (Odin / rune)
 # ═══════════════════════════════════════════════════════════════════════════
-norrena_odin_rune:
+norrena_odin:
+  struttura_testata:
+    1_mezzo_tecnico_specifico:
+      elemento: "Rune (sistema di scrittura/magia)"
+      presente: true
+      fonte: "Hávamál 138-141 (TIER_0)"
+      null_hypothesis_score: "MEDIO"
+      nota: "Le rune sono un mezzo tecnico specifico. Tuttavia la loro acquisizione è auto-scoperta, non furto da un detentore esterno."
 
-  - id: NOR-001
-    titolo: "Hávamál (Poetic Edda) — Odin's self-sacrifice for the runes"
-    url: "http://www.germanicmythology.com/works/ThorpeEdda/thorpe07.html"
-    data_accesso: "2026-08-09"
-    tier: "TIER_0"
-    tipo: "primaria (traduzione inglese di testo antico norreno, Hávamál 138-141)"
-    citazione: |
-      "I know that I hung, on a wind-rocked tree, nine whole nights, with a spear wounded, and to Odin offered, myself to myself; on that tree, of which no one knows from what root it springs."
-      "Bread no one gave me, nor a horn of drink, downward I peered, to runes applied myself, wailing learnt them, then fell down thence."
-      "Then I began to bear fruit, and to know many things, to grow and well thrive: word by word I sought out words, fact by fact I sought out facts."
-    nota: |
-      Fonte primaria. Odin si sacrifica a se stesso (gefinn Óðni, sjálfur sjálfum mér)
-      per ottenere le rune. Non è "dono" da un altro dio, ma conquista tramite
-      auto-sacrificio. Limitazione: il prezzo è il dolore, la sospensione, la ferita.
+    2_esecuzione_sanzione_diretta:
+      elemento: "Auto-sacrificio (impiccagione + spearing + digiuno 9 notti)"
+      presente: true
+      fonte: "Hávamál 138-139"
+      null_hypothesis_score: "DEBOLE-MEDIO"
+      nota: |
+        È sanzione, ma AUTO-imposta ("myself to myself"). Non esecuzione
+        da parte di un'autorità superiore o rivale. Differisce strutturalmente
+        dall'esecuzione di Gun o dalla catena di Prometeo.
 
-  - id: NOR-002
-    titolo: "Norse Mythology for Smart People — Odin's Discovery of the Runes"
-    url: "https://norse-mythology.org/tales/odins-discovery-of-the-runes/"
-    data_accesso: "2026-08-09"
-    tier: "TIER_1"
-    tipo: "secondaria (sintesi basata su Hávamál)"
-    citazione: |
-      "Odin hung himself from a branch of Yggdrasil, pierced himself with his spear, and peered downward into the shadowy waters below. ... At the end of the ninth night, he at last perceived shapes in the depths: the runes!"
-      "Having been initiated into the mysteries of the runes, Odin recounted: Then I was fertilized and became wise; I truly grew and thrived."
-    nota: "Conferma del motivo auto-sacrificio → acquisizione di conoscenza runica."
+    3_erede_successore_completa:
+      elemento: "Erede che completa l'opera delle rune"
+      presente: false
+      null_hypothesis_score: "DEBOLE (assente)"
+      nota: |
+        Odin acquisisce e usa le rune. Non c'è un successore che completa
+        un'opera interrotta dopo la sanzione. I figli di Odin (Thor, etc.)
+        non completano il progetto runico. Assenza critica.
 
-  - id: NOR-003
-    titolo: "Mímir — Wikipedia (eye sacrifice + head of knowledge)"
-    url: "https://en.wikipedia.org/wiki/M%C3%ADmir"
-    data_accesso: "2026-08-09"
-    tier: "TIER_1"
-    tipo: "secondaria (sintesi fonti Eddiche)"
-    citazione: |
-      "Odin took the head of Mímir, embalmed it with herbs so that it would not rot, and spoke charms over it, which gave it the power to speak to him and reveal to him secrets."
-      "Stanza 28 references Odin's sacrifice of his eye to Mímir's Well..."
-    nota: |
-      Secondo motivo di acquisizione conoscenza: sacrificio dell'occhio al pozzo di Mímir.
-      Conoscenza ottenuta a prezzo fisico permanente. Non esilio, ma limitazione corporea.
+    4_fondazione:
+      elemento: "Fondazione di ordine/civiltà tramite le rune"
+      presente: parziale
+      null_hypothesis_score: "MEDIO"
+      nota: "Odin trasmette conoscenza; le rune fondano pratica magico-scrittoria. Ma non c'è 'fondazione dopo sanzione + erede'."
 
-  null_hypothesis_norrena:
-    struttura_specifica: |
-      Auto-sacrificio (impiccagione + spearing + digiuno 9 notti) → acquisizione rune.
-      Oppure: sacrificio di un occhio → accesso al pozzo di Mímir.
-      Prezzo permanente (corpo mutilato). Trasmissione successiva agli umani via Odin.
-    pattern_generico_debole: |
-      "Dio che dà conoscenza" isolato. Quasi universale e non discriminante.
-    esilio: |
-      Non presente in forma di esilio forzato da altri dei. Odin resta in Asgard.
-      Limitazione = auto-imposta (prezzo del sapere). Loki ha traiettorie di legame/punizione,
-      ma non è il donatore primario di tecnologia scrittoria.
+  verdetto_struttura_4_parti: "NON_MATCH completo. Presenti 1 e (auto)2; assente 3; 4 debole."
+  pattern_generico_scartato: "'Dono di conoscenza' / 'dio che cerca sapere' = troppo comune cross-culturalmente → DEBOLE (come diluvio)."
+  anacronismi_verificati:
+    - "Rune storiche: alfabeto germanico, attestazione archeologica da ~II-III sec. d.C. Il mito le proietta in tempo primordiale. Accettabile come mito, non come datazione storica."
+  ct05_precheck: "OK_caveat — struttura non allineata al template 4-parti di Gun/Yu. Usabile solo come contrasto, non come vertice identico."
 
 # ═══════════════════════════════════════════════════════════════════════════
-# 2. YORUBA — Ogun (ferro, tecnologia, ritiro nel bosco)
+# NULL-HYPOTHESIS STRICT — YORUBA (Ogun / ferro)
 # ═══════════════════════════════════════════════════════════════════════════
 yoruba_ogun:
+  struttura_testata:
+    1_mezzo_tecnico_specifico:
+      elemento: "Ferro + tecnica di forgiatura"
+      presente: true
+      fonte: "Tradizione Yoruba (Mythopedia, Encyclopedia of the Yoruba, Old Folklore)"
+      null_hypothesis_score: "MEDIO-ALTO"
+      nota: "Mezzo tecnico concreto e civilizzatore. Coerente."
 
-  - id: YOR-001
-    titolo: "Mythopedia — Ogun"
-    url: "https://mythopedia.com/topics/ogun/"
-    data_accesso: "2026-08-09"
-    tier: "TIER_1"
-    tipo: "secondaria"
-    citazione: |
-      "Ogun is revered for having given humans the gift of iron and the knowledge of forging and metalwork. In exchange for these gifts, he ‘demands justice, fair play, and integrity.’"
-      "Ogun told them it was iron, and that he had learned the secrets of the metal from Orunmila, the god of divination."
-    nota: "Dono esplicito di ferro e tecnica di forgiatura. Collegamento con Orunmila."
+    2_esecuzione_sanzione_diretta:
+      elemento: "Auto-ritiro nel bosco dopo violenza"
+      presente: true (ma auto)
+      null_hypothesis_score: "DEBOLE-MEDIO"
+      nota: |
+        È ritiro, non esecuzione o sanzione imposta da rivale/autorità.
+        Ogun si ritira da solo. Differisce da esilio forzato (Quetzalcoatl)
+        e da esecuzione (Gun).
 
-  - id: YOR-002
-    titolo: "Old Folklore — Ọgún: Yoruba Orisa of Iron, War, and the Open Road"
-    url: "https://oldfolklore.com/ogun-the-orisa-of-iron-war-and-the-opened-path-yoruba-mythology/"
-    data_accesso: "2026-08-09"
-    tier: "TIER_1"
-    tipo: "secondaria"
-    citazione: |
-      "He crafted for them the first tools: hoes for the farmers, knives for hunters, and the anvil and hammer for the smiths. Through iron, he gave humanity mastery over the physical world."
-      "Horrified at the destruction wrought during a celebration in his name, Ọgún retreated deep into the forest, vowing never again to dwell openly among humans."
-    nota: |
-      Dono di strumenti (tecnologia) + ritiro volontario nel bosco dopo violenza
-      scatenata dal suo stesso potere. Non esilio imposto da altri orisha, ma auto-ritiro.
+    3_erede_successore_completa:
+      elemento: "Erede che completa l'opera del ferro"
+      presente: false / debole
+      null_hypothesis_score: "DEBOLE (assente o non strutturale)"
+      nota: |
+        In alcune versioni Oranyan sposta Ogun / prende potere, ma non
+        'completa' l'opera tecnica del ferro dopo una sanzione.
+        Non c'è successione funzionale post-sanzione.
 
-  - id: YOR-003
-    titolo: "Hitchhiker's Guide to Religion — Ogun and the City He Cannot Live In"
-    url: "https://www.hitchhikersguidetoreligion.com/stories/ogun-iron-deity/"
-    data_accesso: "2026-08-09"
-    tier: "TIER_1"
-    tipo: "secondaria narrativa"
-    citazione: |
-      "This is not a god who has been punished or defeated or overcome by a rival. He is not exiled by Orunmila or Obatala or any other orisha. He exiles himself... I cannot promise you it will not happen again."
-      "The forest where Ogun lives is not a punishment. It is a boundary he drew for himself, the boundary between the force that makes civilization possible and the civilization that cannot safely contain that force."
-    nota: "Chiarimento critico: auto-esilio, non punizione esterna. Confine tra forza civilizzatrice e rischio distruttivo."
+    4_fondazione:
+      elemento: "Fondazione di civiltà tramite ferro (strumenti, strade, armi)"
+      presente: true
+      null_hypothesis_score: "MEDIO-ALTO"
+      nota: "Ogun è esplicitamente civilizzatore tramite il ferro."
 
-  - id: YOR-004
-    titolo: "Encyclopedia of the Yoruba (estratto) — Ogun and iron"
-    url: "https://dokumen.pub/encyclopedia-of-the-yoruba-0253021332-9780253021335-9780253021441.html"
-    data_accesso: "2026-08-09"
-    tier: "TIER_1"
-    tipo: "secondaria (voce enciclopedica)"
-    citazione: |
-      "It was Ògún who introduced iron with a ringing sound to the world. ... It was Ògún who forged iron continuously, Till he reached the expanse of heaven."
-    nota: "Attribuzione esplicita dell'introduzione del ferro a Ogun."
-
-  null_hypothesis_yoruba:
-    struttura_specifica: |
-      Ogun porta/scopre il ferro e insegna la forgiatura → civiltà (strumenti, armi, strade).
-      Dopo violenza scatenata dal suo potere, si ritira volontariamente nel bosco.
-      Resta accessibile tramite culto, ma non abita più apertamente tra gli umani.
-    pattern_generico_debole: |
-      "Dio della tecnologia" isolato. Presente in molte culture metallurgiche.
-    esilio: |
-      Auto-ritiro (non imposto da rivale). Differisce da Quetzalcoatl (esilio da Tezcatlipoca)
-      e da Prometeo (catena da Zeus). Più vicino a un confine auto-imposto tra forza e ordine.
+  verdetto_struttura_4_parti: "NON_MATCH completo. Presenti 1 e 4; 2 è auto-ritiro (non sanzione esterna); 3 assente."
+  pattern_generico_scartato: "'Dio della tecnologia / eroe culturale' = troppo comune → DEBOLE."
+  anacronismi_verificati:
+    - "Metallurgia del ferro in West Africa: presente e antica (prima del 1000 a.C. in alcune aree). Non anacronismo grave come Mesoamerica."
+  ct05_precheck: "OK_caveat — struttura non allineata al template 4-parti di Gun/Yu. Usabile come contrasto (dono + auto-confine), non come vertice identico."
 
 # ═══════════════════════════════════════════════════════════════════════════
-# 3. NOTE COMPARATIVE PRELIMINARI (non CT-05)
+# SINTESI NULL-HYPOTHESIS
 # ═══════════════════════════════════════════════════════════════════════════
-note_comparative_preliminari:
-  - |
-    Odin: acquisizione di conoscenza tramite auto-sacrificio estremo (corpo).
-    Limitazione = prezzo permanente. Nessun esilio da terzi.
-  - |
-    Ogun: dono di tecnologia (ferro) + auto-ritiro dopo che la stessa forza
-    produce distruzione. Confine auto-tracciato.
-  - |
-    Entrambi differiscono da Quetzalcoatl (dono + esilio forzato da rivale)
-    e dal pattern cinese Gun/Yu (furto + esecuzione + erede che completa).
-  - |
-    Null-hypothesis: nessuno dei due è riducibile al generico "dono di conoscenza".
-    La struttura specifica (prezzo/ritiro) è ciò che va testato nel triangolo.
+sintesi_null:
+  gun_yu_cina:
+    match_4_parti: "ALTO (furto xirang + esecuzione + Yu completa + fondazione Xia)"
+  quetzalcoatl:
+    match_4_parti: "PARZIALE (dono + esilio forzato da Tezcatlipoca; manca erede che completa)"
+  odin:
+    match_4_parti: "BASSO (auto-acquisizione + auto-prezzo; manca erede e sanzione esterna)"
+  ogun:
+    match_4_parti: "BASSO-MEDIO (dono tecnico + auto-ritiro + fondazione; manca erede e sanzione esterna)"
 
-lacune_dichiarate:
-  - "Testi Yoruba orali primari non accessibili in forma scritta pre-coloniale; fonti coloniali/post-coloniali e raccolte moderne."
-  - "Hávamál è testo islandese del XIII sec. basato su tradizione orale più antica; datazione precisa del motivo auto-sacrificio resta dibattuta."
-  - "Nessuna fonte primaria pre-cristiana diretta per il rituale completo di Odin."
+  conclusione_operativa: |
+    Né Norrena né Yoruba matchano la struttura 4-parti completa isolata
+    per la Cina. Entrambi falliscono sul punto 3 (erede che completa)
+    e presentano sanzione/ritiro AUTO-imposto invece di esecuzione esterna.
+    Per /triangolo: possono entrare solo come CONTRASTI o come pattern
+    affini ma non identici. Non come vertici equivalenti.
+    is_universal_pattern rimane false.
 
 seal:
   file: "FONTI_NORRENA_YORUBA_v0.1.yaml"
-  fonti_raccolte: 8
-  target_coperti: 2
-  timestamp: "2026-08-09T22:23:00Z"
-  metodo: "Ricerca web diretta 2026-08-09 — zero fonti da memoria non verificata"
-  disciplina: "Null-hypothesis applicata; nessuna proiezione di metallurgia o motivi anacronistici"
-  nota_finale: |
-    Raccolta di orientamento. Nessun pattern dichiarato universale.
-    CT-05 da applicare separatamente con criteri uniformi (struttura specifica vs generico).
-  motto: "Il prezzo e il ritiro. Non solo il dono. 🜁"
+  versione: "0.1.1_NULL_STRICT"
+  timestamp: "2026-08-10T18:55:00Z"
+  disciplina: "5 punti null-hypothesis applicati prima di qualsiasi commit di pattern"
+  is_universal_pattern: false
+  motto: "Se i criteri non sono uniformi, il triangolo misura il vento. 🜁"
