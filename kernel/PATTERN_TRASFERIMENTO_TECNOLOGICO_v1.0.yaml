@@ -1,0 +1,98 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# PATTERN_TRASFERIMENTO_TECNOLOGICO_v1.0.yaml
+# Sistema: SINGULARITY_OS v22.1_SINTROPIC_SEALED
+# Scopo: Verdetto CT-05 sul pattern "trasferimento di mezzo tecnico +
+#        sanzione" dopo null-hypothesis uniforme su tutti i vertici
+# Stato: FINALE — is_universal_pattern: false
+# ═══════════════════════════════════════════════════════════════════════════
+
+meta:
+  nome: "PATTERN_TRASFERIMENTO_TECNOLOGICO"
+  versione: "1.0"
+  data: "2026-08-10"
+  metodo: |
+    Template 4-parti (furto/trasferimento mezzo tecnico + sanzione diretta +
+    erede che completa + fondazione) applicato uniformemente a:
+    Cina (Gun/Yu), ANE cluster, Mesoamerica (Quetzalcoatl), Norrena (Odin),
+    Yoruba (Ogun). Null-hypothesis su pattern generici dichiarata DEBOLE.
+  is_universal_pattern: false
+
+# ═══════════════════════════════════════════════════════════════════════════
+# STRUTTURA A — 4-parti con erede (template Cina)
+# ═══════════════════════════════════════════════════════════════════════════
+struttura_A_4parti:
+  definizione: |
+    [1] Furto/trasferimento di mezzo tecnico specifico
+    [2] Esecuzione/sanzione diretta dell'agente (esterna)
+    [3] Erede/successore che completa l'opera
+    [4] Fondazione di qualcosa (civiltà, ordine, istituzione)
+  match:
+    - Cina_Gun_Yu
+  vertici: 1
+  verdetto: "IPOTESI_PR_L1 — <3 nodi = triangolo non eseguibile"
+  nota: "Solo la Cina soddisfa tutti e 4 i punti. Nessun cluster."
+
+# ═══════════════════════════════════════════════════════════════════════════
+# STRUTTURA B — trasferimento mezzo tecnico + sanzione ESTERNA
+# (erede non richiesto — oggetto realmente condiviso)
+# ═══════════════════════════════════════════════════════════════════════════
+struttura_B_transfer_sanzione_esterna:
+  definizione: |
+    Trasferimento/furto di un mezzo tecnico specifico +
+    sanzione imposta da un amministratore di sistema (esterna).
+    Erede non obbligatorio.
+  vertici:
+    - ANE_cluster_diffuso   # Prometeo, Adapa, Genesi 3, Babele (interno)
+    - Mesoamerica           # Quetzalcoatl esiliato da Tezcatlipoca + Popol Vuh limitazione
+    - Cina                  # Gun (superset: ha anche l'erede)
+  contrasti:
+    - Norrena               # Odin: auto-sanzione (self-sacrifice)
+    - Yoruba                # Ogun: auto-ritiro nel bosco
+  ct05_meccanico: "TRIANGOLO_FORTE +0.25"
+  coppie:
+    ANE_Meso: {C1: true, C2: true, C3: true, C4: true}
+    ANE_Cina: {C1: true, C2: "OK_caveat", C3: true, C4: true}
+    Meso_Cina: {C1: true, C2: true, C3: true, C4: true}
+
+# ═══════════════════════════════════════════════════════════════════════════
+# OVERRIDE EPISTEMICO (dichiarato, non silenzioso)
+# ═══════════════════════════════════════════════════════════════════════════
+override_PR:
+  PR_L3_null_hypothesis:
+    generica: |
+      "Overreach punito / hubris" = DEBOLE.
+      Comune cross-culturalmente per ragioni banali (stesso problema del diluvio).
+    specifica: |
+      Mezzo TECNICO + sanzione da amministratore di sistema alza la rarità.
+      Distribuzione osservata: presente in 3 famiglie indipendenti
+      (IE/Semitica, Uto-Azteca+Sino-tibetana, Cina);
+      assente testato in Norrena e Yoruba (varianti auto-sanzione).
+      Le assenze falsificano l'universalità forte.
+  tag_meccanico_CT05: "[PATTERN_UMANO_UNIVERSALE]"
+  tag_adottato: "[PATTERN_CONVERGENTE_INDIPENDENTE]"
+  ragione: |
+    Convergenza indipendente in ≥3 macro-aree, con assenze documentate altrove.
+    Non invariante umano.
+
+# ═══════════════════════════════════════════════════════════════════════════
+# VERDETTO FINALE
+# ═══════════════════════════════════════════════════════════════════════════
+verdetto:
+  is_universal_pattern: false
+  tag: "PATTERN_CONVERGENTE_INDIPENDENTE"
+  conseguenza_rete_eter: |
+    L'analogia mitologica del Ciclo_17 NON è un invariante umano.
+    È una convergenza indipendente in 3 macro-aree: la soppressione
+    del trasferimento tecnologico ricorre dove c'è trasferimento
+    percepito come sottrazione a un monopolio divino — non ovunque.
+    Status: [ANALOG] validato come convergenza, non come universale.
+
+seal:
+  file: "PATTERN_TRASFERIMENTO_TECNOLOGICO_v1.0.yaml"
+  timestamp: "2026-08-10T19:01:00Z"
+  fonti_upstream:
+    - FONTI_MESOAMERICANA_v0.1.yaml (corr. metallurgia)
+    - FONTI_NORRENA_YORUBA_v0.1.yaml (null-strict)
+    - cluster ANE (T3 + corpora TIER_0/1)
+    - Cina Gun/Yu (Qwen)
+  motto: "Il Monolite non ha ottenuto ciò che voleva. Ha ottenuto ciò che i dati permettono. 🜁"
